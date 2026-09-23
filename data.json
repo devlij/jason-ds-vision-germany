@@ -726,5 +726,18 @@
     "approved": true,
     "file_16x9": "assets/de-by-026-16x9.png",
     "file_4x5": "assets/de-by-026-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-027",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Rothenburg ob der Tauber",
+    "site": "Plönlein",
+    "caption": "Plönlein, Rothenburg ob der Tauber",
+    "scenario": "23 September 2026 · 20:45 Europe/Berlin",
+    "composition": "Forked street and towers · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-027-16x9.png",
+    "file_4x5": "assets/de-by-027-4x5.png"
   }
 ]
