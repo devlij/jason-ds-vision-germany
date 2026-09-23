@@ -26,6 +26,32 @@
     "file_4x5": "assets/de-be-002-4x5.png"
   },
   {
+    "entry_id": "DE-BE-003",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Museum Island",
+    "caption": "Museum Island, Mitte",
+    "scenario": "24 September 2026 · 01:15 Europe/Berlin",
+    "composition": "Spree and museum ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-003-16x9.png",
+    "file_4x5": "assets/de-be-003-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-004",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Berlin Cathedral",
+    "caption": "Berlin Cathedral, Mitte",
+    "scenario": "24 September 2026 · 01:30 Europe/Berlin",
+    "composition": "Lustgarten facade · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-004-16x9.png",
+    "file_4x5": "assets/de-be-004-4x5.png"
+  },
+  {
     "entry_id": "DE-BW-001",
     "code": "BW",
     "state": "Baden-Württemberg",
