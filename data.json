@@ -1259,5 +1259,70 @@
     "approved": true,
     "file_16x9": "assets/de-th-016-16x9.png",
     "file_4x5": "assets/de-th-016-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-018",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Schwarzburg",
+    "site": "Schwarzatal",
+    "caption": "Schwarzatal, Schwarzburg",
+    "scenario": "",
+    "composition": "Forested valley and castle setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-018-16x9.png",
+    "file_4x5": "assets/de-th-018-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-019",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Rudolstadt",
+    "site": "Heidecksburg",
+    "caption": "Heidecksburg, Rudolstadt",
+    "scenario": "",
+    "composition": "Palace above town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-019-16x9.png",
+    "file_4x5": "assets/de-th-019-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-020",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Lauscha",
+    "site": "Glassmaking town",
+    "caption": "Glassmaking town, Lauscha",
+    "scenario": "",
+    "composition": "Hillside streets and workshops · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-020-16x9.png",
+    "file_4x5": "assets/de-th-020-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-021",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Oberhof",
+    "site": "Rennsteig forest",
+    "caption": "Rennsteig forest, Oberhof",
+    "scenario": "",
+    "composition": "Thuringian Forest trails · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-021-16x9.png",
+    "file_4x5": "assets/de-th-021-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-022",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Leuchtenburg/Kahla",
+    "site": "Leuchtenburg",
+    "caption": "Leuchtenburg, Leuchtenburg/Kahla",
+    "scenario": "",
+    "composition": "Castle on hill · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-022-16x9.png",
+    "file_4x5": "assets/de-th-022-4x5.png"
   }
 ]
