@@ -713,5 +713,18 @@
     "approved": true,
     "file_16x9": "assets/de-by-025-16x9.png",
     "file_4x5": "assets/de-by-025-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-026",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Munich",
+    "site": "Theresienwiese",
+    "caption": "Theresienwiese, Munich",
+    "scenario": "23 September 2026 · 20:15 Europe/Berlin",
+    "composition": "Oktoberfest scene only when verified · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-026-16x9.png",
+    "file_4x5": "assets/de-by-026-4x5.png"
   }
 ]
