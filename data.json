@@ -791,5 +791,44 @@
     "approved": true,
     "file_16x9": "assets/de-by-031-16x9.png",
     "file_4x5": "assets/de-by-031-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-032",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Würzburg",
+    "site": "Residence",
+    "caption": "Residence, Würzburg",
+    "scenario": "23 September 2026 · 22:15 Europe/Berlin",
+    "composition": "Palace frontage and gardens · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-032-16x9.png",
+    "file_4x5": "assets/de-by-032-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-033",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Nuremberg",
+    "site": "Imperial Castle",
+    "caption": "Imperial Castle, Nuremberg",
+    "scenario": "23 September 2026 · 22:15 Europe/Berlin",
+    "composition": "Castle approach and city outlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-033-16x9.png",
+    "file_4x5": "assets/de-by-033-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-034",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Nuremberg",
+    "site": "Henkersteg",
+    "caption": "Henkersteg, Nuremberg",
+    "scenario": "23 September 2026 · 22:15 Europe/Berlin",
+    "composition": "Timber bridge over Pegnitz · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-034-16x9.png",
+    "file_4x5": "assets/de-by-034-4x5.png"
   }
 ]
