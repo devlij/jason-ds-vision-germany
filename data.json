@@ -752,5 +752,44 @@
     "approved": true,
     "file_16x9": "assets/de-by-028-16x9.png",
     "file_4x5": "assets/de-by-028-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-029",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Bamberg",
+    "site": "Old Town Hall",
+    "caption": "Old Town Hall, Bamberg",
+    "scenario": "23 September 2026 · 21:45 Europe/Berlin",
+    "composition": "River and bridge ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-029-16x9.png",
+    "file_4x5": "assets/de-by-029-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-030",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Bamberg",
+    "site": "Little Venice",
+    "caption": "Little Venice, Bamberg",
+    "scenario": "23 September 2026 · 21:45 Europe/Berlin",
+    "composition": "Riverfront fishermen’s houses · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-030-16x9.png",
+    "file_4x5": "assets/de-by-030-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-031",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Würzburg",
+    "site": "Old Main Bridge",
+    "caption": "Old Main Bridge, Würzburg",
+    "scenario": "23 September 2026 · 22:00 Europe/Berlin",
+    "composition": "Bridge and Marienberg Fortress · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-031-16x9.png",
+    "file_4x5": "assets/de-by-031-4x5.png"
   }
 ]
