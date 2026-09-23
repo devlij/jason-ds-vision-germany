@@ -908,5 +908,44 @@
     "approved": true,
     "file_16x9": "assets/de-by-040-16x9.png",
     "file_4x5": "assets/de-by-040-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-041",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Schwangau",
+    "site": "St. Coloman",
+    "caption": "St. Coloman, Schwangau",
+    "scenario": "23 September 2026 · 23:45 Europe/Berlin",
+    "composition": "Church in open meadow · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-041-16x9.png",
+    "file_4x5": "assets/de-by-041-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-042",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Bayreuth",
+    "site": "Eremitage",
+    "caption": "Eremitage, Bayreuth",
+    "scenario": "23 September 2026 · 23:45 Europe/Berlin",
+    "composition": "Orangery and formal gardens · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-042-16x9.png",
+    "file_4x5": "assets/de-by-042-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-043",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Dinkelsbühl",
+    "site": "Weinmarkt",
+    "caption": "Weinmarkt, Dinkelsbühl",
+    "scenario": "24 September 2026 · 00:00 Europe/Berlin",
+    "composition": "Colorful gabled houses · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-043-16x9.png",
+    "file_4x5": "assets/de-by-043-4x5.png"
   }
 ]
