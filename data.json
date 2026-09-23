@@ -739,5 +739,18 @@
     "approved": true,
     "file_16x9": "assets/de-by-027-16x9.png",
     "file_4x5": "assets/de-by-027-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-028",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Rothenburg ob der Tauber",
+    "site": "Town walls",
+    "caption": "Town walls, Rothenburg ob der Tauber",
+    "scenario": "23 September 2026 · 21:15 Europe/Berlin",
+    "composition": "Ramparts and rooftops · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-028-16x9.png",
+    "file_4x5": "assets/de-by-028-4x5.png"
   }
 ]
