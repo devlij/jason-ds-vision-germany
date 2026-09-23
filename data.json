@@ -830,5 +830,44 @@
     "approved": true,
     "file_16x9": "assets/de-by-034-16x9.png",
     "file_4x5": "assets/de-by-034-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-035",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Nuremberg",
+    "site": "Hauptmarkt",
+    "caption": "Hauptmarkt, Nuremberg",
+    "scenario": "23 September 2026 · 22:45 Europe/Berlin",
+    "composition": "Frauenkirche and square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-035-16x9.png",
+    "file_4x5": "assets/de-by-035-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-036",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Regensburg",
+    "site": "Stone Bridge",
+    "caption": "Stone Bridge, Regensburg",
+    "scenario": "23 September 2026 · 22:45 Europe/Berlin",
+    "composition": "Bridge and cathedral skyline · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-036-16x9.png",
+    "file_4x5": "assets/de-by-036-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-037",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Passau",
+    "site": "Three-rivers old town",
+    "caption": "Three-rivers old town, Passau",
+    "scenario": "23 September 2026 · 23:00 Europe/Berlin",
+    "composition": "Riverfront skyline · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-037-16x9.png",
+    "file_4x5": "assets/de-by-037-4x5.png"
   }
 ]
