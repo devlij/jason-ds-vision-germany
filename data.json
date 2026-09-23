@@ -869,5 +869,44 @@
     "approved": true,
     "file_16x9": "assets/de-by-037-16x9.png",
     "file_4x5": "assets/de-by-037-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-038",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Lindau",
+    "site": "Harbor entrance",
+    "caption": "Harbor entrance, Lindau",
+    "scenario": "23 September 2026 · 23:15 Europe/Berlin",
+    "composition": "Lighthouse and Bavarian lion · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-038-16x9.png",
+    "file_4x5": "assets/de-by-038-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-039",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Prien/Herreninsel",
+    "site": "Herrenchiemsee",
+    "caption": "Herrenchiemsee, Prien/Herreninsel",
+    "scenario": "23 September 2026 · 23:15 Europe/Berlin",
+    "composition": "Palace facade and fountains · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-039-16x9.png",
+    "file_4x5": "assets/de-by-039-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-040",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Tegernsee",
+    "site": "Lakeside promenade",
+    "caption": "Lakeside promenade, Tegernsee",
+    "scenario": "23 September 2026 · 23:30 Europe/Berlin",
+    "composition": "Lake and alpine foothills · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-040-16x9.png",
+    "file_4x5": "assets/de-by-040-4x5.png"
   }
 ]
