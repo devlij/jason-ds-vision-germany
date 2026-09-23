@@ -947,5 +947,44 @@
     "approved": true,
     "file_16x9": "assets/de-by-043-16x9.png",
     "file_4x5": "assets/de-by-043-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-044",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Landshut",
+    "site": "Altstadt",
+    "caption": "Altstadt, Landshut",
+    "scenario": "24 September 2026 · 00:15 Europe/Berlin",
+    "composition": "St. Martin and historic facades · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-044-16x9.png",
+    "file_4x5": "assets/de-by-044-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-045",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Kelheim",
+    "site": "Danube Gorge and Weltenburg",
+    "caption": "Danube Gorge and Weltenburg, Kelheim",
+    "scenario": "24 September 2026 · 00:15 Europe/Berlin",
+    "composition": "Abbey and limestone river gorge · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-045-16x9.png",
+    "file_4x5": "assets/de-by-045-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-046",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Kallmünz",
+    "site": "Kallmünz",
+    "caption": "Kallmünz, Kallmünz",
+    "scenario": "24 September 2026 · 00:30 Europe/Berlin",
+    "composition": "Village beneath castle rock · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-046-16x9.png",
+    "file_4x5": "assets/de-by-046-4x5.png"
   }
 ]
