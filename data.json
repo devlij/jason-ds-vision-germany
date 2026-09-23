@@ -700,5 +700,18 @@
     "approved": true,
     "file_16x9": "assets/de-by-024-16x9.png",
     "file_4x5": "assets/de-by-024-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-025",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Munich",
+    "site": "Residenz and Hofgarten",
+    "caption": "Residenz and Hofgarten, Munich",
+    "scenario": "23 September 2026 · 19:45 Europe/Berlin",
+    "composition": "Palace courts and pavilion · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-025-16x9.png",
+    "file_4x5": "assets/de-by-025-4x5.png"
   }
 ]
