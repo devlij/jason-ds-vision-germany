@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jason D&rsquo;s Vision &mdash; Germany &mdash; Baden-Württemberg</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+         background: #0d1117; color: #e6edf3; }
+  header { padding: 28px 24px 12px; border-bottom: 1px solid #21262d; }
+  header h1 { margin: 0 0 6px; font-size: 26px; font-weight: 700; }
+  header p { margin: 0; color: #8b949e; font-size: 14px; }
+  .switcher { margin: 10px 0 0; font-size: 14px; color: #8b949e; }
+  .switcher a { color: #58a6ff; text-decoration: none; margin: 0 4px; }
+  .switcher a:hover { text-decoration: underline; }
+  .switcher .current { color: #e6edf3; font-weight: 700; margin: 0 4px; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px 60px; }
+  .toolbar { display: flex; gap: 12px; align-items: center; margin: 22px 0 6px; flex-wrap: wrap; }
+  .toolbar input { flex: 1; min-width: 220px; padding: 10px 12px; font-size: 14px;
+                   background: #161b22; border: 1px solid #30363d; border-radius: 8px; color: #e6edf3; }
+  .toolbar button { padding: 10px 14px; font-size: 14px; background: #21262d; color: #e6edf3;
+                    border: 1px solid #30363d; border-radius: 8px; cursor: pointer; }
+  #result-count { color: #8b949e; font-size: 13px; }
+  #no-results { display: none; color: #8b949e; margin: 24px 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin-top: 16px; }
+  .card { background: #161b22; border: 1px solid #21262d; border-radius: 10px; overflow: hidden; }
+  .card a.thumb { display: block; }
+  .card img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }
+  .card-body { padding: 12px 14px 14px; }
+  .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .entry-id { font-size: 12px; color: #8b949e; letter-spacing: .06em; }
+  .status { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 20px;
+            background: #1a2e1a; color: #7ee787; border: 1px solid #2ea043; white-space: nowrap; }
+  .status.candidate { background: #2a2a1a; color: #e3b341; border-color: #9e6a03; }
+  .caption { font-size: 16px; font-weight: 600; margin: 8px 0 2px; }
+  .scenario { font-size: 12.5px; color: #8b949e; margin: 6px 0 2px; }
+  .composition { font-size: 13px; color: #8b949e; margin: 2px 0 8px; }
+  .actions .badge { display: inline-block; font-size: 12px; color: #58a6ff; text-decoration: none;
+                    border: 1px solid #30363d; border-radius: 20px; padding: 4px 10px; }
+  .actions .badge:hover { text-decoration: underline; }
+  #license { max-width: 1200px; margin: 0 auto; padding: 24px; border-top: 1px solid #21262d; }
+  #license h2 { font-size: 18px; }
+  #license p { color: #8b949e; font-size: 14px; line-height: 1.6; }
+  footer { text-align: center; color: #6e7681; font-size: 12px; padding: 24px; }
+  footer .sig { color: #e6edf3; font-size: 14px; margin-top: 4px; }
+  .state-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin-top: 20px; }
+  .state-card { display: block; background: #161b22; border: 1px solid #21262d; border-radius: 10px;
+                padding: 18px; text-decoration: none; color: #e6edf3; }
+  .state-card:hover { border-color: #58a6ff; }
+  .state-card.empty { opacity: .45; }
+  .state-card h3 { margin: 0 0 6px; font-size: 17px; }
+  .state-card p { margin: 0; color: #8b949e; font-size: 13px; }
+  .back { display: inline-block; margin: 18px 0 0; color: #58a6ff; text-decoration: none; font-size: 14px; }
+  .back:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Jason D&rsquo;s Vision &mdash; Germany</h1>
+  <p>Baden-Württemberg &mdash; 30 scenes &mdash; AI-generated artistic interpretations</p>
+  <nav class="switcher"><span class="current">Germany</span> | <a href="https://devlij.github.io/jason-ds-vision-italy-preview/">Italy</a> | <a href="https://devlij.github.io/jason-ds-vision-france-preview/">France</a> | <a href="https://devlij.github.io/Spain/">Spain</a></nav>
+  <a class="back" href="../index.html">&larr; All German states</a>
+</header>
+<main class="wrap">
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="Search this state&hellip;" aria-label="Search scenes">
+    <button id="clear">Clear</button>
+    <span id="result-count"></span>
+  </div>
+  <div id="no-results">No scenes match your search.</div>
+  <div class="grid">
+<article class="card" data-search="heidelberg old bridge and castle baden-württemberg de-bw-001">
+          <a class="thumb" href="../assets/de-bw-001-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-001-16x9.png" alt="AI-generated artistic interpretation of Old Bridge and castle in Heidelberg" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-001</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Old Bridge and castle, Heidelberg</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 03:00 CEST</p>
+            <p class="composition">Neckar riverfront ensemble · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="heidelberg philosophenweg baden-württemberg de-bw-002">
+          <a class="thumb" href="../assets/de-bw-002-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-002-16x9.png" alt="AI-generated artistic interpretation of Philosophenweg in Heidelberg" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-002</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Philosophenweg, Heidelberg</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 04:15 Europe/Berlin</p>
+            <p class="composition">Elevated old-town panorama · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="hechingen/bisingen hohenzollern castle baden-württemberg de-bw-003">
+          <a class="thumb" href="../assets/de-bw-003-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-003-16x9.png" alt="AI-generated artistic interpretation of Hohenzollern Castle in Hechingen/Bisingen" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-003</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Hohenzollern Castle, Hechingen/Bisingen</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 05:15 Europe/Berlin</p>
+            <p class="composition">Hilltop castle silhouette · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="lichtenstein lichtenstein castle baden-württemberg de-bw-004">
+          <a class="thumb" href="../assets/de-bw-004-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-004-16x9.png" alt="AI-generated artistic interpretation of Lichtenstein Castle in Lichtenstein" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-004</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Lichtenstein Castle, Lichtenstein</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 06:15 Europe/Berlin</p>
+            <p class="composition">Cliff-edge castle · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="ulm ulm minster baden-württemberg de-bw-005">
+          <a class="thumb" href="../assets/de-bw-005-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-005-16x9.png" alt="AI-generated artistic interpretation of Ulm Minster in Ulm" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-005</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Ulm Minster, Ulm</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 07:15 Europe/Berlin</p>
+            <p class="composition">Münsterplatz facade · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="ulm fishermen’s quarter baden-württemberg de-bw-006">
+          <a class="thumb" href="../assets/de-bw-006-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-006-16x9.png" alt="AI-generated artistic interpretation of Fishermen’s Quarter in Ulm" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-006</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Fishermen’s Quarter, Ulm</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 08:15 Europe/Berlin</p>
+            <p class="composition">Canals and crooked houses · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="freiburg minster and münsterplatz baden-württemberg de-bw-007">
+          <a class="thumb" href="../assets/de-bw-007-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-007-16x9.png" alt="AI-generated artistic interpretation of Minster and Münsterplatz in Freiburg" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-007</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Minster and Münsterplatz, Freiburg</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 09:15 Europe/Berlin</p>
+            <p class="composition">Cathedral and market square · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="freiburg schwabentor baden-württemberg de-bw-008">
+          <a class="thumb" href="../assets/de-bw-008-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-008-16x9.png" alt="AI-generated artistic interpretation of Schwabentor in Freiburg" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-008</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Schwabentor, Freiburg</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 10:15 Europe/Berlin</p>
+            <p class="composition">Historic gate and street · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="baden-baden kurhaus baden-württemberg de-bw-009">
+          <a class="thumb" href="../assets/de-bw-009-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-009-16x9.png" alt="AI-generated artistic interpretation of Kurhaus in Baden-Baden" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-009</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Kurhaus, Baden-Baden</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 11:15 Europe/Berlin</p>
+            <p class="composition">Formal frontage and gardens · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="baden-baden lichtentaler allee baden-württemberg de-bw-010">
+          <a class="thumb" href="../assets/de-bw-010-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-010-16x9.png" alt="AI-generated artistic interpretation of Lichtentaler Allee in Baden-Baden" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-010</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Lichtentaler Allee, Baden-Baden</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 12:15 Europe/Berlin</p>
+            <p class="composition">Riverside park · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="triberg triberg waterfalls baden-württemberg de-bw-011">
+          <a class="thumb" href="../assets/de-bw-011-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-011-16x9.png" alt="AI-generated artistic interpretation of Triberg Waterfalls in Triberg" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-011</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Triberg Waterfalls, Triberg</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 13:15 Europe/Berlin</p>
+            <p class="composition">Forest cascade · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="gutach vogtsbauernhof baden-württemberg de-bw-012">
+          <a class="thumb" href="../assets/de-bw-012-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-012-16x9.png" alt="AI-generated artistic interpretation of Vogtsbauernhof in Gutach" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-012</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Vogtsbauernhof, Gutach</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 14:15 Europe/Berlin</p>
+            <p class="composition">Black Forest farmhouses · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="seebach mummelsee baden-württemberg de-bw-013">
+          <a class="thumb" href="../assets/de-bw-013-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-013-16x9.png" alt="AI-generated artistic interpretation of Mummelsee in Seebach" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-013</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Mummelsee, Seebach</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 15:15 Europe/Berlin</p>
+            <p class="composition">Forest lake and shoreline · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="feldberg feldberg summit area baden-württemberg de-bw-014">
+          <a class="thumb" href="../assets/de-bw-014-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-014-16x9.png" alt="AI-generated artistic interpretation of Feldberg summit area in Feldberg" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-014</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Feldberg summit area, Feldberg</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 16:15 Europe/Berlin</p>
+            <p class="composition">Black Forest panorama · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="titisee-neustadt titisee baden-württemberg de-bw-015">
+          <a class="thumb" href="../assets/de-bw-015-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-015-16x9.png" alt="AI-generated artistic interpretation of Titisee in Titisee-Neustadt" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-015</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Titisee, Titisee-Neustadt</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 17:15 Europe/Berlin</p>
+            <p class="composition">Lakefront and wooded hills · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="blautal/blaubeuren blautopf baden-württemberg de-bw-016">
+          <a class="thumb" href="../assets/de-bw-016-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-016-16x9.png" alt="AI-generated artistic interpretation of Blautopf in Blautal/Blaubeuren" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-016</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Blautopf, Blautal/Blaubeuren</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 18:15 Europe/Berlin</p>
+            <p class="composition">Blue spring and mill · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="meersburg old town and harbor baden-württemberg de-bw-017">
+          <a class="thumb" href="../assets/de-bw-017-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-017-16x9.png" alt="AI-generated artistic interpretation of Old town and harbor in Meersburg" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-017</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Old town and harbor, Meersburg</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 19:15 Europe/Berlin</p>
+            <p class="composition">Lake Constance waterfront · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="konstanz harbor and imperia baden-württemberg de-bw-018">
+          <a class="thumb" href="../assets/de-bw-018-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-018-16x9.png" alt="AI-generated artistic interpretation of Harbor and Imperia in Konstanz" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-018</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Harbor and Imperia, Konstanz</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 20:15 Europe/Berlin</p>
+            <p class="composition">Lakefront landmark · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="mainau island gardens baden-württemberg de-bw-019">
+          <a class="thumb" href="../assets/de-bw-019-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-019-16x9.png" alt="AI-generated artistic interpretation of Island gardens in Mainau" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-019</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Island gardens, Mainau</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 21:15 Europe/Berlin</p>
+            <p class="composition">Floral beds and palace · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="reichenau monastic churches baden-württemberg de-bw-020">
+          <a class="thumb" href="../assets/de-bw-020-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-020-16x9.png" alt="AI-generated artistic interpretation of Monastic churches in Reichenau" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-020</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Monastic churches, Reichenau</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 22:15 Europe/Berlin</p>
+            <p class="composition">Island architecture and fields · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="stuttgart schlossplatz baden-württemberg de-bw-021">
+          <a class="thumb" href="../assets/de-bw-021-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-021-16x9.png" alt="AI-generated artistic interpretation of Schlossplatz in Stuttgart" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-021</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Schlossplatz, Stuttgart</h3>
+            <p class="scenario">Scenario: 22 September 2026 · 23:15 Europe/Berlin</p>
+            <p class="composition">Palace and formal square · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="ludwigsburg residential palace baden-württemberg de-bw-022">
+          <a class="thumb" href="../assets/de-bw-022-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-022-16x9.png" alt="AI-generated artistic interpretation of Residential Palace in Ludwigsburg" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-022</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Residential Palace, Ludwigsburg</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 00:15 Europe/Berlin</p>
+            <p class="composition">Palace courts and gardens · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="schwetzingen palace gardens baden-württemberg de-bw-023">
+          <a class="thumb" href="../assets/de-bw-023-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-023-16x9.png" alt="AI-generated artistic interpretation of Palace gardens in Schwetzingen" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-023</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Palace gardens, Schwetzingen</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 01:15 Europe/Berlin</p>
+            <p class="composition">Garden axes and pavilions · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="maulbronn monastery courtyard baden-württemberg de-bw-024">
+          <a class="thumb" href="../assets/de-bw-024-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-024-16x9.png" alt="AI-generated artistic interpretation of Monastery courtyard in Maulbronn" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-024</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Monastery courtyard, Maulbronn</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 02:15 Europe/Berlin</p>
+            <p class="composition">Medieval monastery ensemble · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="schiltach market square baden-württemberg de-bw-025">
+          <a class="thumb" href="../assets/de-bw-025-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-025-16x9.png" alt="AI-generated artistic interpretation of Market square in Schiltach" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-025</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Market square, Schiltach</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 03:15 Europe/Berlin</p>
+            <p class="composition">Half-timbered streets · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="gengenbach historic town center baden-württemberg de-bw-026">
+          <a class="thumb" href="../assets/de-bw-026-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-026-16x9.png" alt="AI-generated artistic interpretation of Historic town center in Gengenbach" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-026</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Historic town center, Gengenbach</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 04:15 Europe/Berlin</p>
+            <p class="composition">Town hall and colorful houses · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="esslingen old town and canals baden-württemberg de-bw-027">
+          <a class="thumb" href="../assets/de-bw-027-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-027-16x9.png" alt="AI-generated artistic interpretation of Old town and canals in Esslingen" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-027</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Old town and canals, Esslingen</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 05:15 Europe/Berlin</p>
+            <p class="composition">Timber-framed riverfront · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="tübingen neckarfront baden-württemberg de-bw-028">
+          <a class="thumb" href="../assets/de-bw-028-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-028-16x9.png" alt="AI-generated artistic interpretation of Neckarfront in Tübingen" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-028</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Neckarfront, Tübingen</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 06:15 Europe/Berlin</p>
+            <p class="composition">Houses and Hölderlin Tower · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="singen hohentwiel baden-württemberg de-bw-029">
+          <a class="thumb" href="../assets/de-bw-029-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-029-16x9.png" alt="AI-generated artistic interpretation of Hohentwiel in Singen" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-029</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Hohentwiel, Singen</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 06:45 Europe/Berlin</p>
+            <p class="composition">Ruins and volcanic landscape · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+<article class="card" data-search="rust europa-park baden-württemberg de-bw-030">
+          <a class="thumb" href="../assets/de-bw-030-16x9.png" target="_blank" rel="noopener">
+            <img src="../assets/de-bw-030-16x9.png" alt="AI-generated artistic interpretation of Europa-Park in Rust" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">DE-BW-030</div>
+              <span class="status">Approved</span>
+            </div>
+            <h3 class="caption">Europa-Park, Rust</h3>
+            <p class="scenario">Scenario: 23 September 2026 · 07:15 Europe/Berlin</p>
+            <p class="composition">Themed architecture; controlled venue · AI-generated artistic interpretation</p>
+            <div class="actions">
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>
+        </article>
+  </div>
+</main>
+<section id="license">
+    <h2>License</h2>
+    <p>Every image in Jason D&rsquo;s Vision is free to use for any purpose &mdash; personal or commercial. No credit is required. If you&rsquo;d like to credit, &lsquo;Jason D&rsquo;s Vision&rsquo; is appreciated, but it&rsquo;s entirely your choice.</p>
+    <p>Jason D&rsquo;s Vision waives its own rights in these images. This doesn&rsquo;t waive anyone else&rsquo;s rights: if an image happens to include a trademark, logo, or other third-party material, those rights still belong to their owners. All images are AI-generated artistic interpretations, not photographs, and use of an image doesn&rsquo;t imply endorsement by Jason D&rsquo;s Vision.</p>
+  </section>
+<footer>
+  <p>AI-generated artistic interpretations</p>
+  <p class="sig">Jason D&rsquo;s Vision</p>
+</footer>
+<script>
+    const q = document.getElementById('q');
+    const clearBtn = document.getElementById('clear');
+    const countEl = document.getElementById('result-count');
+    const noResults = document.getElementById('no-results');
+    const cards = Array.from(document.querySelectorAll('.card'));
+    function render() {
+      const query = q.value.trim().toLowerCase();
+      let n = 0;
+      for (const c of cards) {
+        const hit = !query || (c.dataset.search || '').includes(query);
+        c.style.display = hit ? '' : 'none';
+        if (hit) n++;
+      }
+      countEl.textContent = n + ' scene' + (n === 1 ? '' : 's');
+      noResults.style.display = n ? 'none' : 'block';
+    }
+    q.addEventListener('input', render);
+    clearBtn.addEventListener('click', () => { q.value = ''; render(); });
+    render();
+</script>
+</body>
+</html>
