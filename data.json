@@ -697,7 +697,7 @@
     "caption": "Odeonsplatz, Munich",
     "scenario": "23 September 2026 · 19:15 Europe/Berlin",
     "composition": "Feldherrnhalle and Theatinerkirche · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-by-024-16x9.png",
     "file_4x5": "assets/de-by-024-4x5.png"
   }
