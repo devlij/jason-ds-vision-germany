@@ -1025,5 +1025,83 @@
     "approved": true,
     "file_16x9": "assets/de-by-048-16x9.png",
     "file_4x5": "assets/de-by-048-4x5.png"
+  },
+  {
+    "entry_id": "DE-SH-024",
+    "code": "SH",
+    "state": "Schleswig-Holstein",
+    "city": "Eutin",
+    "site": "Eutin Castle",
+    "caption": "Eutin Castle, Eutin",
+    "scenario": "",
+    "composition": "Palace and lakefront · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sh-024-16x9.png",
+    "file_4x5": "assets/de-sh-024-4x5.png"
+  },
+  {
+    "entry_id": "DE-SH-025",
+    "code": "SH",
+    "state": "Schleswig-Holstein",
+    "city": "Laboe",
+    "site": "Naval memorial",
+    "caption": "Naval memorial, Laboe",
+    "scenario": "",
+    "composition": "Coastal monument · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sh-025-16x9.png",
+    "file_4x5": "assets/de-sh-025-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-001",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Eisenach",
+    "site": "Wartburg",
+    "caption": "Wartburg, Eisenach",
+    "scenario": "",
+    "composition": "Castle on wooded hill · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-001-16x9.png",
+    "file_4x5": "assets/de-th-001-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-002",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Erfurt",
+    "site": "Krämerbrücke",
+    "caption": "Krämerbrücke, Erfurt",
+    "scenario": "",
+    "composition": "Inhabited bridge from riverbank · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-002-16x9.png",
+    "file_4x5": "assets/de-th-002-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-003",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Erfurt",
+    "site": "Cathedral Square",
+    "caption": "Cathedral Square, Erfurt",
+    "scenario": "",
+    "composition": "Cathedral and St. Severus · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-003-16x9.png",
+    "file_4x5": "assets/de-th-003-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-004",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Erfurt",
+    "site": "Petersberg",
+    "caption": "Petersberg, Erfurt",
+    "scenario": "",
+    "composition": "Citadel and city outlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-004-16x9.png",
+    "file_4x5": "assets/de-th-004-4x5.png"
   }
 ]
