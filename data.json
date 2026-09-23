@@ -1,5 +1,18 @@
 [
   {
+    "entry_id": "DE-BE-001",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Brandenburg Gate",
+    "caption": "Brandenburg Gate, Mitte",
+    "scenario": "24 September 2026 · 01:00 Europe/Berlin",
+    "composition": "Pariser Platz frontage · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-001-16x9.png",
+    "file_4x5": "assets/de-be-001-4x5.png"
+  },
+  {
     "entry_id": "DE-BW-001",
     "code": "BW",
     "state": "Baden-Württemberg",
@@ -986,5 +999,31 @@
     "approved": true,
     "file_16x9": "assets/de-by-046-16x9.png",
     "file_4x5": "assets/de-by-046-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-047",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Bavarian Forest",
+    "site": "Großer Arber",
+    "caption": "Großer Arber, Bavarian Forest",
+    "scenario": "24 September 2026 · 00:45 Europe/Berlin",
+    "composition": "Summit and forest outlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-047-16x9.png",
+    "file_4x5": "assets/de-by-047-4x5.png"
+  },
+  {
+    "entry_id": "DE-BY-048",
+    "code": "BY",
+    "state": "Bavaria",
+    "city": "Neuschönau",
+    "site": "Treetop walk",
+    "caption": "Treetop walk, Neuschönau",
+    "scenario": "24 September 2026 · 00:45 Europe/Berlin",
+    "composition": "Forest and observation tower · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-by-048-16x9.png",
+    "file_4x5": "assets/de-by-048-4x5.png"
   }
 ]
