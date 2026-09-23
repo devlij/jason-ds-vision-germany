@@ -25,8 +25,17 @@
   #no-results { display: none; color: #8b949e; margin: 24px 0; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin-top: 16px; }
   .card { background: #161b22; border: 1px solid #21262d; border-radius: 10px; overflow: hidden; }
-  .card a.thumb { display: block; }
-  .card img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }
+  .card .preview { position: relative; }
+  .card a.thumb { display: block; aspect-ratio: 16/9; overflow: hidden; background: #000; }
+  .card a.thumb.tall { aspect-ratio: 4/5; }
+  .card a.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .fmt-tabs { position: absolute; top: 10px; left: 10px; display: flex; gap: 6px; z-index: 2; }
+  .fmt-tab { background: rgba(13,17,23,.82); color: #e6edf3; border: 1px solid #30363d;
+             border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
+  .fmt-tab.is-active { background: #1f6feb; border-color: #1f6feb; }
+  .view-affordance { position: absolute; right: 10px; bottom: 10px; padding: 5px 10px;
+                     border: 1px solid rgba(255,255,255,.35); border-radius: 999px;
+                     background: rgba(13,17,23,.72); color: #e6edf3; font-size: 11px; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #8b949e; letter-spacing: .06em; }
@@ -37,6 +46,10 @@
   .scenario { font-size: 12.5px; color: #8b949e; margin: 6px 0 2px; }
   .composition { font-size: 13px; color: #8b949e; margin: 2px 0 8px; }
   .description { font-size: 13.5px; color: #c9d1d9; margin: 8px 0; line-height: 1.55; }
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
+  a.download { display: inline-block; text-decoration: none; background: #243049; color: #e6edf3;
+               border-radius: 8px; padding: 6px 10px; font-size: 12px; border: 1px solid #30363d; }
+  a.download:hover { background: #2f3d5c; }
   .actions .badge { display: inline-block; font-size: 12px; color: #58a6ff; text-decoration: none;
                     border: 1px solid #30363d; border-radius: 20px; padding: 4px 10px; }
   .actions .badge:hover { text-decoration: underline; }
