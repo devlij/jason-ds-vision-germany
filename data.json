@@ -1103,5 +1103,83 @@
     "approved": true,
     "file_16x9": "assets/de-th-004-16x9.png",
     "file_4x5": "assets/de-th-004-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-011",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Jena",
+    "site": "Saale valley",
+    "caption": "Saale valley, Jena",
+    "scenario": "",
+    "composition": "City and limestone slopes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-011-16x9.png",
+    "file_4x5": "assets/de-th-011-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-012",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Bad Frankenhausen",
+    "site": "Kyffhäuser Monument",
+    "caption": "Kyffhäuser Monument, Bad Frankenhausen",
+    "scenario": "",
+    "composition": "Monument and outlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-012-16x9.png",
+    "file_4x5": "assets/de-th-012-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-013",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Bad Langensalza",
+    "site": "Hainich treetop walk",
+    "caption": "Hainich treetop walk, Bad Langensalza",
+    "scenario": "",
+    "composition": "Forest canopy · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-013-16x9.png",
+    "file_4x5": "assets/de-th-013-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-014",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Bad Langensalza",
+    "site": "Japanese Garden",
+    "caption": "Japanese Garden, Bad Langensalza",
+    "scenario": "",
+    "composition": "Garden compositions · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-014-16x9.png",
+    "file_4x5": "assets/de-th-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-015",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Saalfeld",
+    "site": "Fairy Grottoes",
+    "caption": "Fairy Grottoes, Saalfeld",
+    "scenario": "",
+    "composition": "Cave formations; controlled interior · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-015-16x9.png",
+    "file_4x5": "assets/de-th-015-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-016",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Schmalkalden",
+    "site": "Old town",
+    "caption": "Old town, Schmalkalden",
+    "scenario": "",
+    "composition": "Timber-framed streets · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-016-16x9.png",
+    "file_4x5": "assets/de-th-016-4x5.png"
   }
 ]
