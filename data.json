@@ -169,6 +169,45 @@
     "file_4x5": "assets/de-be-013-4x5.png"
   },
   {
+    "entry_id": "DE-BE-014",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Kreuzberg/Mitte",
+    "site": "Checkpoint Charlie",
+    "caption": "Checkpoint Charlie, Kreuzberg/Mitte",
+    "scenario": "24 September 2026 · 03:15 Europe/Berlin",
+    "composition": "Historic checkpoint location · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-014-16x9.png",
+    "file_4x5": "assets/de-be-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-015",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Charlottenburg",
+    "site": "Kaiser Wilhelm Memorial Church",
+    "caption": "Kaiser Wilhelm Memorial Church, Charlottenburg",
+    "scenario": "24 September 2026 · 03:15 Europe/Berlin",
+    "composition": "Ruin and modern church · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-015-16x9.png",
+    "file_4x5": "assets/de-be-015-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-016",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Nikolaiviertel",
+    "caption": "Nikolaiviertel, Mitte",
+    "scenario": "24 September 2026 · 03:30 Europe/Berlin",
+    "composition": "Church and historic-style lanes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-016-16x9.png",
+    "file_4x5": "assets/de-be-016-4x5.png"
+  },
+  {
     "entry_id": "DE-BW-001",
     "code": "BW",
     "state": "Baden-Württemberg",
