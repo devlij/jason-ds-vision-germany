@@ -1651,6 +1651,45 @@
     "file_4x5": "assets/de-hh-003-4x5.png"
   },
   {
+    "entry_id": "DE-HH-004",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Altstadt",
+    "site": "Town Hall",
+    "caption": "Town Hall, Altstadt",
+    "scenario": "24 September 2026 · 09:15 Europe/Berlin",
+    "composition": "Rathausmarkt facade · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-hh-004-16x9.png",
+    "file_4x5": "assets/de-hh-004-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-005",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Neustadt",
+    "site": "St. Michaelis",
+    "caption": "St. Michaelis, Neustadt",
+    "scenario": "24 September 2026 · 09:15 Europe/Berlin",
+    "composition": "Church and city outlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-005-16x9.png",
+    "file_4x5": "assets/de-hh-005-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-006",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "St. Pauli",
+    "site": "Landungsbrücken",
+    "caption": "Landungsbrücken, St. Pauli",
+    "scenario": "24 September 2026 · 09:30 Europe/Berlin",
+    "composition": "Piers and harbor · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-006-16x9.png",
+    "file_4x5": "assets/de-hh-006-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
