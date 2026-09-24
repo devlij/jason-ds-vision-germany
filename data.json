@@ -1534,6 +1534,45 @@
     "file_4x5": "assets/de-hb-003-4x5.png"
   },
   {
+    "entry_id": "DE-HB-004",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremen",
+    "site": "Böttcherstraße",
+    "caption": "Böttcherstraße, Bremen",
+    "scenario": "24 September 2026 · 07:45 Europe/Berlin",
+    "composition": "Brick expressionist architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-004-16x9.png",
+    "file_4x5": "assets/de-hb-004-4x5.png"
+  },
+  {
+    "entry_id": "DE-HB-005",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremen",
+    "site": "Schlachte",
+    "caption": "Schlachte, Bremen",
+    "scenario": "24 September 2026 · 07:45 Europe/Berlin",
+    "composition": "Weser promenade · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-005-16x9.png",
+    "file_4x5": "assets/de-hb-005-4x5.png"
+  },
+  {
+    "entry_id": "DE-HB-006",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremen",
+    "site": "St. Peter’s Cathedral",
+    "caption": "St. Peter’s Cathedral, Bremen",
+    "scenario": "24 September 2026 · 08:00 Europe/Berlin",
+    "composition": "Cathedral exterior · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-006-16x9.png",
+    "file_4x5": "assets/de-hb-006-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
