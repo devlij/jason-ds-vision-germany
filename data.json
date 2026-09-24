@@ -1495,6 +1495,45 @@
     "file_4x5": "assets/de-by-048-4x5.png"
   },
   {
+    "entry_id": "DE-HB-001",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremen",
+    "site": "Market square",
+    "caption": "Market square, Bremen",
+    "scenario": "24 September 2026 · 07:15 Europe/Berlin",
+    "composition": "Town Hall and Roland · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-001-16x9.png",
+    "file_4x5": "assets/de-hb-001-4x5.png"
+  },
+  {
+    "entry_id": "DE-HB-002",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremen",
+    "site": "Town Musicians statue",
+    "caption": "Town Musicians statue, Bremen",
+    "scenario": "24 September 2026 · 07:15 Europe/Berlin",
+    "composition": "Sculpture beside Town Hall · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-002-16x9.png",
+    "file_4x5": "assets/de-hb-002-4x5.png"
+  },
+  {
+    "entry_id": "DE-HB-003",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremen",
+    "site": "Schnoor",
+    "caption": "Schnoor, Bremen",
+    "scenario": "24 September 2026 · 07:30 Europe/Berlin",
+    "composition": "Narrow historic lanes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-003-16x9.png",
+    "file_4x5": "assets/de-hb-003-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
