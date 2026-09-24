@@ -1859,6 +1859,45 @@
     "file_4x5": "assets/de-he-019-4x5.png"
   },
   {
+    "entry_id": "DE-HE-020",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Gersfeld",
+    "site": "Wasserkuppe",
+    "caption": "Wasserkuppe, Gersfeld",
+    "scenario": "24 September 2026 · 14:45 Europe/Berlin",
+    "composition": "Rhön open summit landscape · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-020-16x9.png",
+    "file_4x5": "assets/de-he-020-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-021",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Fulda",
+    "site": "Cathedral and palace",
+    "caption": "Cathedral and palace, Fulda",
+    "scenario": "24 September 2026 · 14:45 Europe/Berlin",
+    "composition": "Baroque urban ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-021-16x9.png",
+    "file_4x5": "assets/de-he-021-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-022",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Alsfeld",
+    "site": "Market square",
+    "caption": "Market square, Alsfeld",
+    "scenario": "24 September 2026 · 15:00 Europe/Berlin",
+    "composition": "Timber-framed Town Hall · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-022-16x9.png",
+    "file_4x5": "assets/de-he-022-4x5.png"
+  },
+  {
     "entry_id": "DE-HH-001",
     "code": "HH",
     "state": "Hamburg",
