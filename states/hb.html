@@ -129,10 +129,12 @@
   .lb figcaption { display: flex; justify-content: space-between; gap: 16px; color: #f2ede3;
                    font-size: 14px; padding: 10px 2px 0; }
   .lb-count { color: #a79c86; white-space: nowrap; }
-  .lb-close, .lb-prev, .lb-next { position: absolute; background: rgba(20,17,9,.85); color: #f2ede3;
+  .lb-close, .lb-prev, .lb-next, .lb-play { position: absolute; background: rgba(20,17,9,.85); color: #f2ede3;
         border: 1px solid #4a3f2c; border-radius: 999px; width: 46px; height: 46px;
         font-size: 20px; cursor: pointer; line-height: 1; }
   .lb-close { top: 14px; right: 14px; }
+  .lb-play { top: 14px; right: 72px; }
+  .lb-play.playing { background: #FFCE00; border-color: #FFCE00; color: #141109; }
   .lb-prev { left: 12px; top: 50%; transform: translateY(-50%); }
   .lb-next { right: 12px; top: 50%; transform: translateY(-50%); }
   @media (max-width: 640px) { .lb-prev { left: 4px; } .lb-next { right: 4px; } }
@@ -449,6 +451,7 @@
   overlay.className = 'lb';
   overlay.setAttribute('aria-hidden', 'true');
   overlay.innerHTML = '<button class="lb-close" aria-label="Close">&times;</button>'
+    + '<button class="lb-play" aria-label="Play slideshow">&#9654;</button>'
     + '<button class="lb-prev" aria-label="Previous image">&#8592;</button>'
     + '<figure><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-count"></span></figcaption></figure>'
     + '<button class="lb-next" aria-label="Next image">&#8594;</button>';
@@ -456,12 +459,18 @@
   var img = overlay.querySelector('img');
   var cap = overlay.querySelector('.lb-cap');
   var count = overlay.querySelector('.lb-count');
+  var playBtn = overlay.querySelector('.lb-play');
   var items = [], idx = 0;
+  var playing = false, timer = null;
+  var INTERVAL = 6000;
   function visibleCards(){
     return Array.prototype.filter.call(document.querySelectorAll('.card'),
       function(c){ return c.style.display !== 'none'; });
   }
   function show(i){
+    /* item srcs are read from each card's current thumb href, so the active
+       16:9 / 4:5 tab format persists per scene (no dataset access on
+       digit-bearing attributes) */
     items = visibleCards().map(function(c){
       var a = c.querySelector('a.thumb');
       var t = c.querySelector('.caption');
@@ -477,7 +486,42 @@
     overlay.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
   }
+  function setPlaying(on){
+    playing = on;
+    playBtn.classList.toggle('playing', on);
+    playBtn.innerHTML = on ? '&#10074;&#10074;' : '&#9654;';
+    playBtn.setAttribute('aria-label', on ? 'Pause slideshow' : 'Play slideshow');
+  }
+  function restartTimer(){
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(tick, INTERVAL);
+  }
+  function tick(){
+    if (!playing) return;
+    show(idx + 1);
+    restartTimer();
+  }
+  /* No autostart, so prefers-reduced-motion needs no special casing;
+     an explicit user press of play is always honoured. */
+  function startSlideshow(){
+    if (playing) return;
+    setPlaying(true);
+    restartTimer();
+  }
+  function stopSlideshow(){
+    playing = false;
+    if (timer) { clearTimeout(timer); timer = null; }
+    setPlaying(false);
+  }
+  function togglePlay(){
+    if (playing) stopSlideshow(); else startSlideshow();
+  }
+  function nav(d){
+    show(idx + d);
+    if (playing) restartTimer();
+  }
   function hide(){
+    stopSlideshow();
     overlay.classList.remove('open');
     overlay.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
@@ -491,14 +535,21 @@
       return;
     }
     if (e.target === overlay || (e.target.closest && e.target.closest('.lb-close'))) hide();
-    else if (e.target.closest && e.target.closest('.lb-prev')) show(idx - 1);
-    else if (e.target.closest && e.target.closest('.lb-next')) show(idx + 1);
+    else if (e.target.closest && e.target.closest('.lb-play')) togglePlay();
+    else if (e.target.closest && e.target.closest('.lb-prev')) nav(-1);
+    else if (e.target.closest && e.target.closest('.lb-next')) nav(1);
   });
   document.addEventListener('keydown', function(e){
     if (!overlay.classList.contains('open')) return;
     if (e.key === 'Escape') hide();
-    else if (e.key === 'ArrowLeft') show(idx - 1);
-    else if (e.key === 'ArrowRight') show(idx + 1);
+    else if (e.key === 'ArrowLeft') nav(-1);
+    else if (e.key === 'ArrowRight') nav(1);
+    else if (e.key === ' ' || e.key === 'Spacebar') {
+      /* let a focused button's native space activation handle itself */
+      if (e.target && e.target.tagName === 'BUTTON') return;
+      e.preventDefault();
+      togglePlay();
+    }
   });
 })();
 </script>
