@@ -2431,6 +2431,19 @@
     "file_4x5": "assets/de-mv-024-4x5.png"
   },
   {
+    "entry_id": "DE-NI-001",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Hannover",
+    "site": "Neues Rathaus",
+    "caption": "Neues Rathaus, Hannover",
+    "scenario": "24 September 2026 · 20:15 Europe/Berlin",
+    "composition": "Platz der Menschenrechte frontage; existing V7 candidate · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-001-16x9.png",
+    "file_4x5": "assets/de-ni-001-4x5.png"
+  },
+  {
     "entry_id": "DE-NI-002",
     "code": "NI",
     "state": "Lower Saxony",
@@ -2468,6 +2481,32 @@
     "approved": true,
     "file_16x9": "assets/de-ni-004-16x9.png",
     "file_4x5": "assets/de-ni-004-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-005",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Goslar",
+    "site": "Market square",
+    "caption": "Market square, Goslar",
+    "scenario": "24 September 2026 · 20:15 Europe/Berlin",
+    "composition": "Timber houses and fountain · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-005-16x9.png",
+    "file_4x5": "assets/de-ni-005-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-006",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Goslar",
+    "site": "Imperial Palace",
+    "caption": "Imperial Palace, Goslar",
+    "scenario": "24 September 2026 · 20:30 Europe/Berlin",
+    "composition": "Palace frontage · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-006-16x9.png",
+    "file_4x5": "assets/de-ni-006-4x5.png"
   },
   {
     "entry_id": "DE-SH-001",
