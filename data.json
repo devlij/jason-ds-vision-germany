@@ -2314,6 +2314,45 @@
     "file_4x5": "assets/de-mv-015-4x5.png"
   },
   {
+    "entry_id": "DE-MV-016",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rostock",
+    "site": "Alter Strom",
+    "caption": "Alter Strom, Rostock",
+    "scenario": "24 September 2026 · 17:45 Europe/Berlin",
+    "composition": "Fishing boats and houses · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-016-16x9.png",
+    "file_4x5": "assets/de-mv-016-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-017",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Usedom/Ahlbeck",
+    "site": "Historic pier",
+    "caption": "Historic pier, Usedom/Ahlbeck",
+    "scenario": "24 September 2026 · 18:00 Europe/Berlin",
+    "composition": "Pier and beach · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-017-16x9.png",
+    "file_4x5": "assets/de-mv-017-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-018",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Usedom/Heringsdorf",
+    "site": "Resort waterfront",
+    "caption": "Resort waterfront, Usedom/Heringsdorf",
+    "scenario": "24 September 2026 · 18:00 Europe/Berlin",
+    "composition": "Villas and pier · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-018-16x9.png",
+    "file_4x5": "assets/de-mv-018-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
