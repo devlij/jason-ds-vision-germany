@@ -26,6 +26,45 @@
     "file_4x5": "assets/de-bb-002-4x5.png"
   },
   {
+    "entry_id": "DE-BB-003",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Potsdam",
+    "site": "Dutch Quarter",
+    "caption": "Dutch Quarter, Potsdam",
+    "scenario": "24 September 2026 · 04:45 Europe/Berlin",
+    "composition": "Red-brick streets · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-003-16x9.png",
+    "file_4x5": "assets/de-bb-003-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-004",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Potsdam",
+    "site": "Babelsberg Park",
+    "caption": "Babelsberg Park, Potsdam",
+    "scenario": "24 September 2026 · 04:45 Europe/Berlin",
+    "composition": "Palace and Havel views · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-004-16x9.png",
+    "file_4x5": "assets/de-bb-004-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-005",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Potsdam",
+    "site": "Cecilienhof",
+    "caption": "Cecilienhof, Potsdam",
+    "scenario": "24 September 2026 · 05:00 Europe/Berlin",
+    "composition": "Palace courtyards · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-005-16x9.png",
+    "file_4x5": "assets/de-bb-005-4x5.png"
+  },
+  {
     "entry_id": "DE-BE-001",
     "code": "BE",
     "state": "Berlin",
