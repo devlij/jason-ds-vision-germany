@@ -2236,6 +2236,45 @@
     "file_4x5": "assets/de-mv-009-4x5.png"
   },
   {
+    "entry_id": "DE-MV-010",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Hiddensee",
+    "site": "Dornbusch lighthouse",
+    "caption": "Dornbusch lighthouse, Hiddensee",
+    "scenario": "24 September 2026 · 16:45 Europe/Berlin",
+    "composition": "Lighthouse and coastal hills · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-010-16x9.png",
+    "file_4x5": "assets/de-mv-010-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-011",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Stralsund",
+    "site": "Old Market",
+    "caption": "Old Market, Stralsund",
+    "scenario": "24 September 2026 · 16:45 Europe/Berlin",
+    "composition": "Town Hall and St. Nicholas · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-011-16x9.png",
+    "file_4x5": "assets/de-mv-011-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-012",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Stralsund",
+    "site": "Harbor",
+    "caption": "Harbor, Stralsund",
+    "scenario": "24 September 2026 · 17:00 Europe/Berlin",
+    "composition": "Waterfront and Ozeaneum · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-012-16x9.png",
+    "file_4x5": "assets/de-mv-012-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
