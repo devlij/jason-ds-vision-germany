@@ -1768,6 +1768,45 @@
     "file_4x5": "assets/de-hh-012-4x5.png"
   },
   {
+    "entry_id": "DE-HH-013",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "St. Pauli",
+    "site": "Fish Auction Hall",
+    "caption": "Fish Auction Hall, St. Pauli",
+    "scenario": "24 September 2026 · 10:45 Europe/Berlin",
+    "composition": "Elbe-side hall · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-013-16x9.png",
+    "file_4x5": "assets/de-hh-013-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-014",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "St. Pauli",
+    "site": "Reeperbahn",
+    "caption": "Reeperbahn, St. Pauli",
+    "scenario": "24 September 2026 · 10:45 Europe/Berlin",
+    "composition": "Street scene; current signage check · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-014-16x9.png",
+    "file_4x5": "assets/de-hh-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-015",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Neustadt",
+    "site": "Planten un Blomen",
+    "caption": "Planten un Blomen, Neustadt",
+    "scenario": "24 September 2026 · 11:00 Europe/Berlin",
+    "composition": "Gardens and water · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-015-16x9.png",
+    "file_4x5": "assets/de-hh-015-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
