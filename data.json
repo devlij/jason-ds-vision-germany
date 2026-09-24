@@ -2548,6 +2548,45 @@
     "file_4x5": "assets/de-ni-009-4x5.png"
   },
   {
+    "entry_id": "DE-NI-010",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Lüneburg",
+    "site": "Stintmarkt",
+    "caption": "Stintmarkt, Lüneburg",
+    "scenario": "24 September 2026 · 21:15 Europe/Berlin",
+    "composition": "Ilmenau waterfront · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-ni-010-16x9.png",
+    "file_4x5": "assets/de-ni-010-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-011",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Hameln",
+    "site": "Old town",
+    "caption": "Old town, Hameln",
+    "scenario": "24 September 2026 · 21:15 Europe/Berlin",
+    "composition": "Weser Renaissance streets · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-ni-011-16x9.png",
+    "file_4x5": "assets/de-ni-011-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-012",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Hildesheim",
+    "site": "Historic market square",
+    "caption": "Historic market square, Hildesheim",
+    "scenario": "24 September 2026 · 21:30 Europe/Berlin",
+    "composition": "Knochenhaueramtshaus ensemble · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-ni-012-16x9.png",
+    "file_4x5": "assets/de-ni-012-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
