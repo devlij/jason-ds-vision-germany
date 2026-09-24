@@ -1664,6 +1664,45 @@
     "file_4x5": "assets/de-he-004-4x5.png"
   },
   {
+    "entry_id": "DE-HE-005",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Frankfurt",
+    "site": "Palmengarten",
+    "caption": "Palmengarten, Frankfurt",
+    "scenario": "24 September 2026 · 12:15 Europe/Berlin",
+    "composition": "Gardens and conservatories · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-005-16x9.png",
+    "file_4x5": "assets/de-he-005-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-006",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Kassel",
+    "site": "Bergpark Wilhelmshöhe",
+    "caption": "Bergpark Wilhelmshöhe, Kassel",
+    "scenario": "24 September 2026 · 12:15 Europe/Berlin",
+    "composition": "Hercules and park axes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-006-16x9.png",
+    "file_4x5": "assets/de-he-006-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-007",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Kassel",
+    "site": "Löwenburg",
+    "caption": "Löwenburg, Kassel",
+    "scenario": "24 September 2026 · 12:30 Europe/Berlin",
+    "composition": "Romantic castle in park · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-007-16x9.png",
+    "file_4x5": "assets/de-he-007-4x5.png"
+  },
+  {
     "entry_id": "DE-HH-001",
     "code": "HH",
     "state": "Hamburg",
