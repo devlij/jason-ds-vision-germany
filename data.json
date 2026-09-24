@@ -2509,6 +2509,45 @@
     "file_4x5": "assets/de-ni-006-4x5.png"
   },
   {
+    "entry_id": "DE-NI-007",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Celle",
+    "site": "Old town",
+    "caption": "Old town, Celle",
+    "scenario": "24 September 2026 · 20:45 Europe/Berlin",
+    "composition": "Half-timbered streets · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-007-16x9.png",
+    "file_4x5": "assets/de-ni-007-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-008",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Celle",
+    "site": "Celle Palace",
+    "caption": "Celle Palace, Celle",
+    "scenario": "24 September 2026 · 20:45 Europe/Berlin",
+    "composition": "Palace and moat park · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-008-16x9.png",
+    "file_4x5": "assets/de-ni-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-009",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Lüneburg",
+    "site": "Am Sande",
+    "caption": "Am Sande, Lüneburg",
+    "scenario": "24 September 2026 · 21:00 Europe/Berlin",
+    "composition": "Brick gables and square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-009-16x9.png",
+    "file_4x5": "assets/de-ni-009-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
