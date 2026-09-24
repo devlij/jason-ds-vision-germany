@@ -130,6 +130,45 @@
     "file_4x5": "assets/de-be-010-4x5.png"
   },
   {
+    "entry_id": "DE-BE-011",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Tiergarten",
+    "site": "Victory Column",
+    "caption": "Victory Column, Tiergarten",
+    "scenario": "24 September 2026 · 02:45 Europe/Berlin",
+    "composition": "Monument and avenue · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-011-16x9.png",
+    "file_4x5": "assets/de-be-011-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-012",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Memorial to the Murdered Jews of Europe",
+    "caption": "Memorial to the Murdered Jews of Europe, Mitte",
+    "scenario": "24 September 2026 · 02:45 Europe/Berlin",
+    "composition": "Memorial documentation · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-012-16x9.png",
+    "file_4x5": "assets/de-be-012-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-013",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Berlin Wall Memorial",
+    "caption": "Berlin Wall Memorial, Mitte",
+    "scenario": "24 September 2026 · 03:00 Europe/Berlin",
+    "composition": "Preserved border setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-013-16x9.png",
+    "file_4x5": "assets/de-be-013-4x5.png"
+  },
+  {
     "entry_id": "DE-BW-001",
     "code": "BW",
     "state": "Baden-Württemberg",
