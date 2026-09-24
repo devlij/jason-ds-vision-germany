@@ -143,6 +143,45 @@
     "file_4x5": "assets/de-bb-012-4x5.png"
   },
   {
+    "entry_id": "DE-BB-013",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Beelitz",
+    "site": "Beelitz-Heilstätten",
+    "caption": "Beelitz-Heilstätten, Beelitz",
+    "scenario": "24 September 2026 · 06:15 Europe/Berlin",
+    "composition": "Historic hospital architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-013-16x9.png",
+    "file_4x5": "assets/de-bb-013-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-014",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Niederfinow",
+    "site": "Ship lifts",
+    "caption": "Ship lifts, Niederfinow",
+    "scenario": "24 September 2026 · 06:15 Europe/Berlin",
+    "composition": "Canal engineering · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-014-16x9.png",
+    "file_4x5": "assets/de-bb-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-015",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Brandenburg an der Havel",
+    "site": "Cathedral island",
+    "caption": "Cathedral island, Brandenburg an der Havel",
+    "scenario": "24 September 2026 · 06:30 Europe/Berlin",
+    "composition": "Cathedral and waterways · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-015-16x9.png",
+    "file_4x5": "assets/de-bb-015-4x5.png"
+  },
+  {
     "entry_id": "DE-BE-001",
     "code": "BE",
     "state": "Berlin",
