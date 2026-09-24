@@ -2275,6 +2275,45 @@
     "file_4x5": "assets/de-mv-012-4x5.png"
   },
   {
+    "entry_id": "DE-MV-013",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Wismar",
+    "site": "Old harbor",
+    "caption": "Old harbor, Wismar",
+    "scenario": "24 September 2026 · 17:15 Europe/Berlin",
+    "composition": "Warehouses and boats · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-013-16x9.png",
+    "file_4x5": "assets/de-mv-013-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-014",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Wismar",
+    "site": "Market square",
+    "caption": "Market square, Wismar",
+    "scenario": "24 September 2026 · 17:15 Europe/Berlin",
+    "composition": "Water pavilion and historic facades · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-014-16x9.png",
+    "file_4x5": "assets/de-mv-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-015",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rostock",
+    "site": "Warnemünde lighthouse",
+    "caption": "Warnemünde lighthouse, Rostock",
+    "scenario": "24 September 2026 · 17:30 Europe/Berlin",
+    "composition": "Lighthouse and Teepott · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-015-16x9.png",
+    "file_4x5": "assets/de-mv-015-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
