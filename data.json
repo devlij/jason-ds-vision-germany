@@ -2392,6 +2392,45 @@
     "file_4x5": "assets/de-mv-021-4x5.png"
   },
   {
+    "entry_id": "DE-MV-022",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Müritz National Park",
+    "site": "Lakes and wetlands",
+    "caption": "Lakes and wetlands, Müritz National Park",
+    "scenario": "24 September 2026 · 18:45 Europe/Berlin",
+    "composition": "Designated observation sites · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-022-16x9.png",
+    "file_4x5": "assets/de-mv-022-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-023",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Güstrow",
+    "site": "Güstrow Palace",
+    "caption": "Güstrow Palace, Güstrow",
+    "scenario": "24 September 2026 · 19:00 Europe/Berlin",
+    "composition": "Renaissance palace · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-023-16x9.png",
+    "file_4x5": "assets/de-mv-023-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-024",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Ludwigslust",
+    "site": "Ludwigslust Palace",
+    "caption": "Ludwigslust Palace, Ludwigslust",
+    "scenario": "24 September 2026 · 19:00 Europe/Berlin",
+    "composition": "Palace and park axis · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-024-16x9.png",
+    "file_4x5": "assets/de-mv-024-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
