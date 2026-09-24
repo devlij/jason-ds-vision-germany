@@ -91,6 +91,45 @@
     "file_4x5": "assets/de-be-007-4x5.png"
   },
   {
+    "entry_id": "DE-BE-008",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Friedrichshain",
+    "site": "East Side Gallery",
+    "caption": "East Side Gallery, Friedrichshain",
+    "scenario": "24 September 2026 · 02:15 Europe/Berlin",
+    "composition": "Wall murals; artwork review needed · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-008-16x9.png",
+    "file_4x5": "assets/de-be-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-009",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Friedrichshain/Kreuzberg",
+    "site": "Oberbaum Bridge",
+    "caption": "Oberbaum Bridge, Friedrichshain/Kreuzberg",
+    "scenario": "24 September 2026 · 02:15 Europe/Berlin",
+    "composition": "Brick towers over Spree · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-009-16x9.png",
+    "file_4x5": "assets/de-be-009-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-010",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Charlottenburg",
+    "site": "Charlottenburg Palace",
+    "caption": "Charlottenburg Palace, Charlottenburg",
+    "scenario": "24 September 2026 · 02:30 Europe/Berlin",
+    "composition": "Palace and gardens · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-010-16x9.png",
+    "file_4x5": "assets/de-be-010-4x5.png"
+  },
+  {
     "entry_id": "DE-BW-001",
     "code": "BW",
     "state": "Baden-Württemberg",
