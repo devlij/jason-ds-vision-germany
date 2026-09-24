@@ -1781,6 +1781,45 @@
     "file_4x5": "assets/de-he-013-4x5.png"
   },
   {
+    "entry_id": "DE-HE-014",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Lorch",
+    "site": "Rhine vineyards",
+    "caption": "Rhine vineyards, Lorch",
+    "scenario": "24 September 2026 · 13:45 Europe/Berlin",
+    "composition": "River valley landscape · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-he-014-16x9.png",
+    "file_4x5": "assets/de-he-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-015",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Wiesbaden",
+    "site": "Kurhaus",
+    "caption": "Kurhaus, Wiesbaden",
+    "scenario": "24 September 2026 · 13:45 Europe/Berlin",
+    "composition": "Building and park · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-he-015-16x9.png",
+    "file_4x5": "assets/de-he-015-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-016",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Darmstadt",
+    "site": "Mathildenhöhe",
+    "caption": "Mathildenhöhe, Darmstadt",
+    "scenario": "24 September 2026 · 14:00 Europe/Berlin",
+    "composition": "Wedding Tower and artists’ colony · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-he-016-16x9.png",
+    "file_4x5": "assets/de-he-016-4x5.png"
+  },
+  {
     "entry_id": "DE-HH-001",
     "code": "HH",
     "state": "Hamburg",
