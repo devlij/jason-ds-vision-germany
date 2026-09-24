@@ -182,6 +182,45 @@
     "file_4x5": "assets/de-bb-015-4x5.png"
   },
   {
+    "entry_id": "DE-BB-016",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Werder (Havel)",
+    "site": "Island old town",
+    "caption": "Island old town, Werder (Havel)",
+    "scenario": "24 September 2026 · 06:45 Europe/Berlin",
+    "composition": "Waterfront and church · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-016-16x9.png",
+    "file_4x5": "assets/de-bb-016-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-017",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Forst (Lausitz)",
+    "site": "Forst Rose Garden",
+    "caption": "Forst Rose Garden, Forst (Lausitz)",
+    "scenario": "24 September 2026 · 06:45 Europe/Berlin",
+    "composition": "Formal flower gardens · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-017-16x9.png",
+    "file_4x5": "assets/de-bb-017-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-018",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Templin",
+    "site": "Town walls",
+    "caption": "Town walls, Templin",
+    "scenario": "24 September 2026 · 07:00 Europe/Berlin",
+    "composition": "Gates and historic streets · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-018-16x9.png",
+    "file_4x5": "assets/de-bb-018-4x5.png"
+  },
+  {
     "entry_id": "DE-BE-001",
     "code": "BE",
     "state": "Berlin",
