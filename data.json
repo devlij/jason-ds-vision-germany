@@ -2158,6 +2158,45 @@
     "file_4x5": "assets/de-mv-003-4x5.png"
   },
   {
+    "entry_id": "DE-MV-004",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rügen/Jasmund",
+    "site": "Victoria-Sicht",
+    "caption": "Victoria-Sicht, Rügen/Jasmund",
+    "scenario": "24 September 2026 · 15:45 Europe/Berlin",
+    "composition": "Chalk cliffs and Baltic · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-004-16x9.png",
+    "file_4x5": "assets/de-mv-004-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-005",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rügen/Sellin",
+    "site": "Sellin pier",
+    "caption": "Sellin pier, Rügen/Sellin",
+    "scenario": "24 September 2026 · 15:45 Europe/Berlin",
+    "composition": "Pier from promenade · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-005-16x9.png",
+    "file_4x5": "assets/de-mv-005-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-006",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rügen/Binz",
+    "site": "Beach and villas",
+    "caption": "Beach and villas, Rügen/Binz",
+    "scenario": "24 September 2026 · 16:00 Europe/Berlin",
+    "composition": "Resort architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-006-16x9.png",
+    "file_4x5": "assets/de-mv-006-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
