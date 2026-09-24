@@ -2353,6 +2353,45 @@
     "file_4x5": "assets/de-mv-018-4x5.png"
   },
   {
+    "entry_id": "DE-MV-019",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Zingst/Prerow",
+    "site": "Darß Weststrand",
+    "caption": "Darß Weststrand, Zingst/Prerow",
+    "scenario": "24 September 2026 · 18:15 Europe/Berlin",
+    "composition": "Wind-shaped trees and beach · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-019-16x9.png",
+    "file_4x5": "assets/de-mv-019-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-020",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Prerow",
+    "site": "Darßer Ort",
+    "caption": "Darßer Ort, Prerow",
+    "scenario": "24 September 2026 · 18:15 Europe/Berlin",
+    "composition": "Lighthouse and coastal landscape · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-020-16x9.png",
+    "file_4x5": "assets/de-mv-020-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-021",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Waren (Müritz)",
+    "site": "Harbor",
+    "caption": "Harbor, Waren (Müritz)",
+    "scenario": "24 September 2026 · 18:30 Europe/Berlin",
+    "composition": "Lakefront old town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-021-16x9.png",
+    "file_4x5": "assets/de-mv-021-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
