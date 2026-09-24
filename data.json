@@ -1573,6 +1573,45 @@
     "file_4x5": "assets/de-hb-006-4x5.png"
   },
   {
+    "entry_id": "DE-HB-007",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremerhaven",
+    "site": "Havenwelten",
+    "caption": "Havenwelten, Bremerhaven",
+    "scenario": "24 September 2026 · 08:15 Europe/Berlin",
+    "composition": "Waterfront and modern architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-007-16x9.png",
+    "file_4x5": "assets/de-hb-007-4x5.png"
+  },
+  {
+    "entry_id": "DE-HB-008",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremerhaven",
+    "site": "New Harbor",
+    "caption": "New Harbor, Bremerhaven",
+    "scenario": "24 September 2026 · 08:15 Europe/Berlin",
+    "composition": "Ships and lighthouse · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-008-16x9.png",
+    "file_4x5": "assets/de-hb-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-HB-009",
+    "code": "HB",
+    "state": "Bremen",
+    "city": "Bremerhaven",
+    "site": "Fishing Harbor",
+    "caption": "Fishing Harbor, Bremerhaven",
+    "scenario": "24 September 2026 · 08:30 Europe/Berlin",
+    "composition": "Maritime buildings and boats · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hb-009-16x9.png",
+    "file_4x5": "assets/de-hb-009-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
