@@ -2119,6 +2119,45 @@
     "file_4x5": "assets/de-hh-017-4x5.png"
   },
   {
+    "entry_id": "DE-MV-001",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Schwerin",
+    "site": "Schwerin Castle",
+    "caption": "Schwerin Castle, Schwerin",
+    "scenario": "24 September 2026 · 15:15 Europe/Berlin",
+    "composition": "Lake and palace ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-001-16x9.png",
+    "file_4x5": "assets/de-mv-001-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-002",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Schwerin",
+    "site": "Old town",
+    "caption": "Old town, Schwerin",
+    "scenario": "24 September 2026 · 15:15 Europe/Berlin",
+    "composition": "Market square and cathedral · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-002-16x9.png",
+    "file_4x5": "assets/de-mv-002-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-003",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rügen/Jasmund",
+    "site": "Königsstuhl",
+    "caption": "Königsstuhl, Rügen/Jasmund",
+    "scenario": "24 September 2026 · 15:30 Europe/Berlin",
+    "composition": "Chalk coast from designated overlooks · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-003-16x9.png",
+    "file_4x5": "assets/de-mv-003-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
