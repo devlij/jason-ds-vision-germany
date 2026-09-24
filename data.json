@@ -1612,6 +1612,45 @@
     "file_4x5": "assets/de-hb-009-4x5.png"
   },
   {
+    "entry_id": "DE-HH-001",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Speicherstadt",
+    "site": "Wasserschloss",
+    "caption": "Wasserschloss, Speicherstadt",
+    "scenario": "24 September 2026 · 08:45 Europe/Berlin",
+    "composition": "Canal junction from Poggenmühlenbrücke area · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-001-16x9.png",
+    "file_4x5": "assets/de-hh-001-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-002",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Speicherstadt",
+    "site": "Warehouse canals",
+    "caption": "Warehouse canals, Speicherstadt",
+    "scenario": "24 September 2026 · 08:45 Europe/Berlin",
+    "composition": "Red-brick reflections · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-002-16x9.png",
+    "file_4x5": "assets/de-hh-002-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-003",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "HafenCity",
+    "site": "Elbphilharmonie",
+    "caption": "Elbphilharmonie, HafenCity",
+    "scenario": "24 September 2026 · 09:00 Europe/Berlin",
+    "composition": "Waterfront exterior · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-003-16x9.png",
+    "file_4x5": "assets/de-hh-003-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
