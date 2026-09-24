@@ -65,6 +65,45 @@
     "file_4x5": "assets/de-bb-005-4x5.png"
   },
   {
+    "entry_id": "DE-BB-006",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Potsdam/Berlin boundary",
+    "site": "Glienicke Bridge",
+    "caption": "Glienicke Bridge, Potsdam/Berlin boundary",
+    "scenario": "24 September 2026 · 05:15 Europe/Berlin",
+    "composition": "Bridge and Havel · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-006-16x9.png",
+    "file_4x5": "assets/de-bb-006-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-008",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Burg",
+    "site": "Spreewald waterways",
+    "caption": "Spreewald waterways, Burg",
+    "scenario": "24 September 2026 · 05:15 Europe/Berlin",
+    "composition": "Rural canals and meadows · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-008-16x9.png",
+    "file_4x5": "assets/de-bb-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-009",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Rheinsberg",
+    "site": "Rheinsberg Palace",
+    "caption": "Rheinsberg Palace, Rheinsberg",
+    "scenario": "24 September 2026 · 05:15 Europe/Berlin",
+    "composition": "Lakeside palace · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-009-16x9.png",
+    "file_4x5": "assets/de-bb-009-4x5.png"
+  },
+  {
     "entry_id": "DE-BE-001",
     "code": "BE",
     "state": "Berlin",
