@@ -1612,6 +1612,19 @@
     "file_4x5": "assets/de-hb-009-4x5.png"
   },
   {
+    "entry_id": "DE-HE-001",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Frankfurt",
+    "site": "Römerberg",
+    "caption": "Römerberg, Frankfurt",
+    "scenario": "24 September 2026 · 11:30 Europe/Berlin",
+    "composition": "Town Hall and square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-001-16x9.png",
+    "file_4x5": "assets/de-he-001-4x5.png"
+  },
+  {
     "entry_id": "DE-HH-001",
     "code": "HH",
     "state": "Hamburg",
@@ -1805,6 +1818,32 @@
     "approved": true,
     "file_16x9": "assets/de-hh-015-16x9.png",
     "file_4x5": "assets/de-hh-015-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-016",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Speicherstadt",
+    "site": "Miniatur Wunderland",
+    "caption": "Miniatur Wunderland, Speicherstadt",
+    "scenario": "24 September 2026 · 11:15 Europe/Berlin",
+    "composition": "Model scenes; controlled interior · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-016-16x9.png",
+    "file_4x5": "assets/de-hh-016-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-017",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Neuwerk",
+    "site": "Island lighthouse",
+    "caption": "Island lighthouse, Neuwerk",
+    "scenario": "24 September 2026 · 11:15 Europe/Berlin",
+    "composition": "Tower and coastal landscape · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-017-16x9.png",
+    "file_4x5": "assets/de-hh-017-4x5.png"
   },
   {
     "entry_id": "DE-SH-001",
