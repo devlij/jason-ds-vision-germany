@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jason D&rsquo;s Vision &mdash; Germany &mdash; Thuringia</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jason D's Vision">
+<meta property="og:title" content="Jason D&#x27;s Vision — Germany — Thuringia">
+<meta property="og:description" content="21 AI-generated artistic interpretations of Thuringia, Germany.">
+<meta property="og:image" content="https://devlij.github.io/jason-ds-vision-germany/assets/de-th-001-16x9.png">
+<meta property="og:url" content="https://devlij.github.io/jason-ds-vision-germany/states/th.html">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   * { box-sizing: border-box; }
   body { margin: 0; font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -81,6 +88,22 @@
   .state-card p { margin: 0; color: #a79c86; font-size: 13px; }
   .back { display: inline-block; margin: 18px 0 0; color: #e8c47c; text-decoration: none; font-size: 14px; }
   .back:hover { text-decoration: underline; }
+
+  .lb { position: fixed; inset: 0; z-index: 60; display: none; align-items: center;
+        justify-content: center; background: rgba(8,8,10,.93); }
+  .lb.open { display: flex; }
+  .lb figure { margin: 0; max-width: 94vw; }
+  .lb img { max-width: 94vw; max-height: 80vh; display: block; border-radius: 6px; }
+  .lb figcaption { display: flex; justify-content: space-between; gap: 16px; color: #f2ede3;
+                   font-size: 14px; padding: 10px 2px 0; }
+  .lb-count { color: #a79c86; white-space: nowrap; }
+  .lb-close, .lb-prev, .lb-next { position: absolute; background: rgba(20,17,9,.85); color: #f2ede3;
+        border: 1px solid #4a3f2c; border-radius: 999px; width: 46px; height: 46px;
+        font-size: 20px; cursor: pointer; line-height: 1; }
+  .lb-close { top: 14px; right: 14px; }
+  .lb-prev { left: 12px; top: 50%; transform: translateY(-50%); }
+  .lb-next { right: 12px; top: 50%; transform: translateY(-50%); }
+  @media (max-width: 640px) { .lb-prev { left: 4px; } .lb-next { right: 4px; } }
 </style>
 </head>
 <body>
@@ -712,6 +735,64 @@
         link.classList.toggle('tall', fmt === '4x5');
       }));
     });
+
+(function(){
+  var overlay = document.createElement('div');
+  overlay.className = 'lb';
+  overlay.setAttribute('aria-hidden', 'true');
+  overlay.innerHTML = '<button class="lb-close" aria-label="Close">&times;</button>'
+    + '<button class="lb-prev" aria-label="Previous image">&#8592;</button>'
+    + '<figure><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-count"></span></figcaption></figure>'
+    + '<button class="lb-next" aria-label="Next image">&#8594;</button>';
+  document.body.appendChild(overlay);
+  var img = overlay.querySelector('img');
+  var cap = overlay.querySelector('.lb-cap');
+  var count = overlay.querySelector('.lb-count');
+  var items = [], idx = 0;
+  function visibleCards(){
+    return Array.prototype.filter.call(document.querySelectorAll('.card'),
+      function(c){ return c.style.display !== 'none'; });
+  }
+  function show(i){
+    items = visibleCards().map(function(c){
+      var a = c.querySelector('a.thumb');
+      var t = c.querySelector('.caption');
+      return { src: a ? a.href : '', cap: t ? t.textContent : '' };
+    }).filter(function(x){ return x.src; });
+    if (!items.length) return;
+    idx = (i + items.length) % items.length;
+    img.src = items[idx].src;
+    img.alt = items[idx].cap;
+    cap.textContent = items[idx].cap;
+    count.textContent = (idx + 1) + ' / ' + items.length;
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function hide(){
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest ? e.target.closest('a.thumb') : null;
+    if (a) {
+      e.preventDefault();
+      var cards = visibleCards();
+      show(cards.indexOf(a.closest('.card')));
+      return;
+    }
+    if (e.target === overlay || (e.target.closest && e.target.closest('.lb-close'))) hide();
+    else if (e.target.closest && e.target.closest('.lb-prev')) show(idx - 1);
+    else if (e.target.closest && e.target.closest('.lb-next')) show(idx + 1);
+  });
+  document.addEventListener('keydown', function(e){
+    if (!overlay.classList.contains('open')) return;
+    if (e.key === 'Escape') hide();
+    else if (e.key === 'ArrowLeft') show(idx - 1);
+    else if (e.key === 'ArrowRight') show(idx + 1);
+  });
+})();
 </script>
 </body>
 </html>
