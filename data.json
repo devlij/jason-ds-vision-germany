@@ -2587,6 +2587,45 @@
     "file_4x5": "assets/de-ni-012-4x5.png"
   },
   {
+    "entry_id": "DE-NI-013",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Braunschweig",
+    "site": "Burgplatz",
+    "caption": "Burgplatz, Braunschweig",
+    "scenario": "24 September 2026 · 21:45 Europe/Berlin",
+    "composition": "Cathedral and lion · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-013-16x9.png",
+    "file_4x5": "assets/de-ni-013-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-014",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Wolfsburg",
+    "site": "Autostadt",
+    "caption": "Autostadt, Wolfsburg",
+    "scenario": "24 September 2026 · 21:45 Europe/Berlin",
+    "composition": "Modern automotive architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-014-16x9.png",
+    "file_4x5": "assets/de-ni-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-015",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Hann. Münden",
+    "site": "Riverfront old town",
+    "caption": "Riverfront old town, Hann. Münden",
+    "scenario": "24 September 2026 · 22:00 Europe/Berlin",
+    "composition": "Timber houses and bridges · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-015-16x9.png",
+    "file_4x5": "assets/de-ni-015-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
