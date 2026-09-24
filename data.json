@@ -1820,6 +1820,45 @@
     "file_4x5": "assets/de-he-016-4x5.png"
   },
   {
+    "entry_id": "DE-HE-017",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Fritzlar",
+    "site": "Market square",
+    "caption": "Market square, Fritzlar",
+    "scenario": "24 September 2026 · 14:15 Europe/Berlin",
+    "composition": "Half-timbered ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-017-16x9.png",
+    "file_4x5": "assets/de-he-017-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-018",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Edertal",
+    "site": "Edersee dam",
+    "caption": "Edersee dam, Edertal",
+    "scenario": "24 September 2026 · 14:15 Europe/Berlin",
+    "composition": "Dam and reservoir · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-018-16x9.png",
+    "file_4x5": "assets/de-he-018-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-019",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Waldeck",
+    "site": "Waldeck Castle",
+    "caption": "Waldeck Castle, Waldeck",
+    "scenario": "24 September 2026 · 14:30 Europe/Berlin",
+    "composition": "Castle and lake outlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-019-16x9.png",
+    "file_4x5": "assets/de-he-019-4x5.png"
+  },
+  {
     "entry_id": "DE-HH-001",
     "code": "HH",
     "state": "Hamburg",
