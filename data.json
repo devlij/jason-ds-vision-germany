@@ -1,5 +1,31 @@
 [
   {
+    "entry_id": "DE-BB-001",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Potsdam",
+    "site": "Sanssouci",
+    "caption": "Sanssouci, Potsdam",
+    "scenario": "24 September 2026 · 04:15 Europe/Berlin",
+    "composition": "Terraces and palace · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-001-16x9.png",
+    "file_4x5": "assets/de-bb-001-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-002",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Potsdam",
+    "site": "Neues Palais",
+    "caption": "Neues Palais, Potsdam",
+    "scenario": "24 September 2026 · 04:30 Europe/Berlin",
+    "composition": "Palace and garden approach · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-002-16x9.png",
+    "file_4x5": "assets/de-bb-002-4x5.png"
+  },
+  {
     "entry_id": "DE-BE-001",
     "code": "BE",
     "state": "Berlin",
@@ -245,6 +271,19 @@
     "approved": true,
     "file_16x9": "assets/de-be-019-16x9.png",
     "file_4x5": "assets/de-be-019-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-020",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Köpenick",
+    "site": "Old town and palace",
+    "caption": "Old town and palace, Köpenick",
+    "scenario": "24 September 2026 · 04:15 Europe/Berlin",
+    "composition": "Riverfront architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-020-16x9.png",
+    "file_4x5": "assets/de-be-020-4x5.png"
   },
   {
     "entry_id": "DE-BW-001",
