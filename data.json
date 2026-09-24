@@ -1703,6 +1703,45 @@
     "file_4x5": "assets/de-he-007-4x5.png"
   },
   {
+    "entry_id": "DE-HE-008",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Marburg",
+    "site": "Old town",
+    "caption": "Old town, Marburg",
+    "scenario": "24 September 2026 · 12:45 Europe/Berlin",
+    "composition": "Steep lanes and timber houses · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-008-16x9.png",
+    "file_4x5": "assets/de-he-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-009",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Marburg",
+    "site": "Landgrafenschloss",
+    "caption": "Landgrafenschloss, Marburg",
+    "scenario": "24 September 2026 · 12:45 Europe/Berlin",
+    "composition": "Castle and town outlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-009-16x9.png",
+    "file_4x5": "assets/de-he-009-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-010",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Limburg an der Lahn",
+    "site": "Cathedral",
+    "caption": "Cathedral, Limburg an der Lahn",
+    "scenario": "24 September 2026 · 13:00 Europe/Berlin",
+    "composition": "Cathedral above river · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-010-16x9.png",
+    "file_4x5": "assets/de-he-010-4x5.png"
+  },
+  {
     "entry_id": "DE-HH-001",
     "code": "HH",
     "state": "Hamburg",
