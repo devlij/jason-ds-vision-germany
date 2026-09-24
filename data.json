@@ -2431,6 +2431,45 @@
     "file_4x5": "assets/de-mv-024-4x5.png"
   },
   {
+    "entry_id": "DE-NI-002",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Hannover",
+    "site": "Maschteich",
+    "caption": "Maschteich, Hannover",
+    "scenario": "24 September 2026 · 19:45 Europe/Berlin",
+    "composition": "Rathaus from park-side lake · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-002-16x9.png",
+    "file_4x5": "assets/de-ni-002-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-003",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Hannover",
+    "site": "Herrenhausen Gardens",
+    "caption": "Herrenhausen Gardens, Hannover",
+    "scenario": "24 September 2026 · 20:00 Europe/Berlin",
+    "composition": "Formal garden axes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-003-16x9.png",
+    "file_4x5": "assets/de-ni-003-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-004",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Hannover",
+    "site": "Marktkirche and Old Town Hall",
+    "caption": "Marktkirche and Old Town Hall, Hannover",
+    "scenario": "24 September 2026 · 20:00 Europe/Berlin",
+    "composition": "Old-town square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-004-16x9.png",
+    "file_4x5": "assets/de-ni-004-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
