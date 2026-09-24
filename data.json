@@ -52,6 +52,45 @@
     "file_4x5": "assets/de-be-004-4x5.png"
   },
   {
+    "entry_id": "DE-BE-005",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Bode Museum",
+    "caption": "Bode Museum, Mitte",
+    "scenario": "24 September 2026 · 01:45 Europe/Berlin",
+    "composition": "Museum and river junction · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-005-16x9.png",
+    "file_4x5": "assets/de-be-005-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-006",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Gendarmenmarkt",
+    "caption": "Gendarmenmarkt, Mitte",
+    "scenario": "24 September 2026 · 01:45 Europe/Berlin",
+    "composition": "Concert hall and twin cathedral ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-006-16x9.png",
+    "file_4x5": "assets/de-be-006-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-007",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Alexanderplatz",
+    "caption": "Alexanderplatz, Mitte",
+    "scenario": "24 September 2026 · 02:00 Europe/Berlin",
+    "composition": "TV Tower and urban square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-007-16x9.png",
+    "file_4x5": "assets/de-be-007-4x5.png"
+  },
+  {
     "entry_id": "DE-BW-001",
     "code": "BW",
     "state": "Baden-Württemberg",
