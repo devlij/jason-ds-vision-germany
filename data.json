@@ -1690,6 +1690,45 @@
     "file_4x5": "assets/de-hh-006-4x5.png"
   },
   {
+    "entry_id": "DE-HH-007",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "St. Pauli/Steinwerder",
+    "site": "Old Elbe Tunnel",
+    "caption": "Old Elbe Tunnel, St. Pauli/Steinwerder",
+    "scenario": "24 September 2026 · 09:45 Europe/Berlin",
+    "composition": "Tunnel and south-bank skyline · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-007-16x9.png",
+    "file_4x5": "assets/de-hh-007-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-008",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Neustadt",
+    "site": "Jungfernstieg",
+    "caption": "Jungfernstieg, Neustadt",
+    "scenario": "24 September 2026 · 09:45 Europe/Berlin",
+    "composition": "Binnenalster waterfront · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-008-16x9.png",
+    "file_4x5": "assets/de-hh-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-009",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Rotherbaum/Uhlenhorst",
+    "site": "Außenalster",
+    "caption": "Außenalster, Rotherbaum/Uhlenhorst",
+    "scenario": "24 September 2026 · 10:00 Europe/Berlin",
+    "composition": "Lake and skyline · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-009-16x9.png",
+    "file_4x5": "assets/de-hh-009-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
