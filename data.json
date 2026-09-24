@@ -1742,6 +1742,45 @@
     "file_4x5": "assets/de-he-010-4x5.png"
   },
   {
+    "entry_id": "DE-HE-011",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Rüdesheim",
+    "site": "Drosselgasse",
+    "caption": "Drosselgasse, Rüdesheim",
+    "scenario": "24 September 2026 · 13:15 Europe/Berlin",
+    "composition": "Narrow wine-town lane · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-011-16x9.png",
+    "file_4x5": "assets/de-he-011-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-012",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Rüdesheim",
+    "site": "Niederwald Monument",
+    "caption": "Niederwald Monument, Rüdesheim",
+    "scenario": "24 September 2026 · 13:15 Europe/Berlin",
+    "composition": "Rhine and vineyard panorama · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-012-16x9.png",
+    "file_4x5": "assets/de-he-012-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-013",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Eltville",
+    "site": "Rhine waterfront",
+    "caption": "Rhine waterfront, Eltville",
+    "scenario": "24 September 2026 · 13:30 Europe/Berlin",
+    "composition": "Castle and old town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-013-16x9.png",
+    "file_4x5": "assets/de-he-013-4x5.png"
+  },
+  {
     "entry_id": "DE-HH-001",
     "code": "HH",
     "state": "Hamburg",
