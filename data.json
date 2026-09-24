@@ -2197,6 +2197,45 @@
     "file_4x5": "assets/de-mv-006-4x5.png"
   },
   {
+    "entry_id": "DE-MV-007",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rügen/Putgarten",
+    "site": "Cape Arkona",
+    "caption": "Cape Arkona, Rügen/Putgarten",
+    "scenario": "24 September 2026 · 16:15 Europe/Berlin",
+    "composition": "Lighthouses and coast · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-007-16x9.png",
+    "file_4x5": "assets/de-mv-007-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-008",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rügen/Putgarten",
+    "site": "Vitt",
+    "caption": "Vitt, Rügen/Putgarten",
+    "scenario": "24 September 2026 · 16:15 Europe/Berlin",
+    "composition": "Fishing village · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-008-16x9.png",
+    "file_4x5": "assets/de-mv-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-MV-009",
+    "code": "MV",
+    "state": "Mecklenburg-Western Pomerania",
+    "city": "Rügen/Granitz",
+    "site": "Granitz Hunting Lodge",
+    "caption": "Granitz Hunting Lodge, Rügen/Granitz",
+    "scenario": "24 September 2026 · 16:30 Europe/Berlin",
+    "composition": "Woodland castle · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-mv-009-16x9.png",
+    "file_4x5": "assets/de-mv-009-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
