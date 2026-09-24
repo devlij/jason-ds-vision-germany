@@ -104,6 +104,45 @@
     "file_4x5": "assets/de-bb-009-4x5.png"
   },
   {
+    "entry_id": "DE-BB-010",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Chorin",
+    "site": "Chorin Abbey",
+    "caption": "Chorin Abbey, Chorin",
+    "scenario": "24 September 2026 · 05:45 Europe/Berlin",
+    "composition": "Brick Gothic ruins · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-010-16x9.png",
+    "file_4x5": "assets/de-bb-010-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-011",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Neuzelle",
+    "site": "Neuzelle Abbey",
+    "caption": "Neuzelle Abbey, Neuzelle",
+    "scenario": "24 September 2026 · 05:45 Europe/Berlin",
+    "composition": "Baroque monastery · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-011-16x9.png",
+    "file_4x5": "assets/de-bb-011-4x5.png"
+  },
+  {
+    "entry_id": "DE-BB-012",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Cottbus",
+    "site": "Branitz Park",
+    "caption": "Branitz Park, Cottbus",
+    "scenario": "24 September 2026 · 06:00 Europe/Berlin",
+    "composition": "Lake pyramids · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-012-16x9.png",
+    "file_4x5": "assets/de-bb-012-4x5.png"
+  },
+  {
     "entry_id": "DE-BE-001",
     "code": "BE",
     "state": "Berlin",
