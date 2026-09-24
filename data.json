@@ -1625,6 +1625,45 @@
     "file_4x5": "assets/de-he-001-4x5.png"
   },
   {
+    "entry_id": "DE-HE-002",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Frankfurt",
+    "site": "Main skyline",
+    "caption": "Main skyline, Frankfurt",
+    "scenario": "24 September 2026 · 11:45 Europe/Berlin",
+    "composition": "Riverbank near Eiserner Steg · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-002-16x9.png",
+    "file_4x5": "assets/de-he-002-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-003",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Frankfurt",
+    "site": "Main Tower",
+    "caption": "Main Tower, Frankfurt",
+    "scenario": "24 September 2026 · 11:45 Europe/Berlin",
+    "composition": "Elevated city panorama · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-003-16x9.png",
+    "file_4x5": "assets/de-he-003-4x5.png"
+  },
+  {
+    "entry_id": "DE-HE-004",
+    "code": "HE",
+    "state": "Hesse",
+    "city": "Frankfurt",
+    "site": "Neue Altstadt",
+    "caption": "Neue Altstadt, Frankfurt",
+    "scenario": "24 September 2026 · 12:00 Europe/Berlin",
+    "composition": "Reconstructed old-town streets · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-he-004-16x9.png",
+    "file_4x5": "assets/de-he-004-4x5.png"
+  },
+  {
     "entry_id": "DE-HH-001",
     "code": "HH",
     "state": "Hamburg",
