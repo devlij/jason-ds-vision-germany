@@ -1729,6 +1729,45 @@
     "file_4x5": "assets/de-hh-009-4x5.png"
   },
   {
+    "entry_id": "DE-HH-010",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Altstadt",
+    "site": "Chilehaus",
+    "caption": "Chilehaus, Altstadt",
+    "scenario": "24 September 2026 · 10:15 Europe/Berlin",
+    "composition": "Pointed brick facade · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-010-16x9.png",
+    "file_4x5": "assets/de-hh-010-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-011",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Blankenese",
+    "site": "Treppenviertel",
+    "caption": "Treppenviertel, Blankenese",
+    "scenario": "24 September 2026 · 10:15 Europe/Berlin",
+    "composition": "Hillside houses and stairs · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-011-16x9.png",
+    "file_4x5": "assets/de-hh-011-4x5.png"
+  },
+  {
+    "entry_id": "DE-HH-012",
+    "code": "HH",
+    "state": "Hamburg",
+    "city": "Othmarschen",
+    "site": "Övelgönne",
+    "caption": "Övelgönne, Othmarschen",
+    "scenario": "24 September 2026 · 10:30 Europe/Berlin",
+    "composition": "Beach and museum harbor · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-hh-012-16x9.png",
+    "file_4x5": "assets/de-hh-012-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
