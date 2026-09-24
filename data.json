@@ -2626,6 +2626,45 @@
     "file_4x5": "assets/de-ni-015-4x5.png"
   },
   {
+    "entry_id": "DE-NI-016",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Lüneburg Heath",
+    "site": "Wilseder Berg",
+    "caption": "Wilseder Berg, Lüneburg Heath",
+    "scenario": "24 September 2026 · 22:15 Europe/Berlin",
+    "composition": "Heathland panorama · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-016-16x9.png",
+    "file_4x5": "assets/de-ni-016-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-017",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Schneverdingen",
+    "site": "Höpen heath",
+    "caption": "Höpen heath, Schneverdingen",
+    "scenario": "24 September 2026 · 22:15 Europe/Berlin",
+    "composition": "Seasonal heather landscape · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-017-16x9.png",
+    "file_4x5": "assets/de-ni-017-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-018",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Bispingen",
+    "site": "Totengrund",
+    "caption": "Totengrund, Bispingen",
+    "scenario": "24 September 2026 · 22:30 Europe/Berlin",
+    "composition": "Heath valley overlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-018-16x9.png",
+    "file_4x5": "assets/de-ni-018-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
