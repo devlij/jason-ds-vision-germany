@@ -208,6 +208,45 @@
     "file_4x5": "assets/de-be-016-4x5.png"
   },
   {
+    "entry_id": "DE-BE-017",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Mitte",
+    "site": "Hackesche Höfe",
+    "caption": "Hackesche Höfe, Mitte",
+    "scenario": "24 September 2026 · 03:45 Europe/Berlin",
+    "composition": "Courtyard architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-017-16x9.png",
+    "file_4x5": "assets/de-be-017-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-018",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Grunewald",
+    "site": "Teufelsberg",
+    "caption": "Teufelsberg, Grunewald",
+    "scenario": "24 September 2026 · 03:45 Europe/Berlin",
+    "composition": "Former listening station · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-018-16x9.png",
+    "file_4x5": "assets/de-be-018-4x5.png"
+  },
+  {
+    "entry_id": "DE-BE-019",
+    "code": "BE",
+    "state": "Berlin",
+    "city": "Treptow",
+    "site": "Spree riverfront",
+    "caption": "Spree riverfront, Treptow",
+    "scenario": "24 September 2026 · 04:00 Europe/Berlin",
+    "composition": "Molecule Man and city backdrop · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-be-019-16x9.png",
+    "file_4x5": "assets/de-be-019-4x5.png"
+  },
+  {
     "entry_id": "DE-BW-001",
     "code": "BW",
     "state": "Baden-Württemberg",
