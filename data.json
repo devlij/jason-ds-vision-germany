@@ -2704,6 +2704,32 @@
     "file_4x5": "assets/de-ni-021-4x5.png"
   },
   {
+    "entry_id": "DE-NI-026",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Bad Harzburg",
+    "site": "Treetop walk",
+    "caption": "Treetop walk, Bad Harzburg",
+    "scenario": "25 September 2026 · 07:30 Europe/Berlin",
+    "composition": "Forest canopy walkway · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-026-16x9.png",
+    "file_4x5": "assets/de-ni-026-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-027",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Torfhaus",
+    "site": "Harz outlook",
+    "caption": "Harz outlook, Torfhaus",
+    "scenario": "25 September 2026 · 07:15 Europe/Berlin",
+    "composition": "Brocken view from designated paths · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-027-16x9.png",
+    "file_4x5": "assets/de-ni-027-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
@@ -3027,6 +3053,19 @@
     "approved": true,
     "file_16x9": "assets/de-sh-025-16x9.png",
     "file_4x5": "assets/de-sh-025-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-005",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Harz",
+    "site": "Brocken",
+    "caption": "Brocken, Harz",
+    "scenario": "25 September 2026 · 07:15 Europe/Berlin",
+    "composition": "Summit and mountain railway · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-005-16x9.png",
+    "file_4x5": "assets/de-st-005-4x5.png"
   },
   {
     "entry_id": "DE-ST-022",
