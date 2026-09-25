@@ -2665,6 +2665,32 @@
     "file_4x5": "assets/de-ni-018-4x5.png"
   },
   {
+    "entry_id": "DE-NI-019",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Cuxhaven",
+    "site": "Kugelbake",
+    "caption": "Kugelbake, Cuxhaven",
+    "scenario": "25 September 2026 · 05:15 Europe/Berlin",
+    "composition": "Maritime beacon and shore · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-019-16x9.png",
+    "file_4x5": "assets/de-ni-019-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-020",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Greetsiel",
+    "site": "Harbor",
+    "caption": "Harbor, Greetsiel",
+    "scenario": "25 September 2026 · 05:15 Europe/Berlin",
+    "composition": "Fishing boats and gabled houses · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-020-16x9.png",
+    "file_4x5": "assets/de-ni-020-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
