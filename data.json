@@ -2730,6 +2730,32 @@
     "file_4x5": "assets/de-ni-027-4x5.png"
   },
   {
+    "entry_id": "DE-NI-028",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Bückeburg",
+    "site": "Bückeburg Palace",
+    "caption": "Bückeburg Palace, Bückeburg",
+    "scenario": "25 September 2026 · 17:00 Europe/Berlin",
+    "composition": "Palace facade and park · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-028-16x9.png",
+    "file_4x5": "assets/de-ni-028-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-009",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Münster",
+    "site": "Aasee",
+    "caption": "Aasee, Münster",
+    "scenario": "25 September 2026 · 16:45 Europe/Berlin",
+    "composition": "Lake and city park · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-009-16x9.png",
+    "file_4x5": "assets/de-nw-009-4x5.png"
+  },
+  {
     "entry_id": "DE-NW-012",
     "code": "NW",
     "state": "North Rhine-Westphalia",
@@ -3989,6 +4015,19 @@
     "approved": true,
     "file_16x9": "assets/de-th-016-16x9.png",
     "file_4x5": "assets/de-th-016-4x5.png"
+  },
+  {
+    "entry_id": "DE-TH-017",
+    "code": "TH",
+    "state": "Thuringia",
+    "city": "Meiningen",
+    "site": "Elisabethenburg Palace",
+    "caption": "Elisabethenburg Palace, Meiningen",
+    "scenario": "25 September 2026 · 16:45 Europe/Berlin",
+    "composition": "Palace courtyard · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-th-017-16x9.png",
+    "file_4x5": "assets/de-th-017-4x5.png"
   },
   {
     "entry_id": "DE-TH-018",
