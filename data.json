@@ -2860,6 +2860,32 @@
     "file_4x5": "assets/de-rp-019-4x5.png"
   },
   {
+    "entry_id": "DE-RP-020",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Dahn",
+    "site": "Altdahn castle ruins",
+    "caption": "Altdahn castle ruins, Dahn",
+    "scenario": "25 September 2026 · 13:15 Europe/Berlin",
+    "composition": "Sandstone and castle group · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-020-16x9.png",
+    "file_4x5": "assets/de-rp-020-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-021",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Hinterweidenthal",
+    "site": "Devil’s Table, Hinterweidenthal",
+    "caption": "Devil’s Table, Hinterweidenthal, Hinterweidenthal",
+    "scenario": "25 September 2026 · 13:15 Europe/Berlin",
+    "composition": "Sandstone rock formation · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-021-16x9.png",
+    "file_4x5": "assets/de-rp-021-4x5.png"
+  },
+  {
     "entry_id": "DE-RP-022",
     "code": "RP",
     "state": "Rhineland-Palatinate",
@@ -3222,6 +3248,19 @@
     "approved": true,
     "file_16x9": "assets/de-sh-025-16x9.png",
     "file_4x5": "assets/de-sh-025-4x5.png"
+  },
+  {
+    "entry_id": "DE-SL-001",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Mettlach-Orscholz",
+    "site": "Saarschleife",
+    "caption": "Saarschleife, Mettlach-Orscholz",
+    "scenario": "25 September 2026 · 13:30 Europe/Berlin",
+    "composition": "River bend from Cloef · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-001-16x9.png",
+    "file_4x5": "assets/de-sl-001-4x5.png"
   },
   {
     "entry_id": "DE-SN-007",
