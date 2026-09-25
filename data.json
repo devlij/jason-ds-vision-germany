@@ -2821,6 +2821,45 @@
     "file_4x5": "assets/de-nw-002-4x5.png"
   },
   {
+    "entry_id": "DE-NW-003",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "site": "Rheinauhafen",
+    "caption": "Rheinauhafen, Cologne",
+    "scenario": "25 September 2026 · 18:15 Europe/Berlin",
+    "composition": "Crane Houses and river · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-003-16x9.png",
+    "file_4x5": "assets/de-nw-003-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-004",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Düsseldorf",
+    "site": "MedienHafen",
+    "caption": "MedienHafen, Düsseldorf",
+    "scenario": "25 September 2026 · 18:15 Europe/Berlin",
+    "composition": "Gehry buildings and harbor · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-004-16x9.png",
+    "file_4x5": "assets/de-nw-004-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-005",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Düsseldorf",
+    "site": "Rhine promenade",
+    "caption": "Rhine promenade, Düsseldorf",
+    "scenario": "25 September 2026 · 18:30 Europe/Berlin",
+    "composition": "Old town and Rhine Tower · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-005-16x9.png",
+    "file_4x5": "assets/de-nw-005-4x5.png"
+  },
+  {
     "entry_id": "DE-NW-009",
     "code": "NW",
     "state": "North Rhine-Westphalia",
