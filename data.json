@@ -2860,6 +2860,32 @@
     "file_4x5": "assets/de-nw-005-4x5.png"
   },
   {
+    "entry_id": "DE-NW-006",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Düsseldorf",
+    "site": "Königsallee",
+    "caption": "Königsallee, Düsseldorf",
+    "scenario": "25 September 2026 · 18:45 Europe/Berlin",
+    "composition": "Canal and avenue · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-nw-006-16x9.png",
+    "file_4x5": "assets/de-nw-006-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-007",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Aachen",
+    "site": "Cathedral and Katschhof",
+    "caption": "Cathedral and Katschhof, Aachen",
+    "scenario": "25 September 2026 · 18:45 Europe/Berlin",
+    "composition": "Cathedral and Town Hall ensemble · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-nw-007-16x9.png",
+    "file_4x5": "assets/de-nw-007-4x5.png"
+  },
+  {
     "entry_id": "DE-NW-009",
     "code": "NW",
     "state": "North Rhine-Westphalia",
