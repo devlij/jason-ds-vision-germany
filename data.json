@@ -2730,6 +2730,19 @@
     "file_4x5": "assets/de-ni-027-4x5.png"
   },
   {
+    "entry_id": "DE-NW-012",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Königswinter",
+    "site": "Drachenfels",
+    "caption": "Drachenfels, Königswinter",
+    "scenario": "25 September 2026 · 12:00 Europe/Berlin",
+    "composition": "Rhine valley overlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-012-16x9.png",
+    "file_4x5": "assets/de-nw-012-4x5.png"
+  },
+  {
     "entry_id": "DE-NW-014",
     "code": "NW",
     "state": "North Rhine-Westphalia",
@@ -2769,6 +2782,19 @@
     "file_4x5": "assets/de-nw-029-4x5.png"
   },
   {
+    "entry_id": "DE-RP-022",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Mörsdorf",
+    "site": "Geierlay suspension bridge",
+    "caption": "Geierlay suspension bridge, Mörsdorf",
+    "scenario": "25 September 2026 · 11:45 Europe/Berlin",
+    "composition": "Bridge and wooded valley · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-022-16x9.png",
+    "file_4x5": "assets/de-rp-022-4x5.png"
+  },
+  {
     "entry_id": "DE-RP-023",
     "code": "RP",
     "state": "Rhineland-Palatinate",
@@ -2780,6 +2806,19 @@
     "approved": true,
     "file_16x9": "assets/de-rp-023-16x9.png",
     "file_4x5": "assets/de-rp-023-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-024",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Daun",
+    "site": "Eifel maars",
+    "caption": "Eifel maars, Daun",
+    "scenario": "25 September 2026 · 11:45 Europe/Berlin",
+    "composition": "Volcanic lakes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-024-16x9.png",
+    "file_4x5": "assets/de-rp-024-4x5.png"
   },
   {
     "entry_id": "DE-SH-001",
