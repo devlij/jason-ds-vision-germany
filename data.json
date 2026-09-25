@@ -2769,6 +2769,19 @@
     "file_4x5": "assets/de-nw-014-4x5.png"
   },
   {
+    "entry_id": "DE-NW-018",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Solingen/Remscheid",
+    "site": "Müngsten Bridge",
+    "caption": "Müngsten Bridge, Solingen/Remscheid",
+    "scenario": "25 September 2026 · 12:45 Europe/Berlin",
+    "composition": "Steel arch and Wupper valley · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-018-16x9.png",
+    "file_4x5": "assets/de-nw-018-4x5.png"
+  },
+  {
     "entry_id": "DE-NW-020",
     "code": "NW",
     "state": "North Rhine-Westphalia",
@@ -2819,6 +2832,32 @@
     "approved": true,
     "file_16x9": "assets/de-nw-029-16x9.png",
     "file_4x5": "assets/de-nw-029-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-001",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Wierschem",
+    "site": "Eltz Castle",
+    "caption": "Eltz Castle, Wierschem",
+    "scenario": "25 September 2026 · 12:45 Europe/Berlin",
+    "composition": "Castle approach and valley · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-001-16x9.png",
+    "file_4x5": "assets/de-rp-001-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-019",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Annweiler am Trifels",
+    "site": "Trifels Castle",
+    "caption": "Trifels Castle, Annweiler am Trifels",
+    "scenario": "25 September 2026 · 13:00 Europe/Berlin",
+    "composition": "Castle and forest ridges · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-019-16x9.png",
+    "file_4x5": "assets/de-rp-019-4x5.png"
   },
   {
     "entry_id": "DE-RP-022",
