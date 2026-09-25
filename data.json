@@ -2743,6 +2743,19 @@
     "file_4x5": "assets/de-nw-012-4x5.png"
   },
   {
+    "entry_id": "DE-NW-013",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Königswinter",
+    "site": "Drachenburg Castle",
+    "caption": "Drachenburg Castle, Königswinter",
+    "scenario": "25 September 2026 · 12:15 Europe/Berlin",
+    "composition": "Castle and hillside · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-013-16x9.png",
+    "file_4x5": "assets/de-nw-013-4x5.png"
+  },
+  {
     "entry_id": "DE-NW-014",
     "code": "NW",
     "state": "North Rhine-Westphalia",
@@ -2754,6 +2767,32 @@
     "approved": true,
     "file_16x9": "assets/de-nw-014-16x9.png",
     "file_4x5": "assets/de-nw-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-020",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Horn-Bad Meinberg",
+    "site": "Externsteine",
+    "caption": "Externsteine, Horn-Bad Meinberg",
+    "scenario": "25 September 2026 · 12:15 Europe/Berlin",
+    "composition": "Sandstone pillars and pond · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-020-16x9.png",
+    "file_4x5": "assets/de-nw-020-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-021",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Detmold",
+    "site": "Hermannsdenkmal",
+    "caption": "Hermannsdenkmal, Detmold",
+    "scenario": "25 September 2026 · 12:30 Europe/Berlin",
+    "composition": "Monument and forest · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-021-16x9.png",
+    "file_4x5": "assets/de-nw-021-4x5.png"
   },
   {
     "entry_id": "DE-NW-022",
