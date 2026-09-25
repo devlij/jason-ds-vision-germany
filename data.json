@@ -3055,6 +3055,32 @@
     "file_4x5": "assets/de-sh-025-4x5.png"
   },
   {
+    "entry_id": "DE-ST-003",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Wernigerode",
+    "site": "Town Hall",
+    "caption": "Town Hall, Wernigerode",
+    "scenario": "25 September 2026 · 07:45 Europe/Berlin",
+    "composition": "Colorful market square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-003-16x9.png",
+    "file_4x5": "assets/de-st-003-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-004",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Wernigerode",
+    "site": "Wernigerode Castle",
+    "caption": "Wernigerode Castle, Wernigerode",
+    "scenario": "25 September 2026 · 07:45 Europe/Berlin",
+    "composition": "Castle above town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-004-16x9.png",
+    "file_4x5": "assets/de-st-004-4x5.png"
+  },
+  {
     "entry_id": "DE-ST-005",
     "code": "ST",
     "state": "Saxony-Anhalt",
@@ -3066,6 +3092,19 @@
     "approved": true,
     "file_16x9": "assets/de-st-005-16x9.png",
     "file_4x5": "assets/de-st-005-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-006",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Thale",
+    "site": "Bode Gorge",
+    "caption": "Bode Gorge, Thale",
+    "scenario": "25 September 2026 · 08:00 Europe/Berlin",
+    "composition": "River and rocky valley · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-006-16x9.png",
+    "file_4x5": "assets/de-st-006-4x5.png"
   },
   {
     "entry_id": "DE-ST-022",
