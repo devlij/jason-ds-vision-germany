@@ -3107,6 +3107,45 @@
     "file_4x5": "assets/de-st-006-4x5.png"
   },
   {
+    "entry_id": "DE-ST-007",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Thale",
+    "site": "Rosstrappe",
+    "caption": "Rosstrappe, Thale",
+    "scenario": "25 September 2026 · 08:15 Europe/Berlin",
+    "composition": "Gorge outlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-007-16x9.png",
+    "file_4x5": "assets/de-st-007-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-008",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Blankenburg/Weddersleben",
+    "site": "Teufelsmauer",
+    "caption": "Teufelsmauer, Blankenburg/Weddersleben",
+    "scenario": "25 September 2026 · 08:15 Europe/Berlin",
+    "composition": "Sandstone ridge · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-008-16x9.png",
+    "file_4x5": "assets/de-st-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-021",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Gernrode",
+    "site": "St. Cyriakus",
+    "caption": "St. Cyriakus, Gernrode",
+    "scenario": "25 September 2026 · 08:30 Europe/Berlin",
+    "composition": "Romanesque church · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-021-16x9.png",
+    "file_4x5": "assets/de-st-021-4x5.png"
+  },
+  {
     "entry_id": "DE-ST-022",
     "code": "ST",
     "state": "Saxony-Anhalt",
