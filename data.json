@@ -2743,6 +2743,19 @@
     "file_4x5": "assets/de-ni-024-4x5.png"
   },
   {
+    "entry_id": "DE-NI-025",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Langeoog",
+    "site": "Water tower",
+    "caption": "Water tower, Langeoog",
+    "scenario": "25 September 2026 · 17:45 Europe/Berlin",
+    "composition": "Island landmark · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-025-16x9.png",
+    "file_4x5": "assets/de-ni-025-4x5.png"
+  },
+  {
     "entry_id": "DE-NI-026",
     "code": "NI",
     "state": "Lower Saxony",
@@ -2780,6 +2793,32 @@
     "approved": true,
     "file_16x9": "assets/de-ni-028-16x9.png",
     "file_4x5": "assets/de-ni-028-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-001",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "site": "Cathedral",
+    "caption": "Cathedral, Cologne",
+    "scenario": "25 September 2026 · 17:45 Europe/Berlin",
+    "composition": "Domplatte exterior · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-001-16x9.png",
+    "file_4x5": "assets/de-nw-001-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-002",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "site": "Hohenzollern Bridge and cathedral",
+    "caption": "Hohenzollern Bridge and cathedral, Cologne",
+    "scenario": "25 September 2026 · 18:00 Europe/Berlin",
+    "composition": "Deutz riverbank skyline · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-002-16x9.png",
+    "file_4x5": "assets/de-nw-002-4x5.png"
   },
   {
     "entry_id": "DE-NW-009",
