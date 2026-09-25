@@ -2899,6 +2899,19 @@
     "file_4x5": "assets/de-rp-005-4x5.png"
   },
   {
+    "entry_id": "DE-RP-010",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Bacharach",
+    "site": "Old town",
+    "caption": "Old town, Bacharach",
+    "scenario": "25 September 2026 · 15:30 Europe/Berlin",
+    "composition": "Timber houses and vineyards · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-010-16x9.png",
+    "file_4x5": "assets/de-rp-010-4x5.png"
+  },
+  {
     "entry_id": "DE-RP-012",
     "code": "RP",
     "state": "Rhineland-Palatinate",
@@ -2923,6 +2936,32 @@
     "approved": true,
     "file_16x9": "assets/de-rp-013-16x9.png",
     "file_4x5": "assets/de-rp-013-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-014",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Braubach",
+    "site": "Marksburg",
+    "caption": "Marksburg, Braubach",
+    "scenario": "25 September 2026 · 15:15 Europe/Berlin",
+    "composition": "Hilltop castle · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-014-16x9.png",
+    "file_4x5": "assets/de-rp-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-015",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Kaub",
+    "site": "Pfalzgrafenstein",
+    "caption": "Pfalzgrafenstein, Kaub",
+    "scenario": "25 September 2026 · 15:15 Europe/Berlin",
+    "composition": "River island castle from shore · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-015-16x9.png",
+    "file_4x5": "assets/de-rp-015-4x5.png"
   },
   {
     "entry_id": "DE-RP-019",
