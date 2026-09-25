@@ -2730,6 +2730,19 @@
     "file_4x5": "assets/de-ni-027-4x5.png"
   },
   {
+    "entry_id": "DE-NW-022",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Winterberg",
+    "site": "Kahler Asten",
+    "caption": "Kahler Asten, Winterberg",
+    "scenario": "25 September 2026 · 09:00 Europe/Berlin",
+    "composition": "Upland landscape · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-022-16x9.png",
+    "file_4x5": "assets/de-nw-022-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
@@ -3053,6 +3066,32 @@
     "approved": true,
     "file_16x9": "assets/de-sh-025-16x9.png",
     "file_4x5": "assets/de-sh-025-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-001",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Quedlinburg",
+    "site": "Market square",
+    "caption": "Market square, Quedlinburg",
+    "scenario": "25 September 2026 · 08:45 Europe/Berlin",
+    "composition": "Half-timbered houses and Town Hall · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-001-16x9.png",
+    "file_4x5": "assets/de-st-001-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-002",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Quedlinburg",
+    "site": "Castle hill",
+    "caption": "Castle hill, Quedlinburg",
+    "scenario": "25 September 2026 · 08:45 Europe/Berlin",
+    "composition": "Abbey church and rooftops · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-002-16x9.png",
+    "file_4x5": "assets/de-st-002-4x5.png"
   },
   {
     "entry_id": "DE-ST-003",
