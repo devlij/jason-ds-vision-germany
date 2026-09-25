@@ -2886,6 +2886,45 @@
     "file_4x5": "assets/de-rp-004-4x5.png"
   },
   {
+    "entry_id": "DE-RP-005",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Beilstein",
+    "site": "Old town",
+    "caption": "Old town, Beilstein",
+    "scenario": "25 September 2026 · 14:45 Europe/Berlin",
+    "composition": "Moselle and steep village lanes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-005-16x9.png",
+    "file_4x5": "assets/de-rp-005-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-012",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Sankt Goarshausen",
+    "site": "Loreley",
+    "caption": "Loreley, Sankt Goarshausen",
+    "scenario": "25 September 2026 · 14:45 Europe/Berlin",
+    "composition": "Rhine bend overlook · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-012-16x9.png",
+    "file_4x5": "assets/de-rp-012-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-013",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Sankt Goar",
+    "site": "Rheinfels Castle",
+    "caption": "Rheinfels Castle, Sankt Goar",
+    "scenario": "25 September 2026 · 15:00 Europe/Berlin",
+    "composition": "Ruins above Rhine · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-013-16x9.png",
+    "file_4x5": "assets/de-rp-013-4x5.png"
+  },
+  {
     "entry_id": "DE-RP-019",
     "code": "RP",
     "state": "Rhineland-Palatinate",
