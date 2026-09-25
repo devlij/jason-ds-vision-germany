@@ -3120,6 +3120,45 @@
     "file_4x5": "assets/de-sn-011-4x5.png"
   },
   {
+    "entry_id": "DE-SN-012",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Rathen",
+    "site": "Amselsee",
+    "caption": "Amselsee, Rathen",
+    "scenario": "25 September 2026 · 10:15 Europe/Berlin",
+    "composition": "Lake and sandstone setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-012-16x9.png",
+    "file_4x5": "assets/de-sn-012-4x5.png"
+  },
+  {
+    "entry_id": "DE-SN-023",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Gablenz",
+    "site": "Rakotzbrücke",
+    "caption": "Rakotzbrücke, Gablenz",
+    "scenario": "25 September 2026 · 10:15 Europe/Berlin",
+    "composition": "Bridge reflection from permitted shoreline · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-023-16x9.png",
+    "file_4x5": "assets/de-sn-023-4x5.png"
+  },
+  {
+    "entry_id": "DE-SN-024",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Bad Muskau",
+    "site": "Muskau Park",
+    "caption": "Muskau Park, Bad Muskau",
+    "scenario": "25 September 2026 · 10:30 Europe/Berlin",
+    "composition": "German-side palace and park · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-024-16x9.png",
+    "file_4x5": "assets/de-sn-024-4x5.png"
+  },
+  {
     "entry_id": "DE-SN-026",
     "code": "SN",
     "state": "Saxony",
