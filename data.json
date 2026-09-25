@@ -2912,6 +2912,19 @@
     "file_4x5": "assets/de-rp-010-4x5.png"
   },
   {
+    "entry_id": "DE-RP-011",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Oberwesel",
+    "site": "Town walls",
+    "caption": "Town walls, Oberwesel",
+    "scenario": "25 September 2026 · 15:45 Europe/Berlin",
+    "composition": "Rhine-side medieval towers · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-011-16x9.png",
+    "file_4x5": "assets/de-rp-011-4x5.png"
+  },
+  {
     "entry_id": "DE-RP-012",
     "code": "RP",
     "state": "Rhineland-Palatinate",
@@ -3040,6 +3053,32 @@
     "approved": true,
     "file_16x9": "assets/de-rp-024-16x9.png",
     "file_4x5": "assets/de-rp-024-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-026",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Neustadt an der Weinstraße",
+    "site": "Hambach Castle",
+    "caption": "Hambach Castle, Neustadt an der Weinstraße",
+    "scenario": "25 September 2026 · 15:45 Europe/Berlin",
+    "composition": "Castle and vineyards · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-026-16x9.png",
+    "file_4x5": "assets/de-rp-026-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-027",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Bad Dürkheim",
+    "site": "Limburg Abbey ruins",
+    "caption": "Limburg Abbey ruins, Bad Dürkheim",
+    "scenario": "25 September 2026 · 16:00 Europe/Berlin",
+    "composition": "Hilltop ruins · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-027-16x9.png",
+    "file_4x5": "assets/de-rp-027-4x5.png"
   },
   {
     "entry_id": "DE-SH-001",
