@@ -2730,6 +2730,19 @@
     "file_4x5": "assets/de-ni-027-4x5.png"
   },
   {
+    "entry_id": "DE-NW-014",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Monschau",
+    "site": "Old town",
+    "caption": "Old town, Monschau",
+    "scenario": "25 September 2026 · 11:15 Europe/Berlin",
+    "composition": "Timber houses beside Rur · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-014-16x9.png",
+    "file_4x5": "assets/de-nw-014-4x5.png"
+  },
+  {
     "entry_id": "DE-NW-022",
     "code": "NW",
     "state": "North Rhine-Westphalia",
@@ -2741,6 +2754,32 @@
     "approved": true,
     "file_16x9": "assets/de-nw-022-16x9.png",
     "file_4x5": "assets/de-nw-022-4x5.png"
+  },
+  {
+    "entry_id": "DE-NW-029",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Schleiden",
+    "site": "Vogelsang and Eifel overlooks",
+    "caption": "Vogelsang and Eifel overlooks, Schleiden",
+    "scenario": "25 September 2026 · 11:15 Europe/Berlin",
+    "composition": "Reservoir and wooded hills · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-029-16x9.png",
+    "file_4x5": "assets/de-nw-029-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-023",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Ernzen",
+    "site": "Teufelsschlucht, Ernzen",
+    "caption": "Teufelsschlucht, Ernzen, Ernzen",
+    "scenario": "25 September 2026 · 11:30 Europe/Berlin",
+    "composition": "Sandstone gorge · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-023-16x9.png",
+    "file_4x5": "assets/de-rp-023-4x5.png"
   },
   {
     "entry_id": "DE-SH-001",
