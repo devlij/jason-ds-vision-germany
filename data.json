@@ -3081,6 +3081,45 @@
     "file_4x5": "assets/de-sn-008-4x5.png"
   },
   {
+    "entry_id": "DE-SN-009",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Königstein",
+    "site": "Königstein Fortress",
+    "caption": "Königstein Fortress, Königstein",
+    "scenario": "25 September 2026 · 09:45 Europe/Berlin",
+    "composition": "Fortress and Elbe valley · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-009-16x9.png",
+    "file_4x5": "assets/de-sn-009-4x5.png"
+  },
+  {
+    "entry_id": "DE-SN-010",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Bad Schandau",
+    "site": "Schrammsteine",
+    "caption": "Schrammsteine, Bad Schandau",
+    "scenario": "25 September 2026 · 09:45 Europe/Berlin",
+    "composition": "Rock-ridge viewpoints · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-010-16x9.png",
+    "file_4x5": "assets/de-sn-010-4x5.png"
+  },
+  {
+    "entry_id": "DE-SN-011",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Königstein / Lilienstein",
+    "site": "Lilienstein",
+    "caption": "Lilienstein, Königstein / Lilienstein",
+    "scenario": "25 September 2026 · 10:00 Europe/Berlin",
+    "composition": "Table mountain landscape · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-011-16x9.png",
+    "file_4x5": "assets/de-sn-011-4x5.png"
+  },
+  {
     "entry_id": "DE-SN-026",
     "code": "SN",
     "state": "Saxony",
