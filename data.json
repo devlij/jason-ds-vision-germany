@@ -2847,6 +2847,45 @@
     "file_4x5": "assets/de-rp-001-4x5.png"
   },
   {
+    "entry_id": "DE-RP-002",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Cochem",
+    "site": "Reichsburg and old town",
+    "caption": "Reichsburg and old town, Cochem",
+    "scenario": "25 September 2026 · 14:15 Europe/Berlin",
+    "composition": "Moselle waterfront · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-002-16x9.png",
+    "file_4x5": "assets/de-rp-002-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-003",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Bremm",
+    "site": "Moselle loop",
+    "caption": "Moselle loop, Bremm",
+    "scenario": "25 September 2026 · 14:15 Europe/Berlin",
+    "composition": "Vineyard overlook; exact trail pending · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-003-16x9.png",
+    "file_4x5": "assets/de-rp-003-4x5.png"
+  },
+  {
+    "entry_id": "DE-RP-004",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Bernkastel-Kues",
+    "site": "Market square",
+    "caption": "Market square, Bernkastel-Kues",
+    "scenario": "25 September 2026 · 14:30 Europe/Berlin",
+    "composition": "Half-timbered ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-004-16x9.png",
+    "file_4x5": "assets/de-rp-004-4x5.png"
+  },
+  {
     "entry_id": "DE-RP-019",
     "code": "RP",
     "state": "Rhineland-Palatinate",
