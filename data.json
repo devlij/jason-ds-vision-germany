@@ -3081,6 +3081,19 @@
     "file_4x5": "assets/de-rp-027-4x5.png"
   },
   {
+    "entry_id": "DE-RP-028",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "St. Martin",
+    "site": "Wine village",
+    "caption": "Wine village, St. Martin",
+    "scenario": "25 September 2026 · 16:15 Europe/Berlin",
+    "composition": "Lanes and vineyard setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-028-16x9.png",
+    "file_4x5": "assets/de-rp-028-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
@@ -3716,6 +3729,32 @@
     "approved": true,
     "file_16x9": "assets/de-st-008-16x9.png",
     "file_4x5": "assets/de-st-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-014",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Wörlitz",
+    "site": "Garden Realm",
+    "caption": "Garden Realm, Wörlitz",
+    "scenario": "25 September 2026 · 16:15 Europe/Berlin",
+    "composition": "Lakes, bridges and garden buildings · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-014-16x9.png",
+    "file_4x5": "assets/de-st-014-4x5.png"
+  },
+  {
+    "entry_id": "DE-ST-017",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Freyburg",
+    "site": "Neuenburg Castle",
+    "caption": "Neuenburg Castle, Freyburg",
+    "scenario": "25 September 2026 · 16:15 Europe/Berlin",
+    "composition": "Castle and vineyards · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-017-16x9.png",
+    "file_4x5": "assets/de-st-017-4x5.png"
   },
   {
     "entry_id": "DE-ST-021",
