@@ -3068,6 +3068,19 @@
     "file_4x5": "assets/de-sh-025-4x5.png"
   },
   {
+    "entry_id": "DE-SN-007",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Dresden",
+    "site": "Pillnitz Palace",
+    "caption": "Pillnitz Palace, Dresden",
+    "scenario": "25 September 2026 · 11:00 Europe/Berlin",
+    "composition": "Riverside palace and gardens · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-007-16x9.png",
+    "file_4x5": "assets/de-sn-007-4x5.png"
+  },
+  {
     "entry_id": "DE-SN-008",
     "code": "SN",
     "state": "Saxony",
@@ -3133,6 +3146,19 @@
     "file_4x5": "assets/de-sn-012-4x5.png"
   },
   {
+    "entry_id": "DE-SN-013",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Moritzburg",
+    "site": "Moritzburg Castle",
+    "caption": "Moritzburg Castle, Moritzburg",
+    "scenario": "25 September 2026 · 10:45 Europe/Berlin",
+    "composition": "Palace across water · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-013-16x9.png",
+    "file_4x5": "assets/de-sn-013-4x5.png"
+  },
+  {
     "entry_id": "DE-SN-023",
     "code": "SN",
     "state": "Saxony",
@@ -3157,6 +3183,19 @@
     "approved": true,
     "file_16x9": "assets/de-sn-024-16x9.png",
     "file_4x5": "assets/de-sn-024-4x5.png"
+  },
+  {
+    "entry_id": "DE-SN-025",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Kromlau/Gablenz",
+    "site": "Azalea and rhododendron park",
+    "caption": "Azalea and rhododendron park, Kromlau/Gablenz",
+    "scenario": "25 September 2026 · 10:45 Europe/Berlin",
+    "composition": "Seasonal garden scenes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-025-16x9.png",
+    "file_4x5": "assets/de-sn-025-4x5.png"
   },
   {
     "entry_id": "DE-SN-026",
