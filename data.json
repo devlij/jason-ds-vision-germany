@@ -2691,6 +2691,19 @@
     "file_4x5": "assets/de-ni-020-4x5.png"
   },
   {
+    "entry_id": "DE-NI-021",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Krummhörn",
+    "site": "Pilsum lighthouse",
+    "caption": "Pilsum lighthouse, Krummhörn",
+    "scenario": "25 September 2026 · 05:15 Europe/Berlin",
+    "composition": "Striped lighthouse and dike · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-021-16x9.png",
+    "file_4x5": "assets/de-ni-021-4x5.png"
+  },
+  {
     "entry_id": "DE-SH-001",
     "code": "SH",
     "state": "Schleswig-Holstein",
