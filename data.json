@@ -3263,6 +3263,45 @@
     "file_4x5": "assets/de-sl-001-4x5.png"
   },
   {
+    "entry_id": "DE-SL-002",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Mettlach",
+    "site": "Treetop walk Saarschleife",
+    "caption": "Treetop walk Saarschleife, Mettlach",
+    "scenario": "25 September 2026 · 13:45 Europe/Berlin",
+    "composition": "Elevated river panorama · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-002-16x9.png",
+    "file_4x5": "assets/de-sl-002-4x5.png"
+  },
+  {
+    "entry_id": "DE-SL-009",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Nohfelden",
+    "site": "Bostalsee",
+    "caption": "Bostalsee, Nohfelden",
+    "scenario": "25 September 2026 · 13:45 Europe/Berlin",
+    "composition": "Lakefront · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-009-16x9.png",
+    "file_4x5": "assets/de-sl-009-4x5.png"
+  },
+  {
+    "entry_id": "DE-SL-011",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Gersheim",
+    "site": "Bliesgau landscape",
+    "caption": "Bliesgau landscape, Gersheim",
+    "scenario": "25 September 2026 · 14:00 Europe/Berlin",
+    "composition": "Orchards and rolling fields · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-011-16x9.png",
+    "file_4x5": "assets/de-sl-011-4x5.png"
+  },
+  {
     "entry_id": "DE-SN-007",
     "code": "SN",
     "state": "Saxony",
