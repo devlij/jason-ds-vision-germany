@@ -3068,6 +3068,45 @@
     "file_4x5": "assets/de-sh-025-4x5.png"
   },
   {
+    "entry_id": "DE-SN-008",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Lohmen/Rathen",
+    "site": "Bastei Bridge",
+    "caption": "Bastei Bridge, Lohmen/Rathen",
+    "scenario": "25 September 2026 · 09:30 Europe/Berlin",
+    "composition": "Sandstone bridge and pinnacles · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-008-16x9.png",
+    "file_4x5": "assets/de-sn-008-4x5.png"
+  },
+  {
+    "entry_id": "DE-SN-026",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Kurort Oybin",
+    "site": "Oybin",
+    "caption": "Oybin, Kurort Oybin",
+    "scenario": "25 September 2026 · 09:15 Europe/Berlin",
+    "composition": "Monastery ruins and sandstone · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-026-16x9.png",
+    "file_4x5": "assets/de-sn-026-4x5.png"
+  },
+  {
+    "entry_id": "DE-SN-027",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Seiffen",
+    "site": "Mountain church",
+    "caption": "Mountain church, Seiffen",
+    "scenario": "25 September 2026 · 09:15 Europe/Berlin",
+    "composition": "Village and church · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-027-16x9.png",
+    "file_4x5": "assets/de-sn-027-4x5.png"
+  },
+  {
     "entry_id": "DE-ST-001",
     "code": "ST",
     "state": "Saxony-Anhalt",
