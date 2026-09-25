@@ -2704,6 +2704,45 @@
     "file_4x5": "assets/de-ni-021-4x5.png"
   },
   {
+    "entry_id": "DE-NI-022",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Norderney",
+    "site": "Beach and promenade",
+    "caption": "Beach and promenade, Norderney",
+    "scenario": "25 September 2026 · 17:15 Europe/Berlin",
+    "composition": "North Sea shoreline · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-022-16x9.png",
+    "file_4x5": "assets/de-ni-022-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-023",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Borkum",
+    "site": "New lighthouse",
+    "caption": "New lighthouse, Borkum",
+    "scenario": "25 September 2026 · 17:15 Europe/Berlin",
+    "composition": "Island landmark · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-023-16x9.png",
+    "file_4x5": "assets/de-ni-023-4x5.png"
+  },
+  {
+    "entry_id": "DE-NI-024",
+    "code": "NI",
+    "state": "Lower Saxony",
+    "city": "Spiekeroog",
+    "site": "Village and dunes",
+    "caption": "Village and dunes, Spiekeroog",
+    "scenario": "25 September 2026 · 17:30 Europe/Berlin",
+    "composition": "Island cottages and boardwalks · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-ni-024-16x9.png",
+    "file_4x5": "assets/de-ni-024-4x5.png"
+  },
+  {
     "entry_id": "DE-NI-026",
     "code": "NI",
     "state": "Lower Saxony",
