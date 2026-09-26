@@ -4704,6 +4704,34 @@
     "file_9x16": "assets/de-sn-028-9x16.png"
   },
   {
+    "entry_id": "DE-SN-029",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Chemnitz",
+    "site": "Karl Marx Monument",
+    "caption": "Karl Marx Monument, Chemnitz",
+    "scenario": "26 September 2026 · 15:15 Europe/Berlin",
+    "composition": "Monument and urban setting · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-029-16x9.png",
+    "file_4x5": "assets/de-sn-029-4x5.png",
+    "file_9x16": "assets/de-sn-029-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-030",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Rochlitz",
+    "site": "Rochlitz Castle",
+    "caption": "Rochlitz Castle, Rochlitz",
+    "scenario": "26 September 2026 · 15:30 Europe/Berlin",
+    "composition": "Castle beside Mulde · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-030-16x9.png",
+    "file_4x5": "assets/de-sn-030-4x5.png",
+    "file_9x16": "assets/de-sn-030-9x16.png"
+  },
+  {
     "entry_id": "DE-ST-001",
     "code": "ST",
     "state": "Saxony-Anhalt",
@@ -4814,6 +4842,20 @@
     "file_16x9": "assets/de-st-008-16x9.png",
     "file_4x5": "assets/de-st-008-4x5.png",
     "file_9x16": "assets/de-st-008-9x16.png"
+  },
+  {
+    "entry_id": "DE-ST-009",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Halberstadt",
+    "site": "Cathedral",
+    "caption": "Cathedral, Halberstadt",
+    "scenario": "26 September 2026 · 15:30 Europe/Berlin",
+    "composition": "Cathedral square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-009-16x9.png",
+    "file_4x5": "assets/de-st-009-4x5.png",
+    "file_9x16": "assets/de-st-009-9x16.png"
   },
   {
     "entry_id": "DE-ST-014",
