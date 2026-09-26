@@ -4900,6 +4900,20 @@
     "file_9x16": "assets/de-st-012-9x16.png"
   },
   {
+    "entry_id": "DE-ST-013",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Dessau-Roßlau",
+    "site": "Masters’ Houses",
+    "caption": "Masters’ Houses, Dessau-Roßlau",
+    "scenario": "26 September 2026 · 16:15 Europe/Berlin",
+    "composition": "Modernist residential architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-013-16x9.png",
+    "file_4x5": "assets/de-st-013-4x5.png",
+    "file_9x16": "assets/de-st-013-9x16.png"
+  },
+  {
     "entry_id": "DE-ST-014",
     "code": "ST",
     "state": "Saxony-Anhalt",
@@ -4912,6 +4926,34 @@
     "file_16x9": "assets/de-st-014-16x9.png",
     "file_4x5": "assets/de-st-014-4x5.png",
     "file_9x16": "assets/de-st-014-9x16.png"
+  },
+  {
+    "entry_id": "DE-ST-015",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Lutherstadt Wittenberg",
+    "site": "Castle Church",
+    "caption": "Castle Church, Lutherstadt Wittenberg",
+    "scenario": "26 September 2026 · 16:30 Europe/Berlin",
+    "composition": "Church and historic street · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-015-16x9.png",
+    "file_4x5": "assets/de-st-015-4x5.png",
+    "file_9x16": "assets/de-st-015-9x16.png"
+  },
+  {
+    "entry_id": "DE-ST-016",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Naumburg",
+    "site": "Cathedral",
+    "caption": "Cathedral, Naumburg",
+    "scenario": "26 September 2026 · 16:30 Europe/Berlin",
+    "composition": "Cathedral exterior · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-016-16x9.png",
+    "file_4x5": "assets/de-st-016-4x5.png",
+    "file_9x16": "assets/de-st-016-9x16.png"
   },
   {
     "entry_id": "DE-ST-017",
