@@ -4326,6 +4326,48 @@
     "file_9x16": "assets/de-sl-012-9x16.png"
   },
   {
+    "entry_id": "DE-SN-002",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Dresden",
+    "site": "Theaterplatz",
+    "caption": "Theaterplatz, Dresden",
+    "scenario": "26 September 2026 · 12:45 Europe/Berlin",
+    "composition": "Semperoper and cathedral ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-002-16x9.png",
+    "file_4x5": "assets/de-sn-002-4x5.png",
+    "file_9x16": "assets/de-sn-002-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-003",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Dresden",
+    "site": "Zwinger",
+    "caption": "Zwinger, Dresden",
+    "scenario": "26 September 2026 · 12:45 Europe/Berlin",
+    "composition": "Courtyards and pavilions · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-003-16x9.png",
+    "file_4x5": "assets/de-sn-003-4x5.png",
+    "file_9x16": "assets/de-sn-003-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-004",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Dresden",
+    "site": "Brühl’s Terrace",
+    "caption": "Brühl’s Terrace, Dresden",
+    "scenario": "26 September 2026 · 13:00 Europe/Berlin",
+    "composition": "Elbe-facing architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-004-16x9.png",
+    "file_4x5": "assets/de-sn-004-4x5.png",
+    "file_9x16": "assets/de-sn-004-9x16.png"
+  },
+  {
     "entry_id": "DE-SN-007",
     "code": "SN",
     "state": "Saxony",
