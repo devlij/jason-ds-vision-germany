@@ -3514,6 +3514,34 @@
     "file_9x16": "assets/de-rp-007-9x16.png"
   },
   {
+    "entry_id": "DE-RP-008",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Koblenz",
+    "site": "Deutsches Eck",
+    "caption": "Deutsches Eck, Koblenz",
+    "scenario": "26 September 2026 · 10:15 Europe/Berlin",
+    "composition": "Rhine–Moselle confluence · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-008-16x9.png",
+    "file_4x5": "assets/de-rp-008-4x5.png",
+    "file_9x16": "assets/de-rp-008-9x16.png"
+  },
+  {
+    "entry_id": "DE-RP-009",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Koblenz",
+    "site": "Ehrenbreitstein Fortress",
+    "caption": "Ehrenbreitstein Fortress, Koblenz",
+    "scenario": "26 September 2026 · 10:30 Europe/Berlin",
+    "composition": "Rhine and city panorama · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-009-16x9.png",
+    "file_4x5": "assets/de-rp-009-4x5.png",
+    "file_9x16": "assets/de-rp-009-9x16.png"
+  },
+  {
     "entry_id": "DE-RP-010",
     "code": "RP",
     "state": "Rhineland-Palatinate",
@@ -3596,6 +3624,20 @@
     "file_16x9": "assets/de-rp-015-16x9.png",
     "file_4x5": "assets/de-rp-015-4x5.png",
     "file_9x16": "assets/de-rp-015-9x16.png"
+  },
+  {
+    "entry_id": "DE-RP-016",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Mainz",
+    "site": "Cathedral and market",
+    "caption": "Cathedral and market, Mainz",
+    "scenario": "26 September 2026 · 10:30 Europe/Berlin",
+    "composition": "Cathedral frontage · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-016-16x9.png",
+    "file_4x5": "assets/de-rp-016-4x5.png",
+    "file_9x16": "assets/de-rp-016-9x16.png"
   },
   {
     "entry_id": "DE-RP-019",
