@@ -74,6 +74,8 @@
   .toolbar { display: flex; gap: 12px; align-items: center; margin: 22px 0 6px; flex-wrap: wrap; }
   .toolbar input { flex: 1; min-width: 220px; padding: 10px 12px; font-size: 14px;
                    background: #1e1811; border: 1px solid #4a3f2c; border-radius: 8px; color: #f2ede3; }
+  .toolbar select { padding: 10px 12px; font-size: 14px;
+                    background: #1e1811; border: 1px solid #4a3f2c; border-radius: 8px; color: #f2ede3; }
   .toolbar button { padding: 10px 14px; font-size: 14px; background: #3d3324; color: #f2ede3;
                     border: 1px solid #4a3f2c; border-radius: 8px; cursor: pointer; }
   #result-count { color: #a79c86; font-size: 13px; }
@@ -111,6 +113,7 @@
   #license p { color: #a79c86; font-size: 14px; line-height: 1.6; }
   footer { text-align: center; color: #8a7f68; font-size: 12px; padding: 24px; }
   footer .sig { color: #f2ede3; font-size: 14px; margin-top: 4px; }
+  footer a { color: #e8c47c; }
   .state-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin-top: 20px; }
   .state-card { display: block; background: #1e1811; border: 1px solid #3d3324; border-radius: 10px;
                 padding: 18px; text-decoration: none; color: #f2ede3; }
@@ -2381,7 +2384,7 @@
   </div>
   <div id="no-results">No scenes match your search.</div>
   <div class="grid">
-<article class="card" data-search="quedlinburg market square saxony-anhalt de-st-001 a half-timbered merchant house in ochre and dark timber stands left of frame, its window boxes still full of flowers, while the ivy-draped stone town hall with its steep slate roof fills the right. between them a slender church spire rises over the rooftops and café tables sit in the cobbled foreground under bright, mainly clear morning light.">
+<article class="card" data-search="quedlinburg market square saxony-anhalt de-st-001 a half-timbered merchant house in ochre and dark timber stands left of frame, its window boxes still full of flowers, while the ivy-draped stone town hall with its steep slate roof fills the right. between them a slender church spire rises over the rooftops and café tables sit in the cobbled foreground under bright, mainly clear morning light." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-001-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-001-16x9.png" data-src-16="../assets/de-st-001-16x9.png" data-src-45="../assets/de-st-001-4x5.png" data-src-916="../assets/de-st-001-9x16.png" alt="AI-generated artistic interpretation of Market square in Quedlinburg" loading="lazy" />
@@ -2409,7 +2412,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="quedlinburg castle hill saxony-anhalt de-st-002 a cobbled lane lined with half-timbered houses on the left climbs toward the castle hill, where the twin towers of the abbey church rise above a sea of red rooftops at center-right. red-tiled and gabled roofs fill the middle ground, early-autumn foliage brushes the right edge, and bright morning light under a mainly clear sky lights the scene.">
+<article class="card" data-search="quedlinburg castle hill saxony-anhalt de-st-002 a cobbled lane lined with half-timbered houses on the left climbs toward the castle hill, where the twin towers of the abbey church rise above a sea of red rooftops at center-right. red-tiled and gabled roofs fill the middle ground, early-autumn foliage brushes the right edge, and bright morning light under a mainly clear sky lights the scene." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-002-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-002-16x9.png" data-src-16="../assets/de-st-002-16x9.png" data-src-45="../assets/de-st-002-4x5.png" data-src-916="../assets/de-st-002-9x16.png" alt="AI-generated artistic interpretation of Castle hill in Quedlinburg" loading="lazy" />
@@ -2437,7 +2440,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="wernigerode town hall saxony-anhalt de-st-003 eye-level on the colorful market square, the orange-red half-timbered town hall stands center-frame with its twin slender slate spires, clock gable and open bell lantern, green ledges below the windows. market stalls crowd the cobbled foreground — crates of apples and grapes, a pyramid of pumpkins — with neighboring half-timbered houses and a &quot;café rathaus&quot; sign at the right edge. crisp clear 7.2°c morning light under a pale blue sky.">
+<article class="card" data-search="wernigerode town hall saxony-anhalt de-st-003 eye-level on the colorful market square, the orange-red half-timbered town hall stands center-frame with its twin slender slate spires, clock gable and open bell lantern, green ledges below the windows. market stalls crowd the cobbled foreground — crates of apples and grapes, a pyramid of pumpkins — with neighboring half-timbered houses and a &quot;café rathaus&quot; sign at the right edge. crisp clear 7.2°c morning light under a pale blue sky." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-003-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-003-16x9.png" data-src-16="../assets/de-st-003-16x9.png" data-src-45="../assets/de-st-003-4x5.png" data-src-916="../assets/de-st-003-9x16.png" alt="AI-generated artistic interpretation of Town Hall in Wernigerode" loading="lazy" />
@@ -2465,7 +2468,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="wernigerode wernigerode castle saxony-anhalt de-st-004 from a cobbled lane above the old town, the neo-gothic wernigerode castle crowns the hill center-frame — its tall stone keep, steep slate roofs and green-copper spire rising over autumn-tinted woods. half-timbered houses with red tile roofs slope away left and right in the foreground, where a shop-front bakery and a wooden signpost reading &quot;schlossblick · schloss 600 m&quot; point the way uphill. clear 7.2°c morning light under a pale sky, with golden foliage framing the top-left of the view.">
+<article class="card" data-search="wernigerode wernigerode castle saxony-anhalt de-st-004 from a cobbled lane above the old town, the neo-gothic wernigerode castle crowns the hill center-frame — its tall stone keep, steep slate roofs and green-copper spire rising over autumn-tinted woods. half-timbered houses with red tile roofs slope away left and right in the foreground, where a shop-front bakery and a wooden signpost reading &quot;schlossblick · schloss 600 m&quot; point the way uphill. clear 7.2°c morning light under a pale sky, with golden foliage framing the top-left of the view." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-004-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-004-16x9.png" data-src-16="../assets/de-st-004-16x9.png" data-src-45="../assets/de-st-004-4x5.png" data-src-916="../assets/de-st-004-9x16.png" alt="AI-generated artistic interpretation of Wernigerode Castle in Wernigerode" loading="lazy" />
@@ -2493,7 +2496,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="harz brocken saxony-anhalt de-st-005 a black brockenbahn steam locomotive stands at the summit platform in the center of the frame, with the station and visitor-center building at right and the red-and-white transmission towers rising behind it. the tracks curve down toward the left, opening onto rolling autumn-colored ridges fading into morning haze. frost-dusted rocky outcrops fill the foreground, where yellow trail signs point toward schierke and the bremer hütte, all under a crisp, mainly clear early-morning sky.">
+<article class="card" data-search="harz brocken saxony-anhalt de-st-005 a black brockenbahn steam locomotive stands at the summit platform in the center of the frame, with the station and visitor-center building at right and the red-and-white transmission towers rising behind it. the tracks curve down toward the left, opening onto rolling autumn-colored ridges fading into morning haze. frost-dusted rocky outcrops fill the foreground, where yellow trail signs point toward schierke and the bremer hütte, all under a crisp, mainly clear early-morning sky." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-005-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-005-16x9.png" data-src-16="../assets/de-st-005-16x9.png" data-src-45="../assets/de-st-005-4x5.png" data-src-916="../assets/de-st-005-9x16.png" alt="AI-generated artistic interpretation of Brocken in Harz" loading="lazy" />
@@ -2521,7 +2524,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="thale bode gorge saxony-anhalt de-st-006 eye-level along the gorge, the bode river winds center-frame between moss-covered boulders and steep granite walls left and right, a fallen trunk lying across the water in the foreground. forested slopes rise in the distance in early autumn golds and greens beneath a clear blue sky. crisp 8.6°c morning light with no wind on the water.">
+<article class="card" data-search="thale bode gorge saxony-anhalt de-st-006 eye-level along the gorge, the bode river winds center-frame between moss-covered boulders and steep granite walls left and right, a fallen trunk lying across the water in the foreground. forested slopes rise in the distance in early autumn golds and greens beneath a clear blue sky. crisp 8.6°c morning light with no wind on the water." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-006-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-006-16x9.png" data-src-16="../assets/de-st-006-16x9.png" data-src-45="../assets/de-st-006-4x5.png" data-src-916="../assets/de-st-006-9x16.png" alt="AI-generated artistic interpretation of Bode Gorge in Thale" loading="lazy" />
@@ -2549,7 +2552,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="thale rosstrappe saxony-anhalt de-st-007 from the rosstrappe viewing platform, the weathered wooden railing and its &quot;blick ins bodetal&quot; plaque frame the left foreground, while the deep bodetal gorge falls away to the right — sheer grey crags dropping to the silver thread of the bode river below. autumn color touches the gorge walls in yellows and russets among the dark conifers, with layered harz ridges fading blue into the distance. the 08:15 morning light is clear and crisp, leaves and pinecones scattered across the platform boards.">
+<article class="card" data-search="thale rosstrappe saxony-anhalt de-st-007 from the rosstrappe viewing platform, the weathered wooden railing and its &quot;blick ins bodetal&quot; plaque frame the left foreground, while the deep bodetal gorge falls away to the right — sheer grey crags dropping to the silver thread of the bode river below. autumn color touches the gorge walls in yellows and russets among the dark conifers, with layered harz ridges fading blue into the distance. the 08:15 morning light is clear and crisp, leaves and pinecones scattered across the platform boards." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-007-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-007-16x9.png" data-src-16="../assets/de-st-007-16x9.png" data-src-45="../assets/de-st-007-4x5.png" data-src-916="../assets/de-st-007-9x16.png" alt="AI-generated artistic interpretation of Rosstrappe in Thale" loading="lazy" />
@@ -2577,7 +2580,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="blankenburg/weddersleben teufelsmauer saxony-anhalt de-st-008 the dark, weathered sandstone towers of the teufelsmauer rise left and center, a narrow hiking path winding between the rock fins past mossy ledges and fallen leaves. to the right the land drops to the village of weddersleben, its red roofs set among autumn fields and hedgerows. the 08:15 morning light is clear and low, warming the rock faces while the distance holds a pale haze.">
+<article class="card" data-search="blankenburg/weddersleben teufelsmauer saxony-anhalt de-st-008 the dark, weathered sandstone towers of the teufelsmauer rise left and center, a narrow hiking path winding between the rock fins past mossy ledges and fallen leaves. to the right the land drops to the village of weddersleben, its red roofs set among autumn fields and hedgerows. the 08:15 morning light is clear and low, warming the rock faces while the distance holds a pale haze." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-008-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-008-16x9.png" data-src-16="../assets/de-st-008-16x9.png" data-src-45="../assets/de-st-008-4x5.png" data-src-916="../assets/de-st-008-9x16.png" alt="AI-generated artistic interpretation of Teufelsmauer in Blankenburg/Weddersleben" loading="lazy" />
@@ -2605,7 +2608,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="halberstadt cathedral saxony-anhalt de-st-009 the cathedral&#x27;s twin-towered westwork fills the frame, red spires over arched portals and a rose window. half-timbered houses line domplatz on both sides, a stone fountain in the foreground, and the blue domplatz sign at right. wet cobblestones under flat overcast light, with a few fallen leaves on this mid-september afternoon.">
+<article class="card" data-search="halberstadt cathedral saxony-anhalt de-st-009 the cathedral&#x27;s twin-towered westwork fills the frame, red spires over arched portals and a rose window. half-timbered houses line domplatz on both sides, a stone fountain in the foreground, and the blue domplatz sign at right. wet cobblestones under flat overcast light, with a few fallen leaves on this mid-september afternoon." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-009-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-009-16x9.png" data-src-16="../assets/de-st-009-16x9.png" data-src-45="../assets/de-st-009-4x5.png" data-src-916="../assets/de-st-009-9x16.png" alt="AI-generated artistic interpretation of Cathedral in Halberstadt" loading="lazy" />
@@ -2633,7 +2636,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="magdeburg cathedral saxony-anhalt de-st-010 the twin spires of magdeburg cathedral rise at center, seen from the riverside promenade across the elbe. bicycles lean by a weathered bench on the left foreground embankment while the broad river stretches right; the stone quay wall runs under flat, grey overcast light. the choir and east end fill out the right half of the frame above red rooftops — a soft, rain-grey late-september afternoon.">
+<article class="card" data-search="magdeburg cathedral saxony-anhalt de-st-010 the twin spires of magdeburg cathedral rise at center, seen from the riverside promenade across the elbe. bicycles lean by a weathered bench on the left foreground embankment while the broad river stretches right; the stone quay wall runs under flat, grey overcast light. the choir and east end fill out the right half of the frame above red rooftops — a soft, rain-grey late-september afternoon." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-010-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-010-16x9.png" data-src-16="../assets/de-st-010-16x9.png" data-src-45="../assets/de-st-010-4x5.png" data-src-916="../assets/de-st-010-9x16.png" alt="AI-generated artistic interpretation of Cathedral in Magdeburg" loading="lazy" />
@@ -2661,7 +2664,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="magdeburg green citadel saxony-anhalt de-st-011 the green citadel&#x27;s undulating pink walls fill the frame, with tree-column mosaics rising at left and golden domes crowning the roofline, tree tenants sprouting above the parapets. the glass corner tower stands at the left edge; at street level a café sign, ornate lamp post, parked bicycles and a bus shelter line the foreground. flat overcast light softens the façade&#x27;s colors on this grey late-september afternoon.">
+<article class="card" data-search="magdeburg green citadel saxony-anhalt de-st-011 the green citadel&#x27;s undulating pink walls fill the frame, with tree-column mosaics rising at left and golden domes crowning the roofline, tree tenants sprouting above the parapets. the glass corner tower stands at the left edge; at street level a café sign, ornate lamp post, parked bicycles and a bus shelter line the foreground. flat overcast light softens the façade&#x27;s colors on this grey late-september afternoon." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-011-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-011-16x9.png" data-src-16="../assets/de-st-011-16x9.png" data-src-45="../assets/de-st-011-4x5.png" data-src-916="../assets/de-st-011-9x16.png" alt="AI-generated artistic interpretation of Green Citadel in Magdeburg" loading="lazy" />
@@ -2689,7 +2692,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="dessau-roßlau bauhaus building saxony-anhalt de-st-012 the bauhaus dessau building&#x27;s glass workshop wing sweeps from center to right, its gridded curtain wall wrapping the corner under the vertical bauhaus letters on the grey masonry end. a red door marks the entrance at right; the white studio wing rises at the left edge beyond a leafy tree, with bicycles and a bench on the foreground plaza. soft overcast light flattens the afternoon shadows on this grey september day.">
+<article class="card" data-search="dessau-roßlau bauhaus building saxony-anhalt de-st-012 the bauhaus dessau building&#x27;s glass workshop wing sweeps from center to right, its gridded curtain wall wrapping the corner under the vertical bauhaus letters on the grey masonry end. a red door marks the entrance at right; the white studio wing rises at the left edge beyond a leafy tree, with bicycles and a bench on the foreground plaza. soft overcast light flattens the afternoon shadows on this grey september day." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-012-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-012-16x9.png" data-src-16="../assets/de-st-012-16x9.png" data-src-45="../assets/de-st-012-4x5.png" data-src-916="../assets/de-st-012-9x16.png" alt="AI-generated artistic interpretation of Bauhaus building in Dessau-Roßlau" loading="lazy" />
@@ -2717,7 +2720,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="dessau-roßlau masters’ houses saxony-anhalt de-st-013 the white bauhaus masters&#x27; houses stand among tall pines, their cubic flat-roof volumes with band windows and balconies framing a sandy path through the foreground. a bicycle leans against a pine trunk at the left edge, while a blue site sign naming the 1925–1926 masters&#x27; houses and their unesco listing rises out of the needle-strewn grass at center-right. under flat overcast daylight the pale façades glow softly against the dark trunks, and white wildflowers dot the dry grass around the path.">
+<article class="card" data-search="dessau-roßlau masters’ houses saxony-anhalt de-st-013 the white bauhaus masters&#x27; houses stand among tall pines, their cubic flat-roof volumes with band windows and balconies framing a sandy path through the foreground. a bicycle leans against a pine trunk at the left edge, while a blue site sign naming the 1925–1926 masters&#x27; houses and their unesco listing rises out of the needle-strewn grass at center-right. under flat overcast daylight the pale façades glow softly against the dark trunks, and white wildflowers dot the dry grass around the path." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-013-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-013-16x9.png" data-src-16="../assets/de-st-013-16x9.png" data-src-45="../assets/de-st-013-4x5.png" data-src-916="../assets/de-st-013-9x16.png" alt="AI-generated artistic interpretation of Masters’ Houses in Dessau-Roßlau" loading="lazy" />
@@ -2745,7 +2748,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="wörlitz garden realm saxony-anhalt de-st-014 the viewpoint is at the lakeshore, a gravel path and mossy bank in the foreground with reeds at the water&#x27;s edge. the arched stone bridge crosses left of center to the classical temple pavilion, while the gothic house rises at the right above willows and park benches, ducks drifting on the lake. overcast autumn daylight at 17°c flattens the shadows, the grey sky reflected softly in the still water.">
+<article class="card" data-search="wörlitz garden realm saxony-anhalt de-st-014 the viewpoint is at the lakeshore, a gravel path and mossy bank in the foreground with reeds at the water&#x27;s edge. the arched stone bridge crosses left of center to the classical temple pavilion, while the gothic house rises at the right above willows and park benches, ducks drifting on the lake. overcast autumn daylight at 17°c flattens the shadows, the grey sky reflected softly in the still water." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-014-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-014-16x9.png" data-src-16="../assets/de-st-014-16x9.png" data-src-45="../assets/de-st-014-4x5.png" data-src-916="../assets/de-st-014-9x16.png" alt="AI-generated artistic interpretation of Garden Realm in Wörlitz" loading="lazy" />
@@ -2773,7 +2776,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="lutherstadt wittenberg castle church saxony-anhalt de-st-015 the castle church&#x27;s round tower with its openwork crown rises at center-right, its dark stonework banded by the inscribed ring below the crown. a cobbled street of half-timbered houses fills the foreground, a bakery and bookshop-antiquariat with hanging signs at the left, bicycles parked along the curb and fallen leaves scattered on the wet cobbles. partly cloudy afternoon light breaks across the church nave, with a slender needle spire rising behind the rooftops and a tourist wayfinding sign pointing toward the lutherweg information.">
+<article class="card" data-search="lutherstadt wittenberg castle church saxony-anhalt de-st-015 the castle church&#x27;s round tower with its openwork crown rises at center-right, its dark stonework banded by the inscribed ring below the crown. a cobbled street of half-timbered houses fills the foreground, a bakery and bookshop-antiquariat with hanging signs at the left, bicycles parked along the curb and fallen leaves scattered on the wet cobbles. partly cloudy afternoon light breaks across the church nave, with a slender needle spire rising behind the rooftops and a tourist wayfinding sign pointing toward the lutherweg information." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-015-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-015-16x9.png" data-src-16="../assets/de-st-015-16x9.png" data-src-45="../assets/de-st-015-4x5.png" data-src-916="../assets/de-st-015-9x16.png" alt="AI-generated artistic interpretation of Castle Church in Lutherstadt Wittenberg" loading="lazy" />
@@ -2801,7 +2804,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="naumburg cathedral saxony-anhalt de-st-016 the cathedral&#x27;s twin romanesque towers with their green cupola crowns rise at center-right, the nave&#x27;s red tile roof and pointed gothic windows spreading along a moss-capped churchyard wall. a wet cobbled street curves past half-timbered houses at the left, where a bakery sign hangs beside flower boxes and a bicycle leans against a lamp post in the foreground. overcast autumn light softens the stonework, with fallen leaves scattered on the damp cobbles and puddles reflecting the gray sky.">
+<article class="card" data-search="naumburg cathedral saxony-anhalt de-st-016 the cathedral&#x27;s twin romanesque towers with their green cupola crowns rise at center-right, the nave&#x27;s red tile roof and pointed gothic windows spreading along a moss-capped churchyard wall. a wet cobbled street curves past half-timbered houses at the left, where a bakery sign hangs beside flower boxes and a bicycle leans against a lamp post in the foreground. overcast autumn light softens the stonework, with fallen leaves scattered on the damp cobbles and puddles reflecting the gray sky." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-016-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-016-16x9.png" data-src-16="../assets/de-st-016-16x9.png" data-src-45="../assets/de-st-016-4x5.png" data-src-916="../assets/de-st-016-9x16.png" alt="AI-generated artistic interpretation of Cathedral in Naumburg" loading="lazy" />
@@ -2829,7 +2832,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="freyburg neuenburg castle saxony-anhalt de-st-017 the viewpoint is among the vineyard rows, a gravel path leading between vine-covered stakes in the foreground while the neuenburg castle complex crowns the hilltop above. red-tiled roofs and stone walls stand center-top against a broken cloud sky, terraced vines sweeping across the mid-frame and the valley town glimpsed at the far left. partly cloudy daylight at 18°c keeps the greens vivid, with early autumn tints touching some vine leaves.">
+<article class="card" data-search="freyburg neuenburg castle saxony-anhalt de-st-017 the viewpoint is among the vineyard rows, a gravel path leading between vine-covered stakes in the foreground while the neuenburg castle complex crowns the hilltop above. red-tiled roofs and stone walls stand center-top against a broken cloud sky, terraced vines sweeping across the mid-frame and the valley town glimpsed at the far left. partly cloudy daylight at 18°c keeps the greens vivid, with early autumn tints touching some vine leaves." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-017-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-017-16x9.png" data-src-16="../assets/de-st-017-16x9.png" data-src-45="../assets/de-st-017-4x5.png" data-src-916="../assets/de-st-017-9x16.png" alt="AI-generated artistic interpretation of Neuenburg Castle in Freyburg" loading="lazy" />
@@ -2857,7 +2860,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="halle (saale) market square saxony-anhalt de-st-018 the red tower rises over halle&#x27;s market square on the right, its green copper cap and clock face standing against the grey afternoon sky. center frame, the market church holds the square with its four distinctive towers, while cobbled paving leads the eye past market stalls of flowers and autumn fruit. to the left, a bakery&#x27;s windows glow warm beneath overcast light, and a lone cyclist crosses the open square. a calm, everyday market-day scene under soft, rain-fresh overcast light.">
+<article class="card" data-search="halle (saale) market square saxony-anhalt de-st-018 the red tower rises over halle&#x27;s market square on the right, its green copper cap and clock face standing against the grey afternoon sky. center frame, the market church holds the square with its four distinctive towers, while cobbled paving leads the eye past market stalls of flowers and autumn fruit. to the left, a bakery&#x27;s windows glow warm beneath overcast light, and a lone cyclist crosses the open square. a calm, everyday market-day scene under soft, rain-fresh overcast light." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-018-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-018-16x9.png" data-src-16="../assets/de-st-018-16x9.png" data-src-45="../assets/de-st-018-4x5.png" data-src-916="../assets/de-st-018-9x16.png" alt="AI-generated artistic interpretation of Market square in Halle (Saale)" loading="lazy" />
@@ -2885,7 +2888,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="merseburg cathedral and palace saxony-anhalt de-st-019 merseburg&#x27;s cathedral and castle rise together above the saale, the cathedral&#x27;s twin spires and green copper roofs standing left while the palace&#x27;s cream façade with green shutters anchors the right. below, the river slides past reed beds and a weathered riverside path, the whole ensemble reflected in soft overcast light. a quiet riverside viewpoint — no crowds, just stone, water, and late-september greenery under a clouded afternoon sky.">
+<article class="card" data-search="merseburg cathedral and palace saxony-anhalt de-st-019 merseburg&#x27;s cathedral and castle rise together above the saale, the cathedral&#x27;s twin spires and green copper roofs standing left while the palace&#x27;s cream façade with green shutters anchors the right. below, the river slides past reed beds and a weathered riverside path, the whole ensemble reflected in soft overcast light. a quiet riverside viewpoint — no crowds, just stone, water, and late-september greenery under a clouded afternoon sky." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-019-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-019-16x9.png" data-src-16="../assets/de-st-019-16x9.png" data-src-45="../assets/de-st-019-4x5.png" data-src-916="../assets/de-st-019-9x16.png" alt="AI-generated artistic interpretation of Cathedral and palace in Merseburg" loading="lazy" />
@@ -2913,7 +2916,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="sangerhausen europa-rosarium saxony-anhalt de-st-020 rose arches draw the eye down the gravel path at the heart of the europa-rosarium, the world&#x27;s largest rose collection. to the right, climbing pink roses spill over a weathered wooden pergola above a garden bench, while a labeled rose bed stands left beside purple lavender rows. half-timbered buildings frame the scene at the left edge, and petals drift across the path under the soft, even light of an overcast september afternoon.">
+<article class="card" data-search="sangerhausen europa-rosarium saxony-anhalt de-st-020 rose arches draw the eye down the gravel path at the heart of the europa-rosarium, the world&#x27;s largest rose collection. to the right, climbing pink roses spill over a weathered wooden pergola above a garden bench, while a labeled rose bed stands left beside purple lavender rows. half-timbered buildings frame the scene at the left edge, and petals drift across the path under the soft, even light of an overcast september afternoon." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-020-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-020-16x9.png" data-src-16="../assets/de-st-020-16x9.png" data-src-45="../assets/de-st-020-4x5.png" data-src-916="../assets/de-st-020-9x16.png" alt="AI-generated artistic interpretation of Europa-Rosarium in Sangerhausen" loading="lazy" />
@@ -2941,7 +2944,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="gernrode st. cyriakus saxony-anhalt de-st-021 the twin green-spired towers of st. cyriakus stand at center, flanking the rounded east apse with its arched gallery beneath a copper-green conical roof. a half-timbered house with shuttered windows fills the left foreground, a wooden &quot;st. cyriakus · um 961&quot; signpost pointing toward the church, while a mossy stone wall and a &quot;weltkulturerbe&quot; plaque sit at the right. the cobbled square is scattered with autumn leaves in the 08:30 morning light, and a parked bicycle leans against the house.">
+<article class="card" data-search="gernrode st. cyriakus saxony-anhalt de-st-021 the twin green-spired towers of st. cyriakus stand at center, flanking the rounded east apse with its arched gallery beneath a copper-green conical roof. a half-timbered house with shuttered windows fills the left foreground, a wooden &quot;st. cyriakus · um 961&quot; signpost pointing toward the church, while a mossy stone wall and a &quot;weltkulturerbe&quot; plaque sit at the right. the cobbled square is scattered with autumn leaves in the 08:30 morning light, and a parked bicycle leans against the house." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-021-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-021-16x9.png" data-src-16="../assets/de-st-021-16x9.png" data-src-45="../assets/de-st-021-4x5.png" data-src-916="../assets/de-st-021-9x16.png" alt="AI-generated artistic interpretation of St. Cyriakus in Gernrode" loading="lazy" />
@@ -2969,7 +2972,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="kelbra kyffhäuser outlook saxony-anhalt de-st-022 from the kyffhäuser outlook at night, the forested ridge stretches across the middle distance with the monument tower standing dimly on the skyline in neighboring thuringia, the warm scattered lights of kelbra and far-off farms glowing in the valley below; dark hills fade toward the harz and thuringian forest under the heavy overcast 10.5°c night sky.">
+<article class="card" data-search="kelbra kyffhäuser outlook saxony-anhalt de-st-022 from the kyffhäuser outlook at night, the forested ridge stretches across the middle distance with the monument tower standing dimly on the skyline in neighboring thuringia, the warm scattered lights of kelbra and far-off farms glowing in the valley below; dark hills fade toward the harz and thuringian forest under the heavy overcast 10.5°c night sky." data-state="Saxony-Anhalt">
           <div class="preview">
             <a class="thumb" href="../assets/de-st-022-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-st-022-16x9.png" data-src-16="../assets/de-st-022-16x9.png" data-src-45="../assets/de-st-022-4x5.png" data-src-916="../assets/de-st-022-9x16.png" alt="AI-generated artistic interpretation of Kyffhäuser outlook in Kelbra" loading="lazy" />
@@ -3005,20 +3008,24 @@
     <p>Jason D&rsquo;s Vision waives its own rights in these images. This doesn&rsquo;t waive anyone else&rsquo;s rights: if an image happens to include a trademark, logo, or other third-party material, those rights still belong to their owners. All images are AI-generated artistic interpretations, not photographs, and use of an image doesn&rsquo;t imply endorsement by Jason D&rsquo;s Vision.</p>
   </section>
 <footer>
-  <p>AI-generated artistic interpretations</p>
+  <p>AI-generated artistic interpretations &middot; <a href="https://jdvision.org/transparency.html">How our images are made</a></p>
   <p class="sig">Jason D&rsquo;s Vision</p>
 </footer>
 <script>
     const q = document.getElementById('q');
+    const region = document.getElementById('region');
     const clearBtn = document.getElementById('clear');
     const countEl = document.getElementById('result-count');
     const noResults = document.getElementById('no-results');
     const cards = Array.from(document.querySelectorAll('.card'));
     function render() {
       const query = q.value.trim().toLowerCase();
+      const st = region ? region.value : '';
       let n = 0;
       for (const c of cards) {
-        const hit = !query || (c.dataset.search || '').includes(query);
+        const hitQ = !query || (c.dataset.search || '').includes(query);
+        const hitS = !st || (c.dataset.state || '') === st;
+        const hit = hitQ && hitS;
         c.style.display = hit ? '' : 'none';
         if (hit) n++;
       }
@@ -3026,7 +3033,8 @@
       noResults.style.display = n ? 'none' : 'block';
     }
     q.addEventListener('input', render);
-    clearBtn.addEventListener('click', () => { q.value = ''; render(); });
+    if (region) region.addEventListener('change', render);
+    clearBtn.addEventListener('click', () => { q.value = ''; if (region) region.value = ''; render(); });
     render();
 
     document.querySelectorAll('.card').forEach(card => {
