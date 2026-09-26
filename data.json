@@ -4256,6 +4256,20 @@
     "file_9x16": "assets/de-sl-007-9x16.png"
   },
   {
+    "entry_id": "DE-SL-008",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Perl",
+    "site": "Roman Villa Borg",
+    "caption": "Roman Villa Borg, Perl",
+    "scenario": "26 September 2026 · 12:15 Europe/Berlin",
+    "composition": "Reconstructed Roman villa · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-008-16x9.png",
+    "file_4x5": "assets/de-sl-008-4x5.png",
+    "file_9x16": "assets/de-sl-008-9x16.png"
+  },
+  {
     "entry_id": "DE-SL-009",
     "code": "SL",
     "state": "Saarland",
@@ -4270,6 +4284,20 @@
     "file_9x16": "assets/de-sl-009-9x16.png"
   },
   {
+    "entry_id": "DE-SL-010",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Homburg",
+    "site": "Schlossberg caves",
+    "caption": "Schlossberg caves, Homburg",
+    "scenario": "26 September 2026 · 12:15 Europe/Berlin",
+    "composition": "Sandstone chambers; controlled interior · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-010-16x9.png",
+    "file_4x5": "assets/de-sl-010-4x5.png",
+    "file_9x16": "assets/de-sl-010-9x16.png"
+  },
+  {
     "entry_id": "DE-SL-011",
     "code": "SL",
     "state": "Saarland",
@@ -4282,6 +4310,20 @@
     "file_16x9": "assets/de-sl-011-16x9.png",
     "file_4x5": "assets/de-sl-011-4x5.png",
     "file_9x16": "assets/de-sl-011-9x16.png"
+  },
+  {
+    "entry_id": "DE-SL-012",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Saarlouis",
+    "site": "Old town and fortifications",
+    "caption": "Old town and fortifications, Saarlouis",
+    "scenario": "26 September 2026 · 12:30 Europe/Berlin",
+    "composition": "Historic urban details · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-012-16x9.png",
+    "file_4x5": "assets/de-sl-012-4x5.png",
+    "file_9x16": "assets/de-sl-012-9x16.png"
   },
   {
     "entry_id": "DE-SN-007",
