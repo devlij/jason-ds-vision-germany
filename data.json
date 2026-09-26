@@ -4550,6 +4550,48 @@
     "file_9x16": "assets/de-sn-017-9x16.png"
   },
   {
+    "entry_id": "DE-SN-018",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Bautzen",
+    "site": "Old town skyline",
+    "caption": "Old town skyline, Bautzen",
+    "scenario": "26 September 2026 · 14:15 Europe/Berlin",
+    "composition": "Towers above Spree · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-018-16x9.png",
+    "file_4x5": "assets/de-sn-018-4x5.png",
+    "file_9x16": "assets/de-sn-018-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-019",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Leipzig",
+    "site": "Old Town Hall",
+    "caption": "Old Town Hall, Leipzig",
+    "scenario": "26 September 2026 · 14:15 Europe/Berlin",
+    "composition": "Market square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-019-16x9.png",
+    "file_4x5": "assets/de-sn-019-4x5.png",
+    "file_9x16": "assets/de-sn-019-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-020",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Leipzig",
+    "site": "Monument to the Battle of the Nations",
+    "caption": "Monument to the Battle of the Nations, Leipzig",
+    "scenario": "26 September 2026 · 14:30 Europe/Berlin",
+    "composition": "Monument and reflecting pool · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-020-16x9.png",
+    "file_4x5": "assets/de-sn-020-4x5.png",
+    "file_9x16": "assets/de-sn-020-9x16.png"
+  },
+  {
     "entry_id": "DE-SN-023",
     "code": "SN",
     "state": "Saxony",
