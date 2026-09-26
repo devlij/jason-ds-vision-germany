@@ -4368,6 +4368,34 @@
     "file_9x16": "assets/de-sn-004-9x16.png"
   },
   {
+    "entry_id": "DE-SN-005",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Dresden",
+    "site": "Neustadt riverbank",
+    "caption": "Neustadt riverbank, Dresden",
+    "scenario": "26 September 2026 · 13:15 Europe/Berlin",
+    "composition": "Old-town skyline across Elbe · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-005-16x9.png",
+    "file_4x5": "assets/de-sn-005-4x5.png",
+    "file_9x16": "assets/de-sn-005-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-006",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Dresden",
+    "site": "Fürstenzug",
+    "caption": "Fürstenzug, Dresden",
+    "scenario": "26 September 2026 · 13:15 Europe/Berlin",
+    "composition": "Historic tiled mural · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-006-16x9.png",
+    "file_4x5": "assets/de-sn-006-4x5.png",
+    "file_9x16": "assets/de-sn-006-9x16.png"
+  },
+  {
     "entry_id": "DE-SN-007",
     "code": "SN",
     "state": "Saxony",
@@ -4464,6 +4492,20 @@
     "file_16x9": "assets/de-sn-013-16x9.png",
     "file_4x5": "assets/de-sn-013-4x5.png",
     "file_9x16": "assets/de-sn-013-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-014",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Meissen",
+    "site": "Albrechtsburg and cathedral",
+    "caption": "Albrechtsburg and cathedral, Meissen",
+    "scenario": "26 September 2026 · 13:30 Europe/Berlin",
+    "composition": "Castle hill from Elbe · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-014-16x9.png",
+    "file_4x5": "assets/de-sn-014-4x5.png",
+    "file_9x16": "assets/de-sn-014-9x16.png"
   },
   {
     "entry_id": "DE-SN-023",
