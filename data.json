@@ -3388,6 +3388,20 @@
     "file_9x16": "assets/de-nw-027-9x16.png"
   },
   {
+    "entry_id": "DE-NW-028",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Dortmund",
+    "site": "Phoenix See",
+    "caption": "Phoenix See, Dortmund",
+    "scenario": "26 September 2026 · 09:45 Europe/Berlin",
+    "composition": "Lake and industrial remnants · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-028-16x9.png",
+    "file_4x5": "assets/de-nw-028-4x5.png",
+    "file_9x16": "assets/de-nw-028-9x16.png"
+  },
+  {
     "entry_id": "DE-NW-029",
     "code": "NW",
     "state": "North Rhine-Westphalia",
@@ -3470,6 +3484,34 @@
     "file_16x9": "assets/de-rp-005-16x9.png",
     "file_4x5": "assets/de-rp-005-4x5.png",
     "file_9x16": "assets/de-rp-005-9x16.png"
+  },
+  {
+    "entry_id": "DE-RP-006",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Trier",
+    "site": "Porta Nigra",
+    "caption": "Porta Nigra, Trier",
+    "scenario": "26 September 2026 · 10:00 Europe/Berlin",
+    "composition": "Roman gate · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-006-16x9.png",
+    "file_4x5": "assets/de-rp-006-4x5.png",
+    "file_9x16": "assets/de-rp-006-9x16.png"
+  },
+  {
+    "entry_id": "DE-RP-007",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Trier",
+    "site": "Cathedral and Hauptmarkt",
+    "caption": "Cathedral and Hauptmarkt, Trier",
+    "scenario": "26 September 2026 · 10:00 Europe/Berlin",
+    "composition": "Historic urban ensemble · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-007-16x9.png",
+    "file_4x5": "assets/de-rp-007-4x5.png",
+    "file_9x16": "assets/de-rp-007-9x16.png"
   },
   {
     "entry_id": "DE-RP-010",
