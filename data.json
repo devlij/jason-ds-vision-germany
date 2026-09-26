@@ -3262,6 +3262,20 @@
     "file_9x16": "assets/de-nw-018-9x16.png"
   },
   {
+    "entry_id": "DE-NW-019",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Brühl",
+    "site": "Augustusburg Palace",
+    "caption": "Augustusburg Palace, Brühl",
+    "scenario": "26 September 2026 · 08:45 Europe/Berlin",
+    "composition": "Palace and gardens · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-019-16x9.png",
+    "file_4x5": "assets/de-nw-019-4x5.png",
+    "file_9x16": "assets/de-nw-019-9x16.png"
+  },
+  {
     "entry_id": "DE-NW-020",
     "code": "NW",
     "state": "North Rhine-Westphalia",
@@ -3302,6 +3316,34 @@
     "file_16x9": "assets/de-nw-022-16x9.png",
     "file_4x5": "assets/de-nw-022-4x5.png",
     "file_9x16": "assets/de-nw-022-9x16.png"
+  },
+  {
+    "entry_id": "DE-NW-023",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Freudenberg",
+    "site": "Alter Flecken",
+    "caption": "Alter Flecken, Freudenberg",
+    "scenario": "26 September 2026 · 08:45 Europe/Berlin",
+    "composition": "Repeating half-timbered houses · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-023-16x9.png",
+    "file_4x5": "assets/de-nw-023-4x5.png",
+    "file_9x16": "assets/de-nw-023-9x16.png"
+  },
+  {
+    "entry_id": "DE-NW-024",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Xanten",
+    "site": "Archaeological Park",
+    "caption": "Archaeological Park, Xanten",
+    "scenario": "26 September 2026 · 09:00 Europe/Berlin",
+    "composition": "Reconstructed Roman architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-024-16x9.png",
+    "file_4x5": "assets/de-nw-024-4x5.png",
+    "file_9x16": "assets/de-nw-024-9x16.png"
   },
   {
     "entry_id": "DE-NW-029",
