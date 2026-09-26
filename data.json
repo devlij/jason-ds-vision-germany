@@ -4592,6 +4592,34 @@
     "file_9x16": "assets/de-sn-020-9x16.png"
   },
   {
+    "entry_id": "DE-SN-021",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Leipzig",
+    "site": "St. Thomas Church",
+    "caption": "St. Thomas Church, Leipzig",
+    "scenario": "26 September 2026 · 14:45 Europe/Berlin",
+    "composition": "Church and square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-021-16x9.png",
+    "file_4x5": "assets/de-sn-021-4x5.png",
+    "file_9x16": "assets/de-sn-021-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-022",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Leipzig",
+    "site": "Mädler Passage",
+    "caption": "Mädler Passage, Leipzig",
+    "scenario": "26 September 2026 · 15:00 Europe/Berlin",
+    "composition": "Historic shopping arcade · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-022-16x9.png",
+    "file_4x5": "assets/de-sn-022-4x5.png",
+    "file_9x16": "assets/de-sn-022-9x16.png"
+  },
+  {
     "entry_id": "DE-SN-023",
     "code": "SN",
     "state": "Saxony",
@@ -4660,6 +4688,20 @@
     "file_16x9": "assets/de-sn-027-16x9.png",
     "file_4x5": "assets/de-sn-027-4x5.png",
     "file_9x16": "assets/de-sn-027-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-028",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Annaberg-Buchholz",
+    "site": "St. Anne’s Church",
+    "caption": "St. Anne’s Church, Annaberg-Buchholz",
+    "scenario": "26 September 2026 · 15:00 Europe/Berlin",
+    "composition": "Church above town · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-028-16x9.png",
+    "file_4x5": "assets/de-sn-028-4x5.png",
+    "file_9x16": "assets/de-sn-028-9x16.png"
   },
   {
     "entry_id": "DE-ST-001",
