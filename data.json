@@ -3346,6 +3346,48 @@
     "file_9x16": "assets/de-nw-024-9x16.png"
   },
   {
+    "entry_id": "DE-NW-025",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Hattingen",
+    "site": "Old town",
+    "caption": "Old town, Hattingen",
+    "scenario": "26 September 2026 · 09:15 Europe/Berlin",
+    "composition": "Timber-framed lanes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-025-16x9.png",
+    "file_4x5": "assets/de-nw-025-4x5.png",
+    "file_9x16": "assets/de-nw-025-9x16.png"
+  },
+  {
+    "entry_id": "DE-NW-026",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Bottrop",
+    "site": "Tetraeder",
+    "caption": "Tetraeder, Bottrop",
+    "scenario": "26 September 2026 · 09:15 Europe/Berlin",
+    "composition": "Industrial-region panorama · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-026-16x9.png",
+    "file_4x5": "assets/de-nw-026-4x5.png",
+    "file_9x16": "assets/de-nw-026-9x16.png"
+  },
+  {
+    "entry_id": "DE-NW-027",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Oberhausen",
+    "site": "Gasometer",
+    "caption": "Gasometer, Oberhausen",
+    "scenario": "26 September 2026 · 09:30 Europe/Berlin",
+    "composition": "Industrial landmark · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-027-16x9.png",
+    "file_4x5": "assets/de-nw-027-4x5.png",
+    "file_9x16": "assets/de-nw-027-9x16.png"
+  },
+  {
     "entry_id": "DE-NW-029",
     "code": "NW",
     "state": "North Rhine-Westphalia",
