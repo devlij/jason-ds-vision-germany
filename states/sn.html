@@ -74,6 +74,8 @@
   .toolbar { display: flex; gap: 12px; align-items: center; margin: 22px 0 6px; flex-wrap: wrap; }
   .toolbar input { flex: 1; min-width: 220px; padding: 10px 12px; font-size: 14px;
                    background: #1e1811; border: 1px solid #4a3f2c; border-radius: 8px; color: #f2ede3; }
+  .toolbar select { padding: 10px 12px; font-size: 14px;
+                    background: #1e1811; border: 1px solid #4a3f2c; border-radius: 8px; color: #f2ede3; }
   .toolbar button { padding: 10px 14px; font-size: 14px; background: #3d3324; color: #f2ede3;
                     border: 1px solid #4a3f2c; border-radius: 8px; cursor: pointer; }
   #result-count { color: #a79c86; font-size: 13px; }
@@ -111,6 +113,7 @@
   #license p { color: #a79c86; font-size: 14px; line-height: 1.6; }
   footer { text-align: center; color: #8a7f68; font-size: 12px; padding: 24px; }
   footer .sig { color: #f2ede3; font-size: 14px; margin-top: 4px; }
+  footer a { color: #e8c47c; }
   .state-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin-top: 20px; }
   .state-card { display: block; background: #1e1811; border: 1px solid #3d3324; border-radius: 10px;
                 padding: 18px; text-decoration: none; color: #f2ede3; }
@@ -2381,7 +2384,7 @@
   </div>
   <div id="no-results">No scenes match your search.</div>
   <div class="grid">
-<article class="card" data-search="dresden theaterplatz saxony de-sn-002 the semperoper&#x27;s curved sandstone façade and copper-green dome fill the left of the frame, with king johann&#x27;s equestrian statue standing in the center of the cobbled square. right of center rises the dresden cathedral, its bell tower and dome climbing above the ornate roofline statues, while a café terrace with folded umbrellas and flower boxes anchors the right foreground. crisp midday light under a clear blue sky sharpens the stonework shadows of a fine late-september day.">
+<article class="card" data-search="dresden theaterplatz saxony de-sn-002 the semperoper&#x27;s curved sandstone façade and copper-green dome fill the left of the frame, with king johann&#x27;s equestrian statue standing in the center of the cobbled square. right of center rises the dresden cathedral, its bell tower and dome climbing above the ornate roofline statues, while a café terrace with folded umbrellas and flower boxes anchors the right foreground. crisp midday light under a clear blue sky sharpens the stonework shadows of a fine late-september day." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-002-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-002-16x9.png" data-src-16="../assets/de-sn-002-16x9.png" data-src-45="../assets/de-sn-002-4x5.png" data-src-916="../assets/de-sn-002-9x16.png" alt="AI-generated artistic interpretation of Theaterplatz in Dresden" loading="lazy" />
@@ -2409,7 +2412,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="dresden zwinger saxony de-sn-003 the zwinger&#x27;s nymph-fountain basin fills the center of the frame, water spilling over mossy rockwork between sculpted stone figures, while the wallpavillon&#x27;s ornate baroque façade with its rooftop statues and copper-green dome rises at the right edge. the long arched gallery stretches left across the manicured courtyard, rose beds and clipped hedges glowing under a clear midday sky on a bright late-september day.">
+<article class="card" data-search="dresden zwinger saxony de-sn-003 the zwinger&#x27;s nymph-fountain basin fills the center of the frame, water spilling over mossy rockwork between sculpted stone figures, while the wallpavillon&#x27;s ornate baroque façade with its rooftop statues and copper-green dome rises at the right edge. the long arched gallery stretches left across the manicured courtyard, rose beds and clipped hedges glowing under a clear midday sky on a bright late-september day." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-003-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-003-16x9.png" data-src-16="../assets/de-sn-003-16x9.png" data-src-45="../assets/de-sn-003-4x5.png" data-src-916="../assets/de-sn-003-9x16.png" alt="AI-generated artistic interpretation of Zwinger in Dresden" loading="lazy" />
@@ -2437,7 +2440,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="dresden brühl’s terrace saxony de-sn-004 the terrace&#x27;s weathered sandstone balustrade sweeps diagonally across the foreground, with the albertinum&#x27;s glass dome rising behind it at left and the elbe curving away to the right. downstream, the augustus bridge spans the river toward the old-town skyline and a distant church tower, all in bright early-afternoon light under a clear late-september sky.">
+<article class="card" data-search="dresden brühl’s terrace saxony de-sn-004 the terrace&#x27;s weathered sandstone balustrade sweeps diagonally across the foreground, with the albertinum&#x27;s glass dome rising behind it at left and the elbe curving away to the right. downstream, the augustus bridge spans the river toward the old-town skyline and a distant church tower, all in bright early-afternoon light under a clear late-september sky." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-004-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-004-16x9.png" data-src-16="../assets/de-sn-004-16x9.png" data-src-45="../assets/de-sn-004-4x5.png" data-src-916="../assets/de-sn-004-9x16.png" alt="AI-generated artistic interpretation of Brühl’s Terrace in Dresden" loading="lazy" />
@@ -2465,7 +2468,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="dresden neustadt riverbank saxony de-sn-005 from the neustadt riverbank, the elbe leads the eye to dresden&#x27;s old-town skyline across the water. the augustusbrücke crosses at the left with the semperoper and hofkirche towers beyond it, the frauenkirche dome anchors the middle distance, and the cathedral and palace towers stand at the right beside a moored paddle steamer. willow fronds frame both edges of the view and a bicycle rests against the riverside wall in the foreground, giving the scene an easy tourist&#x27;s-eye feel under a clear midday september sky at 20 degrees.">
+<article class="card" data-search="dresden neustadt riverbank saxony de-sn-005 from the neustadt riverbank, the elbe leads the eye to dresden&#x27;s old-town skyline across the water. the augustusbrücke crosses at the left with the semperoper and hofkirche towers beyond it, the frauenkirche dome anchors the middle distance, and the cathedral and palace towers stand at the right beside a moored paddle steamer. willow fronds frame both edges of the view and a bicycle rests against the riverside wall in the foreground, giving the scene an easy tourist&#x27;s-eye feel under a clear midday september sky at 20 degrees." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-005-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-005-16x9.png" data-src-16="../assets/de-sn-005-16x9.png" data-src-45="../assets/de-sn-005-4x5.png" data-src-916="../assets/de-sn-005-9x16.png" alt="AI-generated artistic interpretation of Neustadt riverbank in Dresden" loading="lazy" />
@@ -2493,7 +2496,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="dresden fürstenzug saxony de-sn-006 the fürstenzug stretches along the wall at the left and center — the 102-meter porcelain-tile mural of marching riders and footmen in black-and-gold, with ornamental tile borders and the stone base course below it. the cobbled street runs right toward the dresden royal palace&#x27;s red roofs and green spires, with parked bicycles at the far right. a corner of a tourist&#x27;s map peeks into the bottom-left edge, catching the whole thing in clear midday september light at 20 degrees.">
+<article class="card" data-search="dresden fürstenzug saxony de-sn-006 the fürstenzug stretches along the wall at the left and center — the 102-meter porcelain-tile mural of marching riders and footmen in black-and-gold, with ornamental tile borders and the stone base course below it. the cobbled street runs right toward the dresden royal palace&#x27;s red roofs and green spires, with parked bicycles at the far right. a corner of a tourist&#x27;s map peeks into the bottom-left edge, catching the whole thing in clear midday september light at 20 degrees." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-006-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-006-16x9.png" data-src-16="../assets/de-sn-006-16x9.png" data-src-45="../assets/de-sn-006-4x5.png" data-src-916="../assets/de-sn-006-9x16.png" alt="AI-generated artistic interpretation of Fürstenzug in Dresden" loading="lazy" />
@@ -2521,7 +2524,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="dresden pillnitz palace saxony de-sn-007 the chinoiserie water palace stands center-frame behind terraced gardens, its sweeping slate roofs and spired pavilions painted ochre under a partly cloudy sky. the elbe riverside terrace runs along the foreground with iron mooring rings, driftwood and reeds at the water&#x27;s edge, while autumn flowerbeds and clipped hedges fill the middle ground. fallen leaves scatter the paths, capturing pillnitz at the turn of the season.">
+<article class="card" data-search="dresden pillnitz palace saxony de-sn-007 the chinoiserie water palace stands center-frame behind terraced gardens, its sweeping slate roofs and spired pavilions painted ochre under a partly cloudy sky. the elbe riverside terrace runs along the foreground with iron mooring rings, driftwood and reeds at the water&#x27;s edge, while autumn flowerbeds and clipped hedges fill the middle ground. fallen leaves scatter the paths, capturing pillnitz at the turn of the season." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-007-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-007-16x9.png" data-src-16="../assets/de-sn-007-16x9.png" data-src-45="../assets/de-sn-007-4x5.png" data-src-916="../assets/de-sn-007-9x16.png" alt="AI-generated artistic interpretation of Pillnitz Palace in Dresden" loading="lazy" />
@@ -2549,7 +2552,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="lohmen/rathen bastei bridge saxony de-sn-008 the arched bastei bridge stretches center-frame between towering sandstone pinnacles, its moss-grown parapet and rain-slicked flagstones running through the foreground from the right. mist coils over the elbe valley behind the bridge while forested ridges fade into the overcast distance. diffuse morning light under heavy cloud flattens the contrast but deepens the stone&#x27;s grey tones, with touches of early autumn color in the foliage clinging to the rock faces.">
+<article class="card" data-search="lohmen/rathen bastei bridge saxony de-sn-008 the arched bastei bridge stretches center-frame between towering sandstone pinnacles, its moss-grown parapet and rain-slicked flagstones running through the foreground from the right. mist coils over the elbe valley behind the bridge while forested ridges fade into the overcast distance. diffuse morning light under heavy cloud flattens the contrast but deepens the stone&#x27;s grey tones, with touches of early autumn color in the foliage clinging to the rock faces." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-008-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-008-16x9.png" data-src-16="../assets/de-sn-008-16x9.png" data-src-45="../assets/de-sn-008-4x5.png" data-src-916="../assets/de-sn-008-9x16.png" alt="AI-generated artistic interpretation of Bastei Bridge in Lohmen/Rathen" loading="lazy" />
@@ -2577,7 +2580,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="königstein königstein fortress saxony de-sn-009 from the fortress ramparts, the white-walled königstein complex stands right of frame — gate tower, chapel, and long rampart buildings above the stone parapet — while the elbe curves through the valley below with red-roofed königstein town at the river bend and the forested table mountains of saxon switzerland on the horizon. morning sun on a mainly clear late-september day warms the sandstone and lights the valley; a viewpoint plaque on the parapet marks the elbe-valley overlook to the southeast.">
+<article class="card" data-search="königstein königstein fortress saxony de-sn-009 from the fortress ramparts, the white-walled königstein complex stands right of frame — gate tower, chapel, and long rampart buildings above the stone parapet — while the elbe curves through the valley below with red-roofed königstein town at the river bend and the forested table mountains of saxon switzerland on the horizon. morning sun on a mainly clear late-september day warms the sandstone and lights the valley; a viewpoint plaque on the parapet marks the elbe-valley overlook to the southeast." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-009-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-009-16x9.png" data-src-16="../assets/de-sn-009-16x9.png" data-src-45="../assets/de-sn-009-4x5.png" data-src-916="../assets/de-sn-009-9x16.png" alt="AI-generated artistic interpretation of Königstein Fortress in Königstein" loading="lazy" />
@@ -2605,7 +2608,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="bad schandau schrammsteine saxony de-sn-010 from a rock-ridge viewpoint on the schrammsteine, the jagged sandstone towers crowd the right of frame while the valley opens wide to the left — patchwork forest tipping into autumn color, a small town glinting in the distance, and the familiar table mountains of saxon switzerland on the horizon. moss and heather cling to the weathered ledges in the foreground under a mainly clear late-september sky; the late-morning light picks out the layered strata of the cliffs.">
+<article class="card" data-search="bad schandau schrammsteine saxony de-sn-010 from a rock-ridge viewpoint on the schrammsteine, the jagged sandstone towers crowd the right of frame while the valley opens wide to the left — patchwork forest tipping into autumn color, a small town glinting in the distance, and the familiar table mountains of saxon switzerland on the horizon. moss and heather cling to the weathered ledges in the foreground under a mainly clear late-september sky; the late-morning light picks out the layered strata of the cliffs." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-010-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-010-16x9.png" data-src-16="../assets/de-sn-010-16x9.png" data-src-45="../assets/de-sn-010-4x5.png" data-src-916="../assets/de-sn-010-9x16.png" alt="AI-generated artistic interpretation of Schrammsteine in Bad Schandau" loading="lazy" />
@@ -2633,7 +2636,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="königstein / lilienstein lilienstein saxony de-sn-011 from the lilienstein plateau, layered sandstone crags and a weathered lookout knoll stand center-right with a fenced trail corner in the foreground, while autumn-tinged forest sweeps left toward the valley village below and a flat-topped table mountain anchors the upper-left horizon. pines and heather cling to the rock under a mainly clear mid-morning sky; the late-september light catches the strata of the cliffs and the patchwork fields far beyond.">
+<article class="card" data-search="königstein / lilienstein lilienstein saxony de-sn-011 from the lilienstein plateau, layered sandstone crags and a weathered lookout knoll stand center-right with a fenced trail corner in the foreground, while autumn-tinged forest sweeps left toward the valley village below and a flat-topped table mountain anchors the upper-left horizon. pines and heather cling to the rock under a mainly clear mid-morning sky; the late-september light catches the strata of the cliffs and the patchwork fields far beyond." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-011-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-011-16x9.png" data-src-16="../assets/de-sn-011-16x9.png" data-src-45="../assets/de-sn-011-4x5.png" data-src-916="../assets/de-sn-011-9x16.png" alt="AI-generated artistic interpretation of Lilienstein in Königstein / Lilienstein" loading="lazy" />
@@ -2661,7 +2664,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="rathen amselsee saxony de-sn-012 from the footpath along the shore, green rowboats moored at a wooden jetty stand center-left with a rope-fenced trail curving away at the left edge, while the still lake opens right between towering elbe sandstone cliffs whose crags rise center-distance above the water. mixed forest with early autumn color fringes both banks, and pale morning light through broken cloud reflects softly on the rippled surface.">
+<article class="card" data-search="rathen amselsee saxony de-sn-012 from the footpath along the shore, green rowboats moored at a wooden jetty stand center-left with a rope-fenced trail curving away at the left edge, while the still lake opens right between towering elbe sandstone cliffs whose crags rise center-distance above the water. mixed forest with early autumn color fringes both banks, and pale morning light through broken cloud reflects softly on the rippled surface." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-012-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-012-16x9.png" data-src-16="../assets/de-sn-012-16x9.png" data-src-45="../assets/de-sn-012-4x5.png" data-src-916="../assets/de-sn-012-9x16.png" alt="AI-generated artistic interpretation of Amselsee in Rathen" loading="lazy" />
@@ -2689,7 +2692,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="moritzburg moritzburg castle saxony de-sn-013 the ochre baroque palace rises across the schlossteich at the center of the frame, its rust-red domed corner towers and central spire reflected softly in the grey water. red-roofed outbuildings line the far shore left and right, while reeds and mossy stones fill the near foreground. a heavy overcast sky flattens the light on this 12.7°c autumn morning, matching the quiet, off-season mood of the lakeside.">
+<article class="card" data-search="moritzburg moritzburg castle saxony de-sn-013 the ochre baroque palace rises across the schlossteich at the center of the frame, its rust-red domed corner towers and central spire reflected softly in the grey water. red-roofed outbuildings line the far shore left and right, while reeds and mossy stones fill the near foreground. a heavy overcast sky flattens the light on this 12.7°c autumn morning, matching the quiet, off-season mood of the lakeside." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-013-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-013-16x9.png" data-src-16="../assets/de-sn-013-16x9.png" data-src-45="../assets/de-sn-013-4x5.png" data-src-916="../assets/de-sn-013-9x16.png" alt="AI-generated artistic interpretation of Moritzburg Castle in Moritzburg" loading="lazy" />
@@ -2717,7 +2720,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="meissen albrechtsburg and cathedral saxony de-sn-014 from the elbe&#x27;s near bank, meissen&#x27;s castle hill rises ahead with the red-roofed albrechtsburg at its center and the cathedral&#x27;s twin gothic spires climbing above it. the old town&#x27;s gabled houses terrace up the slope at the left, swans drift on the river in the midground, and wildflowers and reeds fill the near-bank foreground at the right. parked cars line the far quay under a mainly clear midday sky at just under 21 degrees.">
+<article class="card" data-search="meissen albrechtsburg and cathedral saxony de-sn-014 from the elbe&#x27;s near bank, meissen&#x27;s castle hill rises ahead with the red-roofed albrechtsburg at its center and the cathedral&#x27;s twin gothic spires climbing above it. the old town&#x27;s gabled houses terrace up the slope at the left, swans drift on the river in the midground, and wildflowers and reeds fill the near-bank foreground at the right. parked cars line the far quay under a mainly clear midday sky at just under 21 degrees." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-014-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-014-16x9.png" data-src-16="../assets/de-sn-014-16x9.png" data-src-45="../assets/de-sn-014-4x5.png" data-src-916="../assets/de-sn-014-9x16.png" alt="AI-generated artistic interpretation of Albrechtsburg and cathedral in Meissen" loading="lazy" />
@@ -2745,7 +2748,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="meissen old town saxony de-sn-015 a cobbled lane climbs toward meissen’s old town under a mainly clear early-afternoon sky. the half-timbered town hall with its clock tower stands left of frame above a fruit-and-vegetable market stall, while café awnings, hanging flower baskets and a meissen porcelain shopfront fill the right side, and a tall gothic church spire rises at the end of the street.">
+<article class="card" data-search="meissen old town saxony de-sn-015 a cobbled lane climbs toward meissen’s old town under a mainly clear early-afternoon sky. the half-timbered town hall with its clock tower stands left of frame above a fruit-and-vegetable market stall, while café awnings, hanging flower baskets and a meissen porcelain shopfront fill the right side, and a tall gothic church spire rises at the end of the street." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-015-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-015-16x9.png" data-src-16="../assets/de-sn-015-16x9.png" data-src-45="../assets/de-sn-015-4x5.png" data-src-916="../assets/de-sn-015-9x16.png" alt="AI-generated artistic interpretation of Old town in Meissen" loading="lazy" />
@@ -2773,7 +2776,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="görlitz untermarkt saxony de-sn-016 the untermarkt square framed by a stone arcade, with pastel historic facades, ornate plasterwork and shuttered windows lining both sides of the cobbles. a bakery-café with flower boxes sits at left, a wooden market stall with folded parasols stands at center, and the clear midday sky fills the gap between the rooftops.">
+<article class="card" data-search="görlitz untermarkt saxony de-sn-016 the untermarkt square framed by a stone arcade, with pastel historic facades, ornate plasterwork and shuttered windows lining both sides of the cobbles. a bakery-café with flower boxes sits at left, a wooden market stall with folded parasols stands at center, and the clear midday sky fills the gap between the rooftops." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-016-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-016-16x9.png" data-src-16="../assets/de-sn-016-16x9.png" data-src-45="../assets/de-sn-016-4x5.png" data-src-916="../assets/de-sn-016-9x16.png" alt="AI-generated artistic interpretation of Untermarkt in Görlitz" loading="lazy" />
@@ -2801,7 +2804,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="görlitz st. peter and paul saxony de-sn-017 the twin spires of st. peter and paul rise above the neisse from the far bank, red-roofed old-town houses and a weeping willow lining the riverfront below. the altstadt pedestrian bridge arches at the left edge, wildflowers fringe the near bank, and ducks drift on the water under a clear early-afternoon sky.">
+<article class="card" data-search="görlitz st. peter and paul saxony de-sn-017 the twin spires of st. peter and paul rise above the neisse from the far bank, red-roofed old-town houses and a weeping willow lining the riverfront below. the altstadt pedestrian bridge arches at the left edge, wildflowers fringe the near bank, and ducks drift on the water under a clear early-afternoon sky." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-017-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-017-16x9.png" data-src-16="../assets/de-sn-017-16x9.png" data-src-45="../assets/de-sn-017-4x5.png" data-src-916="../assets/de-sn-017-9x16.png" alt="AI-generated artistic interpretation of St. Peter and Paul in Görlitz" loading="lazy" />
@@ -2829,7 +2832,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="bautzen old town skyline saxony de-sn-018 from the spree riverbank, bautzen&#x27;s medieval skyline rises above the water: the round stone defensive tower and the church with its green copper spire stand left of frame, with the old town&#x27;s red-tiled rooftops climbing the cliff to the right. a stone bridge crosses the river at the far left, and a bilingual german/sorbian signpost points the way to the altstadt in the foreground. soft overcast light flattens the shadows across the rippling spree, and early autumn green still clothes the riverbanks.">
+<article class="card" data-search="bautzen old town skyline saxony de-sn-018 from the spree riverbank, bautzen&#x27;s medieval skyline rises above the water: the round stone defensive tower and the church with its green copper spire stand left of frame, with the old town&#x27;s red-tiled rooftops climbing the cliff to the right. a stone bridge crosses the river at the far left, and a bilingual german/sorbian signpost points the way to the altstadt in the foreground. soft overcast light flattens the shadows across the rippling spree, and early autumn green still clothes the riverbanks." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-018-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-018-16x9.png" data-src-16="../assets/de-sn-018-16x9.png" data-src-45="../assets/de-sn-018-4x5.png" data-src-916="../assets/de-sn-018-9x16.png" alt="AI-generated artistic interpretation of Old town skyline in Bautzen" loading="lazy" />
@@ -2857,7 +2860,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="leipzig old town hall saxony de-sn-019 leipzig&#x27;s old town hall spans the markt in a long renaissance block, its red-tiled gables and ground-floor arcade anchored by the clock tower&#x27;s green copper dome at the right. a stadtmuseum banner hangs on the tower face, and a flower stall labeled leipzig - markt spills color into the cobblestone foreground at right. to the left, a café terrace with a chalkboard advertising fresh brötchen sits under blue markt/rathaus signposts. heavy overcast light softens the square, where scattered autumn leaves hint at the turn of the season.">
+<article class="card" data-search="leipzig old town hall saxony de-sn-019 leipzig&#x27;s old town hall spans the markt in a long renaissance block, its red-tiled gables and ground-floor arcade anchored by the clock tower&#x27;s green copper dome at the right. a stadtmuseum banner hangs on the tower face, and a flower stall labeled leipzig - markt spills color into the cobblestone foreground at right. to the left, a café terrace with a chalkboard advertising fresh brötchen sits under blue markt/rathaus signposts. heavy overcast light softens the square, where scattered autumn leaves hint at the turn of the season." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-019-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-019-16x9.png" data-src-16="../assets/de-sn-019-16x9.png" data-src-45="../assets/de-sn-019-4x5.png" data-src-916="../assets/de-sn-019-9x16.png" alt="AI-generated artistic interpretation of Old Town Hall in Leipzig" loading="lazy" />
@@ -2885,7 +2888,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="leipzig monument to the battle of the nations saxony de-sn-020 the völkerschlachtdenkmal towers over its reflecting pool in a near-symmetrical composition: the great stepped stone pyramid with its crown of warrior figures rises center-frame, its reflection doubling in the leaf-dotted water below. colonnade wings stretch left and right, framed by rows of mature trees under a heavy overcast sky. a lone visitor at the base gives away the monument&#x27;s true scale, while the soft diffuse light lends the gray stone a solemn calm.">
+<article class="card" data-search="leipzig monument to the battle of the nations saxony de-sn-020 the völkerschlachtdenkmal towers over its reflecting pool in a near-symmetrical composition: the great stepped stone pyramid with its crown of warrior figures rises center-frame, its reflection doubling in the leaf-dotted water below. colonnade wings stretch left and right, framed by rows of mature trees under a heavy overcast sky. a lone visitor at the base gives away the monument&#x27;s true scale, while the soft diffuse light lends the gray stone a solemn calm." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-020-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-020-16x9.png" data-src-16="../assets/de-sn-020-16x9.png" data-src-45="../assets/de-sn-020-4x5.png" data-src-916="../assets/de-sn-020-9x16.png" alt="AI-generated artistic interpretation of Monument to the Battle of the Nations in Leipzig" loading="lazy" />
@@ -2913,7 +2916,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="leipzig st. thomas church saxony de-sn-021 from the thomaskirchhof square the thomaskirche rises over the cobbled plaza — the tall tower with its white-and-red upper stage stands left of the steep-gabled nave, with the gothic side aisles running to the right. a lanterned street lamp and stacked café chairs sit in the left foreground while bicycles line the square&#x27;s edge. flat overcast daylight at 14:45 softens every edge, and the blue &quot;thomaskirchhof&quot; street sign on the corner building anchors the scene in leipzig&#x27;s old town.">
+<article class="card" data-search="leipzig st. thomas church saxony de-sn-021 from the thomaskirchhof square the thomaskirche rises over the cobbled plaza — the tall tower with its white-and-red upper stage stands left of the steep-gabled nave, with the gothic side aisles running to the right. a lanterned street lamp and stacked café chairs sit in the left foreground while bicycles line the square&#x27;s edge. flat overcast daylight at 14:45 softens every edge, and the blue &quot;thomaskirchhof&quot; street sign on the corner building anchors the scene in leipzig&#x27;s old town." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-021-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-021-16x9.png" data-src-16="../assets/de-sn-021-16x9.png" data-src-45="../assets/de-sn-021-4x5.png" data-src-916="../assets/de-sn-021-9x16.png" alt="AI-generated artistic interpretation of St. Thomas Church in Leipzig" loading="lazy" />
@@ -2941,7 +2944,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="leipzig mädler passage saxony de-sn-022 under the mädler passage&#x27;s curved glass roof, the historic arcade stretches toward its arched far exit — café and bakery counters with handwritten price boards on the left, a bookshop with a bachfest leipzig poster in the middle ground, and a jeweller&#x27;s shopfront at the right edge. wall-mounted lamps line the cream plaster pilasters, and flower pots dot the passage floor. diffuse daylight filtered through the glass vault gives the interior its soft even glow at 15:00 on an overcast afternoon.">
+<article class="card" data-search="leipzig mädler passage saxony de-sn-022 under the mädler passage&#x27;s curved glass roof, the historic arcade stretches toward its arched far exit — café and bakery counters with handwritten price boards on the left, a bookshop with a bachfest leipzig poster in the middle ground, and a jeweller&#x27;s shopfront at the right edge. wall-mounted lamps line the cream plaster pilasters, and flower pots dot the passage floor. diffuse daylight filtered through the glass vault gives the interior its soft even glow at 15:00 on an overcast afternoon." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-022-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-022-16x9.png" data-src-16="../assets/de-sn-022-16x9.png" data-src-45="../assets/de-sn-022-4x5.png" data-src-916="../assets/de-sn-022-9x16.png" alt="AI-generated artistic interpretation of Mädler Passage in Leipzig" loading="lazy" />
@@ -2969,7 +2972,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="gablenz rakotzbrücke saxony de-sn-023 the basalt arch of the rakotzbrücke spans the upper center of the frame, its reflection closing a perfect circle in the mirror-still water below, with rugged basalt rock towers rising at each end of the bridge. autumn-turned forest crowds the banks left and right, fallen leaves scatter the mossy foreground shore, and soft overcast morning light gives the whole scene its misty, fairy-tale stillness.">
+<article class="card" data-search="gablenz rakotzbrücke saxony de-sn-023 the basalt arch of the rakotzbrücke spans the upper center of the frame, its reflection closing a perfect circle in the mirror-still water below, with rugged basalt rock towers rising at each end of the bridge. autumn-turned forest crowds the banks left and right, fallen leaves scatter the mossy foreground shore, and soft overcast morning light gives the whole scene its misty, fairy-tale stillness." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-023-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-023-16x9.png" data-src-16="../assets/de-sn-023-16x9.png" data-src-45="../assets/de-sn-023-4x5.png" data-src-916="../assets/de-sn-023-9x16.png" alt="AI-generated artistic interpretation of Rakotzbrücke in Gablenz" loading="lazy" />
@@ -2997,7 +3000,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="bad muskau muskau park saxony de-sn-024 the red-brick neues schloss with its tall domed tower stands center across the water, its cream-trimmed facades mirrored in the lake below, while overhanging branches drape the upper-right corner of the frame. a leaf-strewn path winds along the left shore past reed beds, autumn color turning the parkland trees, and flat overcast morning light softens the whole scene.">
+<article class="card" data-search="bad muskau muskau park saxony de-sn-024 the red-brick neues schloss with its tall domed tower stands center across the water, its cream-trimmed facades mirrored in the lake below, while overhanging branches drape the upper-right corner of the frame. a leaf-strewn path winds along the left shore past reed beds, autumn color turning the parkland trees, and flat overcast morning light softens the whole scene." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-024-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-024-16x9.png" data-src-16="../assets/de-sn-024-16x9.png" data-src-45="../assets/de-sn-024-4x5.png" data-src-916="../assets/de-sn-024-9x16.png" alt="AI-generated artistic interpretation of Muskau Park in Bad Muskau" loading="lazy" />
@@ -3025,7 +3028,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="kromlau/gablenz azalea and rhododendron park saxony de-sn-025 the famous rakotzbrücke stone arch spans a still pond at the center of the frame, its reflection doubled in the quiet water beneath. banks of blooming rhododendrons and azaleas in pink, magenta and violet crowd the left and right edges, with mossy logs, ferns and a curved gravel path in the foreground. overcast autumn light softens the greens, and a cropped wooden trail sign at the far left marks the park wayfinding.">
+<article class="card" data-search="kromlau/gablenz azalea and rhododendron park saxony de-sn-025 the famous rakotzbrücke stone arch spans a still pond at the center of the frame, its reflection doubled in the quiet water beneath. banks of blooming rhododendrons and azaleas in pink, magenta and violet crowd the left and right edges, with mossy logs, ferns and a curved gravel path in the foreground. overcast autumn light softens the greens, and a cropped wooden trail sign at the far left marks the park wayfinding." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-025-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-025-16x9.png" data-src-16="../assets/de-sn-025-16x9.png" data-src-45="../assets/de-sn-025-4x5.png" data-src-916="../assets/de-sn-025-9x16.png" alt="AI-generated artistic interpretation of Azalea and rhododendron park in Kromlau/Gablenz" loading="lazy" />
@@ -3053,7 +3056,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="kurort oybin oybin saxony de-sn-026 the gothic monastery-church ruin rises center-right from the sandstone plateau, its tall lancet window open to the morning sky, with the castle tower shouldering it from behind. a wooden visitor railing and trail map lead the eye up the rocky path in the foreground, while the rooftops of kurort oybin spread left across the valley floor. crisp mid-morning autumn light under a nearly cloudless sky gives the sandstone a warm glow, with scattered fallen leaves marking the season on the trail.">
+<article class="card" data-search="kurort oybin oybin saxony de-sn-026 the gothic monastery-church ruin rises center-right from the sandstone plateau, its tall lancet window open to the morning sky, with the castle tower shouldering it from behind. a wooden visitor railing and trail map lead the eye up the rocky path in the foreground, while the rooftops of kurort oybin spread left across the valley floor. crisp mid-morning autumn light under a nearly cloudless sky gives the sandstone a warm glow, with scattered fallen leaves marking the season on the trail." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-026-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-026-16x9.png" data-src-16="../assets/de-sn-026-16x9.png" data-src-45="../assets/de-sn-026-4x5.png" data-src-916="../assets/de-sn-026-9x16.png" alt="AI-generated artistic interpretation of Oybin in Kurort Oybin" loading="lazy" />
@@ -3081,7 +3084,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="seiffen mountain church saxony de-sn-027 the octagonal bergkirche stands center-frame with its stepped tower and clock rising over a wet cobbled village street, a bakery and woodcraft shop with flower boxes lining the left side. half-timbered erzgebirge houses spill right and down the slope, with misted, autumn-colored hills folding behind them. soft mid-morning light breaks through the part-cloud sky, glinting off the damp cobblestones while fallen leaves edge the church terrace.">
+<article class="card" data-search="seiffen mountain church saxony de-sn-027 the octagonal bergkirche stands center-frame with its stepped tower and clock rising over a wet cobbled village street, a bakery and woodcraft shop with flower boxes lining the left side. half-timbered erzgebirge houses spill right and down the slope, with misted, autumn-colored hills folding behind them. soft mid-morning light breaks through the part-cloud sky, glinting off the damp cobblestones while fallen leaves edge the church terrace." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-027-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-027-16x9.png" data-src-16="../assets/de-sn-027-16x9.png" data-src-45="../assets/de-sn-027-4x5.png" data-src-916="../assets/de-sn-027-9x16.png" alt="AI-generated artistic interpretation of Mountain church in Seiffen" loading="lazy" />
@@ -3109,7 +3112,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="annaberg-buchholz st. anne’s church saxony de-sn-028 st. anne&#x27;s church crowns its walled terrace above the old town — the great hall church&#x27;s slate roofs and verdigris-domed tower fill the center, while half-timbered and slate-roofed houses tumble down the slope in the foreground and a cobbled street with a bakery drops away at the left. chimney smoke drifts in the damp air, and the misty ore mountains rise behind the town. flat overcast daylight at 15:00 keeps the whole scene soft and cool.">
+<article class="card" data-search="annaberg-buchholz st. anne’s church saxony de-sn-028 st. anne&#x27;s church crowns its walled terrace above the old town — the great hall church&#x27;s slate roofs and verdigris-domed tower fill the center, while half-timbered and slate-roofed houses tumble down the slope in the foreground and a cobbled street with a bakery drops away at the left. chimney smoke drifts in the damp air, and the misty ore mountains rise behind the town. flat overcast daylight at 15:00 keeps the whole scene soft and cool." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-028-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-028-16x9.png" data-src-16="../assets/de-sn-028-16x9.png" data-src-45="../assets/de-sn-028-4x5.png" data-src-916="../assets/de-sn-028-9x16.png" alt="AI-generated artistic interpretation of St. Anne’s Church in Annaberg-Buchholz" loading="lazy" />
@@ -3137,7 +3140,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="chemnitz karl marx monument saxony de-sn-029 the bronze karl marx head rises on its stone plinth at center, backed by the tower wall carrying the workers&#x27; cry in many languages. a leafy tree frames the left edge while the plaza stretches right past a bus shelter and shopfronts toward the apartment blocks. flat overcast light on wet cobblestones, scattered early autumn leaves and a few pigeons complete the late-september afternoon.">
+<article class="card" data-search="chemnitz karl marx monument saxony de-sn-029 the bronze karl marx head rises on its stone plinth at center, backed by the tower wall carrying the workers&#x27; cry in many languages. a leafy tree frames the left edge while the plaza stretches right past a bus shelter and shopfronts toward the apartment blocks. flat overcast light on wet cobblestones, scattered early autumn leaves and a few pigeons complete the late-september afternoon." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-029-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-029-16x9.png" data-src-16="../assets/de-sn-029-16x9.png" data-src-45="../assets/de-sn-029-4x5.png" data-src-916="../assets/de-sn-029-9x16.png" alt="AI-generated artistic interpretation of Karl Marx Monument in Chemnitz" loading="lazy" />
@@ -3165,7 +3168,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="rochlitz rochlitz castle saxony de-sn-030 rochlitz castle crowns the wooded bluff across the mulde, its twin towers and slate roofs rising above the rock face. reeds and a riverside information board frame the left foreground, with the water stretching to the castle-side bank. flat overcast light keeps every stone detail soft and readable on this late-september afternoon.">
+<article class="card" data-search="rochlitz rochlitz castle saxony de-sn-030 rochlitz castle crowns the wooded bluff across the mulde, its twin towers and slate roofs rising above the rock face. reeds and a riverside information board frame the left foreground, with the water stretching to the castle-side bank. flat overcast light keeps every stone detail soft and readable on this late-september afternoon." data-state="Saxony">
           <div class="preview">
             <a class="thumb" href="../assets/de-sn-030-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sn-030-16x9.png" data-src-16="../assets/de-sn-030-16x9.png" data-src-45="../assets/de-sn-030-4x5.png" data-src-916="../assets/de-sn-030-9x16.png" alt="AI-generated artistic interpretation of Rochlitz Castle in Rochlitz" loading="lazy" />
@@ -3201,20 +3204,24 @@
     <p>Jason D&rsquo;s Vision waives its own rights in these images. This doesn&rsquo;t waive anyone else&rsquo;s rights: if an image happens to include a trademark, logo, or other third-party material, those rights still belong to their owners. All images are AI-generated artistic interpretations, not photographs, and use of an image doesn&rsquo;t imply endorsement by Jason D&rsquo;s Vision.</p>
   </section>
 <footer>
-  <p>AI-generated artistic interpretations</p>
+  <p>AI-generated artistic interpretations &middot; <a href="https://jdvision.org/transparency.html">How our images are made</a></p>
   <p class="sig">Jason D&rsquo;s Vision</p>
 </footer>
 <script>
     const q = document.getElementById('q');
+    const region = document.getElementById('region');
     const clearBtn = document.getElementById('clear');
     const countEl = document.getElementById('result-count');
     const noResults = document.getElementById('no-results');
     const cards = Array.from(document.querySelectorAll('.card'));
     function render() {
       const query = q.value.trim().toLowerCase();
+      const st = region ? region.value : '';
       let n = 0;
       for (const c of cards) {
-        const hit = !query || (c.dataset.search || '').includes(query);
+        const hitQ = !query || (c.dataset.search || '').includes(query);
+        const hitS = !st || (c.dataset.state || '') === st;
+        const hit = hitQ && hitS;
         c.style.display = hit ? '' : 'none';
         if (hit) n++;
       }
@@ -3222,7 +3229,8 @@
       noResults.style.display = n ? 'none' : 'block';
     }
     q.addEventListener('input', render);
-    clearBtn.addEventListener('click', () => { q.value = ''; render(); });
+    if (region) region.addEventListener('change', render);
+    clearBtn.addEventListener('click', () => { q.value = ''; if (region) region.value = ''; render(); });
     render();
 
     document.querySelectorAll('.card').forEach(card => {
