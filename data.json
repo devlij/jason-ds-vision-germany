@@ -5065,7 +5065,7 @@
     "approved": true,
     "file_16x9": "assets/de-th-020-16x9.png",
     "file_4x5": "assets/de-th-020-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-th-020-9x16.png"
   },
   {
     "entry_id": "DE-TH-021",
@@ -5079,7 +5079,7 @@
     "approved": true,
     "file_16x9": "assets/de-th-021-16x9.png",
     "file_4x5": "assets/de-th-021-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-th-021-9x16.png"
   },
   {
     "entry_id": "DE-TH-022",
@@ -5093,6 +5093,6 @@
     "approved": true,
     "file_16x9": "assets/de-th-022-16x9.png",
     "file_4x5": "assets/de-th-022-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-th-022-9x16.png"
   }
 ]
