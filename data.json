@@ -3640,6 +3640,34 @@
     "file_9x16": "assets/de-rp-016-9x16.png"
   },
   {
+    "entry_id": "DE-RP-017",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Speyer",
+    "site": "Speyer Cathedral",
+    "caption": "Speyer Cathedral, Speyer",
+    "scenario": "26 September 2026 · 10:45 Europe/Berlin",
+    "composition": "Romanesque cathedral · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-017-16x9.png",
+    "file_4x5": "assets/de-rp-017-4x5.png",
+    "file_9x16": "assets/de-rp-017-9x16.png"
+  },
+  {
+    "entry_id": "DE-RP-018",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Worms",
+    "site": "Worms Cathedral",
+    "caption": "Worms Cathedral, Worms",
+    "scenario": "26 September 2026 · 10:45 Europe/Berlin",
+    "composition": "Cathedral exterior · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-018-16x9.png",
+    "file_4x5": "assets/de-rp-018-4x5.png",
+    "file_9x16": "assets/de-rp-018-9x16.png"
+  },
+  {
     "entry_id": "DE-RP-019",
     "code": "RP",
     "state": "Rhineland-Palatinate",
@@ -3722,6 +3750,20 @@
     "file_16x9": "assets/de-rp-024-16x9.png",
     "file_4x5": "assets/de-rp-024-4x5.png",
     "file_9x16": "assets/de-rp-024-9x16.png"
+  },
+  {
+    "entry_id": "DE-RP-025",
+    "code": "RP",
+    "state": "Rhineland-Palatinate",
+    "city": "Bad Kreuznach",
+    "site": "Bridge houses",
+    "caption": "Bridge houses, Bad Kreuznach",
+    "scenario": "26 September 2026 · 11:00 Europe/Berlin",
+    "composition": "Nahe riverfront · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-rp-025-16x9.png",
+    "file_4x5": "assets/de-rp-025-4x5.png",
+    "file_9x16": "assets/de-rp-025-9x16.png"
   },
   {
     "entry_id": "DE-RP-026",
