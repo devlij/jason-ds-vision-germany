@@ -4970,6 +4970,48 @@
     "file_9x16": "assets/de-st-017-9x16.png"
   },
   {
+    "entry_id": "DE-ST-018",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Halle (Saale)",
+    "site": "Market square",
+    "caption": "Market square, Halle (Saale)",
+    "scenario": "26 September 2026 · 16:45 Europe/Berlin",
+    "composition": "Market Church and Red Tower · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-st-018-16x9.png",
+    "file_4x5": "assets/de-st-018-4x5.png",
+    "file_9x16": "assets/de-st-018-9x16.png"
+  },
+  {
+    "entry_id": "DE-ST-019",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Merseburg",
+    "site": "Cathedral and palace",
+    "caption": "Cathedral and palace, Merseburg",
+    "scenario": "26 September 2026 · 17:00 Europe/Berlin",
+    "composition": "Saale-side ensemble · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-st-019-16x9.png",
+    "file_4x5": "assets/de-st-019-4x5.png",
+    "file_9x16": "assets/de-st-019-9x16.png"
+  },
+  {
+    "entry_id": "DE-ST-020",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Sangerhausen",
+    "site": "Europa-Rosarium",
+    "caption": "Europa-Rosarium, Sangerhausen",
+    "scenario": "26 September 2026 · 17:00 Europe/Berlin",
+    "composition": "Rose gardens · AI-generated artistic interpretation",
+    "approved": false,
+    "file_16x9": "assets/de-st-020-16x9.png",
+    "file_4x5": "assets/de-st-020-4x5.png",
+    "file_9x16": "assets/de-st-020-9x16.png"
+  },
+  {
     "entry_id": "DE-ST-021",
     "code": "ST",
     "state": "Saxony-Anhalt",
