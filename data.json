@@ -84,6 +84,20 @@
     "file_9x16": "assets/de-bb-006-9x16.png"
   },
   {
+    "entry_id": "DE-BB-007",
+    "code": "BB",
+    "state": "Brandenburg",
+    "city": "Lübbenau-Lehde",
+    "site": "Spreewald canals",
+    "caption": "Spreewald canals, Lübbenau-Lehde",
+    "scenario": "26 September 2026 · 17:30 Europe/Berlin",
+    "composition": "Footbridges and waterside homes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-bb-007-16x9.png",
+    "file_4x5": "assets/de-bb-007-4x5.png",
+    "file_9x16": "assets/de-bb-007-9x16.png"
+  },
+  {
     "entry_id": "DE-BB-008",
     "code": "BB",
     "state": "Brandenburg",
