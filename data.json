@@ -4858,6 +4858,48 @@
     "file_9x16": "assets/de-st-009-9x16.png"
   },
   {
+    "entry_id": "DE-ST-010",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Magdeburg",
+    "site": "Cathedral",
+    "caption": "Cathedral, Magdeburg",
+    "scenario": "26 September 2026 · 15:45 Europe/Berlin",
+    "composition": "Cathedral and Elbe · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-010-16x9.png",
+    "file_4x5": "assets/de-st-010-4x5.png",
+    "file_9x16": "assets/de-st-010-9x16.png"
+  },
+  {
+    "entry_id": "DE-ST-011",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Magdeburg",
+    "site": "Green Citadel",
+    "caption": "Green Citadel, Magdeburg",
+    "scenario": "26 September 2026 · 15:45 Europe/Berlin",
+    "composition": "Hundertwasser architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-011-16x9.png",
+    "file_4x5": "assets/de-st-011-4x5.png",
+    "file_9x16": "assets/de-st-011-9x16.png"
+  },
+  {
+    "entry_id": "DE-ST-012",
+    "code": "ST",
+    "state": "Saxony-Anhalt",
+    "city": "Dessau-Roßlau",
+    "site": "Bauhaus building",
+    "caption": "Bauhaus building, Dessau-Roßlau",
+    "scenario": "26 September 2026 · 16:00 Europe/Berlin",
+    "composition": "Modernist facade · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-st-012-16x9.png",
+    "file_4x5": "assets/de-st-012-4x5.png",
+    "file_9x16": "assets/de-st-012-9x16.png"
+  },
+  {
     "entry_id": "DE-ST-014",
     "code": "ST",
     "state": "Saxony-Anhalt",
