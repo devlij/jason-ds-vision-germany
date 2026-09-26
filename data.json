@@ -4057,7 +4057,7 @@
     "approved": true,
     "file_16x9": "assets/de-sh-018-16x9.png",
     "file_4x5": "assets/de-sh-018-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-sh-018-9x16.png"
   },
   {
     "entry_id": "DE-SH-019",
@@ -4071,7 +4071,7 @@
     "approved": true,
     "file_16x9": "assets/de-sh-019-16x9.png",
     "file_4x5": "assets/de-sh-019-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-sh-019-9x16.png"
   },
   {
     "entry_id": "DE-SH-020",
@@ -4085,7 +4085,7 @@
     "approved": true,
     "file_16x9": "assets/de-sh-020-16x9.png",
     "file_4x5": "assets/de-sh-020-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-sh-020-9x16.png"
   },
   {
     "entry_id": "DE-SH-021",
@@ -4099,7 +4099,7 @@
     "approved": true,
     "file_16x9": "assets/de-sh-021-16x9.png",
     "file_4x5": "assets/de-sh-021-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-sh-021-9x16.png"
   },
   {
     "entry_id": "DE-SH-022",
@@ -4113,7 +4113,7 @@
     "approved": true,
     "file_16x9": "assets/de-sh-022-16x9.png",
     "file_4x5": "assets/de-sh-022-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-sh-022-9x16.png"
   },
   {
     "entry_id": "DE-SH-023",
@@ -4127,7 +4127,7 @@
     "approved": true,
     "file_16x9": "assets/de-sh-023-16x9.png",
     "file_4x5": "assets/de-sh-023-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-sh-023-9x16.png"
   },
   {
     "entry_id": "DE-SH-024",
@@ -4506,6 +4506,48 @@
     "file_16x9": "assets/de-sn-014-16x9.png",
     "file_4x5": "assets/de-sn-014-4x5.png",
     "file_9x16": "assets/de-sn-014-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-015",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Meissen",
+    "site": "Old town",
+    "caption": "Old town, Meissen",
+    "scenario": "26 September 2026 · 13:45 Europe/Berlin",
+    "composition": "Market square and lanes · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-015-16x9.png",
+    "file_4x5": "assets/de-sn-015-4x5.png",
+    "file_9x16": "assets/de-sn-015-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-016",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Görlitz",
+    "site": "Untermarkt",
+    "caption": "Untermarkt, Görlitz",
+    "scenario": "26 September 2026 · 14:00 Europe/Berlin",
+    "composition": "Historic facades and arcades · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-016-16x9.png",
+    "file_4x5": "assets/de-sn-016-4x5.png",
+    "file_9x16": "assets/de-sn-016-9x16.png"
+  },
+  {
+    "entry_id": "DE-SN-017",
+    "code": "SN",
+    "state": "Saxony",
+    "city": "Görlitz",
+    "site": "St. Peter and Paul",
+    "caption": "St. Peter and Paul, Görlitz",
+    "scenario": "26 September 2026 · 14:00 Europe/Berlin",
+    "composition": "Church above Neisse · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sn-017-16x9.png",
+    "file_4x5": "assets/de-sn-017-4x5.png",
+    "file_9x16": "assets/de-sn-017-9x16.png"
   },
   {
     "entry_id": "DE-SN-023",
@@ -4995,7 +5037,7 @@
     "approved": true,
     "file_16x9": "assets/de-th-018-16x9.png",
     "file_4x5": "assets/de-th-018-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-th-018-9x16.png"
   },
   {
     "entry_id": "DE-TH-019",
@@ -5009,7 +5051,7 @@
     "approved": true,
     "file_16x9": "assets/de-th-019-16x9.png",
     "file_4x5": "assets/de-th-019-4x5.png",
-    "file_9x16": null
+    "file_9x16": "assets/de-th-019-9x16.png"
   },
   {
     "entry_id": "DE-TH-020",
