@@ -91,6 +91,11 @@
   .fmt-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .day-row { display: flex; padding: 8px 14px 0; }
+  .day-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
+  .day-tab:hover { border-color: #FFCE00; }
+  .day-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -2401,7 +2406,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Market square, Quedlinburg</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 08:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 08:45 Europe/Berlin">Scenario: 25 September 2026 · 08:45 Europe/Berlin</p>
             <p class="composition">Half-timbered houses and Town Hall · AI-generated artistic interpretation</p>
             <p class="description">A half-timbered merchant house in ochre and dark timber stands left of frame, its window boxes still full of flowers, while the ivy-draped stone Town Hall with its steep slate roof fills the right. Between them a slender church spire rises over the rooftops and café tables sit in the cobbled foreground under bright, mainly clear morning light.</p>
             <div class="actions">
@@ -2429,7 +2434,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Castle hill, Quedlinburg</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 08:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 08:45 Europe/Berlin">Scenario: 25 September 2026 · 08:45 Europe/Berlin</p>
             <p class="composition">Abbey church and rooftops · AI-generated artistic interpretation</p>
             <p class="description">A cobbled lane lined with half-timbered houses on the left climbs toward the castle hill, where the twin towers of the abbey church rise above a sea of red rooftops at center-right. Red-tiled and gabled roofs fill the middle ground, early-autumn foliage brushes the right edge, and bright morning light under a mainly clear sky lights the scene.</p>
             <div class="actions">
@@ -2457,7 +2462,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Town Hall, Wernigerode</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 07:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 07:45 Europe/Berlin">Scenario: 25 September 2026 · 07:45 Europe/Berlin</p>
             <p class="composition">Colorful market square · AI-generated artistic interpretation</p>
             <p class="description">Eye-level on the colorful market square, the orange-red half-timbered Town Hall stands center-frame with its twin slender slate spires, clock gable and open bell lantern, green ledges below the windows. Market stalls crowd the cobbled foreground — crates of apples and grapes, a pyramid of pumpkins — with neighboring half-timbered houses and a &quot;Café Rathaus&quot; sign at the right edge. Crisp clear 7.2°C morning light under a pale blue sky.</p>
             <div class="actions">
@@ -2485,7 +2490,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Wernigerode Castle, Wernigerode</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 07:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 07:45 Europe/Berlin">Scenario: 25 September 2026 · 07:45 Europe/Berlin</p>
             <p class="composition">Castle above town · AI-generated artistic interpretation</p>
             <p class="description">From a cobbled lane above the old town, the neo-Gothic Wernigerode Castle crowns the hill center-frame — its tall stone keep, steep slate roofs and green-copper spire rising over autumn-tinted woods. Half-timbered houses with red tile roofs slope away left and right in the foreground, where a shop-front bakery and a wooden signpost reading &quot;Schlossblick · Schloss 600 m&quot; point the way uphill. Clear 7.2°C morning light under a pale sky, with golden foliage framing the top-left of the view.</p>
             <div class="actions">
@@ -2513,7 +2518,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Brocken, Harz</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 07:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 07:15 Europe/Berlin">Scenario: 25 September 2026 · 07:15 Europe/Berlin</p>
             <p class="composition">Summit and mountain railway · AI-generated artistic interpretation</p>
             <p class="description">A black Brockenbahn steam locomotive stands at the summit platform in the center of the frame, with the station and visitor-center building at right and the red-and-white transmission towers rising behind it. The tracks curve down toward the left, opening onto rolling autumn-colored ridges fading into morning haze. Frost-dusted rocky outcrops fill the foreground, where yellow trail signs point toward Schierke and the Bremer Hütte, all under a crisp, mainly clear early-morning sky.</p>
             <div class="actions">
@@ -2541,7 +2546,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Bode Gorge, Thale</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 08:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 08:00 Europe/Berlin">Scenario: 25 September 2026 · 08:00 Europe/Berlin</p>
             <p class="composition">River and rocky valley · AI-generated artistic interpretation</p>
             <p class="description">Eye-level along the gorge, the Bode river winds center-frame between moss-covered boulders and steep granite walls left and right, a fallen trunk lying across the water in the foreground. Forested slopes rise in the distance in early autumn golds and greens beneath a clear blue sky. Crisp 8.6°C morning light with no wind on the water.</p>
             <div class="actions">
@@ -2569,7 +2574,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Rosstrappe, Thale</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 08:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 08:15 Europe/Berlin">Scenario: 25 September 2026 · 08:15 Europe/Berlin</p>
             <p class="composition">Gorge outlook · AI-generated artistic interpretation</p>
             <p class="description">From the Rosstrappe viewing platform, the weathered wooden railing and its &quot;Blick ins Bodetal&quot; plaque frame the left foreground, while the deep Bodetal gorge falls away to the right — sheer grey crags dropping to the silver thread of the Bode river below. Autumn color touches the gorge walls in yellows and russets among the dark conifers, with layered Harz ridges fading blue into the distance. The 08:15 morning light is clear and crisp, leaves and pinecones scattered across the platform boards.</p>
             <div class="actions">
@@ -2597,7 +2602,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Teufelsmauer, Blankenburg/Weddersleben</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 08:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 08:15 Europe/Berlin">Scenario: 25 September 2026 · 08:15 Europe/Berlin</p>
             <p class="composition">Sandstone ridge · AI-generated artistic interpretation</p>
             <p class="description">The dark, weathered sandstone towers of the Teufelsmauer rise left and center, a narrow hiking path winding between the rock fins past mossy ledges and fallen leaves. To the right the land drops to the village of Weddersleben, its red roofs set among autumn fields and hedgerows. The 08:15 morning light is clear and low, warming the rock faces while the distance holds a pale haze.</p>
             <div class="actions">
@@ -2625,7 +2630,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Cathedral, Halberstadt</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 15:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 15:30 Europe/Berlin">Scenario: 26 September 2026 · 15:30 Europe/Berlin</p>
             <p class="composition">Cathedral square · AI-generated artistic interpretation</p>
             <p class="description">The cathedral&#x27;s twin-towered westwork fills the frame, red spires over arched portals and a rose window. Half-timbered houses line Domplatz on both sides, a stone fountain in the foreground, and the blue Domplatz sign at right. Wet cobblestones under flat overcast light, with a few fallen leaves on this mid-September afternoon.</p>
             <div class="actions">
@@ -2653,7 +2658,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Cathedral, Magdeburg</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 15:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 15:45 Europe/Berlin">Scenario: 26 September 2026 · 15:45 Europe/Berlin</p>
             <p class="composition">Cathedral and Elbe · AI-generated artistic interpretation</p>
             <p class="description">The twin spires of Magdeburg Cathedral rise at center, seen from the riverside promenade across the Elbe. Bicycles lean by a weathered bench on the left foreground embankment while the broad river stretches right; the stone quay wall runs under flat, grey overcast light. The choir and east end fill out the right half of the frame above red rooftops — a soft, rain-grey late-September afternoon.</p>
             <div class="actions">
@@ -2681,7 +2686,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Green Citadel, Magdeburg</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 15:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 15:45 Europe/Berlin">Scenario: 26 September 2026 · 15:45 Europe/Berlin</p>
             <p class="composition">Hundertwasser architecture · AI-generated artistic interpretation</p>
             <p class="description">The Green Citadel&#x27;s undulating pink walls fill the frame, with tree-column mosaics rising at left and golden domes crowning the roofline, tree tenants sprouting above the parapets. The glass corner tower stands at the left edge; at street level a café sign, ornate lamp post, parked bicycles and a bus shelter line the foreground. Flat overcast light softens the façade&#x27;s colors on this grey late-September afternoon.</p>
             <div class="actions">
@@ -2709,7 +2714,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Bauhaus building, Dessau-Roßlau</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 16:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 16:00 Europe/Berlin">Scenario: 26 September 2026 · 16:00 Europe/Berlin</p>
             <p class="composition">Modernist facade · AI-generated artistic interpretation</p>
             <p class="description">The Bauhaus Dessau building&#x27;s glass workshop wing sweeps from center to right, its gridded curtain wall wrapping the corner under the vertical BAUHAUS letters on the grey masonry end. A red door marks the entrance at right; the white studio wing rises at the left edge beyond a leafy tree, with bicycles and a bench on the foreground plaza. Soft overcast light flattens the afternoon shadows on this grey September day.</p>
             <div class="actions">
@@ -2737,7 +2742,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Masters’ Houses, Dessau-Roßlau</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 16:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 16:15 Europe/Berlin">Scenario: 26 September 2026 · 16:15 Europe/Berlin</p>
             <p class="composition">Modernist residential architecture · AI-generated artistic interpretation</p>
             <p class="description">The white Bauhaus Masters&#x27; Houses stand among tall pines, their cubic flat-roof volumes with band windows and balconies framing a sandy path through the foreground. A bicycle leans against a pine trunk at the left edge, while a blue site sign naming the 1925–1926 Masters&#x27; Houses and their UNESCO listing rises out of the needle-strewn grass at center-right. Under flat overcast daylight the pale façades glow softly against the dark trunks, and white wildflowers dot the dry grass around the path.</p>
             <div class="actions">
@@ -2765,7 +2770,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Garden Realm, Wörlitz</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 16:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 16:15 Europe/Berlin">Scenario: 25 September 2026 · 16:15 Europe/Berlin</p>
             <p class="composition">Lakes, bridges and garden buildings · AI-generated artistic interpretation</p>
             <p class="description">The viewpoint is at the lakeshore, a gravel path and mossy bank in the foreground with reeds at the water&#x27;s edge. The arched stone bridge crosses left of center to the classical temple pavilion, while the Gothic House rises at the right above willows and park benches, ducks drifting on the lake. Overcast autumn daylight at 17°C flattens the shadows, the grey sky reflected softly in the still water.</p>
             <div class="actions">
@@ -2793,7 +2798,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Castle Church, Lutherstadt Wittenberg</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 16:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 16:30 Europe/Berlin">Scenario: 26 September 2026 · 16:30 Europe/Berlin</p>
             <p class="composition">Church and historic street · AI-generated artistic interpretation</p>
             <p class="description">The Castle Church&#x27;s round tower with its openwork crown rises at center-right, its dark stonework banded by the inscribed ring below the crown. A cobbled street of half-timbered houses fills the foreground, a bakery and bookshop-antiquariat with hanging signs at the left, bicycles parked along the curb and fallen leaves scattered on the wet cobbles. Partly cloudy afternoon light breaks across the church nave, with a slender needle spire rising behind the rooftops and a tourist wayfinding sign pointing toward the Lutherweg information.</p>
             <div class="actions">
@@ -2821,7 +2826,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Cathedral, Naumburg</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 16:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 16:30 Europe/Berlin">Scenario: 26 September 2026 · 16:30 Europe/Berlin</p>
             <p class="composition">Cathedral exterior · AI-generated artistic interpretation</p>
             <p class="description">The cathedral&#x27;s twin Romanesque towers with their green cupola crowns rise at center-right, the nave&#x27;s red tile roof and pointed Gothic windows spreading along a moss-capped churchyard wall. A wet cobbled street curves past half-timbered houses at the left, where a bakery sign hangs beside flower boxes and a bicycle leans against a lamp post in the foreground. Overcast autumn light softens the stonework, with fallen leaves scattered on the damp cobbles and puddles reflecting the gray sky.</p>
             <div class="actions">
@@ -2849,7 +2854,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Neuenburg Castle, Freyburg</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 16:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 16:15 Europe/Berlin">Scenario: 25 September 2026 · 16:15 Europe/Berlin</p>
             <p class="composition">Castle and vineyards · AI-generated artistic interpretation</p>
             <p class="description">The viewpoint is among the vineyard rows, a gravel path leading between vine-covered stakes in the foreground while the Neuenburg Castle complex crowns the hilltop above. Red-tiled roofs and stone walls stand center-top against a broken cloud sky, terraced vines sweeping across the mid-frame and the valley town glimpsed at the far left. Partly cloudy daylight at 18°C keeps the greens vivid, with early autumn tints touching some vine leaves.</p>
             <div class="actions">
@@ -2877,7 +2882,7 @@
               <span class="status candidate">Candidate</span>
             </div>
             <h3 class="caption">Market square, Halle (Saale)</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 16:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 16:45 Europe/Berlin">Scenario: 26 September 2026 · 16:45 Europe/Berlin</p>
             <p class="composition">Market Church and Red Tower · AI-generated artistic interpretation</p>
             <p class="description">The Red Tower rises over Halle&#x27;s market square on the right, its green copper cap and clock face standing against the grey afternoon sky. Center frame, the Market Church holds the square with its four distinctive towers, while cobbled paving leads the eye past market stalls of flowers and autumn fruit. To the left, a bakery&#x27;s windows glow warm beneath overcast light, and a lone cyclist crosses the open square. A calm, everyday market-day scene under soft, rain-fresh overcast light.</p>
             <div class="actions">
@@ -2905,7 +2910,7 @@
               <span class="status candidate">Candidate</span>
             </div>
             <h3 class="caption">Cathedral and palace, Merseburg</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 17:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 17:00 Europe/Berlin">Scenario: 26 September 2026 · 17:00 Europe/Berlin</p>
             <p class="composition">Saale-side ensemble · AI-generated artistic interpretation</p>
             <p class="description">Merseburg&#x27;s cathedral and castle rise together above the Saale, the cathedral&#x27;s twin spires and green copper roofs standing left while the palace&#x27;s cream façade with green shutters anchors the right. Below, the river slides past reed beds and a weathered riverside path, the whole ensemble reflected in soft overcast light. A quiet riverside viewpoint — no crowds, just stone, water, and late-September greenery under a clouded afternoon sky.</p>
             <div class="actions">
@@ -2933,7 +2938,7 @@
               <span class="status candidate">Candidate</span>
             </div>
             <h3 class="caption">Europa-Rosarium, Sangerhausen</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 17:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 17:00 Europe/Berlin">Scenario: 26 September 2026 · 17:00 Europe/Berlin</p>
             <p class="composition">Rose gardens · AI-generated artistic interpretation</p>
             <p class="description">Rose arches draw the eye down the gravel path at the heart of the Europa-Rosarium, the world&#x27;s largest rose collection. To the right, climbing pink roses spill over a weathered wooden pergola above a garden bench, while a labeled rose bed stands left beside purple lavender rows. Half-timbered buildings frame the scene at the left edge, and petals drift across the path under the soft, even light of an overcast September afternoon.</p>
             <div class="actions">
@@ -2961,7 +2966,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">St. Cyriakus, Gernrode</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 08:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 08:30 Europe/Berlin">Scenario: 25 September 2026 · 08:30 Europe/Berlin</p>
             <p class="composition">Romanesque church · AI-generated artistic interpretation</p>
             <p class="description">The twin green-spired towers of St. Cyriakus stand at center, flanking the rounded east apse with its arched gallery beneath a copper-green conical roof. A half-timbered house with shuttered windows fills the left foreground, a wooden &quot;St. Cyriakus · um 961&quot; signpost pointing toward the church, while a mossy stone wall and a &quot;Weltkulturerbe&quot; plaque sit at the right. The cobbled square is scattered with autumn leaves in the 08:30 morning light, and a parked bicycle leans against the house.</p>
             <div class="actions">
@@ -2989,7 +2994,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Kyffhäuser outlook, Kelbra</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Landscape; monument lies in neighboring Thuringia · AI-generated artistic interpretation</p>
             <p class="description">From the Kyffhäuser outlook at night, the forested ridge stretches across the middle distance with the monument tower standing dimly on the skyline in neighboring Thuringia, the warm scattered lights of Kelbra and far-off farms glowing in the valley below; dark hills fade toward the Harz and Thuringian Forest under the heavy overcast 10.5°C night sky.</p>
             <div class="actions">
@@ -3041,17 +3046,41 @@
       const tabs = card.querySelectorAll('.fmt-tab');
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
+      const dtab = card.querySelector('.day-tab');
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const next = fmt === '9x16' ? img.getAttribute("data-src-916")
-          : fmt === '4x5' ? img.getAttribute("data-src-45") : img.getAttribute("data-src-16");
+        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
+        const next = fmt === '4x5'
+          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
+          : fmt === '9x16'
+          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
+          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
       }));
+      /* Single daylight toggle: rendered only where day-variant masters exist. */
+      if (dtab) dtab.addEventListener('click', e => {
+        e.preventDefault();
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dkey = dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916')
+            : dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45')
+            : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = img.getAttribute(dkey);
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+      });
     });
 
 (function(){

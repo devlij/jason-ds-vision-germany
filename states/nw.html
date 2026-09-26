@@ -91,6 +91,11 @@
   .fmt-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .day-row { display: flex; padding: 8px 14px 0; }
+  .day-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
+  .day-tab:hover { border-color: #FFCE00; }
+  .day-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -2401,7 +2406,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Cathedral, Cologne</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 17:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 17:45 Europe/Berlin">Scenario: 25 September 2026 · 17:45 Europe/Berlin</p>
             <p class="composition">Domplatte exterior · AI-generated artistic interpretation</p>
             <p class="description">The cathedral’s twin-spired Gothic west front fills the center of the frame, its dark stone facades and pointed arches rendered in fine detail against a clear afternoon sky. Left of the steps, the tall 1:1 finial model rises from a planted round bed beside the modern DOMFORUM block and the Roman city wall exhibit, while the right side holds benches, a tourist map board and wayfinding signs pointing to Hauptbahnhof, Altstadt and the Rhine. The Domplatte’s patterned paving stretches toward the doors under bright 21.9°C September sunshine.</p>
             <div class="actions">
@@ -2429,7 +2434,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Hohenzollern Bridge and cathedral, Cologne</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 18:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 18:00 Europe/Berlin">Scenario: 25 September 2026 · 18:00 Europe/Berlin</p>
             <p class="composition">Deutz riverbank skyline · AI-generated artistic interpretation</p>
             <p class="description">The Hohenzollern Bridge’s steel truss arches sweep from the right across the frame, their railings dense with love locks, while the cathedral’s twin spires rise behind them in the center and the Romanesque tower of Groß St. Martin anchors the left. A railed promenade with planters, benches and a parked bicycle runs along the left foreground above the glinting Rhine, the old-town riverbank stretching right under a clear late-afternoon sky, the 21.7°C September light warm on the stone.</p>
             <div class="actions">
@@ -2457,7 +2462,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Rheinauhafen, Cologne</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 18:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 18:15 Europe/Berlin">Scenario: 25 September 2026 · 18:15 Europe/Berlin</p>
             <p class="composition">Crane Houses and river · AI-generated artistic interpretation</p>
             <p class="description">From the riverside promenade at eye level, the Rheinauhafen&#x27;s crane houses rise in their distinctive inverted-L silhouettes, cantilevered residential blocks on slender glazed shafts straddling the quay. A moored barge rests on the Rhine at lower left while warehouse-style brick and glass buildings line the harbor behind. The clear late-afternoon sky casts bright, clean light across the modern waterfront, the promenade stretching empty into the autumn evening.</p>
             <div class="actions">
@@ -2485,7 +2490,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">MedienHafen, Düsseldorf</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 18:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 18:15 Europe/Berlin">Scenario: 25 September 2026 · 18:15 Europe/Berlin</p>
             <p class="composition">Gehry buildings and harbor · AI-generated artistic interpretation</p>
             <p class="description">From the wooden boardwalk at eye level, Frank Gehry&#x27;s Neuer Zollhof trio faces across the harbor basin — the white, stainless-steel, and brick-red deconstructivist towers clustered center-frame. Moored motorboats bob at the quay in the foreground while the café terrace lines the right bank under the warm late-afternoon sun. The clear sky and gentle reflections give the MedienHafen its calm, polished character.</p>
             <div class="actions">
@@ -2513,7 +2518,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Rhine promenade, Düsseldorf</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 18:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 18:30 Europe/Berlin">Scenario: 25 September 2026 · 18:30 Europe/Berlin</p>
             <p class="composition">Old town and Rhine Tower · AI-generated artistic interpretation</p>
             <p class="description">From the cobbled Rheinuferpromenade at eye level, the Rhine stretches left while Düsseldorf&#x27;s old town rises center-frame — St. Lambertus with its twisted spire beside the Schlossturm, and the Rheinturm antenna tower at the far left. Moored boats and a landing stage sit at the river&#x27;s edge as the tree-lined walk leads toward the old town. Late-afternoon sun on a clear sky warms the brick façades and the café terrace at right.</p>
             <div class="actions">
@@ -2541,7 +2546,7 @@
               <span class="status candidate">Candidate</span>
             </div>
             <h3 class="caption">Königsallee, Düsseldorf</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 18:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 18:45 Europe/Berlin">Scenario: 25 September 2026 · 18:45 Europe/Berlin</p>
             <p class="composition">Canal and avenue · AI-generated artistic interpretation</p>
             <p class="description">A tourist&#x27;s eye-level view down the Königsallee canal toward the distant bridge, with grand historic façades and luxury storefronts — including the Hermès boutique — lining the left bank and elegant buildings framing the right. Under a clear late-September sky, plane trees and terracotta planters edge the promenades while lampposts and a Königsallee street sign anchor the near left, and the water mirrors the blue sky in late-afternoon light.</p>
             <div class="actions">
@@ -2569,7 +2574,7 @@
               <span class="status candidate">Candidate</span>
             </div>
             <h3 class="caption">Cathedral and Katschhof, Aachen</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 18:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 18:45 Europe/Berlin">Scenario: 25 September 2026 · 18:45 Europe/Berlin</p>
             <p class="composition">Cathedral and Town Hall ensemble · AI-generated artistic interpretation</p>
             <p class="description">A tourist&#x27;s view across the Katschhof square: the cathedral&#x27;s copper-green octagonal dome stands at the left beside the Gothic choir, while Aachen&#x27;s town hall fills the right with its pink-stone gabled façade, clock, and ground-floor arcades. Cobblestones stretch between the two monuments under a clear late-afternoon sky, café terraces and souvenir shops framing the left edge, and a lone passerby crossing the empty square.</p>
             <div class="actions">
@@ -2597,7 +2602,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Prinzipalmarkt, Münster</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 07:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 07:45 Europe/Berlin">Scenario: 26 September 2026 · 07:45 Europe/Berlin</p>
             <p class="composition">Arcades and gables · AI-generated artistic interpretation</p>
             <p class="description">Eye-level view down Münster&#x27;s historic Prinzipalmarkt: stepped-gable merchant houses with their characteristic arcades line both sides of the wet cobblestone square, and the tall openwork spire of St. Lambert&#x27;s Church rises above the rooftops at center-right. String lights warm the café arcade at left under a heavy grey overcast sky, and puddles catch the early morning light. A plausible tourist viewpoint from the open square, rendered in overcast 07:45 morning conditions.</p>
             <div class="actions">
@@ -2625,7 +2630,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Aasee, Münster</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 16:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 16:45 Europe/Berlin">Scenario: 25 September 2026 · 16:45 Europe/Berlin</p>
             <p class="composition">Lake and city park · AI-generated artistic interpretation</p>
             <p class="description">A wooden bench with a jacket draped over it sits on a lakeside path at the left, beside a signpost marking the Aasee circuit trail, while reeds and cattails fringe the shore in the foreground. The lake stretches center-frame with a lone swan gliding across sparkling sunlit water, pedal boats moored at a small wooden jetty at the right edge. Across the far shore, mature park trees line the green, with a bridge crossing the water and Münster&#x27;s city rooflines and church towers on the horizon under a clear blue afternoon sky.</p>
             <div class="actions">
@@ -2653,7 +2658,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Heerstraße, Bonn</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 11:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 11:45 Europe/Berlin">Scenario: 26 September 2026 · 11:45 Europe/Berlin</p>
             <p class="composition">Cherry-blossom avenue in late September state: ornamental cherry trees in green foliage, no bloom · AI-generated artistic interpretation</p>
             <p class="description">The ornamental cherry trees of Heerstraße stand in full green late-September foliage — no blossom, just a few early fallen leaves scattered on the asphalt — under a soft overcast sky. The &quot;Heerstraße 1–25&quot; street sign at the right edge anchors the location beside a bakery and a Spätkauf shopfront, while bicycles line the curb and gas lanterns run down both pavements. On the left, historic façades with mansard roofs and shuttered windows face the quiet street, with a café terrace and ivy-clad doorway in the foreground.</p>
             <div class="actions">
@@ -2681,7 +2686,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Münsterplatz, Bonn</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 08:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 08:00 Europe/Berlin">Scenario: 26 September 2026 · 08:00 Europe/Berlin</p>
             <p class="composition">Minster and square · AI-generated artistic interpretation</p>
             <p class="description">The Bonner Münster dominates its square: Romanesque stone walls with the tall north spire rising center frame and the twin west towers behind, seen from the Münsterplatz&#x27;s west side. The bronze Beethoven monument stands on its pedestal at left, folded café umbrellas and benches wait in the wet cobbled square, and puddles mirror the heavy grey sky of an overcast 08:00 morning.</p>
             <div class="actions">
@@ -2709,7 +2714,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Drachenfels, Königswinter</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 12:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 12:00 Europe/Berlin">Scenario: 25 September 2026 · 12:00 Europe/Berlin</p>
             <p class="composition">Rhine valley overlook · AI-generated artistic interpretation</p>
             <p class="description">From the stone parapet of the Drachenfels terrace, the Rhine bends below under heavy overcast skies. The Drachenfels summit rises center, its ruins and basalt crags peeking through low cloud, with Schloss Drachenburg on the wooded hill to the left and terraced vineyards sloping to the river. A backpack, travel mug and map rest on the parapet in the foreground.</p>
             <div class="actions">
@@ -2737,7 +2742,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Drachenburg Castle, Königswinter</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 12:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 12:15 Europe/Berlin">Scenario: 25 September 2026 · 12:15 Europe/Berlin</p>
             <p class="composition">Castle and hillside · AI-generated artistic interpretation</p>
             <p class="description">Seen from the wooded hillside path, Drachenburg Castle rises in the center of the frame — its tall spired tower, slate roofs and terraced sandstone walls framed by a leafy tree at the left edge, with the trail&#x27;s wooden railing leading in from the lower left. To the right the hillside drops away toward the Rhine valley, where Königswinter&#x27;s rooftops spread below under a partly cloudy midday sky. Early-autumn foliage is just beginning to turn among the deep green slopes around the castle.</p>
             <div class="actions">
@@ -2765,7 +2770,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old town, Monschau</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 11:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 11:15 Europe/Berlin">Scenario: 25 September 2026 · 11:15 Europe/Berlin</p>
             <p class="composition">Timber houses beside Rur · AI-generated artistic interpretation</p>
             <p class="description">Half-timbered houses with flower boxes line the left bank of the Rur, the clear river running past a stone arch bridge toward the old town climbing the wooded hill beyond. On the right, slate-roofed gabled houses face the water under mainly clear morning light. A plausible eye-level tourist view down the riverside lane.</p>
             <div class="actions">
@@ -2793,7 +2798,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Zollverein, Essen</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 08:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 08:15 Europe/Berlin">Scenario: 26 September 2026 · 08:15 Europe/Berlin</p>
             <p class="composition">Industrial architecture · AI-generated artistic interpretation</p>
             <p class="description">From the cobbled plaza by the bicycle racks, the long red-brick industrial façade stretches left across the frame with its raised glazed walkway on rust-red steel legs, while Shaft XII’s unmistakable winding tower rises at the right against a flat overcast sky. A dark blue wayfinding sign reading “Zollverein UNESCO Welterbe” stands in the lower left foreground. Puddles from the morning’s damp reflect the grey light, and a few fallen leaves dot the wet stones — an honest 15.2°C September morning on the old mine site.</p>
             <div class="actions">
@@ -2821,7 +2826,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Landschaftspark Duisburg-Nord, Duisburg</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 08:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 08:30 Europe/Berlin">Scenario: 26 September 2026 · 08:30 Europe/Berlin</p>
             <p class="composition">Blast furnaces and walkways · AI-generated artistic interpretation</p>
             <p class="description">From an elevated visitor walkway, the rusted mass of the decommissioned blast-furnace plant fills the frame — hot-blast stoves and furnace towers center, a tall brick chimney at the left edge, ducts and gantries threading right into the distance. Damp metal glints under the overcast morning sky and fallen leaves line the grated path. A 14.9°C late-September morning on the Ruhr’s most famous industrial monument.</p>
             <div class="actions">
@@ -2849,7 +2854,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Schwebebahn, Wuppertal</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 08:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 08:30 Europe/Berlin">Scenario: 26 September 2026 · 08:30 Europe/Berlin</p>
             <p class="composition">Suspended railway over river · AI-generated artistic interpretation</p>
             <p class="description">From the wet cobblestone promenade along the Wupper, a blue-and-white Schwebebahn car glides beneath the green lattice rail structure that spans the frame left to right, lettered “Schwebebahn - Wuppertal - WSW”. Historic stone buildings crowd the left bank, mossy embankment walls drop to the grey river, and a lone wooden boat bobs moored at the right. A damp 13.3°C overcast morning — the world’s oldest suspended railway, still running.</p>
             <div class="actions">
@@ -2877,7 +2882,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Müngsten Bridge, Solingen/Remscheid</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 12:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 12:45 Europe/Berlin">Scenario: 25 September 2026 · 12:45 Europe/Berlin</p>
             <p class="composition">Steel arch and Wupper valley · AI-generated artistic interpretation</p>
             <p class="description">The Müngsten Bridge&#x27;s great steel arch sweeps across the frame above the Wupper valley, its latticed girders and rust-red support towers standing out against a bright, broken-cloud sky. The green valley floor drops away to the river winding through dense beech forest, already touched with early-autumn color. In the foreground, a weathered trail signpost points the Wupperwanderweg — the classic hiker&#x27;s viewpoint looking up at Germany&#x27;s highest railway bridge in midday light.</p>
             <div class="actions">
@@ -2905,7 +2910,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Augustusburg Palace, Brühl</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 08:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 08:45 Europe/Berlin">Scenario: 26 September 2026 · 08:45 Europe/Berlin</p>
             <p class="composition">Palace and gardens · AI-generated artistic interpretation</p>
             <p class="description">The Baroque garden facade of Augustusburg Palace fills the center of the frame, its pale yellow-and-white walls and dark mansard roof rising behind clipped hedges and wet gravel paths. A tall autumn tree and a stone bench anchor the left foreground, an ornate iron lamp post and a moss-topped stone urn stand at the right. Overcast morning light leaves puddle reflections and fallen leaves along the paths, with early autumn color showing in the garden trees.</p>
             <div class="actions">
@@ -2933,7 +2938,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Externsteine, Horn-Bad Meinberg</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 12:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 12:15 Europe/Berlin">Scenario: 25 September 2026 · 12:15 Europe/Berlin</p>
             <p class="composition">Sandstone pillars and pond · AI-generated artistic interpretation</p>
             <p class="description">From across the still pond, the Externsteine&#x27;s monumental sandstone pillars dominate the frame — a great rock mass at the left edge, a slender lone column near the center, and the famous arched footbridge spanning the gap between two pillars to its right. Reeds and lily pads edge the dark reflective water in the foreground, while thick forest closes in along the left bank under a mainly clear midday sky. A quiet, ancient stillness: weathered grey stone against deep green foliage.</p>
             <div class="actions">
@@ -2961,7 +2966,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Hermannsdenkmal, Detmold</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 12:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 12:30 Europe/Berlin">Scenario: 25 September 2026 · 12:30 Europe/Berlin</p>
             <p class="composition">Monument and forest · AI-generated artistic interpretation</p>
             <p class="description">The Hermannsdenkmal rises at the center of the frame from its forested hilltop — the green copper figure of Arminius with sword raised high atop the domed, arcaded stone pedestal, seen from the gravel footpath that winds up through the woods in the foreground. Beech trees crowd both sides of the frame, their leaves just beginning to turn amber at the edges under a clear midday sky. A pilgrim&#x27;s-eye view: the monument stands framed by the forest it has watched over for 150 years.</p>
             <div class="actions">
@@ -2989,7 +2994,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Kahler Asten, Winterberg</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 09:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 09:00 Europe/Berlin">Scenario: 25 September 2026 · 09:00 Europe/Berlin</p>
             <p class="composition">Upland landscape · AI-generated artistic interpretation</p>
             <p class="description">The summit building of the Kahler Asten, its green observatory tower rising above the roofline, anchors the right of the frame while the Rothaargebirge hills stretch across the horizon. A wooden trail sign pointing to Winterberg and the Rothaarsteig stands left of a rocky path through frost-dusted heather, with snow-dusted spruce and bright morning light under a mainly clear sky.</p>
             <div class="actions">
@@ -3017,7 +3022,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Alter Flecken, Freudenberg</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 08:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 08:45 Europe/Berlin">Scenario: 26 September 2026 · 08:45 Europe/Berlin</p>
             <p class="composition">Repeating half-timbered houses · AI-generated artistic interpretation</p>
             <p class="description">A cobbled lane winds between rows of matching black-and-white half-timbered houses with steep slate roofs, their green shutters and flower boxes repeating down both sides of the street. A wooden bench with a discarded tote bag sits at the left foreground while a café chalkboard and a bakery window stand at the right. Overcast morning light wets the cobbles and fades the sky to grey, with a few early autumn planters brightening the doorsteps.</p>
             <div class="actions">
@@ -3045,7 +3050,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Archaeological Park, Xanten</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 09:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 09:00 Europe/Berlin">Scenario: 26 September 2026 · 09:00 Europe/Berlin</p>
             <p class="composition">Reconstructed Roman architecture · AI-generated artistic interpretation</p>
             <p class="description">The reconstructed harbour temple&#x27;s grey stone columns stand at the left, angled beside an interpretive sign, while the massive city wall — a round stone tower with a red-tiled conical roof and heavy timber gate — fills the right of the frame. A half-timbered building with a red tile roof sits mid-ground among autumn trees. Overcast morning light dulls the sky, puddles reflect the wet gravel paths, and fallen leaves scatter across the park.</p>
             <div class="actions">
@@ -3073,7 +3078,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old town, Hattingen</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 09:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 09:15 Europe/Berlin">Scenario: 26 September 2026 · 09:15 Europe/Berlin</p>
             <p class="composition">Timber-framed lanes · AI-generated artistic interpretation</p>
             <p class="description">A quiet timber-framed lane bends gently into the distance under a soft overcast sky. Slate-roofed half-timbered houses crowd both sides, with a bakery storefront left and an antiques shop glowing warmly at the right edge. Autumn leaves scatter over wet cobblestones, ivy climbs the façades, and a church spire peeks above the rooftops at the far end of the street.</p>
             <div class="actions">
@@ -3101,7 +3106,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Tetraeder, Bottrop</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 09:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 09:15 Europe/Berlin">Scenario: 26 September 2026 · 09:15 Europe/Berlin</p>
             <p class="composition">Industrial-region panorama · AI-generated artistic interpretation</p>
             <p class="description">The steel-tube pyramid of the Tetraeder rises right of center atop a windswept slag heap, its suspended viewing platform caught against a grey overcast sky. Cooling towers and freight rail lines stretch across the Ruhr industrial panorama to the left and behind. A wooden trail sign in the foreground marks the summit at 158 meters, with gravel path and scrub grass leading up to the structure.</p>
             <div class="actions">
@@ -3129,7 +3134,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Gasometer, Oberhausen</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 09:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 09:30 Europe/Berlin">Scenario: 26 September 2026 · 09:30 Europe/Berlin</p>
             <p class="composition">Industrial landmark · AI-generated artistic interpretation</p>
             <p class="description">The giant riveted cylinder of the Gasometer fills the left of the frame under a heavy overcast sky, its external staircases and glass elevator tower tracing the curved steel wall. The visitor entrance sits at its foot, advertising exhibition and viewing platform, while a wet canal-side promenade with benches and autumn leaves runs right toward a bridge and the distant industrial skyline. A lone pedestrian crosses the scene, dwarfed by the structure.</p>
             <div class="actions">
@@ -3157,7 +3162,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Phoenix See, Dortmund</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 09:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 09:45 Europe/Berlin">Scenario: 26 September 2026 · 09:45 Europe/Berlin</p>
             <p class="composition">Lake and industrial remnants · AI-generated artistic interpretation</p>
             <p class="description">A lakeside path on the south bank of Phoenix See looks out across calm morning water, with the rusting blast-furnace structures of the old Phoenix-Ost steelworks looming to the left and sailboats moored at the marina to the right. Modern apartment blocks line the far shore under a bright, mostly clear late-September sky, while ducks drift past reeds and scattered fallen leaves at the water&#x27;s edge. A weathered wooden bench with a forgotten jacket anchors the foreground, giving the scene a candid early-autumn stillness.</p>
             <div class="actions">
@@ -3185,7 +3190,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Vogelsang and Eifel overlooks, Schleiden</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 11:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 11:15 Europe/Berlin">Scenario: 25 September 2026 · 11:15 Europe/Berlin</p>
             <p class="composition">Reservoir and wooded hills · AI-generated artistic interpretation</p>
             <p class="description">From a fenced overlook above Vogelsang, the Urft reservoir bends through a sea of wooded Eifel hills, the dam wall of the Urfttalsperre standing at the left edge. An orientation sign naming Vogelsang and the Eifel-Nationalpark sits by the weathered railing in the foreground. Morning sun under mainly clear skies lights the early-autumn foliage, clouds drifting in the water&#x27;s reflection.</p>
             <div class="actions">
@@ -3237,17 +3242,41 @@
       const tabs = card.querySelectorAll('.fmt-tab');
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
+      const dtab = card.querySelector('.day-tab');
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const next = fmt === '9x16' ? img.getAttribute("data-src-916")
-          : fmt === '4x5' ? img.getAttribute("data-src-45") : img.getAttribute("data-src-16");
+        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
+        const next = fmt === '4x5'
+          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
+          : fmt === '9x16'
+          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
+          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
       }));
+      /* Single daylight toggle: rendered only where day-variant masters exist. */
+      if (dtab) dtab.addEventListener('click', e => {
+        e.preventDefault();
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dkey = dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916')
+            : dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45')
+            : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = img.getAttribute(dkey);
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+      });
     });
 
 (function(){

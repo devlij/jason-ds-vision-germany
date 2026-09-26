@@ -91,6 +91,11 @@
   .fmt-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .day-row { display: flex; padding: 8px 14px 0; }
+  .day-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
+  .day-tab:hover { border-color: #FFCE00; }
+  .day-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -2401,7 +2406,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Holstentor, Lübeck</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Gate and approach · AI-generated artistic interpretation</p>
             <p class="description">An eye-level tourist&#x27;s view of Lübeck&#x27;s Holstentor at night, the red-brick Gothic gate centered with its two round towers and conical roofs flanking the central pedimented block and arched passageway; ornate street lamps frame the cobbled Holstentorplatz left and right, wet stones mirroring their warm glow under the overcast 13.0°C night sky.</p>
             <div class="actions">
@@ -2429,7 +2434,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old town, Lübeck</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Trave-side skyline · AI-generated artistic interpretation</p>
             <p class="description">From the Trave quayside at night, the old town of Lübeck rises across the dark river — the twin spires of the Marienkirche dominating the center of the &#x27;City of Seven Spires&#x27; skyline, gabled brick merchant houses lining the wet cobbled quay on the left and right, and warm street lamps streaking reflections on the water under the overcast 13.0°C night sky.</p>
             <div class="actions">
@@ -2457,7 +2462,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Town Hall, Lübeck</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Market-square architecture · AI-generated artistic interpretation</p>
             <p class="description">Standing on the Marktplatz at night, the Lübeck Rathaus fills the right of the frame — dark brick Gothic with ornate gables and a glowing ground-floor gallery of pointed arcades — while the twin spires of the Marienkirche rise on the left across the rain-wet cobblestones, warm lamps mirrored in the paving under the overcast 13.0°C night sky.</p>
             <div class="actions">
@@ -2485,7 +2490,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Waterfront, Lübeck-Travemünde</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Harbor, lighthouse and beach · AI-generated artistic interpretation</p>
             <p class="description">On the rain-slick Travepromenade at night, the 31-metre red-brick Alte Leuchtturm rises on the left beside its base building, the four masts and dark hull of the museum barque Passat centered in the harbor, wet cobbles reflecting rows of warm lamps; the Priwall shore lies dark across the estuary under a rain-heavy 12.9°C night sky.</p>
             <div class="actions">
@@ -2513,7 +2518,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Kiellinie, Kiel</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Fjord promenade · AI-generated artistic interpretation</p>
             <p class="description">Walking the Kiellinie at night, the row of small wooden boathouses runs down the left along the lamp-lit promenade, moored sailboats and masts standing in the dark fjord water on the right, and across the fjord the east-bank shipyards of Kiel rise as a skyline of giant gantry cranes with scattered industrial lights under the overcast 13.8°C night sky.</p>
             <div class="actions">
@@ -2541,7 +2546,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Historic harbor, Flensburg</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Sailing boats and waterfront · AI-generated artistic interpretation</p>
             <p class="description">From the quay at the head of Flensburg&#x27;s historic harbor at night: on the left, brick warehouses and gabled captains&#x27; houses with warm windows and street lamps along the cobbled waterfront; in the center, the narrow harbor basin stretching into the dark with rows of masts; on the right, more classic wooden sailing ships moored close, their hulls lit by the quay glow. Overcast night, plausible harbor lighting only — the old trading port at rest.</p>
             <div class="actions">
@@ -2569,7 +2574,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Gottorf Castle, Schleswig</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Palace and grounds · AI-generated artistic interpretation</p>
             <p class="description">From the Neuwerk baroque garden looking across the water at night: in the near right, the red-brick Globushaus pavilion with its copper dome; across the foreground, the clipped hedge parterre with a few faint garden lamps; in the center distance, Gottorf Castle&#x27;s baroque wings with scattered lit windows on its island in the Schlei. Dark overcast sky, restrained lighting — no floodlighting, just the castle&#x27;s own glow.</p>
             <div class="actions">
@@ -2597,7 +2602,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Holm, Schleswig</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Historic fishing quarter · AI-generated artistic interpretation</p>
             <p class="description">On the cobbled lane of Holm, Schleswig&#x27;s old fishing quarter, at night: on the left, low whitewashed fishermen&#x27;s cottages with warm windows and potted plants; in the center, the small stone chapel with its tower rising among the rooftops; on the right, the Schlei water&#x27;s edge with drying fishing nets, mooring posts and a small boat. Wet cobbles reflect the sparse lamps under an overcast night sky — the former island village&#x27;s honest quiet.</p>
             <div class="actions">
@@ -2625,7 +2630,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Glücksburg Castle, Glücksburg</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Moated castle reflection · AI-generated artistic interpretation</p>
             <p class="description">Across the moat from the shoreline path, the white Renaissance water castle at night: in the center, the castle&#x27;s three gabled houses with octagonal corner towers, rising straight out of the dark water; the small bridge approaching it on the left; the still moat mirroring the whole silhouette in the foreground. Only two windows glow dimly and faint moonlight breaks through the clouds — no invented floodlighting on the ancestral seat of the House of Glücksburg.</p>
             <div class="actions">
@@ -2653,7 +2658,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Inner harbor, Husum</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Boats and colorful houses · AI-generated artistic interpretation</p>
             <p class="description">Standing on Husum&#x27;s central quay at night, looking across the tidal inner harbor: on the left, wooden mooring posts and bobbing sailing boats at the stone steps; in the center, the dark water carrying amber reflections of the quay lamps; on the right, the waterfront row of colorful gabled houses and grey-shingled facades with a few lit windows. Overcast night sky, sparse street lighting — an honest view of the &#x27;Grey City by the Sea&#x27; after hours.</p>
             <div class="actions">
@@ -2681,7 +2686,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Canals, Friedrichstadt</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Dutch-style townscape · AI-generated artistic interpretation</p>
             <p class="description">From the canal bank in Friedrichstadt&#x27;s old town, an eye-level view down the quiet waterway at night: on the left, a row of brick merchant houses with stepped gables, their warm windows glowing under a dark overcast sky; in the center, a brick arch bridge crossing the canal, its lamps doubling in the still black water; on the right, the mossy stone quay in the near foreground. A plausible night scene — street lamps and lit windows only, no floodlighting — honoring the town&#x27;s Dutch &#x27;Little Amsterdam&#x27; brick-Renaissance character.</p>
             <div class="actions">
@@ -2709,7 +2714,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Westerheversand lighthouse, Westerhever</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Lighthouse and salt marsh · AI-generated artistic interpretation</p>
             <p class="description">A tourist&#x27;s eye-level view of the Westerheversand lighthouse at night, the red-and-white banded 40-metre tower centered above its two keeper&#x27;s cottages, its black lantern glowing softly; an elevated wooden boardwalk leads through the dark salt marsh in the foreground, with tidal channels glinting faintly under the overcast 14.8°C night sky.</p>
             <div class="actions">
@@ -2737,7 +2742,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Beach stilt houses, St. Peter-Ording</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Wide sand and raised buildings · AI-generated artistic interpretation</p>
             <p class="description">From the vast sandy beach at night, a row of wooden Pfahlbauten rises on tall stilts against a rain-heavy sky, their weathered timber dark against the storm; rain streaks slant through the frame while wet sand mirrors the huts and a few dim windows glow warm in the 15.0°C rain-shower night.</p>
             <div class="actions">
@@ -2765,7 +2770,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Red Cliff, Sylt/Kampen</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Coastal cliff from permitted paths · AI-generated artistic interpretation</p>
             <p class="description">Standing on the permitted cliff-edge path at night, the rusty-red glacial face of the Rotes Kliff drops steeply on the left to a pale sandy beach and dark surf, while dune grass and heath trace the cliff-top path to the right, all under a moonlit overcast sky at 14.2°C.</p>
             <div class="actions">
@@ -2793,7 +2798,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Ellenbogen, Sylt/List</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Dunes and lighthouses · AI-generated artistic interpretation</p>
             <p class="description">At the northern tip of Sylt at night, grass-tufted dunes roll toward the dark sea on the left, with the modest red-and-white List lighthouse standing mid-frame among the dunes, its beacon glowing quietly under an overcast 14.2°C night sky.</p>
             <div class="actions">
@@ -2821,7 +2826,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Village, Sylt/Keitum</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Thatched houses · AI-generated artistic interpretation</p>
             <p class="description">A quiet Keitum lane at night, flanked by whitewashed Frisian captain&#x27;s houses with steep thatched roofs; warm light spills from small-paned windows onto hedges and tended gardens on both sides, with more thatched gables fading down the lane under the overcast 14.2°C sky.</p>
             <div class="actions">
@@ -2849,7 +2854,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Lange Anna, Helgoland</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Sea stack from cliff path · AI-generated artistic interpretation</p>
             <p class="description">From the dark Klippenrandweg cliff path at night, the 47-metre red sandstone sea stack of Lange Anna stands alone in the North Sea, its layered red rock dotted with nesting seabirds; dark heath and cliff-edge grass frame the foreground while faint moon glow breaks through the overcast 16.0°C sky.</p>
             <div class="actions">
@@ -2877,7 +2882,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Beach, Helgoland/Düne</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 13:45 Europe/Berlin">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
             <p class="composition">Coastal landscape and distant wildlife · AI-generated artistic interpretation</p>
             <p class="description">From the sandy Düne beach, the view sweeps across the water to Helgoland&#x27;s famous red sandstone cliffs rising at the left. A colony of grey seals rests on the mid-distance sandbank while gulls wheel overhead in the mainly-clear midday sky. The red-and-white Düne lighthouse stands at the right edge above dune grass swaying in the foreground.</p>
             <div class="actions">
@@ -2905,7 +2910,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Lighthouse and Kniepsand, Amrum</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 13:45 Europe/Berlin">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
             <p class="composition">Dunes and broad beach · AI-generated artistic interpretation</p>
             <p class="description">The red-and-white banded Amrum lighthouse rises from the dune ridge at center, its tower tall against the mainly-clear midday sky. The broad sandy Kniepsand sweeps right toward the waterline while marram-grass dunes fill the foreground. A quiet, wide-open North Sea beach scene from a natural tourist viewpoint on the sand.</p>
             <div class="actions">
@@ -2933,7 +2938,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Promenade, Föhr/Wyk</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 13:45 Europe/Berlin">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
             <p class="composition">Island waterfront · AI-generated artistic interpretation</p>
             <p class="description">The Wyk promenade runs along the waterfront under a clear midday sky, with rows of classic Strandkörbe set out on the beach at left and the sea glittering beyond. The paved walk stretches ahead past benches and lamp rows, while brick buildings with café terraces line the right. A bright, inviting island waterfront from a natural strolling viewpoint.</p>
             <div class="actions">
@@ -2961,7 +2966,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Flügge lighthouse, Fehmarn</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 13:45 Europe/Berlin">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
             <p class="composition">Lighthouse and coast · AI-generated artistic interpretation</p>
             <p class="description">The Flügge lighthouse rises from the dunes at center, its octagonal tower in the characteristic red-and-white bands with a red lantern room, against a mainly-clear midday sky. Dune grass sways in the foreground while the Fehmarn coast and open sea sweep away to the right. A classic Baltic lighthouse view from a natural dune-top viewpoint.</p>
             <div class="actions">
@@ -2989,7 +2994,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Fehmarnsund Bridge, Fehmarn</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 13:45 Europe/Berlin">Scenario: 26 September 2026 · 13:45 Europe/Berlin</p>
             <p class="composition">Bridge across strait · AI-generated artistic interpretation</p>
             <p class="description">The Fehmarnsund Bridge crosses the strait at center, its single large steel arch span carrying the road and rail deck on concrete piers above the glittering water. Shoreline reeds frame the foreground while the far shore stretches green behind. A clean, open view of the 1963 crossing from a natural waterfront viewpoint under a mainly-clear midday sky.</p>
             <div class="actions">
@@ -3017,7 +3022,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Plön Castle, Plön</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 14:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 14:00 Europe/Berlin">Scenario: 26 September 2026 · 14:00 Europe/Berlin</p>
             <p class="composition">Palace above lake · AI-generated artistic interpretation</p>
             <p class="description">Plön Castle rises above the lake at center, its white-plastered Renaissance wings ringed with gables and crowned by two lantern-like ridge turrets, set on the wooded hill under an overcast sky. A wooden jetty reaches into the foreground water while trees crowd the shoreline. A calm, stately view of the palace from across the Großer Plöner See.</p>
             <div class="actions">
@@ -3045,7 +3050,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Eutin Castle, Eutin</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Palace and lakefront · AI-generated artistic interpretation</p>
             <p class="description">From the reedy shore of the Großer Eutiner See at night, the camera faces Eutin Castle across dark water — the red-brick baroque palace fills the center with its gate tower at left and cupola turret, a few warm windows lit, framed by dark park trees on both sides. The 01:00 overcast scenario shows the palace in near-darkness with minimal plausible illumination, the lake a black mirror. Notable: the red-brick facade and waterfront siting match the real castle&#x27;s lakefront setting, honestly rendered without invented floodlighting.</p>
             <div class="actions">
@@ -3073,7 +3078,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Naval memorial, Laboe</h3>
-            <p class="scenario">Scenario: </p>
+            <p class="scenario" data-scenario="">Scenario: </p>
             <p class="composition">Coastal monument · AI-generated artistic interpretation</p>
             <p class="description">From the wet stone terrace in driving rain at night, the camera looks up at the Laboe naval memorial&#x27;s 72-metre curved brick tower — the flame-like monolith dominates the center against a rain-streaked dark sky, with the dark water of the Kiel Fjord and faint shore lights to the right and rain-pocked reflective paving in the foreground. The 01:00 rain-shower scenario keeps the tower nearly unlit, wet surfaces glistening. Notable: the tower&#x27;s iconic curved silhouette, often likened to a ship&#x27;s stem or a submarine conning tower, is the unmistakable landmark of the coastal memorial.</p>
             <div class="actions">
@@ -3125,17 +3130,41 @@
       const tabs = card.querySelectorAll('.fmt-tab');
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
+      const dtab = card.querySelector('.day-tab');
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const next = fmt === '9x16' ? img.getAttribute("data-src-916")
-          : fmt === '4x5' ? img.getAttribute("data-src-45") : img.getAttribute("data-src-16");
+        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
+        const next = fmt === '4x5'
+          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
+          : fmt === '9x16'
+          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
+          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
       }));
+      /* Single daylight toggle: rendered only where day-variant masters exist. */
+      if (dtab) dtab.addEventListener('click', e => {
+        e.preventDefault();
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dkey = dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916')
+            : dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45')
+            : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = img.getAttribute(dkey);
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+      });
     });
 
 (function(){

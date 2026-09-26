@@ -91,6 +91,11 @@
   .fmt-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .day-row { display: flex; padding: 8px 14px 0; }
+  .day-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
+  .day-tab:hover { border-color: #FFCE00; }
+  .day-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -2401,7 +2406,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Saarschleife, Mettlach-Orscholz</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 13:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 13:30 Europe/Berlin">Scenario: 25 September 2026 · 13:30 Europe/Berlin</p>
             <p class="composition">River bend from Cloef · AI-generated artistic interpretation</p>
             <p class="description">From the Cloef viewpoint, the Saar sweeps in its famous horseshoe bend around the densely forested hill at center, the two green river arms framing it left and right; late-morning light glints off the water under a mainly clear sky, forested hills recede into the hazy distance, and wildflowers and a low stone wall mark the viewing ledge in the foreground.</p>
             <div class="actions">
@@ -2429,7 +2434,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Treetop walk Saarschleife, Mettlach</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 13:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 13:45 Europe/Berlin">Scenario: 25 September 2026 · 13:45 Europe/Berlin</p>
             <p class="composition">Elevated river panorama · AI-generated artistic interpretation</p>
             <p class="description">From the treetop walk&#x27;s elevated platform, the Saar&#x27;s great oxbow loop curves around a forested hill in the frame&#x27;s center, the river glittering under broken midday cloud. The walkway&#x27;s wooden railing and deck run along the right foreground, early-autumn gold already tinting the canopy on the left, and a small boat leaves a wake on the water to the right — a classic Saarschleife panorama in soft 13:45 daylight.</p>
             <div class="actions">
@@ -2457,7 +2462,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Völklingen Ironworks, Völklingen</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 11:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 11:15 Europe/Berlin">Scenario: 26 September 2026 · 11:15 Europe/Berlin</p>
             <p class="composition">Industrial heritage complex · AI-generated artistic interpretation</p>
             <p class="description">From the visitor path beside the UNESCO wayfinding sign, the Völklingen Ironworks rises as a rust-red labyrinth of blast furnaces, gantry pipes and the tall brick chimney at center-left, with the covered walkways and crane towers spreading right toward the dark-clad blower hall. Fallen leaves and puddles on the damp asphalt catch the flat overcast light of a cool 17°C September morning, while greenery pushes through the fence line along the railings.</p>
             <div class="actions">
@@ -2485,7 +2490,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Ludwigskirche, Saarbrücken</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 11:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 11:15 Europe/Berlin">Scenario: 26 September 2026 · 11:15 Europe/Berlin</p>
             <p class="composition">Baroque church and square · AI-generated artistic interpretation</p>
             <p class="description">The Ludwigskirche fills the frame from Ludwigsplatz, its baroque sandstone façade and gilded roofline statues glowing softly under a bright overcast sky, the tall clock tower rising behind the mansard roof. The cobbled square spreads in the foreground with puddles mirroring the stone, the tourist map board at the left edge, and a café terrace with folded umbrellas and flower boxes softening the right side — a mild 18°C September morning, entirely free of crowds.</p>
             <div class="actions">
@@ -2513,7 +2518,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">St. Johanner Markt, Saarbrücken</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 11:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 11:30 Europe/Berlin">Scenario: 26 September 2026 · 11:30 Europe/Berlin</p>
             <p class="composition">Old-town square · AI-generated artistic interpretation</p>
             <p class="description">Standing on the damp cobbles of the St. Johanner Markt, the historic fountain with its wrought-iron grille anchors the right side of the frame while colorful gabled merchant houses — teal, cream and ochre — line the left with café terraces under folded parasols. Shopfronts and slate roofs run down the narrow street at center, and the bright overcast light of a near-19°C September morning keeps the square&#x27;s old-town charm soft and unhurried, with only a couple of passersby in view.</p>
             <div class="actions">
@@ -2541,7 +2546,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Saar riverfront, Saarbrücken</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 11:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 11:45 Europe/Berlin">Scenario: 26 September 2026 · 11:45 Europe/Berlin</p>
             <p class="composition">Palace and river setting · AI-generated artistic interpretation</p>
             <p class="description">The white Baroque palace block of Saarbrücken rises above the river on its ivy-clad stone terrace at left, dark mansard roofs against an overcast sky, while the Saar flows calmly in the center of the frame. A wet cobbled riverside path runs along the right bank with bicycles leaning at the railing, a &quot;Saar-Radweg&quot; sign, and a lamp post in the foreground; city rooftops line the downstream bank. Scattered autumn leaves and puddles reflect the soft grey daylight of a late-September morning.</p>
             <div class="actions">
@@ -2569,7 +2574,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old Abbey, Mettlach</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 12:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 12:00 Europe/Berlin">Scenario: 26 September 2026 · 12:00 Europe/Berlin</p>
             <p class="composition">Historic riverside architecture · AI-generated artistic interpretation</p>
             <p class="description">Mettlach&#x27;s Old Abbey lines the Saar in a sequence of stone and timber: the old abbey tower rises at left of center beside the Baroque residence with its sculpted Baroque portal at right, while the river runs along the left edge of the frame. A brown heritage sign in the foreground reads &quot;Alte Abtei Mettlach · Benediktinerkloster · Gegründet 676&quot;, and half-timbered houses with weeping willows stretch downstream. Wet cobbles and a muted overcast midday light give the scene its late-September mood.</p>
             <div class="actions">
@@ -2597,7 +2602,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Roman Villa Borg, Perl</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 12:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 12:15 Europe/Berlin">Scenario: 26 September 2026 · 12:15 Europe/Berlin</p>
             <p class="composition">Reconstructed Roman villa · AI-generated artistic interpretation</p>
             <p class="description">From the small wooden footbridge over the villa pond, the reconstructed pars urbana of Roman Villa Borg opens ahead: the geometric Roman garden of clipped hedges and topiary fills the middle ground, with the white colonnaded villa wings and their terracotta roofs rising behind it. A German-language interpretive sign stands in the left foreground. Soft midday light under a full overcast sky flattens the shadows, and the wet bridge planks hint at recent rain.</p>
             <div class="actions">
@@ -2625,7 +2630,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Bostalsee, Nohfelden</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 13:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 13:45 Europe/Berlin">Scenario: 25 September 2026 · 13:45 Europe/Berlin</p>
             <p class="composition">Lakefront · AI-generated artistic interpretation</p>
             <p class="description">From the Bostalsee shore path, calm midday water fills the foreground with a weathered wooden jetty at the left edge and reed beds along the rocky bank. The marina&#x27;s mast forest stands at center-right, wind turbines turn on the far wooded ridge, and a brown &#x27;Rundweg 7km&#x27; trail sign anchors the right foreground — a classic mainly-clear September afternoon at the lake.</p>
             <div class="actions">
@@ -2653,7 +2658,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Schlossberg caves, Homburg</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 12:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 12:15 Europe/Berlin">Scenario: 26 September 2026 · 12:15 Europe/Berlin</p>
             <p class="composition">Sandstone chambers; controlled interior · AI-generated artistic interpretation</p>
             <p class="description">Inside the sandstone Schlossberg caves, a sculpted chamber glows amber in the daylight streaming through a wide opening ahead, with green foliage visible beyond. A dark tunnel mouth curves off to the left while German visitor signs on the right mark Level 11 and the exit, one noting the 1.80 m headroom. Warm midday light under mainly clear skies shapes the carved stone.</p>
             <div class="actions">
@@ -2681,7 +2686,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Bliesgau landscape, Gersheim</h3>
-            <p class="scenario">Scenario: 25 September 2026 · 14:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 14:00 Europe/Berlin">Scenario: 25 September 2026 · 14:00 Europe/Berlin</p>
             <p class="composition">Orchards and rolling fields · AI-generated artistic interpretation</p>
             <p class="description">From a meadow footpath in the Bliesgau biosphere reserve, gnarled orchard trees and wildflowers fill the foreground beside weathered dry-stone walls. A hilltop village with a church spire sits at the upper left, and patchwork green-and-gold fields roll away to the horizon under a clear midday sky — classic Bliesgau orchard country in 14:00 September light.</p>
             <div class="actions">
@@ -2709,7 +2714,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old town and fortifications, Saarlouis</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 12:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 12:30 Europe/Berlin">Scenario: 26 September 2026 · 12:30 Europe/Berlin</p>
             <p class="composition">Historic urban details · AI-generated artistic interpretation</p>
             <p class="description">A cobbled street runs between Saarlouis&#x27;s old town and its Vauban-era fortifications: the grass-covered moat and stone ramparts lie to the left, lined with linden trees, while half-timbered houses with green shutters rise to the right, one with a bakery storefront and flower boxes. A baroque church tower with an onion cupola anchors the center of the frame. Bright midday sun under a clear sky gives crisp shadows and a warm autumn feel.</p>
             <div class="actions">
@@ -2761,17 +2766,41 @@
       const tabs = card.querySelectorAll('.fmt-tab');
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
+      const dtab = card.querySelector('.day-tab');
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const next = fmt === '9x16' ? img.getAttribute("data-src-916")
-          : fmt === '4x5' ? img.getAttribute("data-src-45") : img.getAttribute("data-src-16");
+        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
+        const next = fmt === '4x5'
+          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
+          : fmt === '9x16'
+          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
+          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
       }));
+      /* Single daylight toggle: rendered only where day-variant masters exist. */
+      if (dtab) dtab.addEventListener('click', e => {
+        e.preventDefault();
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dkey = dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916')
+            : dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45')
+            : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = img.getAttribute(dkey);
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+      });
     });
 
 (function(){

@@ -91,6 +91,11 @@
   .fmt-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .day-row { display: flex; padding: 8px 14px 0; }
+  .day-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
+  .day-tab:hover { border-color: #FFCE00; }
+  .day-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -2401,7 +2406,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Schwerin Castle, Schwerin</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 15:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 15:15 Europe/Berlin">Scenario: 24 September 2026 · 15:15 Europe/Berlin</p>
             <p class="composition">Lake and palace ensemble · AI-generated artistic interpretation</p>
             <p class="description">The golden dome and spires of Schwerin Castle rise above its island across the lake, seen from the lakeside promenade where a wooden railing, reeds and autumn-fringed willows line the water&#x27;s edge. The overcast afternoon light softens the palace&#x27;s pale façade while a few moored boats wait at the left, and early-fall color touches the trees framing the castle&#x27;s right side.</p>
             <div class="actions">
@@ -2429,7 +2434,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old town, Schwerin</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 15:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 15:15 Europe/Berlin">Scenario: 24 September 2026 · 15:15 Europe/Berlin</p>
             <p class="composition">Market square and cathedral · AI-generated artistic interpretation</p>
             <p class="description">The brick-Gothic cathedral towers over the market square with its green-copper spire, flanked by pastel and half-timbered merchant houses on the left and a white-columned arcade on the right. Shop awnings and street lamps line the cobbles at eye level under a flat overcast afternoon sky, with the square quiet and a lone cyclist passing beneath the towers.</p>
             <div class="actions">
@@ -2457,7 +2462,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Königsstuhl, Rügen/Jasmund</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 15:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 15:30 Europe/Berlin">Scenario: 24 September 2026 · 15:30 Europe/Berlin</p>
             <p class="composition">Chalk coast from designated overlooks · AI-generated artistic interpretation</p>
             <p class="description">From the wooden railing of the designated overlook, the Königsstuhl&#x27;s white chalk face stands bright against the deep green of the beech forest, the cliff line running left into the distance along the calm Baltic. Sailboats dot the water under a partly cloudy afternoon sky, with fallen leaves on the platform and autumn color just touching the foliage at the cliff&#x27;s edge.</p>
             <div class="actions">
@@ -2485,7 +2490,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Victoria-Sicht, Rügen/Jasmund</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 15:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 15:45 Europe/Berlin">Scenario: 24 September 2026 · 15:45 Europe/Berlin</p>
             <p class="composition">Chalk cliffs and Baltic · AI-generated artistic interpretation</p>
             <p class="description">From a clifftop clearing at Victoria-Sicht the white chalk cliffs sweep left along the Baltic, crowned by dense beech forest, with a narrow shingle shore curving below. Grasses and a weathered wooden rail post frame the right edge under a partly cloudy afternoon sky. Soft daylight breaks through the clouds across the water.</p>
             <div class="actions">
@@ -2513,7 +2518,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Sellin pier, Rügen/Sellin</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 15:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 15:45 Europe/Berlin">Scenario: 24 September 2026 · 15:45 Europe/Berlin</p>
             <p class="composition">Pier from promenade · AI-generated artistic interpretation</p>
             <p class="description">Standing at the top of the promenade steps, the pier walkway leads straight out to the Sellin pier house — its white pavilions and twin towers centered over the Baltic. A bench and a Zugang Seebrücke sign sit left of the stair, the beach curves right, and striped Strandkorb chairs line the pier deck. Afternoon light breaks through scattered clouds over the water.</p>
             <div class="actions">
@@ -2541,7 +2546,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Beach and villas, Rügen/Binz</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 16:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 16:00 Europe/Berlin">Scenario: 24 September 2026 · 16:00 Europe/Berlin</p>
             <p class="composition">Resort architecture · AI-generated artistic interpretation</p>
             <p class="description">From the promenade edge, Binz’s white resort villas with red tiled roofs stretch along the sand, the grandest hotel frontage centered in the frame. Rows of wicker Strandkörbe dot the beach below a Kurdirektion weather board in the left foreground, while gentle surf edges the shoreline to the right. Diffuse afternoon light filters through broken cloud.</p>
             <div class="actions">
@@ -2569,7 +2574,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Cape Arkona, Rügen/Putgarten</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 16:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 16:15 Europe/Berlin">Scenario: 24 September 2026 · 16:15 Europe/Berlin</p>
             <p class="composition">Lighthouses and coast · AI-generated artistic interpretation</p>
             <p class="description">Both of Cape Arkona&#x27;s lighthouses stand on the grassy clifftop: the old brick Schinkel tower on the left and the taller new tower beside it. To the right, the chalk-white cliffs fall steeply to the Baltic Sea, while a wooden trail sign points the way along the cliff path in the foreground. Afternoon light under a broken cloud cover gives the scene soft, natural contrast at 15°C, with wildflowers and dune grasses framing the coastal view.</p>
             <div class="actions">
@@ -2597,7 +2602,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Vitt, Rügen/Putgarten</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 16:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 16:15 Europe/Berlin">Scenario: 24 September 2026 · 16:15 Europe/Berlin</p>
             <p class="composition">Fishing village · AI-generated artistic interpretation</p>
             <p class="description">Thatched white fishing cottages with red-trimmed windows line a gravel lane, nets and crates and buoys stacked against a weathered boatshed on the left. On the right, wooden rowing boats rest at rustic jetties along the shore, with the chalk cliffs of the Arkona coast on the horizon. Soft afternoon light breaks through scattered cloud, drying the nets in the foreground and glinting on the calm water.</p>
             <div class="actions">
@@ -2625,7 +2630,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Granitz Hunting Lodge, Rügen/Granitz</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 16:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 16:30 Europe/Berlin">Scenario: 24 September 2026 · 16:30 Europe/Berlin</p>
             <p class="composition">Woodland castle · AI-generated artistic interpretation</p>
             <p class="description">The pink neo-Gothic lodge rises from the beech forest, its tall central stair tower dominating the composition, flanked by crenellated turrets and rows of arched windows. A wooden trail sign in the foreground left points hikers along the 200-metre path through the woods. Late-afternoon light filters through turning early-autumn foliage, scattering leaves across the forest floor around the building&#x27;s base.</p>
             <div class="actions">
@@ -2653,7 +2658,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Dornbusch lighthouse, Hiddensee</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 16:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 16:45 Europe/Berlin">Scenario: 24 September 2026 · 16:45 Europe/Berlin</p>
             <p class="composition">Lighthouse and coastal hills · AI-generated artistic interpretation</p>
             <p class="description">The white Dornbusch lighthouse with its red lantern dome stands on a grassy hill at right of frame, the small keeper&#x27;s hut at its base. Rolling coastal hills fall away behind it while the calm Baltic Sea stretches to the left under mainly clear late-afternoon skies at 15°C. Heather and grasses in the foreground meadow complete this honest island vista.</p>
             <div class="actions">
@@ -2681,7 +2686,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old Market, Stralsund</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 16:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 16:45 Europe/Berlin">Scenario: 24 September 2026 · 16:45 Europe/Berlin</p>
             <p class="composition">Town Hall and St. Nicholas · AI-generated artistic interpretation</p>
             <p class="description">Stralsund&#x27;s Town Hall fills the right of frame with its famous stepped twin gables over brick arcades, the tall tower of St. Nicholas rising at center-left. Stepped-gable merchant houses in ochre and terracotta line the left side under partly cloudy late-afternoon skies at 15.7°C, the cobbled Alter Markt in the foreground dotted with a few candid passers-by. German shop signboards and UNESCO plaques add honest old-town detail.</p>
             <div class="actions">
@@ -2709,7 +2714,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Harbor, Stralsund</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 17:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 17:00 Europe/Berlin">Scenario: 24 September 2026 · 17:00 Europe/Berlin</p>
             <p class="composition">Waterfront and Ozeaneum · AI-generated artistic interpretation</p>
             <p class="description">The Ozeaneum&#x27;s white ship-like building dominates the right of frame, its facade lettering complete above the promenade. Moored sailboats line the wooden jetty at left while old-town rooftops and church spires fade into the partly cloudy late-afternoon skies at 15.6°C. Gulls drift over the harbor and a few candid visitors stroll the waterfront plaza in this honest Stralsund view.</p>
             <div class="actions">
@@ -2737,7 +2742,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old harbor, Wismar</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 17:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 17:15 Europe/Berlin">Scenario: 24 September 2026 · 17:15 Europe/Berlin</p>
             <p class="composition">Warehouses and boats · AI-generated artistic interpretation</p>
             <p class="description">The brick Hanseatic warehouses of the old harbor fill the right of the frame, one gable reading &quot;SPEICHER 5&quot; and the next &quot;UMSCHLAG &amp; LAGER&quot;. Fishing boats, sailing yachts and a covered ketch are moored along the wooden quay in the center, while the old town&#x27;s rooftops and a brick church tower rise in the distance to the left. Soft overcast daylight, matching the cloudy afternoon scenario, settles over calm water dotted with gulls.</p>
             <div class="actions">
@@ -2765,7 +2770,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Market square, Wismar</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 17:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 17:15 Europe/Berlin">Scenario: 24 September 2026 · 17:15 Europe/Berlin</p>
             <p class="composition">Water pavilion and historic facades · AI-generated artistic interpretation</p>
             <p class="description">The Wasserkunst — Wismar&#x27;s octagonal 1602 water pavilion with its verdigris copper dome — stands at the center of the market square, spouts flowing into its stone basin. To the left rises the stepped-gable brick facade of the Alter Schwede restaurant with its flower boxes, and to the right a row of historic gabled facades led by a bakery under a striped awning. Wet cobblestones reflect the soft overcast afternoon light.</p>
             <div class="actions">
@@ -2793,7 +2798,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Warnemünde lighthouse, Rostock</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 17:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 17:30 Europe/Berlin">Scenario: 24 September 2026 · 17:30 Europe/Berlin</p>
             <p class="composition">Lighthouse and Teepott · AI-generated artistic interpretation</p>
             <p class="description">The glazed-brick Warnemünde lighthouse stands to the right with its green-copper cupola and two gallery balconies, while the Teepott&#x27;s sweeping curved shell roof and glass facade occupy the left, its own name lettered across the entrance. Gulls wheel over the promenade under a partly cloudy late-afternoon sky, and a distant red beacon marks the pier out at sea.</p>
             <div class="actions">
@@ -2821,7 +2826,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Alter Strom, Rostock</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 17:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 17:45 Europe/Berlin">Scenario: 24 September 2026 · 17:45 Europe/Berlin</p>
             <p class="composition">Fishing boats and houses · AI-generated artistic interpretation</p>
             <p class="description">Eye-level view down the Alter Strom channel from the western quay. Weathered fishing boats — a blue cutter with coiled nets in the left foreground and the red-hulled ROS-128 on the right — lie moored along both banks, while gabled houses, fish shops and striped awnings line the quays. Bright broken cloud lets late-afternoon sun through at 17:45, trembling reflections on the calm water. Seagulls perch on bollards and a parked bicycle at the right edge gives the working harbor a lived-in feel.</p>
             <div class="actions">
@@ -2849,7 +2854,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Historic pier, Usedom/Ahlbeck</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 18:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 18:00 Europe/Berlin">Scenario: 24 September 2026 · 18:00 Europe/Berlin</p>
             <p class="composition">Pier and beach · AI-generated artistic interpretation</p>
             <p class="description">Beach-level view of the Seebrücke Ahlbeck at 18:00. The historic white pier house — red roof, green spires and weathervanes — stands at the center of the frame on wooden piles, with the boardwalk running off to the promenade on the left and into the sea on the right. Dune grass and driftwood edge the sandy foreground while broken cloud thins over a calm grey-blue Baltic. German flags fly along the pier walkway.</p>
             <div class="actions">
@@ -2877,7 +2882,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Resort waterfront, Usedom/Heringsdorf</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 18:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 18:00 Europe/Berlin">Scenario: 24 September 2026 · 18:00 Europe/Berlin</p>
             <p class="composition">Villas and pier · AI-generated artistic interpretation</p>
             <p class="description">Promenade-level view along the Heringsdorf seafront at 18:00. Ornate white spa villas with green shutters, balconies and flower boxes line the left of the frame, while the Seebrücke Heringsdorf — the pier with its pyramid-roofed pier house — juts into the sea at the right edge, beach groynes breaking the surf. Broken cloud softens the evening light; a wayfinding sign points 508 metres toward the pier, a parked bicycle and dune grass anchoring the everyday seaside scene.</p>
             <div class="actions">
@@ -2905,7 +2910,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Darß Weststrand, Zingst/Prerow</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 18:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 18:15 Europe/Berlin">Scenario: 24 September 2026 · 18:15 Europe/Berlin</p>
             <p class="composition">Wind-shaped trees and beach · AI-generated artistic interpretation</p>
             <p class="description">Wind-bent pines lean out over the dunes at the Darß Weststrand, their mossy trunks bent by years of Baltic wind. The sandy beach stretches left to right along a grey, overcast sea, scattered with driftwood and clumps of dune grass. Shot under flat evening light at 18:15 on 24 September 2026, the scene has the wild, empty feel of the Darß coast in late summer.</p>
             <div class="actions">
@@ -2933,7 +2938,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Darßer Ort, Prerow</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 18:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 18:15 Europe/Berlin">Scenario: 24 September 2026 · 18:15 Europe/Berlin</p>
             <p class="composition">Lighthouse and coastal landscape · AI-generated artistic interpretation</p>
             <p class="description">The Darßer Ort lighthouse rises over the dunes, its red lantern room and green-copper-roofed brick keeper&#x27;s houses standing at the edge of the national park. A sandy path leads past a wooden &#x27;Naturschutzgebiet&#x27; park sign through wind-combed dune grass toward the grey Baltic sea at the left edge of the frame. Under heavy overcast evening light, the scene feels remote and windswept, exactly as this exposed cape is.</p>
             <div class="actions">
@@ -2961,7 +2966,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Harbor, Waren (Müritz)</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 18:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 18:30 Europe/Berlin">Scenario: 24 September 2026 · 18:30 Europe/Berlin</p>
             <p class="composition">Lakefront old town · AI-generated artistic interpretation</p>
             <p class="description">Moored sailboats and covered hulls fill the Waren harbor at the water&#x27;s edge, with the old town&#x27;s red-tiled roofs and the church tower rising behind. A hiker&#x27;s backpack and a bicycle rest on the wooden pier in the foreground, next to scattered autumn leaves on the wet boards. Under grey overcast evening light, the lakefront feels quiet and end-of-season, with rippled water reflecting the masts and rooftops.</p>
             <div class="actions">
@@ -2989,7 +2994,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Lakes and wetlands, Müritz National Park</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 18:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 18:45 Europe/Berlin">Scenario: 24 September 2026 · 18:45 Europe/Berlin</p>
             <p class="composition">Designated observation sites · AI-generated artistic interpretation</p>
             <p class="description">A wooden observation deck at the water&#x27;s edge anchors the foreground, its framed park sign angled into frame and weathered rails leading the eye across reed beds to still, lily-dotted lakes. At mid-frame, a timber bird hide sits on stilts among the reeds, while low, mist-shrouded forested hills close the horizon. The overcast late-afternoon light is soft and flat, with light drizzle beading on the boardwalk planks and autumn leaves scattered across them.</p>
             <div class="actions">
@@ -3017,7 +3022,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Güstrow Palace, Güstrow</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 19:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 19:00 Europe/Berlin">Scenario: 24 September 2026 · 19:00 Europe/Berlin</p>
             <p class="composition">Renaissance palace · AI-generated artistic interpretation</p>
             <p class="description">The rusticated stone front of Güstrow Palace fills the frame from across the parterre garden, its copper-domed corner towers and red tile roof rising left of center. At right, a park bench and the palace&#x27;s info board face the formal lawn, while a reed-lined canal with drifting autumn leaves crosses the left foreground. Flat overcast light suits the early-evening scenario, with rain puddles still beading on the gravel paths.</p>
             <div class="actions">
@@ -3045,7 +3050,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Ludwigslust Palace, Ludwigslust</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 19:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 19:00 Europe/Berlin">Scenario: 24 September 2026 · 19:00 Europe/Berlin</p>
             <p class="composition">Palace and park axis · AI-generated artistic interpretation</p>
             <p class="description">The palace stands at the head of the long park axis, its columned central block reflected in the still canal that runs toward the viewer. Statues, stone urns and black iron lamps line the gravel walk on the right, while tall autumn trees close in the lawns at left. A flat grey evening sky suits the rainy scenario, with puddles and wet leaves marking the path.</p>
             <div class="actions">
@@ -3097,17 +3102,41 @@
       const tabs = card.querySelectorAll('.fmt-tab');
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
+      const dtab = card.querySelector('.day-tab');
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const next = fmt === '9x16' ? img.getAttribute("data-src-916")
-          : fmt === '4x5' ? img.getAttribute("data-src-45") : img.getAttribute("data-src-16");
+        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
+        const next = fmt === '4x5'
+          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
+          : fmt === '9x16'
+          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
+          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
       }));
+      /* Single daylight toggle: rendered only where day-variant masters exist. */
+      if (dtab) dtab.addEventListener('click', e => {
+        e.preventDefault();
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dkey = dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916')
+            : dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45')
+            : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = img.getAttribute(dkey);
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+      });
     });
 
 (function(){

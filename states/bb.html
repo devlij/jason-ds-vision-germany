@@ -91,6 +91,11 @@
   .fmt-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .day-row { display: flex; padding: 8px 14px 0; }
+  .day-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
+  .day-tab:hover { border-color: #FFCE00; }
+  .day-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -2387,7 +2392,7 @@
 <article class="card" data-search="potsdam sanssouci brandenburg de-bb-001 sanssouci palace glows floodlit at the top of its famous terraces, the verdigris dome rising against a rain-dark night sky. espaliered vines and clipped hedges step down the slope in the center and right, with wide stone stairways glistening wet at the left. the 04:15 night-rain scenario turns the gold-lit terraces into mirrors, honest to a rainy potsdam night." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-001-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-001-16x9.png" data-src-16="../assets/de-bb-001-16x9.png" data-src-45="../assets/de-bb-001-4x5.png" data-src-916="../assets/de-bb-001-9x16.png" alt="AI-generated artistic interpretation of Sanssouci in Potsdam" loading="lazy" />
+              <img src="../assets/de-bb-001-16x9.png" data-src-16="../assets/de-bb-001-16x9.png" data-src-45="../assets/de-bb-001-4x5.png" data-src-916="../assets/de-bb-001-9x16.png" data-src-16-day="../assets/de-bb-001-daylight-16x9.png" data-src-45-day="../assets/de-bb-001-daylight-4x5.png" data-src-916-day="../assets/de-bb-001-daylight-9x16.png" alt="AI-generated artistic interpretation of Sanssouci in Potsdam" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2395,13 +2400,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-001</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Sanssouci, Potsdam</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 04:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 04:15 Europe/Berlin">Scenario: 24 September 2026 · 04:15 Europe/Berlin</p>
             <p class="composition">Terraces and palace · AI-generated artistic interpretation</p>
             <p class="description">Sanssouci Palace glows floodlit at the top of its famous terraces, the verdigris dome rising against a rain-dark night sky. Espaliered vines and clipped hedges step down the slope in the center and right, with wide stone stairways glistening wet at the left. The 04:15 night-rain scenario turns the gold-lit terraces into mirrors, honest to a rainy Potsdam night.</p>
             <div class="actions">
@@ -2415,7 +2421,7 @@
 <article class="card" data-search="potsdam neues palais brandenburg de-bb-002 the neues palais stretches along the garden front, its red-ochre baroque façade glowing window after window beneath a dark rainy sky, rooftop statues lining the cornice at the left. the verdigris dome of the rotunda caps the right end above the portico, while wet gravel, fallen leaves, topiary tubs and lit park lamps fill the garden approach. a true night-rain scenario at 04:30, with lamps and warm windows the only light against the dark." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-002-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-002-16x9.png" data-src-16="../assets/de-bb-002-16x9.png" data-src-45="../assets/de-bb-002-4x5.png" data-src-916="../assets/de-bb-002-9x16.png" alt="AI-generated artistic interpretation of Neues Palais in Potsdam" loading="lazy" />
+              <img src="../assets/de-bb-002-16x9.png" data-src-16="../assets/de-bb-002-16x9.png" data-src-45="../assets/de-bb-002-4x5.png" data-src-916="../assets/de-bb-002-9x16.png" data-src-16-day="../assets/de-bb-002-daylight-16x9.png" data-src-45-day="../assets/de-bb-002-daylight-4x5.png" data-src-916-day="../assets/de-bb-002-daylight-9x16.png" alt="AI-generated artistic interpretation of Neues Palais in Potsdam" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2423,13 +2429,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-002</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Neues Palais, Potsdam</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 04:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 04:30 Europe/Berlin">Scenario: 24 September 2026 · 04:30 Europe/Berlin</p>
             <p class="composition">Palace and garden approach · AI-generated artistic interpretation</p>
             <p class="description">The Neues Palais stretches along the garden front, its red-ochre baroque façade glowing window after window beneath a dark rainy sky, rooftop statues lining the cornice at the left. The verdigris dome of the rotunda caps the right end above the portico, while wet gravel, fallen leaves, topiary tubs and lit park lamps fill the garden approach. A true night-rain scenario at 04:30, with lamps and warm windows the only light against the dark.</p>
             <div class="actions">
@@ -2443,7 +2450,7 @@
 <article class="card" data-search="potsdam dutch quarter brandenburg de-bb-003 a rain-soaked street in potsdam&#x27;s dutch quarter at night, lined on both sides by the red-brick gabled houses that give the holländisches viertel its name. a hanging &#x27;café holländisch&#x27; sign stands at the left edge, lit shopfronts run the left side while a &#x27;galerie · kunsthandwerk&#x27; storefront glows at the right edge, and wet cobblestones mirror the lamplight. fine rain streaks against the dark sky under the scenario&#x27;s night conditions, with a mittelstraße street sign anchoring the frame." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-003-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-003-16x9.png" data-src-16="../assets/de-bb-003-16x9.png" data-src-45="../assets/de-bb-003-4x5.png" data-src-916="../assets/de-bb-003-9x16.png" alt="AI-generated artistic interpretation of Dutch Quarter in Potsdam" loading="lazy" />
+              <img src="../assets/de-bb-003-16x9.png" data-src-16="../assets/de-bb-003-16x9.png" data-src-45="../assets/de-bb-003-4x5.png" data-src-916="../assets/de-bb-003-9x16.png" data-src-16-day="../assets/de-bb-003-daylight-16x9.png" data-src-45-day="../assets/de-bb-003-daylight-4x5.png" data-src-916-day="../assets/de-bb-003-daylight-9x16.png" alt="AI-generated artistic interpretation of Dutch Quarter in Potsdam" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2451,13 +2458,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-003</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Dutch Quarter, Potsdam</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 04:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 04:45 Europe/Berlin">Scenario: 24 September 2026 · 04:45 Europe/Berlin</p>
             <p class="composition">Red-brick streets · AI-generated artistic interpretation</p>
             <p class="description">A rain-soaked street in Potsdam&#x27;s Dutch Quarter at night, lined on both sides by the red-brick gabled houses that give the Holländisches Viertel its name. A hanging &#x27;Café Holländisch&#x27; sign stands at the left edge, lit shopfronts run the left side while a &#x27;Galerie · Kunsthandwerk&#x27; storefront glows at the right edge, and wet cobblestones mirror the lamplight. Fine rain streaks against the dark sky under the scenario&#x27;s night conditions, with a Mittelstraße street sign anchoring the frame.</p>
             <div class="actions">
@@ -2471,7 +2479,7 @@
 <article class="card" data-search="potsdam babelsberg park brandenburg de-bb-004 schloss babelsberg glows from its terraces above the havel on a rainy night, its sandstone towers and neo-gothic windows lit against the dark park. a wet stone terrace with fallen leaves runs along the left foreground while the river spreads across the left frame, carrying the reflected lights of distant potsdam. rain hangs in the lamplight and night sky under the scenario&#x27;s slight-rain conditions, the park&#x27;s trees and slopes fading into the blue-dark beyond." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-004-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-004-16x9.png" data-src-16="../assets/de-bb-004-16x9.png" data-src-45="../assets/de-bb-004-4x5.png" data-src-916="../assets/de-bb-004-9x16.png" alt="AI-generated artistic interpretation of Babelsberg Park in Potsdam" loading="lazy" />
+              <img src="../assets/de-bb-004-16x9.png" data-src-16="../assets/de-bb-004-16x9.png" data-src-45="../assets/de-bb-004-4x5.png" data-src-916="../assets/de-bb-004-9x16.png" data-src-16-day="../assets/de-bb-004-daylight-16x9.png" data-src-45-day="../assets/de-bb-004-daylight-4x5.png" data-src-916-day="../assets/de-bb-004-daylight-9x16.png" alt="AI-generated artistic interpretation of Babelsberg Park in Potsdam" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2479,13 +2487,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-004</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Babelsberg Park, Potsdam</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 04:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 04:45 Europe/Berlin">Scenario: 24 September 2026 · 04:45 Europe/Berlin</p>
             <p class="composition">Palace and Havel views · AI-generated artistic interpretation</p>
             <p class="description">Schloss Babelsberg glows from its terraces above the Havel on a rainy night, its sandstone towers and neo-Gothic windows lit against the dark park. A wet stone terrace with fallen leaves runs along the left foreground while the river spreads across the left frame, carrying the reflected lights of distant Potsdam. Rain hangs in the lamplight and night sky under the scenario&#x27;s slight-rain conditions, the park&#x27;s trees and slopes fading into the blue-dark beyond.</p>
             <div class="actions">
@@ -2499,7 +2508,7 @@
 <article class="card" data-search="potsdam cecilienhof brandenburg de-bb-005 cecilienhof palace seen through a stone archway into its courtyard on a rainy night, the tudor-style frontage rising left of frame with herringbone timbering, tall chimneys and warm leaded windows. a circular flower bed rings the lawn in the courtyard foreground while the right wing closes the composition, both glowing against the dark. rain streaks the night sky above under the scenario&#x27;s slight-rain conditions, lit lanterns and window glow lending the potsdam conference site its evening warmth." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-005-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-005-16x9.png" data-src-16="../assets/de-bb-005-16x9.png" data-src-45="../assets/de-bb-005-4x5.png" data-src-916="../assets/de-bb-005-9x16.png" alt="AI-generated artistic interpretation of Cecilienhof in Potsdam" loading="lazy" />
+              <img src="../assets/de-bb-005-16x9.png" data-src-16="../assets/de-bb-005-16x9.png" data-src-45="../assets/de-bb-005-4x5.png" data-src-916="../assets/de-bb-005-9x16.png" data-src-16-day="../assets/de-bb-005-daylight-16x9.png" data-src-45-day="../assets/de-bb-005-daylight-4x5.png" data-src-916-day="../assets/de-bb-005-daylight-9x16.png" alt="AI-generated artistic interpretation of Cecilienhof in Potsdam" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2507,13 +2516,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-005</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Cecilienhof, Potsdam</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 05:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 05:00 Europe/Berlin">Scenario: 24 September 2026 · 05:00 Europe/Berlin</p>
             <p class="composition">Palace courtyards · AI-generated artistic interpretation</p>
             <p class="description">Cecilienhof Palace seen through a stone archway into its courtyard on a rainy night, the Tudor-style frontage rising left of frame with herringbone timbering, tall chimneys and warm leaded windows. A circular flower bed rings the lawn in the courtyard foreground while the right wing closes the composition, both glowing against the dark. Rain streaks the night sky above under the scenario&#x27;s slight-rain conditions, lit lanterns and window glow lending the Potsdam Conference site its evening warmth.</p>
             <div class="actions">
@@ -2527,7 +2537,7 @@
 <article class="card" data-search="potsdam/berlin boundary glienicke bridge brandenburg de-bb-006 seen from the rain-slicked riverside promenade before dawn, the glienicke bridge&#x27;s green steel trusses stretch across the frame, its row of warm lampposts glowing through the night rain. the stone bridge abutment anchors the left foreground while the dark havel shimmers with wet reflections below, and distant bank lights blur softly through the drizzle on the right." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-006-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-006-16x9.png" data-src-16="../assets/de-bb-006-16x9.png" data-src-45="../assets/de-bb-006-4x5.png" data-src-916="../assets/de-bb-006-9x16.png" alt="AI-generated artistic interpretation of Glienicke Bridge in Potsdam/Berlin boundary" loading="lazy" />
+              <img src="../assets/de-bb-006-16x9.png" data-src-16="../assets/de-bb-006-16x9.png" data-src-45="../assets/de-bb-006-4x5.png" data-src-916="../assets/de-bb-006-9x16.png" data-src-16-day="../assets/de-bb-006-daylight-16x9.png" data-src-45-day="../assets/de-bb-006-daylight-4x5.png" data-src-916-day="../assets/de-bb-006-daylight-9x16.png" alt="AI-generated artistic interpretation of Glienicke Bridge in Potsdam/Berlin boundary" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2535,13 +2545,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-006</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Glienicke Bridge, Potsdam/Berlin boundary</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 05:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 05:15 Europe/Berlin">Scenario: 24 September 2026 · 05:15 Europe/Berlin</p>
             <p class="composition">Bridge and Havel · AI-generated artistic interpretation</p>
             <p class="description">Seen from the rain-slicked riverside promenade before dawn, the Glienicke Bridge&#x27;s green steel trusses stretch across the frame, its row of warm lampposts glowing through the night rain. The stone bridge abutment anchors the left foreground while the dark Havel shimmers with wet reflections below, and distant bank lights blur softly through the drizzle on the right.</p>
             <div class="actions">
@@ -2569,7 +2580,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Spreewald canals, Lübbenau-Lehde</h3>
-            <p class="scenario">Scenario: 26 September 2026 · 17:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 17:30 Europe/Berlin">Scenario: 26 September 2026 · 17:30 Europe/Berlin</p>
             <p class="composition">Footbridges and waterside homes · AI-generated artistic interpretation</p>
             <p class="description">The Spreewald canal runs straight into the frame beneath a low wooden footbridge, its still water mirroring the overcast sky. To the left, thatched-roof timber cottages with flower-filled gardens line the bank and a tarp-covered punt rests at the wooden landing; to the right, willows and a pale-blue waterside house sit among lush late-September greenery. The 17:30 light is soft and diffuse under heavy cloud, carrying the bridge&#x27;s reflection on the canal&#x27;s quiet surface.</p>
             <div class="actions">
@@ -2583,7 +2594,7 @@
 <article class="card" data-search="burg spreewald waterways brandenburg de-bb-008 from the canal bank at pre-dawn, a narrow waterway winds past reed beds and misty meadows under a heavy overcast night sky. a wooden rowboat lies moored in the left foreground, a small footbridge arches over the canal mid-frame, and thatched-roof cottages glow with warm lamplight on the right bank, a &#x27;burg-lübbener-kanal&#x27; wayfinding sign standing at the grassy edge." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-008-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-008-16x9.png" data-src-16="../assets/de-bb-008-16x9.png" data-src-45="../assets/de-bb-008-4x5.png" data-src-916="../assets/de-bb-008-9x16.png" alt="AI-generated artistic interpretation of Spreewald waterways in Burg" loading="lazy" />
+              <img src="../assets/de-bb-008-16x9.png" data-src-16="../assets/de-bb-008-16x9.png" data-src-45="../assets/de-bb-008-4x5.png" data-src-916="../assets/de-bb-008-9x16.png" data-src-16-day="../assets/de-bb-008-daylight-16x9.png" data-src-45-day="../assets/de-bb-008-daylight-4x5.png" data-src-916-day="../assets/de-bb-008-daylight-9x16.png" alt="AI-generated artistic interpretation of Spreewald waterways in Burg" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2591,13 +2602,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-008</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Spreewald waterways, Burg</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 05:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 05:15 Europe/Berlin">Scenario: 24 September 2026 · 05:15 Europe/Berlin</p>
             <p class="composition">Rural canals and meadows · AI-generated artistic interpretation</p>
             <p class="description">From the canal bank at pre-dawn, a narrow waterway winds past reed beds and misty meadows under a heavy overcast night sky. A wooden rowboat lies moored in the left foreground, a small footbridge arches over the canal mid-frame, and thatched-roof cottages glow with warm lamplight on the right bank, a &#x27;Burg-Lübbener-Kanal&#x27; wayfinding sign standing at the grassy edge.</p>
             <div class="actions">
@@ -2611,7 +2623,7 @@
 <article class="card" data-search="rheinsberg rheinsberg palace brandenburg de-bb-009 from the lakeside path before dawn, rheinsberg palace stands across the water with its twin round towers and red roofs, its warm windows mirrored faintly in the lake. rain streaks drift through the pre-dawn gloom while a weathered wooden jetty reaches into the foreground at right, and overhanging trees frame the palace from the right edge." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-009-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-009-16x9.png" data-src-16="../assets/de-bb-009-16x9.png" data-src-45="../assets/de-bb-009-4x5.png" data-src-916="../assets/de-bb-009-9x16.png" alt="AI-generated artistic interpretation of Rheinsberg Palace in Rheinsberg" loading="lazy" />
+              <img src="../assets/de-bb-009-16x9.png" data-src-16="../assets/de-bb-009-16x9.png" data-src-45="../assets/de-bb-009-4x5.png" data-src-916="../assets/de-bb-009-9x16.png" data-src-16-day="../assets/de-bb-009-daylight-16x9.png" data-src-45-day="../assets/de-bb-009-daylight-4x5.png" data-src-916-day="../assets/de-bb-009-daylight-9x16.png" alt="AI-generated artistic interpretation of Rheinsberg Palace in Rheinsberg" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2619,13 +2631,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-009</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Rheinsberg Palace, Rheinsberg</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 05:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 05:15 Europe/Berlin">Scenario: 24 September 2026 · 05:15 Europe/Berlin</p>
             <p class="composition">Lakeside palace · AI-generated artistic interpretation</p>
             <p class="description">From the lakeside path before dawn, Rheinsberg Palace stands across the water with its twin round towers and red roofs, its warm windows mirrored faintly in the lake. Rain streaks drift through the pre-dawn gloom while a weathered wooden jetty reaches into the foreground at right, and overhanging trees frame the palace from the right edge.</p>
             <div class="actions">
@@ -2639,7 +2652,7 @@
 <article class="card" data-search="chorin chorin abbey brandenburg de-bb-010 from a rain-damp cloister courtyard before dawn, the visitor looks across wet cobbles to the brick gothic gables of chorin abbey: the tall church front with its lancet windows and slim green spire rises at the right, weathered red-brick arcades line both sides, and ivy drapes the left colonnade. faint light and rain streaks give the scene a quiet, brooding stillness." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-010-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-010-16x9.png" data-src-16="../assets/de-bb-010-16x9.png" data-src-45="../assets/de-bb-010-4x5.png" data-src-916="../assets/de-bb-010-9x16.png" alt="AI-generated artistic interpretation of Chorin Abbey in Chorin" loading="lazy" />
+              <img src="../assets/de-bb-010-16x9.png" data-src-16="../assets/de-bb-010-16x9.png" data-src-45="../assets/de-bb-010-4x5.png" data-src-916="../assets/de-bb-010-9x16.png" data-src-16-day="../assets/de-bb-010-daylight-16x9.png" data-src-45-day="../assets/de-bb-010-daylight-4x5.png" data-src-916-day="../assets/de-bb-010-daylight-9x16.png" alt="AI-generated artistic interpretation of Chorin Abbey in Chorin" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2647,13 +2660,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-010</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Chorin Abbey, Chorin</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 05:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 05:45 Europe/Berlin">Scenario: 24 September 2026 · 05:45 Europe/Berlin</p>
             <p class="composition">Brick Gothic ruins · AI-generated artistic interpretation</p>
             <p class="description">From a rain-damp cloister courtyard before dawn, the visitor looks across wet cobbles to the brick Gothic gables of Chorin Abbey: the tall church front with its lancet windows and slim green spire rises at the right, weathered red-brick arcades line both sides, and ivy drapes the left colonnade. Faint light and rain streaks give the scene a quiet, brooding stillness.</p>
             <div class="actions">
@@ -2667,7 +2681,7 @@
 <article class="card" data-search="neuzelle neuzelle abbey brandenburg de-bb-011 before dawn in the monastery garden, the visitor looks across a wet gravel path to the baroque splendour of neuzelle abbey: the domed church glows from within at the left, the orange-and-white baroque church front with its twin dark spires rises at the right, and a long lamp-lit cloister wall with arched openings links them. manicured cone topiary and a stone kloster neuzelle sign frame the quiet, damp scene." data-state="Brandenburg">
           <div class="preview">
             <a class="thumb" href="../assets/de-bb-011-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bb-011-16x9.png" data-src-16="../assets/de-bb-011-16x9.png" data-src-45="../assets/de-bb-011-4x5.png" data-src-916="../assets/de-bb-011-9x16.png" alt="AI-generated artistic interpretation of Neuzelle Abbey in Neuzelle" loading="lazy" />
+              <img src="../assets/de-bb-011-16x9.png" data-src-16="../assets/de-bb-011-16x9.png" data-src-45="../assets/de-bb-011-4x5.png" data-src-916="../assets/de-bb-011-9x16.png" data-src-16-day="../assets/de-bb-011-daylight-16x9.png" data-src-45-day="../assets/de-bb-011-daylight-4x5.png" data-src-916-day="../assets/de-bb-011-daylight-9x16.png" alt="AI-generated artistic interpretation of Neuzelle Abbey in Neuzelle" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2675,13 +2689,14 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">☀ Daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BB-011</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Neuzelle Abbey, Neuzelle</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 05:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 05:45 Europe/Berlin">Scenario: 24 September 2026 · 05:45 Europe/Berlin</p>
             <p class="composition">Baroque monastery · AI-generated artistic interpretation</p>
             <p class="description">Before dawn in the monastery garden, the visitor looks across a wet gravel path to the baroque splendour of Neuzelle Abbey: the domed church glows from within at the left, the orange-and-white baroque church front with its twin dark spires rises at the right, and a long lamp-lit cloister wall with arched openings links them. Manicured cone topiary and a stone Kloster Neuzelle sign frame the quiet, damp scene.</p>
             <div class="actions">
@@ -2709,7 +2724,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Branitz Park, Cottbus</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 06:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 06:00 Europe/Berlin">Scenario: 24 September 2026 · 06:00 Europe/Berlin</p>
             <p class="composition">Lake pyramids · AI-generated artistic interpretation</p>
             <p class="description">From the rain-wet lakeshore before dawn, the visitor watches the grass-topped Seepyramide rise from the dark, rain-rippled water at the center of the frame, park lamps glowing along the left shore and doubling as reflections. Reeds and a small wooden Branitz Park Seepyramide sign fill the left foreground while dense trees close the far shore, lending the scene a calm, rain-softened stillness.</p>
             <div class="actions">
@@ -2737,7 +2752,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Beelitz-Heilstätten, Beelitz</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 06:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 06:15 Europe/Berlin">Scenario: 24 September 2026 · 06:15 Europe/Berlin</p>
             <p class="composition">Historic hospital architecture · AI-generated artistic interpretation</p>
             <p class="description">The red-brick sanatorium facade rises at right of frame, its tall arched windows and creeper-covered walls under a low overcast sky. A green-canopied NOTAUFNAHME porch juts toward the viewer at center, with an interpretive plaque standing in the gravel foreground. Warm lamps line the wet path to the left where autumn treetops thin against the grey clouds, the glow softened by early-morning mist.</p>
             <div class="actions">
@@ -2765,7 +2780,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Ship lifts, Niederfinow</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 06:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 06:15 Europe/Berlin">Scenario: 24 September 2026 · 06:15 Europe/Berlin</p>
             <p class="composition">Canal engineering · AI-generated artistic interpretation</p>
             <p class="description">The new concrete ship lift towers right of frame with its yellow machinery houses floodlit, while the old riveted steel lift spans the background at left. A lightning fork splits the storm clouds overhead as rain streaks across the dark sky, and the wet canal water glistens between the quay walls. Street lamps and a green German information sign anchor the left foreground in the downpour.</p>
             <div class="actions">
@@ -2793,7 +2808,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Cathedral island, Brandenburg an der Havel</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 06:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 06:30 Europe/Berlin">Scenario: 24 September 2026 · 06:30 Europe/Berlin</p>
             <p class="composition">Cathedral and waterways · AI-generated artistic interpretation</p>
             <p class="description">The brick Gothic cathedral stands center-right on its island in the Havel, its tall spire piercing a moonlit partly cloudy sky. Lit windows glow against the dark stone while gas lamps line the cobbled embankment at left, their light pooling on the wet cobbles. A wooden boat bobs at the mooring posts in the foreground, and the far shore of the river glimmers with town lights to the right.</p>
             <div class="actions">
@@ -2821,7 +2836,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Island old town, Werder (Havel)</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 06:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 06:45 Europe/Berlin">Scenario: 24 September 2026 · 06:45 Europe/Berlin</p>
             <p class="composition">Waterfront and church · AI-generated artistic interpretation</p>
             <p class="description">The floodlit neo-Gothic Heilig-Geist-Kirche stands center on Werder&#x27;s island old town, its tall spire rising against broken night clouds. Moored wooden boats bob at the cobbled quayside on the left, old-town houses glowing warm along the banks, and an arched stone bridge crossing the Havel at the right edge — light and water reflections woven across the frame.</p>
             <div class="actions">
@@ -2849,7 +2864,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Forst Rose Garden, Forst (Lausitz)</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 06:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 06:45 Europe/Berlin">Scenario: 24 September 2026 · 06:45 Europe/Berlin</p>
             <p class="composition">Formal flower gardens · AI-generated artistic interpretation</p>
             <p class="description">A lamp-lit stone pergola stands at the right of the formal rose parterre, its warm lanterns glowing against the night. Clipped box-hedge beds edged with rose bushes frame a weathered stone urn at the center, with white benches tucked along the paths and a dark canopy of mature trees rising behind under an overcast sky.</p>
             <div class="actions">
@@ -2877,7 +2892,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Town walls, Templin</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 07:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 07:00 Europe/Berlin">Scenario: 24 September 2026 · 07:00 Europe/Berlin</p>
             <p class="composition">Gates and historic streets · AI-generated artistic interpretation</p>
             <p class="description">The crenellated brick gate tower rises center, its arched passage leading into the wet historic street beyond. A mossy fieldstone wall runs left toward the gate, while half-timbered houses with a bakery awning line the right; rain slicks the cobbles under a heavy grey daytime sky, with another tower glimpsed through the arch.</p>
             <div class="actions">
@@ -2929,17 +2944,41 @@
       const tabs = card.querySelectorAll('.fmt-tab');
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
+      const dtab = card.querySelector('.day-tab');
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const next = fmt === '9x16' ? img.getAttribute("data-src-916")
-          : fmt === '4x5' ? img.getAttribute("data-src-45") : img.getAttribute("data-src-16");
+        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
+        const next = fmt === '4x5'
+          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
+          : fmt === '9x16'
+          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
+          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
       }));
+      /* Single daylight toggle: rendered only where day-variant masters exist. */
+      if (dtab) dtab.addEventListener('click', e => {
+        e.preventDefault();
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dkey = dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916')
+            : dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45')
+            : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = img.getAttribute(dkey);
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+      });
     });
 
 (function(){

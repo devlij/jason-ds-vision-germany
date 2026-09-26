@@ -91,6 +91,11 @@
   .fmt-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .day-row { display: flex; padding: 8px 14px 0; }
+  .day-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+             border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
+  .day-tab:hover { border-color: #FFCE00; }
+  .day-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -2401,7 +2406,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Wasserschloss, Speicherstadt</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 08:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 08:45 Europe/Berlin">Scenario: 24 September 2026 · 08:45 Europe/Berlin</p>
             <p class="composition">Canal junction from Poggenmühlenbrücke area · AI-generated artistic interpretation</p>
             <p class="description">The Wasserschloss stands at the tip of the Speicherstadt, its white-and-brick corner tower and green copper spirelets rising where the canals meet. Red-brick warehouse blocks flank the water left and right, and two iron canal bridges arc across the dark, rain-dimpled water. Under a grey overcast sky the early-morning drizzle softens the light, and an empty café terrace of stacked chairs sits at the water&#x27;s edge.</p>
             <div class="actions">
@@ -2429,7 +2434,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Warehouse canals, Speicherstadt</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 08:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 08:45 Europe/Berlin">Scenario: 24 September 2026 · 08:45 Europe/Berlin</p>
             <p class="composition">Red-brick reflections · AI-generated artistic interpretation</p>
             <p class="description">A narrow canal runs between long red-brick warehouse blocks, their facades mirrored in the rain-dimpled water. The near bank shows a wet cobblestone quay with mooring bollards, rope, and rain-streaked railings; a low iron bridge crosses the canal in the misty distance. Flat overcast daylight and visible drizzle match the scenario, with a small wall display echoing the weather readout.</p>
             <div class="actions">
@@ -2457,7 +2462,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Elbphilharmonie, HafenCity</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 09:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 09:00 Europe/Berlin">Scenario: 24 September 2026 · 09:00 Europe/Berlin</p>
             <p class="composition">Waterfront exterior · AI-generated artistic interpretation</p>
             <p class="description">The Elbphilharmonie&#x27;s wave-like glass crown rises over its brick Kaispeicher base, the curved roofline dominating the frame from the Sandtorkai quay. Moored boats bob in the foreground, and wet pavement glistens under flat overcast light with drizzle in the air. Harbor cranes stand faint on the right horizon, and a few distant pedestrians cross the quay with umbrellas.</p>
             <div class="actions">
@@ -2485,7 +2490,7 @@
               <span class="status candidate">Candidate</span>
             </div>
             <h3 class="caption">Town Hall, Altstadt</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 09:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 09:15 Europe/Berlin">Scenario: 24 September 2026 · 09:15 Europe/Berlin</p>
             <p class="composition">Rathausmarkt facade · AI-generated artistic interpretation</p>
             <p class="description">A small half-timbered town hall with a dated &quot;Rathaus 1589&quot; plaque stands center frame, flanked by flower-boxed Fachwerk houses — a bakery at the left edge, the tourist-info office at the right. Eye-level from the quiet market square under flat overcast morning light, wet cobbles underfoot; no crowds, a bench and bicycles at the corner. (Note: built without the Hamburg Rathaus&#x27;s grand Neo-Renaissance facade and tower — scene flagged for regeneration.)</p>
             <div class="actions">
@@ -2513,7 +2518,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">St. Michaelis, Neustadt</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 09:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 09:15 Europe/Berlin">Scenario: 24 September 2026 · 09:15 Europe/Berlin</p>
             <p class="composition">Church and city outlook · AI-generated artistic interpretation</p>
             <p class="description">The Michel&#x27;s tall baroque tower — clock face, green copper gallery and spire — rises at the end of a cobbled Neustadt street, its red-brick nave with tall arched windows to the right. Timber-framed houses with green and blue shutters line the left side, a bookshop and bakery terrace with flower boxes in the foreground. Overcast morning light, damp cobbles, parked bicycles along the kerb; a calm, empty-of-crowds street view at eye level.</p>
             <div class="actions">
@@ -2541,7 +2546,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Landungsbrücken, St. Pauli</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 09:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 09:30 Europe/Berlin">Scenario: 24 September 2026 · 09:30 Europe/Berlin</p>
             <p class="composition">Piers and harbor · AI-generated artistic interpretation</p>
             <p class="description">The sandstone Landungsbrücken building with its green copper dome and clock tower stands at the left, a steel truss gangway reaching out to the floating pontoons. A blue-and-white HADAG harbor ferry lies moored center frame, a container ship and harbor cranes soft in the mist across the Elbe. Overcast, rain-damp morning light, wet stone and rippling grey water; an HVV ferry departure board at the right edge — the working harbor as a tourist sees it.</p>
             <div class="actions">
@@ -2569,7 +2574,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old Elbe Tunnel, St. Pauli/Steinwerder</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 09:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 09:45 Europe/Berlin">Scenario: 24 September 2026 · 09:45 Europe/Berlin</p>
             <p class="composition">Tunnel and south-bank skyline · AI-generated artistic interpretation</p>
             <p class="description">The tiled arched bore of the Old Elbe Tunnel frames the scene, with the glass crown of the Elbphilharmonie rising left across the Elbe, the harbor-crane skyline stretching through the middle, and the Steinwerder quay — railings, bollards and weather-wet asphalt — filling the right foreground under a flat overcast morning sky. The tunnel lamps glow warm against the damp tiles.</p>
             <div class="actions">
@@ -2597,7 +2602,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Jungfernstieg, Neustadt</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 09:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 09:45 Europe/Berlin">Scenario: 24 September 2026 · 09:45 Europe/Berlin</p>
             <p class="composition">Binnenalster waterfront · AI-generated artistic interpretation</p>
             <p class="description">From the Jungfernstieg promenade the Binnenalster stretches across the frame: a classic globe lamp and parked bicycles stand left, historic brick and stone façades with green copper roofs line the far bank, and the glass Alster pavilion with its café terrace and folded umbrellas anchors the right under a flat overcast morning sky. Alster excursion boats cross the mid-distance on the grey water.</p>
             <div class="actions">
@@ -2625,7 +2630,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Außenalster, Rotherbaum/Uhlenhorst</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 10:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 10:00 Europe/Berlin">Scenario: 24 September 2026 · 10:00 Europe/Berlin</p>
             <p class="composition">Lake and skyline · AI-generated artistic interpretation</p>
             <p class="description">From a reed-lined bank the calm grey water of the Außenalster fills the frame, swans and ducks drifting left, a small jetty with rowboats tucked at the right, and the villa-lined north bank running through the middle toward the distant downtown towers under a heavy overcast sky. The moody autumn light and still water give the lake its quiet morning character.</p>
             <div class="actions">
@@ -2653,7 +2658,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Chilehaus, Altstadt</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 10:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 10:15 Europe/Berlin">Scenario: 24 September 2026 · 10:15 Europe/Berlin</p>
             <p class="composition">Pointed brick facade · AI-generated artistic interpretation</p>
             <p class="description">The Chilehaus&#x27;s sharp expressionist brick prow rises center-right above rain-slick cobblestones, its rows of white-framed windows climbing both sides of the corner under a flat grey sky. Left of frame, a Burchardstraße café front tucks behind folded green-striped umbrellas beneath a blue Altstadt street sign, with bicycles parked along the curb. The wet pavement mirrors the overcast light, giving the whole scene the damp sheen of a light mid-morning rain.</p>
             <div class="actions">
@@ -2681,7 +2686,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Treppenviertel, Blankenese</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 10:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 10:15 Europe/Berlin">Scenario: 24 September 2026 · 10:15 Europe/Berlin</p>
             <p class="composition">Hillside houses and stairs · AI-generated artistic interpretation</p>
             <p class="description">A steep cobbled staircase climbs between tightly packed hillside houses, its stone treads glistening with damp under a soft overcast sky. Hydrangeas, ivy, and potted flowers crowd the left-hand wall while a half-timbered cottage with geranium window boxes anchors the right. A brown sign at the top of the steps points walkers on to the Treppenviertel, with more houses stacked up the misty hill behind.</p>
             <div class="actions">
@@ -2709,7 +2714,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Övelgönne, Othmarschen</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 10:30 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 10:30 Europe/Berlin">Scenario: 24 September 2026 · 10:30 Europe/Berlin</p>
             <p class="composition">Beach and museum harbor · AI-generated artistic interpretation</p>
             <p class="description">Historic wooden sailing ships of the museum harbor rest at their jetties across the middle of the frame, with the &quot;Museumshafen Övelgönne&quot; sign standing on the sandy beach in the right foreground. Driftwood, pebbles, and dune grass fill the foreground while hillside houses stack up behind the harbor under a pale overcast sky. The calm grey Elbe and muted light carry the damp stillness of a mid-morning with no sun.</p>
             <div class="actions">
@@ -2737,7 +2742,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Fish Auction Hall, St. Pauli</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 10:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 10:45 Europe/Berlin">Scenario: 24 September 2026 · 10:45 Europe/Berlin</p>
             <p class="composition">Elbe-side hall · AI-generated artistic interpretation</p>
             <p class="description">A tourist&#x27;s eye-level view along the Elbe side of Hamburg&#x27;s historic Fish Auction Hall: the brick-and-iron market corridor stretches left past wooden stalls with ice-filled fish crates, while tall arched windows on the right frame the Elbe and moored boats beyond. Wet cobblestones and an overcast brightness through the windows carry the slight-rain morning; handwritten German price boards for Kabeljau, Scholle and Nordseekrabben and a crate stencil reading NORDSEE - FRISCHFISCH - HAMBURG anchor the authentic market feel.</p>
             <div class="actions">
@@ -2765,7 +2770,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Reeperbahn, St. Pauli</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 10:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 10:45 Europe/Berlin">Scenario: 24 September 2026 · 10:45 Europe/Berlin</p>
             <p class="composition">Street scene; current signage check · AI-generated artistic interpretation</p>
             <p class="description">A rainy mid-morning on the Reeperbahn: the wrought-iron arch sign stretches overhead as the wet street reflects a full overcast sky, with a bakery&#x27;s bread display glowing warm at left, the FC St. Pauli fan shop and a kiosk below them, and a Bierstube, game hall and pharmacy fronting the right side. Falling leaves and reflective puddles carry the slight-rain scenario; the empty roadway gives the famous entertainment mile a quiet, cinematic pause.</p>
             <div class="actions">
@@ -2793,7 +2798,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Planten un Blomen, Neustadt</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 11:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 11:00 Europe/Berlin">Scenario: 24 September 2026 · 11:00 Europe/Berlin</p>
             <p class="composition">Gardens and water · AI-generated artistic interpretation</p>
             <p class="description">A tourist&#x27;s eye-level view of Planten un Blomen&#x27;s garden ponds: water lilies spread across the still water at left beneath weeping willows, while pink and blue hydrangeas, purple salvia and ornamental grasses line the gravel path at right, with a wooden footbridge and bench beyond. Soft overcast light flattens the late-September colours; period brick façades peek through the trees behind, marking the park&#x27;s Neustadt setting.</p>
             <div class="actions">
@@ -2821,7 +2826,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Miniatur Wunderland, Speicherstadt</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 11:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 11:15 Europe/Berlin">Scenario: 24 September 2026 · 11:15 Europe/Berlin</p>
             <p class="composition">Model scenes; controlled interior · AI-generated artistic interpretation</p>
             <p class="description">Seen from the gallery rail of the exhibition hall, the model Speicherstadt section fills the frame: miniature red-brick warehouses with green copper roofs and hundreds of tiny lit windows line the model canals and rails in the center, freight wagons curving along the foreground tracks. To the left, floor-to-ceiling windows streaked with rain reveal the real Speicherstadt outside, its red-brick warehouses and a canal boat under a grey, 14.1°C rainy sky — the model echoing the city through the glass. An information screen and the &#x27;Miniatur Wunderland, Hamburg - Speicherstadt&#x27; plaque sit on the dark wall at the right edge of the frame.</p>
             <div class="actions">
@@ -2849,7 +2854,7 @@
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Island lighthouse, Neuwerk</h3>
-            <p class="scenario">Scenario: 24 September 2026 · 11:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="24 September 2026 · 11:15 Europe/Berlin">Scenario: 24 September 2026 · 11:15 Europe/Berlin</p>
             <p class="composition">Tower and coastal landscape · AI-generated artistic interpretation</p>
             <p class="description">The square red-brick Great Tower rises center-frame against a partly cloudy sky, its lantern room and green copper roof catching the 11:15 daylight, with the whitewashed stair annex climbing its base. Tidal creeks, driftwood, and patches of flowering sea aster fill the marshy foreground, the wooden fence posts at the left edge marking the tourist path. Beyond the tidal flats at the horizon, the Wadden Sea stretches under the 15.3°C sky, birds circling in the distance.</p>
             <div class="actions">
@@ -2901,17 +2906,41 @@
       const tabs = card.querySelectorAll('.fmt-tab');
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
+      const dtab = card.querySelector('.day-tab');
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const next = fmt === '9x16' ? img.getAttribute("data-src-916")
-          : fmt === '4x5' ? img.getAttribute("data-src-45") : img.getAttribute("data-src-16");
+        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
+        const next = fmt === '4x5'
+          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
+          : fmt === '9x16'
+          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
+          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
       }));
+      /* Single daylight toggle: rendered only where day-variant masters exist. */
+      if (dtab) dtab.addEventListener('click', e => {
+        e.preventDefault();
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dkey = dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916')
+            : dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45')
+            : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = img.getAttribute(dkey);
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+      });
     });
 
 (function(){
