@@ -3108,6 +3108,20 @@
     "file_9x16": "assets/de-nw-007-9x16.png"
   },
   {
+    "entry_id": "DE-NW-008",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Münster",
+    "site": "Prinzipalmarkt",
+    "caption": "Prinzipalmarkt, Münster",
+    "scenario": "26 September 2026 · 07:45 Europe/Berlin",
+    "composition": "Arcades and gables · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-008-16x9.png",
+    "file_4x5": "assets/de-nw-008-4x5.png",
+    "file_9x16": "assets/de-nw-008-9x16.png"
+  },
+  {
     "entry_id": "DE-NW-009",
     "code": "NW",
     "state": "North Rhine-Westphalia",
@@ -3120,6 +3134,34 @@
     "file_16x9": "assets/de-nw-009-16x9.png",
     "file_4x5": "assets/de-nw-009-4x5.png",
     "file_9x16": "assets/de-nw-009-9x16.png"
+  },
+  {
+    "entry_id": "DE-NW-010",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Bonn",
+    "site": "Heerstraße",
+    "caption": "Heerstraße, Bonn",
+    "scenario": "26 September 2026 · 07:45 Europe/Berlin",
+    "composition": "Seasonal cherry blossoms · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-010-16x9.png",
+    "file_4x5": "assets/de-nw-010-4x5.png",
+    "file_9x16": "assets/de-nw-010-9x16.png"
+  },
+  {
+    "entry_id": "DE-NW-011",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Bonn",
+    "site": "Münsterplatz",
+    "caption": "Münsterplatz, Bonn",
+    "scenario": "26 September 2026 · 08:00 Europe/Berlin",
+    "composition": "Minster and square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-011-16x9.png",
+    "file_4x5": "assets/de-nw-011-4x5.png",
+    "file_9x16": "assets/de-nw-011-9x16.png"
   },
   {
     "entry_id": "DE-NW-012",
