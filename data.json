@@ -3206,6 +3206,48 @@
     "file_9x16": "assets/de-nw-014-9x16.png"
   },
   {
+    "entry_id": "DE-NW-015",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Essen",
+    "site": "Zollverein",
+    "caption": "Zollverein, Essen",
+    "scenario": "26 September 2026 · 08:15 Europe/Berlin",
+    "composition": "Industrial architecture · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-015-16x9.png",
+    "file_4x5": "assets/de-nw-015-4x5.png",
+    "file_9x16": "assets/de-nw-015-9x16.png"
+  },
+  {
+    "entry_id": "DE-NW-016",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Duisburg",
+    "site": "Landschaftspark Duisburg-Nord",
+    "caption": "Landschaftspark Duisburg-Nord, Duisburg",
+    "scenario": "26 September 2026 · 08:30 Europe/Berlin",
+    "composition": "Blast furnaces and walkways · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-016-16x9.png",
+    "file_4x5": "assets/de-nw-016-4x5.png",
+    "file_9x16": "assets/de-nw-016-9x16.png"
+  },
+  {
+    "entry_id": "DE-NW-017",
+    "code": "NW",
+    "state": "North Rhine-Westphalia",
+    "city": "Wuppertal",
+    "site": "Schwebebahn",
+    "caption": "Schwebebahn, Wuppertal",
+    "scenario": "26 September 2026 · 08:30 Europe/Berlin",
+    "composition": "Suspended railway over river · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-nw-017-16x9.png",
+    "file_4x5": "assets/de-nw-017-4x5.png",
+    "file_9x16": "assets/de-nw-017-9x16.png"
+  },
+  {
     "entry_id": "DE-NW-018",
     "code": "NW",
     "state": "North Rhine-Westphalia",
