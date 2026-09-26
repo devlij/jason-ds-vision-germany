@@ -4186,6 +4186,48 @@
     "file_9x16": "assets/de-sl-002-9x16.png"
   },
   {
+    "entry_id": "DE-SL-003",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Völklingen",
+    "site": "Völklingen Ironworks",
+    "caption": "Völklingen Ironworks, Völklingen",
+    "scenario": "26 September 2026 · 11:15 Europe/Berlin",
+    "composition": "Industrial heritage complex · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-003-16x9.png",
+    "file_4x5": "assets/de-sl-003-4x5.png",
+    "file_9x16": "assets/de-sl-003-9x16.png"
+  },
+  {
+    "entry_id": "DE-SL-004",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Saarbrücken",
+    "site": "Ludwigskirche",
+    "caption": "Ludwigskirche, Saarbrücken",
+    "scenario": "26 September 2026 · 11:15 Europe/Berlin",
+    "composition": "Baroque church and square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-004-16x9.png",
+    "file_4x5": "assets/de-sl-004-4x5.png",
+    "file_9x16": "assets/de-sl-004-9x16.png"
+  },
+  {
+    "entry_id": "DE-SL-005",
+    "code": "SL",
+    "state": "Saarland",
+    "city": "Saarbrücken",
+    "site": "St. Johanner Markt",
+    "caption": "St. Johanner Markt, Saarbrücken",
+    "scenario": "26 September 2026 · 11:30 Europe/Berlin",
+    "composition": "Old-town square · AI-generated artistic interpretation",
+    "approved": true,
+    "file_16x9": "assets/de-sl-005-16x9.png",
+    "file_4x5": "assets/de-sl-005-4x5.png",
+    "file_9x16": "assets/de-sl-005-9x16.png"
+  },
+  {
     "entry_id": "DE-SL-009",
     "code": "SL",
     "state": "Saarland",
