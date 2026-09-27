@@ -129,6 +129,23 @@
   .back { display: inline-block; margin: 18px 0 0; color: #e8c47c; text-decoration: none; font-size: 14px; }
   .back:hover { text-decoration: underline; }
 
+  /* Phase 1 competitive features (ported from the Spain pilot, 2026-09-26):
+     advanced filters (day/night, mood), related-scenes rows, copy-link. */
+  .related { border-top: 1px solid #3d3324; margin: 0 14px 14px; padding-top: 12px; }
+  .related-h { font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+               color: #a79c86; margin: 0 0 10px; }
+  .related-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .related-link { display: block; text-decoration: none; }
+  .related-link img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block;
+                      border: 1px solid #3d3324; border-radius: 6px; }
+  .related-link span { display: block; font-size: 12px; color: #a79c86; padding: 6px 0; }
+  .related-link:hover span { color: #f2ede3; }
+  .copy-link { display: inline-block; background: #2e2417; color: #f2ede3;
+               border: 1px solid #4a3f2c; border-radius: 8px; padding: 6px 10px;
+               font-size: 12px; cursor: pointer; font: inherit; }
+  .copy-link:hover { background: #3d3019; }
+  @media(max-width: 760px) { .related-row { grid-template-columns: repeat(2, 1fr); } }
+
   .lb { position: fixed; inset: 0; z-index: 60; display: none; align-items: center;
         justify-content: center; background: rgba(8,8,10,.93); }
   .lb.open { display: flex; }
@@ -2384,12 +2401,19 @@
 <main class="wrap">
   <div class="toolbar">
     <input id="q" type="search" placeholder="Search this state&hellip;" aria-label="Search scenes">
+    
+    <select id="f-daynight" aria-label="Filter by time of day">
+      <option value="">Day or night</option><option value="day">Day</option><option value="night">Night</option>
+    </select>
+    <select id="f-mood" aria-label="Filter by scene mood">
+      <option value="">All moods</option><option value="coastal">Coastal</option><option value="mountain">Mountain</option><option value="urban">Urban</option><option value="historic">Historic</option>
+    </select>
     <button id="clear">Clear</button>
     <span id="result-count"></span>
   </div>
   <div id="no-results">No scenes match your search.</div>
   <div class="grid">
-<article class="card" data-search="mitte brandenburg gate berlin de-be-001 the floodlit brandenburg gate stands centered from pariser platz, its six doric columns and the quadriga glowing warm against a partly-cloudy night sky. historic facades with lit windows frame the square left and right — the adlon kempinski at the left edge — while wet cobblestones catch reflections in the foreground and a &quot;pariser platz&quot; street sign and two parked e-scooters anchor the empty plaza at 01:00." data-state="Berlin">
+<article class="card" id="DE-BE-001" data-search="mitte brandenburg gate berlin de-be-001 the floodlit brandenburg gate stands centered from pariser platz, its six doric columns and the quadriga glowing warm against a partly-cloudy night sky. historic facades with lit windows frame the square left and right — the adlon kempinski at the left edge — while wet cobblestones catch reflections in the foreground and a &quot;pariser platz&quot; street sign and two parked e-scooters anchor the empty plaza at 01:00." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-001-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-001-16x9.png" data-src-16="../assets/de-be-001-16x9.png" data-src-45="../assets/de-be-001-4x5.png" data-src-916="../assets/de-be-001-9x16.png" data-src-16-day="../assets/de-be-001-daylight-16x9.png" data-src-45-day="../assets/de-be-001-daylight-4x5.png" data-src-916-day="../assets/de-be-001-daylight-9x16.png" alt="AI-generated artistic interpretation of Brandenburg Gate in Mitte" loading="lazy" />
@@ -2418,7 +2442,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="tiergarten reichstag berlin de-be-002 foster&#x27;s glass dome glows above the reichstag&#x27;s historic stone façade, its illuminated portico and dem deutschen volke pediment at centre frame with german flags flying on both corner towers. a lit streetlamp and the tiergarten park sign stand at the left edge, with wet plaza paving in the foreground mirroring the building&#x27;s warm lights under the overcast 01:15 night sky." data-state="Berlin">
+<article class="card" id="DE-BE-002" data-search="tiergarten reichstag berlin de-be-002 foster&#x27;s glass dome glows above the reichstag&#x27;s historic stone façade, its illuminated portico and dem deutschen volke pediment at centre frame with german flags flying on both corner towers. a lit streetlamp and the tiergarten park sign stand at the left edge, with wet plaza paving in the foreground mirroring the building&#x27;s warm lights under the overcast 01:15 night sky." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-002-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-002-16x9.png" data-src-16="../assets/de-be-002-16x9.png" data-src-45="../assets/de-be-002-4x5.png" data-src-916="../assets/de-be-002-9x16.png" data-src-16-day="../assets/de-be-002-daylight-16x9.png" data-src-45-day="../assets/de-be-002-daylight-4x5.png" data-src-916-day="../assets/de-be-002-daylight-9x16.png" alt="AI-generated artistic interpretation of Reichstag in Tiergarten" loading="lazy" />
@@ -2447,7 +2471,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte museum island berlin de-be-003 the berlin cathedral&#x27;s greenish dome rises centre-left above the spree, its warm lit windows reflected in the dark river; the colonnaded alte nationalgalerie runs the length of the right bank with light spilling between its columns. the bridge to the left leads toward the lit bode dome with the fernsehturm a faint presence in the distance, all under the heavy overcast night sky of the 01:15 scenario." data-state="Berlin">
+<article class="card" id="DE-BE-003" data-search="mitte museum island berlin de-be-003 the berlin cathedral&#x27;s greenish dome rises centre-left above the spree, its warm lit windows reflected in the dark river; the colonnaded alte nationalgalerie runs the length of the right bank with light spilling between its columns. the bridge to the left leads toward the lit bode dome with the fernsehturm a faint presence in the distance, all under the heavy overcast night sky of the 01:15 scenario." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-003-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-003-16x9.png" data-src-16="../assets/de-be-003-16x9.png" data-src-45="../assets/de-be-003-4x5.png" data-src-916="../assets/de-be-003-9x16.png" data-src-16-day="../assets/de-be-003-daylight-16x9.png" data-src-45-day="../assets/de-be-003-daylight-4x5.png" data-src-916-day="../assets/de-be-003-daylight-9x16.png" alt="AI-generated artistic interpretation of Museum Island in Mitte" loading="lazy" />
@@ -2476,7 +2500,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte berlin cathedral berlin de-be-004 the berlin cathedral&#x27;s patina-green dome towers centre frame, flanked by its twin bell towers, the floodlit stone façade and sculptural entrance portico glowing against the overcast night sky. dark trees line the lustgarten park at left, while streetlamps trace the path along the right edge; a lone pedestrian&#x27;s silhouette crosses the far right under the 01:30 night scenario." data-state="Berlin">
+<article class="card" id="DE-BE-004" data-search="mitte berlin cathedral berlin de-be-004 the berlin cathedral&#x27;s patina-green dome towers centre frame, flanked by its twin bell towers, the floodlit stone façade and sculptural entrance portico glowing against the overcast night sky. dark trees line the lustgarten park at left, while streetlamps trace the path along the right edge; a lone pedestrian&#x27;s silhouette crosses the far right under the 01:30 night scenario." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-004-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-004-16x9.png" data-src-16="../assets/de-be-004-16x9.png" data-src-45="../assets/de-be-004-4x5.png" data-src-916="../assets/de-be-004-9x16.png" data-src-16-day="../assets/de-be-004-daylight-16x9.png" data-src-45-day="../assets/de-be-004-daylight-4x5.png" data-src-916-day="../assets/de-be-004-daylight-9x16.png" alt="AI-generated artistic interpretation of Berlin Cathedral in Mitte" loading="lazy" />
@@ -2505,7 +2529,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte bode museum berlin de-be-005 the domed bode museum glows from within on the museum island tip at 1:45 am, its baroque silhouette rising over the spree river junction. stone arch bridges span the dark water at left and right of the frame, with faint city buildings beyond the left bank. warm light spills from the museum&#x27;s arched windows and riverside lamps against the overcast night sky." data-state="Berlin">
+<article class="card" id="DE-BE-005" data-search="mitte bode museum berlin de-be-005 the domed bode museum glows from within on the museum island tip at 1:45 am, its baroque silhouette rising over the spree river junction. stone arch bridges span the dark water at left and right of the frame, with faint city buildings beyond the left bank. warm light spills from the museum&#x27;s arched windows and riverside lamps against the overcast night sky." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-005-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-005-16x9.png" data-src-16="../assets/de-be-005-16x9.png" data-src-45="../assets/de-be-005-4x5.png" data-src-916="../assets/de-be-005-9x16.png" data-src-16-day="../assets/de-be-005-daylight-16x9.png" data-src-45-day="../assets/de-be-005-daylight-4x5.png" data-src-916-day="../assets/de-be-005-daylight-9x16.png" alt="AI-generated artistic interpretation of Bode Museum in Mitte" loading="lazy" />
@@ -2534,7 +2558,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte gendarmenmarkt berlin de-be-006 the floodlit konzerthaus stands at the center of gendarmenmarkt at 1:45 am, flanked by the twin domed cathedrals on the left and right, with the schiller statue on its forecourt facing the empty plaza. wet cobbles mirror the warm window light beneath the overcast night sky, and shuttered café terraces with stacked furniture sit at the right edge." data-state="Berlin">
+<article class="card" id="DE-BE-006" data-search="mitte gendarmenmarkt berlin de-be-006 the floodlit konzerthaus stands at the center of gendarmenmarkt at 1:45 am, flanked by the twin domed cathedrals on the left and right, with the schiller statue on its forecourt facing the empty plaza. wet cobbles mirror the warm window light beneath the overcast night sky, and shuttered café terraces with stacked furniture sit at the right edge." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-006-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-006-16x9.png" data-src-16="../assets/de-be-006-16x9.png" data-src-45="../assets/de-be-006-4x5.png" data-src-916="../assets/de-be-006-9x16.png" data-src-16-day="../assets/de-be-006-daylight-16x9.png" data-src-45-day="../assets/de-be-006-daylight-4x5.png" data-src-916-day="../assets/de-be-006-daylight-9x16.png" alt="AI-generated artistic interpretation of Gendarmenmarkt in Mitte" loading="lazy" />
@@ -2563,7 +2587,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte alexanderplatz berlin de-be-007 the tv tower rises over alexanderplatz at 2:00 am, its lit sphere and beacon standing above the station arches with their red neon alexanderplatz sign at the left of the frame. tram wires crisscross the overcast sky, glowing shopfronts line the square, and the high-rise hotel with its rooftop sign anchors the right side, all reflected in the rain-damp pavement." data-state="Berlin">
+<article class="card" id="DE-BE-007" data-search="mitte alexanderplatz berlin de-be-007 the tv tower rises over alexanderplatz at 2:00 am, its lit sphere and beacon standing above the station arches with their red neon alexanderplatz sign at the left of the frame. tram wires crisscross the overcast sky, glowing shopfronts line the square, and the high-rise hotel with its rooftop sign anchors the right side, all reflected in the rain-damp pavement." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-007-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-007-16x9.png" data-src-16="../assets/de-be-007-16x9.png" data-src-45="../assets/de-be-007-4x5.png" data-src-916="../assets/de-be-007-9x16.png" data-src-16-day="../assets/de-be-007-daylight-16x9.png" data-src-45-day="../assets/de-be-007-daylight-4x5.png" data-src-916-day="../assets/de-be-007-daylight-9x16.png" alt="AI-generated artistic interpretation of Alexanderplatz in Mitte" loading="lazy" />
@@ -2592,7 +2616,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="friedrichshain east side gallery berlin de-be-008 from an eye-level night viewpoint on the spree-side promenade, the mural-covered wall runs diagonally through the frame: the bold east side gallery lettering fills the foreground segment at left, a green cartoon-creature mural and a blue &#x27;sieben stufen&#x27; piece anchor the center, and the long painted run recedes toward street lamps and apartment façades at right. overcast night sky and wet-looking pavement set the 02:15 mood, with stickers and tags layered thick across the concrete like the real gallery wall." data-state="Berlin">
+<article class="card" id="DE-BE-008" data-search="friedrichshain east side gallery berlin de-be-008 from an eye-level night viewpoint on the spree-side promenade, the mural-covered wall runs diagonally through the frame: the bold east side gallery lettering fills the foreground segment at left, a green cartoon-creature mural and a blue &#x27;sieben stufen&#x27; piece anchor the center, and the long painted run recedes toward street lamps and apartment façades at right. overcast night sky and wet-looking pavement set the 02:15 mood, with stickers and tags layered thick across the concrete like the real gallery wall." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-008-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-008-16x9.png" data-src-16="../assets/de-be-008-16x9.png" data-src-45="../assets/de-be-008-4x5.png" data-src-916="../assets/de-be-008-9x16.png" data-src-16-day="../assets/de-be-008-daylight-16x9.png" data-src-45-day="../assets/de-be-008-daylight-4x5.png" data-src-916-day="../assets/de-be-008-daylight-9x16.png" alt="AI-generated artistic interpretation of East Side Gallery in Friedrichshain" loading="lazy" />
@@ -2621,7 +2645,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="friedrichshain/kreuzberg oberbaum bridge berlin de-be-009 from an eye-level night viewpoint on the riverside promenade, the oberbaum bridge&#x27;s two red-brick neo-gothic towers rise from the spree at left and center, their conical spires and finial figures silhouetted against an overcast night sky. the arched brick viaduct carries a light-streaked u-bahn train across the middle of the frame, while the warmly lit brick wing with its small arches fills the right side and water reflections shimmer beneath." data-state="Berlin">
+<article class="card" id="DE-BE-009" data-search="friedrichshain/kreuzberg oberbaum bridge berlin de-be-009 from an eye-level night viewpoint on the riverside promenade, the oberbaum bridge&#x27;s two red-brick neo-gothic towers rise from the spree at left and center, their conical spires and finial figures silhouetted against an overcast night sky. the arched brick viaduct carries a light-streaked u-bahn train across the middle of the frame, while the warmly lit brick wing with its small arches fills the right side and water reflections shimmer beneath." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-009-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-009-16x9.png" data-src-16="../assets/de-be-009-16x9.png" data-src-45="../assets/de-be-009-4x5.png" data-src-916="../assets/de-be-009-9x16.png" data-src-16-day="../assets/de-be-009-daylight-16x9.png" data-src-45-day="../assets/de-be-009-daylight-4x5.png" data-src-916-day="../assets/de-be-009-daylight-9x16.png" alt="AI-generated artistic interpretation of Oberbaum Bridge in Friedrichshain/Kreuzberg" loading="lazy" />
@@ -2650,7 +2674,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="charlottenburg charlottenburg palace berlin de-be-010 from an eye-level night viewpoint in the parterre gardens, the floodlit charlottenburg palace stands centered with its signature turquoise dome and golden finial crowning the warm ochre façade. clipped hedges and glowing vintage lanterns flank the garden path leading toward the lit windows, a putto statue anchors the left foreground and a dark reflecting pond the right, all under a partly cloudy night sky." data-state="Berlin">
+<article class="card" id="DE-BE-010" data-search="charlottenburg charlottenburg palace berlin de-be-010 from an eye-level night viewpoint in the parterre gardens, the floodlit charlottenburg palace stands centered with its signature turquoise dome and golden finial crowning the warm ochre façade. clipped hedges and glowing vintage lanterns flank the garden path leading toward the lit windows, a putto statue anchors the left foreground and a dark reflecting pond the right, all under a partly cloudy night sky." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-010-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-010-16x9.png" data-src-16="../assets/de-be-010-16x9.png" data-src-45="../assets/de-be-010-4x5.png" data-src-916="../assets/de-be-010-9x16.png" data-src-16-day="../assets/de-be-010-daylight-16x9.png" data-src-45-day="../assets/de-be-010-daylight-4x5.png" data-src-916-day="../assets/de-be-010-daylight-9x16.png" alt="AI-generated artistic interpretation of Charlottenburg Palace in Charlottenburg" loading="lazy" />
@@ -2679,7 +2703,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="tiergarten victory column berlin de-be-011 the victory column rises from the großer stern roundabout under a dark overcast sky, its gilded victoria catching the lamplight at the top of the fluted drum. to the left, the tree-lined straße des 17. juni recedes in a string of glowing street lanterns, rainwater pooling on the avenue and throwing their light back. a lit direction sign at the right names großer stern, the brandenburg gate and the reichstag, and autumn-brown leaves fringe the frame — a still, empty 2:45 a.m. view from the western pavement." data-state="Berlin">
+<article class="card" id="DE-BE-011" data-search="tiergarten victory column berlin de-be-011 the victory column rises from the großer stern roundabout under a dark overcast sky, its gilded victoria catching the lamplight at the top of the fluted drum. to the left, the tree-lined straße des 17. juni recedes in a string of glowing street lanterns, rainwater pooling on the avenue and throwing their light back. a lit direction sign at the right names großer stern, the brandenburg gate and the reichstag, and autumn-brown leaves fringe the frame — a still, empty 2:45 a.m. view from the western pavement." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-011-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-011-16x9.png" data-src-16="../assets/de-be-011-16x9.png" data-src-45="../assets/de-be-011-4x5.png" data-src-916="../assets/de-be-011-9x16.png" data-src-16-day="../assets/de-be-011-daylight-16x9.png" data-src-45-day="../assets/de-be-011-daylight-4x5.png" data-src-916-day="../assets/de-be-011-daylight-9x16.png" alt="AI-generated artistic interpretation of Victory Column in Tiergarten" loading="lazy" />
@@ -2708,7 +2732,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte memorial to the murdered jews of europe berlin de-be-012 the memorial to the murdered jews of europe spreads its field of concrete stelae under a brooding overcast night sky, the grey slabs rising and falling in uneven heights. an information plaque in the left foreground names the site in german, while streetlamps cast warm pools of light on the rain-streaked stone. behind the field, the lit office towers of mitte glow through the dark, and fallen leaves gather in puddles between the rows — a solemn 2:45 a.m. visit with the memorial empty and still." data-state="Berlin">
+<article class="card" id="DE-BE-012" data-search="mitte memorial to the murdered jews of europe berlin de-be-012 the memorial to the murdered jews of europe spreads its field of concrete stelae under a brooding overcast night sky, the grey slabs rising and falling in uneven heights. an information plaque in the left foreground names the site in german, while streetlamps cast warm pools of light on the rain-streaked stone. behind the field, the lit office towers of mitte glow through the dark, and fallen leaves gather in puddles between the rows — a solemn 2:45 a.m. visit with the memorial empty and still." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-012-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-012-16x9.png" data-src-16="../assets/de-be-012-16x9.png" data-src-45="../assets/de-be-012-4x5.png" data-src-916="../assets/de-be-012-9x16.png" data-src-16-day="../assets/de-be-012-daylight-16x9.png" data-src-45-day="../assets/de-be-012-daylight-4x5.png" data-src-916-day="../assets/de-be-012-daylight-9x16.png" alt="AI-generated artistic interpretation of Memorial to the Murdered Jews of Europe in Mitte" loading="lazy" />
@@ -2737,7 +2761,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte berlin wall memorial berlin de-be-013 the berlin wall memorial&#x27;s preserved border strip on bernauer straße lies under a heavy overcast night sky: a graffiti-marked wall segment on the left, rust-brown corten steel posts tracing the vanished border course, and the glowing glass visitor center mid-frame. bilingual plaques name the gedenkstätte berliner mauer and the grenzverlauf 1961–1989, streetlamps warm the wet pavement and apartment windows beyond. a still 3:00 a.m. view along the grass death strip — empty, watchful, unadorned." data-state="Berlin">
+<article class="card" id="DE-BE-013" data-search="mitte berlin wall memorial berlin de-be-013 the berlin wall memorial&#x27;s preserved border strip on bernauer straße lies under a heavy overcast night sky: a graffiti-marked wall segment on the left, rust-brown corten steel posts tracing the vanished border course, and the glowing glass visitor center mid-frame. bilingual plaques name the gedenkstätte berliner mauer and the grenzverlauf 1961–1989, streetlamps warm the wet pavement and apartment windows beyond. a still 3:00 a.m. view along the grass death strip — empty, watchful, unadorned." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-013-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-013-16x9.png" data-src-16="../assets/de-be-013-16x9.png" data-src-45="../assets/de-be-013-4x5.png" data-src-916="../assets/de-be-013-9x16.png" data-src-16-day="../assets/de-be-013-daylight-16x9.png" data-src-45-day="../assets/de-be-013-daylight-4x5.png" data-src-916-day="../assets/de-be-013-daylight-9x16.png" alt="AI-generated artistic interpretation of Berlin Wall Memorial in Mitte" loading="lazy" />
@@ -2766,7 +2790,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="kreuzberg/mitte checkpoint charlie berlin de-be-014 a quiet nighttime view of the checkpoint charlie memorial hut on friedrichstraße, its sandbag barrier piled in front and the rooftop sign lit above. behind it stands the haus am checkpoint charlie with the glowing &quot;wall museum&quot; lettering to the left, while the &quot;mauermuseum&quot; sign runs down the right edge. street lamps and the booth&#x27;s own lights reflect off the wet pavement under an overcast sky, giving the familiar tourist stop an unusually still, after-hours mood." data-state="Berlin">
+<article class="card" id="DE-BE-014" data-search="kreuzberg/mitte checkpoint charlie berlin de-be-014 a quiet nighttime view of the checkpoint charlie memorial hut on friedrichstraße, its sandbag barrier piled in front and the rooftop sign lit above. behind it stands the haus am checkpoint charlie with the glowing &quot;wall museum&quot; lettering to the left, while the &quot;mauermuseum&quot; sign runs down the right edge. street lamps and the booth&#x27;s own lights reflect off the wet pavement under an overcast sky, giving the familiar tourist stop an unusually still, after-hours mood." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-014-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-014-16x9.png" data-src-16="../assets/de-be-014-16x9.png" data-src-45="../assets/de-be-014-4x5.png" data-src-916="../assets/de-be-014-9x16.png" data-src-16-day="../assets/de-be-014-daylight-16x9.png" data-src-45-day="../assets/de-be-014-daylight-4x5.png" data-src-916-day="../assets/de-be-014-daylight-9x16.png" alt="AI-generated artistic interpretation of Checkpoint Charlie in Kreuzberg/Mitte" loading="lazy" />
@@ -2795,7 +2819,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="charlottenburg kaiser wilhelm memorial church berlin de-be-015 a night view of the kaiser wilhelm memorial church from breitscheidplatz: the war-damaged neo-romanesque tower ruin, its open belfry and scarred stonework warmly lit, stands left of the glowing blue glass-block belfry of the modern church. the &quot;kurfürstendamm&quot; street sign glows at the frame&#x27;s edge under an overcast sky, with street lamps and wet pavement scattered with autumn leaves reflecting the blue light in the quiet square." data-state="Berlin">
+<article class="card" id="DE-BE-015" data-search="charlottenburg kaiser wilhelm memorial church berlin de-be-015 a night view of the kaiser wilhelm memorial church from breitscheidplatz: the war-damaged neo-romanesque tower ruin, its open belfry and scarred stonework warmly lit, stands left of the glowing blue glass-block belfry of the modern church. the &quot;kurfürstendamm&quot; street sign glows at the frame&#x27;s edge under an overcast sky, with street lamps and wet pavement scattered with autumn leaves reflecting the blue light in the quiet square." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-015-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-015-16x9.png" data-src-16="../assets/de-be-015-16x9.png" data-src-45="../assets/de-be-015-4x5.png" data-src-916="../assets/de-be-015-9x16.png" data-src-16-day="../assets/de-be-015-daylight-16x9.png" data-src-45-day="../assets/de-be-015-daylight-4x5.png" data-src-916-day="../assets/de-be-015-daylight-9x16.png" alt="AI-generated artistic interpretation of Kaiser Wilhelm Memorial Church in Charlottenburg" loading="lazy" />
@@ -2824,7 +2848,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte nikolaiviertel berlin de-be-016 the nikolaikirche&#x27;s twin green-copper spires rise at the end of a wet cobbled lane in berlin&#x27;s nikolaiviertel, the brick gothic towers warmly lit from within. historic-style houses line the lane — a weinstube and café with wrought-iron hanging signs and glowing shopfront windows to the left, café umbrellas folded for the night to the right. lanterns reflect off the rain-darkened cobbles under an overcast night sky, the empty street giving the old quarter a hushed, after-hours mood." data-state="Berlin">
+<article class="card" id="DE-BE-016" data-search="mitte nikolaiviertel berlin de-be-016 the nikolaikirche&#x27;s twin green-copper spires rise at the end of a wet cobbled lane in berlin&#x27;s nikolaiviertel, the brick gothic towers warmly lit from within. historic-style houses line the lane — a weinstube and café with wrought-iron hanging signs and glowing shopfront windows to the left, café umbrellas folded for the night to the right. lanterns reflect off the rain-darkened cobbles under an overcast night sky, the empty street giving the old quarter a hushed, after-hours mood." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-016-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-016-16x9.png" data-src-16="../assets/de-be-016-16x9.png" data-src-45="../assets/de-be-016-4x5.png" data-src-916="../assets/de-be-016-9x16.png" data-src-16-day="../assets/de-be-016-daylight-16x9.png" data-src-45-day="../assets/de-be-016-daylight-4x5.png" data-src-916-day="../assets/de-be-016-daylight-9x16.png" alt="AI-generated artistic interpretation of Nikolaiviertel in Mitte" loading="lazy" />
@@ -2853,7 +2877,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="mitte hackesche höfe berlin de-be-017 the august endell courtyard rises on all sides in its signature glazed blue-and-white faience tiles, geometric frieze panels running across the upper floors and a curved, tiled gable anchoring the center of the frame. warm lantern light spills from the bookshop and gallery doorways at street level while the wet cobbles mirror every glow. under the overcast 03:45 night sky the art nouveau façades read dark and graphic, the courtyard empty and hushed." data-state="Berlin">
+<article class="card" id="DE-BE-017" data-search="mitte hackesche höfe berlin de-be-017 the august endell courtyard rises on all sides in its signature glazed blue-and-white faience tiles, geometric frieze panels running across the upper floors and a curved, tiled gable anchoring the center of the frame. warm lantern light spills from the bookshop and gallery doorways at street level while the wet cobbles mirror every glow. under the overcast 03:45 night sky the art nouveau façades read dark and graphic, the courtyard empty and hushed." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-017-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-017-16x9.png" data-src-16="../assets/de-be-017-16x9.png" data-src-45="../assets/de-be-017-4x5.png" data-src-916="../assets/de-be-017-9x16.png" data-src-16-day="../assets/de-be-017-daylight-16x9.png" data-src-45-day="../assets/de-be-017-daylight-4x5.png" data-src-916-day="../assets/de-be-017-daylight-9x16.png" alt="AI-generated artistic interpretation of Hackesche Höfe in Mitte" loading="lazy" />
@@ -2882,7 +2906,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="grunewald teufelsberg berlin de-be-018 the cold war listening station rises out of the grunewald pines: torn white radome domes crowning graffiti-tagged concrete towers, the entrance sign teufelsberg · ehemalige abhörstation visible at the lower left. rain streaks through the beam-lit darkness while puddles on the broken ground mirror the station lights. the skeletal annex blocks and exposed steel framing give the whole scene its signature derelict monumentality." data-state="Berlin">
+<article class="card" id="DE-BE-018" data-search="grunewald teufelsberg berlin de-be-018 the cold war listening station rises out of the grunewald pines: torn white radome domes crowning graffiti-tagged concrete towers, the entrance sign teufelsberg · ehemalige abhörstation visible at the lower left. rain streaks through the beam-lit darkness while puddles on the broken ground mirror the station lights. the skeletal annex blocks and exposed steel framing give the whole scene its signature derelict monumentality." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-018-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-018-16x9.png" data-src-16="../assets/de-be-018-16x9.png" data-src-45="../assets/de-be-018-4x5.png" data-src-916="../assets/de-be-018-9x16.png" data-src-16-day="../assets/de-be-018-daylight-16x9.png" data-src-45-day="../assets/de-be-018-daylight-4x5.png" data-src-916-day="../assets/de-be-018-daylight-9x16.png" alt="AI-generated artistic interpretation of Teufelsberg in Grunewald" loading="lazy" />
@@ -2911,7 +2935,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="treptow spree riverfront berlin de-be-019 the perforated aluminum figures of molecule man stand mid-river with city lights glowing through their bodies, the illuminated oberbaumbrücke arches stretching left and the berliner fernsehturm spire rising at the right edge. the spree mirrors the riverside lights while the partly cloudy 04:00 sky holds the last blue of night above the skyline. a riverside railing and fallen autumn leaves anchor the tourist viewpoint in the foreground." data-state="Berlin">
+<article class="card" id="DE-BE-019" data-search="treptow spree riverfront berlin de-be-019 the perforated aluminum figures of molecule man stand mid-river with city lights glowing through their bodies, the illuminated oberbaumbrücke arches stretching left and the berliner fernsehturm spire rising at the right edge. the spree mirrors the riverside lights while the partly cloudy 04:00 sky holds the last blue of night above the skyline. a riverside railing and fallen autumn leaves anchor the tourist viewpoint in the foreground." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-019-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-019-16x9.png" data-src-16="../assets/de-be-019-16x9.png" data-src-45="../assets/de-be-019-4x5.png" data-src-916="../assets/de-be-019-9x16.png" data-src-16-day="../assets/de-be-019-daylight-16x9.png" data-src-45-day="../assets/de-be-019-daylight-4x5.png" data-src-916-day="../assets/de-be-019-daylight-9x16.png" alt="AI-generated artistic interpretation of Spree riverfront in Treptow" loading="lazy" />
@@ -2940,7 +2964,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="köpenick old town and palace berlin de-be-020 night rain glazes the cobbles of köpenick&#x27;s old-town riverfront, where lit historic townhouses — brick and half-timbered — line the left bank under glowing streetlamps. a moored boat sits mid-frame while the floodlit palace rises across the water at the right edge, its reflection broken by falling rain. the 04:15 scenario is a true night scene: dark blue-black sky, wet sheens everywhere, and lamps the only warm light." data-state="Berlin">
+<article class="card" id="DE-BE-020" data-search="köpenick old town and palace berlin de-be-020 night rain glazes the cobbles of köpenick&#x27;s old-town riverfront, where lit historic townhouses — brick and half-timbered — line the left bank under glowing streetlamps. a moored boat sits mid-frame while the floodlit palace rises across the water at the right edge, its reflection broken by falling rain. the 04:15 scenario is a true night scene: dark blue-black sky, wet sheens everywhere, and lamps the only warm light." data-state="Berlin">
           <div class="preview">
             <a class="thumb" href="../assets/de-be-020-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-be-020-16x9.png" data-src-16="../assets/de-be-020-16x9.png" data-src-45="../assets/de-be-020-4x5.png" data-src-916="../assets/de-be-020-9x16.png" data-src-16-day="../assets/de-be-020-daylight-16x9.png" data-src-45-day="../assets/de-be-020-daylight-4x5.png" data-src-916-day="../assets/de-be-020-daylight-9x16.png" alt="AI-generated artistic interpretation of Old town and palace in Köpenick" loading="lazy" />
@@ -2980,30 +3004,55 @@
   <p>AI-generated artistic interpretations &middot; <a href="https://jdvision.org/transparency.html">How our images are made</a></p>
   <p class="sig">Jason D&rsquo;s Vision</p>
 </footer>
-<script>
+<script>const GERMANY_META={"DE-BE-001": ["Berlin", "night", "urban,historic", "../assets/de-be-001-16x9.png", "Brandenburg Gate, Mitte"], "DE-BE-002": ["Berlin", "night", "coastal,urban,historic", "../assets/de-be-002-16x9.png", "Reichstag, Tiergarten"], "DE-BE-003": ["Berlin", "night", "coastal,historic", "../assets/de-be-003-16x9.png", "Museum Island, Mitte"], "DE-BE-004": ["Berlin", "night", "coastal,urban,historic", "../assets/de-be-004-16x9.png", "Berlin Cathedral, Mitte"], "DE-BE-005": ["Berlin", "night", "coastal,urban,historic", "../assets/de-be-005-16x9.png", "Bode Museum, Mitte"], "DE-BE-006": ["Berlin", "night", "urban,historic", "../assets/de-be-006-16x9.png", "Gendarmenmarkt, Mitte"], "DE-BE-007": ["Berlin", "night", "urban", "../assets/de-be-007-16x9.png", "Alexanderplatz, Mitte"], "DE-BE-008": ["Berlin", "night", "urban", "../assets/de-be-008-16x9.png", "East Side Gallery, Friedrichshain"], "DE-BE-009": ["Berlin", "night", "historic", "../assets/de-be-009-16x9.png", "Oberbaum Bridge, Friedrichshain/Kreuzberg"], "DE-BE-010": ["Berlin", "night", "historic", "../assets/de-be-010-16x9.png", "Charlottenburg Palace, Charlottenburg"], "DE-BE-011": ["Berlin", "night", "urban,historic", "../assets/de-be-011-16x9.png", "Victory Column, Tiergarten"], "DE-BE-012": ["Berlin", "night", "urban", "../assets/de-be-012-16x9.png", "Memorial to the Murdered Jews of Europe, Mitte"], "DE-BE-013": ["Berlin", "night", "urban", "../assets/de-be-013-16x9.png", "Berlin Wall Memorial, Mitte"], "DE-BE-014": ["Berlin", "night", "urban,historic", "../assets/de-be-014-16x9.png", "Checkpoint Charlie, Kreuzberg/Mitte"], "DE-BE-015": ["Berlin", "night", "urban,historic", "../assets/de-be-015-16x9.png", "Kaiser Wilhelm Memorial Church, Charlottenburg"], "DE-BE-016": ["Berlin", "night", "urban,historic", "../assets/de-be-016-16x9.png", "Nikolaiviertel, Mitte"], "DE-BE-017": ["Berlin", "night", "urban", "../assets/de-be-017-16x9.png", "Hackesche Höfe, Mitte"], "DE-BE-018": ["Berlin", "night", "historic", "../assets/de-be-018-16x9.png", "Teufelsberg, Grunewald"], "DE-BE-019": ["Berlin", "night", "urban", "../assets/de-be-019-16x9.png", "Spree riverfront, Treptow"], "DE-BE-020": ["Berlin", "night", "urban,historic", "../assets/de-be-020-16x9.png", "Old town and palace, Köpenick"]};
     const q = document.getElementById('q');
     const region = document.getElementById('region');
+    const fdn = document.getElementById('f-daynight');
+    const fmood = document.getElementById('f-mood');
     const clearBtn = document.getElementById('clear');
     const countEl = document.getElementById('result-count');
     const noResults = document.getElementById('no-results');
     const cards = Array.from(document.querySelectorAll('.card'));
+    /* Phase 1: GERMANY_META is emitted before this block (meta_js). Scenes
+       missing from it pass the day/night + mood filters untouched. */
+    function metaFor(c) {
+      if (typeof GERMANY_META === 'undefined') return null;
+      return GERMANY_META[c.id] || null;
+    }
     function render() {
       const query = q.value.trim().toLowerCase();
       const st = region ? region.value : '';
+      const dn = fdn ? fdn.value : '';
+      const mo = fmood ? fmood.value : '';
       let n = 0;
       for (const c of cards) {
         const hitQ = !query || (c.dataset.search || '').includes(query);
         const hitS = !st || (c.dataset.state || '') === st;
-        const hit = hitQ && hitS;
+        let hitM = true;
+        const m = metaFor(c);
+        if (m) {
+          if (dn && m[1] !== dn) hitM = false;
+          if (mo && (m[2] + ',').indexOf(mo + ',') < 0) hitM = false;
+        }
+        const hit = hitQ && hitS && hitM;
         c.style.display = hit ? '' : 'none';
         if (hit) n++;
       }
       countEl.textContent = n + ' scene' + (n === 1 ? '' : 's');
       noResults.style.display = n ? 'none' : 'block';
     }
+    function clearAll() {
+      q.value = '';
+      if (region) region.value = '';
+      if (fdn) fdn.value = '';
+      if (fmood) fmood.value = '';
+      render();
+    }
     q.addEventListener('input', render);
     if (region) region.addEventListener('change', render);
-    clearBtn.addEventListener('click', () => { q.value = ''; if (region) region.value = ''; render(); });
+    if (fdn) fdn.addEventListener('change', render);
+    if (fmood) fmood.addEventListener('change', render);
+    clearBtn.addEventListener('click', clearAll);
     render();
 
     document.querySelectorAll('.card').forEach(card => {
@@ -3170,6 +3219,76 @@
       e.preventDefault();
       togglePlay();
     }
+  });
+})();
+
+/* Phase 1 competitive features (ported from the Spain pilot, 2026-09-26):
+   four related-scene thumbnail links per card + per-card copy-link button. */
+(function(){
+  function relatedFor(id){
+    if (typeof GERMANY_META === 'undefined') return [];
+    var me = GERMANY_META[id];
+    if (!me) return [];
+    var mm = (me[2] || '').split(',').filter(Boolean);
+    var out = [];
+    for (var oid in GERMANY_META){
+      if (oid === id) continue;
+      var o = GERMANY_META[oid];
+      var om = ',' + (o[2] || '') + ',', shared = 0;
+      for (var i = 0; i < mm.length; i++){ if (om.indexOf(',' + mm[i] + ',') >= 0) shared++; }
+      if (o[0] === me[0] || shared > 0) out.push([(o[0] === me[0] ? 0 : 1), -shared, oid]);
+    }
+    out.sort(function(a,b){ return a[0]-b[0] || a[1]-b[1] || (a[2]<b[2] ? -1 : 1); });
+    return out.slice(0,4).map(function(x){ return x[2]; });
+  }
+  document.querySelectorAll('.card').forEach(function(card){
+    var id = card.id;
+    if (!id || typeof GERMANY_META === 'undefined' || !GERMANY_META[id]) return;
+    var acts = card.querySelector('.actions');
+    if (acts && !acts.querySelector('.copy-link')){
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'copy-link'; b.textContent = 'Copy link';
+      b.setAttribute('aria-label', 'Copy link to this scene');
+      b.addEventListener('click', function(){
+        var url = location.origin + location.pathname + '#' + id;
+        var done = function(){ b.textContent = 'Copied \u2713'; setTimeout(function(){ b.textContent = 'Copy link'; }, 1600); };
+        function fb(){
+          var ta = document.createElement('textarea'); ta.value = url;
+          ta.style.position = 'fixed'; ta.style.opacity = '0';
+          document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); done(); } catch(e){}
+          ta.remove();
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, fb); }
+        else { fb(); }
+      });
+      acts.appendChild(b);
+    }
+    if (!card.querySelector('.related')){
+      var rel = relatedFor(id);
+      if (rel.length){
+        var box = document.createElement('div'); box.className = 'related';
+        var h = document.createElement('p'); h.className = 'related-h'; h.textContent = 'Related scenes';
+        box.appendChild(h);
+        var grid = document.createElement('div'); grid.className = 'related-row';
+        rel.forEach(function(rid){
+          var m = GERMANY_META[rid];
+          var a = document.createElement('a'); a.className = 'related-link'; a.href = '#' + rid;
+          var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = m[4];
+          var sp = document.createElement('span'); sp.textContent = m[4];
+          a.appendChild(im); a.appendChild(sp); grid.appendChild(a);
+        });
+        box.appendChild(grid);
+        card.appendChild(box);
+      }
+    }
+  });
+  /* A related-scene jump clears the filters first so the target card is visible. */
+  document.querySelectorAll('.related-link').forEach(function(a){
+    a.addEventListener('click', function(){
+      var c = document.getElementById('clear');
+      if (c) c.click();
+    });
   });
 })();
 </script>

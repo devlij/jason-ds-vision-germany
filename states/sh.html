@@ -129,6 +129,23 @@
   .back { display: inline-block; margin: 18px 0 0; color: #e8c47c; text-decoration: none; font-size: 14px; }
   .back:hover { text-decoration: underline; }
 
+  /* Phase 1 competitive features (ported from the Spain pilot, 2026-09-26):
+     advanced filters (day/night, mood), related-scenes rows, copy-link. */
+  .related { border-top: 1px solid #3d3324; margin: 0 14px 14px; padding-top: 12px; }
+  .related-h { font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+               color: #a79c86; margin: 0 0 10px; }
+  .related-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .related-link { display: block; text-decoration: none; }
+  .related-link img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block;
+                      border: 1px solid #3d3324; border-radius: 6px; }
+  .related-link span { display: block; font-size: 12px; color: #a79c86; padding: 6px 0; }
+  .related-link:hover span { color: #f2ede3; }
+  .copy-link { display: inline-block; background: #2e2417; color: #f2ede3;
+               border: 1px solid #4a3f2c; border-radius: 8px; padding: 6px 10px;
+               font-size: 12px; cursor: pointer; font: inherit; }
+  .copy-link:hover { background: #3d3019; }
+  @media(max-width: 760px) { .related-row { grid-template-columns: repeat(2, 1fr); } }
+
   .lb { position: fixed; inset: 0; z-index: 60; display: none; align-items: center;
         justify-content: center; background: rgba(8,8,10,.93); }
   .lb.open { display: flex; }
@@ -2384,12 +2401,19 @@
 <main class="wrap">
   <div class="toolbar">
     <input id="q" type="search" placeholder="Search this state&hellip;" aria-label="Search scenes">
+    
+    <select id="f-daynight" aria-label="Filter by time of day">
+      <option value="">Day or night</option><option value="day">Day</option><option value="night">Night</option>
+    </select>
+    <select id="f-mood" aria-label="Filter by scene mood">
+      <option value="">All moods</option><option value="coastal">Coastal</option><option value="mountain">Mountain</option><option value="urban">Urban</option><option value="historic">Historic</option>
+    </select>
     <button id="clear">Clear</button>
     <span id="result-count"></span>
   </div>
   <div id="no-results">No scenes match your search.</div>
   <div class="grid">
-<article class="card" data-search="lübeck holstentor schleswig-holstein de-sh-001 an eye-level tourist&#x27;s view of lübeck&#x27;s holstentor at night, the red-brick gothic gate centered with its two round towers and conical roofs flanking the central pedimented block and arched passageway; ornate street lamps frame the cobbled holstentorplatz left and right, wet stones mirroring their warm glow under the overcast 13.0°c night sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-001" data-search="lübeck holstentor schleswig-holstein de-sh-001 an eye-level tourist&#x27;s view of lübeck&#x27;s holstentor at night, the red-brick gothic gate centered with its two round towers and conical roofs flanking the central pedimented block and arched passageway; ornate street lamps frame the cobbled holstentorplatz left and right, wet stones mirroring their warm glow under the overcast 13.0°c night sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-001-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-001-16x9.png" data-src-16="../assets/de-sh-001-16x9.png" data-src-45="../assets/de-sh-001-4x5.png" data-src-916="../assets/de-sh-001-9x16.png" alt="AI-generated artistic interpretation of Holstentor in Lübeck" loading="lazy" />
@@ -2417,7 +2441,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="lübeck old town schleswig-holstein de-sh-002 from the trave quayside at night, the old town of lübeck rises across the dark river — the twin spires of the marienkirche dominating the center of the &#x27;city of seven spires&#x27; skyline, gabled brick merchant houses lining the wet cobbled quay on the left and right, and warm street lamps streaking reflections on the water under the overcast 13.0°c night sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-002" data-search="lübeck old town schleswig-holstein de-sh-002 from the trave quayside at night, the old town of lübeck rises across the dark river — the twin spires of the marienkirche dominating the center of the &#x27;city of seven spires&#x27; skyline, gabled brick merchant houses lining the wet cobbled quay on the left and right, and warm street lamps streaking reflections on the water under the overcast 13.0°c night sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-002-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-002-16x9.png" data-src-16="../assets/de-sh-002-16x9.png" data-src-45="../assets/de-sh-002-4x5.png" data-src-916="../assets/de-sh-002-9x16.png" alt="AI-generated artistic interpretation of Old town in Lübeck" loading="lazy" />
@@ -2445,7 +2469,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="lübeck town hall schleswig-holstein de-sh-003 standing on the marktplatz at night, the lübeck rathaus fills the right of the frame — dark brick gothic with ornate gables and a glowing ground-floor gallery of pointed arcades — while the twin spires of the marienkirche rise on the left across the rain-wet cobblestones, warm lamps mirrored in the paving under the overcast 13.0°c night sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-003" data-search="lübeck town hall schleswig-holstein de-sh-003 standing on the marktplatz at night, the lübeck rathaus fills the right of the frame — dark brick gothic with ornate gables and a glowing ground-floor gallery of pointed arcades — while the twin spires of the marienkirche rise on the left across the rain-wet cobblestones, warm lamps mirrored in the paving under the overcast 13.0°c night sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-003-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-003-16x9.png" data-src-16="../assets/de-sh-003-16x9.png" data-src-45="../assets/de-sh-003-4x5.png" data-src-916="../assets/de-sh-003-9x16.png" alt="AI-generated artistic interpretation of Town Hall in Lübeck" loading="lazy" />
@@ -2473,7 +2497,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="lübeck-travemünde waterfront schleswig-holstein de-sh-004 on the rain-slick travepromenade at night, the 31-metre red-brick alte leuchtturm rises on the left beside its base building, the four masts and dark hull of the museum barque passat centered in the harbor, wet cobbles reflecting rows of warm lamps; the priwall shore lies dark across the estuary under a rain-heavy 12.9°c night sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-004" data-search="lübeck-travemünde waterfront schleswig-holstein de-sh-004 on the rain-slick travepromenade at night, the 31-metre red-brick alte leuchtturm rises on the left beside its base building, the four masts and dark hull of the museum barque passat centered in the harbor, wet cobbles reflecting rows of warm lamps; the priwall shore lies dark across the estuary under a rain-heavy 12.9°c night sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-004-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-004-16x9.png" data-src-16="../assets/de-sh-004-16x9.png" data-src-45="../assets/de-sh-004-4x5.png" data-src-916="../assets/de-sh-004-9x16.png" alt="AI-generated artistic interpretation of Waterfront in Lübeck-Travemünde" loading="lazy" />
@@ -2501,7 +2525,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="kiel kiellinie schleswig-holstein de-sh-005 walking the kiellinie at night, the row of small wooden boathouses runs down the left along the lamp-lit promenade, moored sailboats and masts standing in the dark fjord water on the right, and across the fjord the east-bank shipyards of kiel rise as a skyline of giant gantry cranes with scattered industrial lights under the overcast 13.8°c night sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-005" data-search="kiel kiellinie schleswig-holstein de-sh-005 walking the kiellinie at night, the row of small wooden boathouses runs down the left along the lamp-lit promenade, moored sailboats and masts standing in the dark fjord water on the right, and across the fjord the east-bank shipyards of kiel rise as a skyline of giant gantry cranes with scattered industrial lights under the overcast 13.8°c night sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-005-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-005-16x9.png" data-src-16="../assets/de-sh-005-16x9.png" data-src-45="../assets/de-sh-005-4x5.png" data-src-916="../assets/de-sh-005-9x16.png" alt="AI-generated artistic interpretation of Kiellinie in Kiel" loading="lazy" />
@@ -2529,7 +2553,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="flensburg historic harbor schleswig-holstein de-sh-006 from the quay at the head of flensburg&#x27;s historic harbor at night: on the left, brick warehouses and gabled captains&#x27; houses with warm windows and street lamps along the cobbled waterfront; in the center, the narrow harbor basin stretching into the dark with rows of masts; on the right, more classic wooden sailing ships moored close, their hulls lit by the quay glow. overcast night, plausible harbor lighting only — the old trading port at rest." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-006" data-search="flensburg historic harbor schleswig-holstein de-sh-006 from the quay at the head of flensburg&#x27;s historic harbor at night: on the left, brick warehouses and gabled captains&#x27; houses with warm windows and street lamps along the cobbled waterfront; in the center, the narrow harbor basin stretching into the dark with rows of masts; on the right, more classic wooden sailing ships moored close, their hulls lit by the quay glow. overcast night, plausible harbor lighting only — the old trading port at rest." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-006-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-006-16x9.png" data-src-16="../assets/de-sh-006-16x9.png" data-src-45="../assets/de-sh-006-4x5.png" data-src-916="../assets/de-sh-006-9x16.png" alt="AI-generated artistic interpretation of Historic harbor in Flensburg" loading="lazy" />
@@ -2557,7 +2581,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="schleswig gottorf castle schleswig-holstein de-sh-007 from the neuwerk baroque garden looking across the water at night: in the near right, the red-brick globushaus pavilion with its copper dome; across the foreground, the clipped hedge parterre with a few faint garden lamps; in the center distance, gottorf castle&#x27;s baroque wings with scattered lit windows on its island in the schlei. dark overcast sky, restrained lighting — no floodlighting, just the castle&#x27;s own glow." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-007" data-search="schleswig gottorf castle schleswig-holstein de-sh-007 from the neuwerk baroque garden looking across the water at night: in the near right, the red-brick globushaus pavilion with its copper dome; across the foreground, the clipped hedge parterre with a few faint garden lamps; in the center distance, gottorf castle&#x27;s baroque wings with scattered lit windows on its island in the schlei. dark overcast sky, restrained lighting — no floodlighting, just the castle&#x27;s own glow." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-007-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-007-16x9.png" data-src-16="../assets/de-sh-007-16x9.png" data-src-45="../assets/de-sh-007-4x5.png" data-src-916="../assets/de-sh-007-9x16.png" alt="AI-generated artistic interpretation of Gottorf Castle in Schleswig" loading="lazy" />
@@ -2585,7 +2609,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="schleswig holm schleswig-holstein de-sh-008 on the cobbled lane of holm, schleswig&#x27;s old fishing quarter, at night: on the left, low whitewashed fishermen&#x27;s cottages with warm windows and potted plants; in the center, the small stone chapel with its tower rising among the rooftops; on the right, the schlei water&#x27;s edge with drying fishing nets, mooring posts and a small boat. wet cobbles reflect the sparse lamps under an overcast night sky — the former island village&#x27;s honest quiet." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-008" data-search="schleswig holm schleswig-holstein de-sh-008 on the cobbled lane of holm, schleswig&#x27;s old fishing quarter, at night: on the left, low whitewashed fishermen&#x27;s cottages with warm windows and potted plants; in the center, the small stone chapel with its tower rising among the rooftops; on the right, the schlei water&#x27;s edge with drying fishing nets, mooring posts and a small boat. wet cobbles reflect the sparse lamps under an overcast night sky — the former island village&#x27;s honest quiet." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-008-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-008-16x9.png" data-src-16="../assets/de-sh-008-16x9.png" data-src-45="../assets/de-sh-008-4x5.png" data-src-916="../assets/de-sh-008-9x16.png" alt="AI-generated artistic interpretation of Holm in Schleswig" loading="lazy" />
@@ -2613,7 +2637,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="glücksburg glücksburg castle schleswig-holstein de-sh-009 across the moat from the shoreline path, the white renaissance water castle at night: in the center, the castle&#x27;s three gabled houses with octagonal corner towers, rising straight out of the dark water; the small bridge approaching it on the left; the still moat mirroring the whole silhouette in the foreground. only two windows glow dimly and faint moonlight breaks through the clouds — no invented floodlighting on the ancestral seat of the house of glücksburg." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-009" data-search="glücksburg glücksburg castle schleswig-holstein de-sh-009 across the moat from the shoreline path, the white renaissance water castle at night: in the center, the castle&#x27;s three gabled houses with octagonal corner towers, rising straight out of the dark water; the small bridge approaching it on the left; the still moat mirroring the whole silhouette in the foreground. only two windows glow dimly and faint moonlight breaks through the clouds — no invented floodlighting on the ancestral seat of the house of glücksburg." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-009-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-009-16x9.png" data-src-16="../assets/de-sh-009-16x9.png" data-src-45="../assets/de-sh-009-4x5.png" data-src-916="../assets/de-sh-009-9x16.png" alt="AI-generated artistic interpretation of Glücksburg Castle in Glücksburg" loading="lazy" />
@@ -2641,7 +2665,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="husum inner harbor schleswig-holstein de-sh-010 standing on husum&#x27;s central quay at night, looking across the tidal inner harbor: on the left, wooden mooring posts and bobbing sailing boats at the stone steps; in the center, the dark water carrying amber reflections of the quay lamps; on the right, the waterfront row of colorful gabled houses and grey-shingled facades with a few lit windows. overcast night sky, sparse street lighting — an honest view of the &#x27;grey city by the sea&#x27; after hours." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-010" data-search="husum inner harbor schleswig-holstein de-sh-010 standing on husum&#x27;s central quay at night, looking across the tidal inner harbor: on the left, wooden mooring posts and bobbing sailing boats at the stone steps; in the center, the dark water carrying amber reflections of the quay lamps; on the right, the waterfront row of colorful gabled houses and grey-shingled facades with a few lit windows. overcast night sky, sparse street lighting — an honest view of the &#x27;grey city by the sea&#x27; after hours." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-010-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-010-16x9.png" data-src-16="../assets/de-sh-010-16x9.png" data-src-45="../assets/de-sh-010-4x5.png" data-src-916="../assets/de-sh-010-9x16.png" alt="AI-generated artistic interpretation of Inner harbor in Husum" loading="lazy" />
@@ -2669,7 +2693,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="friedrichstadt canals schleswig-holstein de-sh-011 from the canal bank in friedrichstadt&#x27;s old town, an eye-level view down the quiet waterway at night: on the left, a row of brick merchant houses with stepped gables, their warm windows glowing under a dark overcast sky; in the center, a brick arch bridge crossing the canal, its lamps doubling in the still black water; on the right, the mossy stone quay in the near foreground. a plausible night scene — street lamps and lit windows only, no floodlighting — honoring the town&#x27;s dutch &#x27;little amsterdam&#x27; brick-renaissance character." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-011" data-search="friedrichstadt canals schleswig-holstein de-sh-011 from the canal bank in friedrichstadt&#x27;s old town, an eye-level view down the quiet waterway at night: on the left, a row of brick merchant houses with stepped gables, their warm windows glowing under a dark overcast sky; in the center, a brick arch bridge crossing the canal, its lamps doubling in the still black water; on the right, the mossy stone quay in the near foreground. a plausible night scene — street lamps and lit windows only, no floodlighting — honoring the town&#x27;s dutch &#x27;little amsterdam&#x27; brick-renaissance character." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-011-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-011-16x9.png" data-src-16="../assets/de-sh-011-16x9.png" data-src-45="../assets/de-sh-011-4x5.png" data-src-916="../assets/de-sh-011-9x16.png" alt="AI-generated artistic interpretation of Canals in Friedrichstadt" loading="lazy" />
@@ -2697,7 +2721,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="westerhever westerheversand lighthouse schleswig-holstein de-sh-012 a tourist&#x27;s eye-level view of the westerheversand lighthouse at night, the red-and-white banded 40-metre tower centered above its two keeper&#x27;s cottages, its black lantern glowing softly; an elevated wooden boardwalk leads through the dark salt marsh in the foreground, with tidal channels glinting faintly under the overcast 14.8°c night sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-012" data-search="westerhever westerheversand lighthouse schleswig-holstein de-sh-012 a tourist&#x27;s eye-level view of the westerheversand lighthouse at night, the red-and-white banded 40-metre tower centered above its two keeper&#x27;s cottages, its black lantern glowing softly; an elevated wooden boardwalk leads through the dark salt marsh in the foreground, with tidal channels glinting faintly under the overcast 14.8°c night sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-012-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-012-16x9.png" data-src-16="../assets/de-sh-012-16x9.png" data-src-45="../assets/de-sh-012-4x5.png" data-src-916="../assets/de-sh-012-9x16.png" alt="AI-generated artistic interpretation of Westerheversand lighthouse in Westerhever" loading="lazy" />
@@ -2725,7 +2749,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="st. peter-ording beach stilt houses schleswig-holstein de-sh-013 from the vast sandy beach at night, a row of wooden pfahlbauten rises on tall stilts against a rain-heavy sky, their weathered timber dark against the storm; rain streaks slant through the frame while wet sand mirrors the huts and a few dim windows glow warm in the 15.0°c rain-shower night." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-013" data-search="st. peter-ording beach stilt houses schleswig-holstein de-sh-013 from the vast sandy beach at night, a row of wooden pfahlbauten rises on tall stilts against a rain-heavy sky, their weathered timber dark against the storm; rain streaks slant through the frame while wet sand mirrors the huts and a few dim windows glow warm in the 15.0°c rain-shower night." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-013-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-013-16x9.png" data-src-16="../assets/de-sh-013-16x9.png" data-src-45="../assets/de-sh-013-4x5.png" data-src-916="../assets/de-sh-013-9x16.png" alt="AI-generated artistic interpretation of Beach stilt houses in St. Peter-Ording" loading="lazy" />
@@ -2753,7 +2777,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="sylt/kampen red cliff schleswig-holstein de-sh-014 standing on the permitted cliff-edge path at night, the rusty-red glacial face of the rotes kliff drops steeply on the left to a pale sandy beach and dark surf, while dune grass and heath trace the cliff-top path to the right, all under a moonlit overcast sky at 14.2°c." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-014" data-search="sylt/kampen red cliff schleswig-holstein de-sh-014 standing on the permitted cliff-edge path at night, the rusty-red glacial face of the rotes kliff drops steeply on the left to a pale sandy beach and dark surf, while dune grass and heath trace the cliff-top path to the right, all under a moonlit overcast sky at 14.2°c." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-014-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-014-16x9.png" data-src-16="../assets/de-sh-014-16x9.png" data-src-45="../assets/de-sh-014-4x5.png" data-src-916="../assets/de-sh-014-9x16.png" alt="AI-generated artistic interpretation of Red Cliff in Sylt/Kampen" loading="lazy" />
@@ -2781,7 +2805,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="sylt/list ellenbogen schleswig-holstein de-sh-015 at the northern tip of sylt at night, grass-tufted dunes roll toward the dark sea on the left, with the modest red-and-white list lighthouse standing mid-frame among the dunes, its beacon glowing quietly under an overcast 14.2°c night sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-015" data-search="sylt/list ellenbogen schleswig-holstein de-sh-015 at the northern tip of sylt at night, grass-tufted dunes roll toward the dark sea on the left, with the modest red-and-white list lighthouse standing mid-frame among the dunes, its beacon glowing quietly under an overcast 14.2°c night sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-015-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-015-16x9.png" data-src-16="../assets/de-sh-015-16x9.png" data-src-45="../assets/de-sh-015-4x5.png" data-src-916="../assets/de-sh-015-9x16.png" alt="AI-generated artistic interpretation of Ellenbogen in Sylt/List" loading="lazy" />
@@ -2809,7 +2833,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="sylt/keitum village schleswig-holstein de-sh-016 a quiet keitum lane at night, flanked by whitewashed frisian captain&#x27;s houses with steep thatched roofs; warm light spills from small-paned windows onto hedges and tended gardens on both sides, with more thatched gables fading down the lane under the overcast 14.2°c sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-016" data-search="sylt/keitum village schleswig-holstein de-sh-016 a quiet keitum lane at night, flanked by whitewashed frisian captain&#x27;s houses with steep thatched roofs; warm light spills from small-paned windows onto hedges and tended gardens on both sides, with more thatched gables fading down the lane under the overcast 14.2°c sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-016-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-016-16x9.png" data-src-16="../assets/de-sh-016-16x9.png" data-src-45="../assets/de-sh-016-4x5.png" data-src-916="../assets/de-sh-016-9x16.png" alt="AI-generated artistic interpretation of Village in Sylt/Keitum" loading="lazy" />
@@ -2837,7 +2861,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="helgoland lange anna schleswig-holstein de-sh-017 from the dark klippenrandweg cliff path at night, the 47-metre red sandstone sea stack of lange anna stands alone in the north sea, its layered red rock dotted with nesting seabirds; dark heath and cliff-edge grass frame the foreground while faint moon glow breaks through the overcast 16.0°c sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-017" data-search="helgoland lange anna schleswig-holstein de-sh-017 from the dark klippenrandweg cliff path at night, the 47-metre red sandstone sea stack of lange anna stands alone in the north sea, its layered red rock dotted with nesting seabirds; dark heath and cliff-edge grass frame the foreground while faint moon glow breaks through the overcast 16.0°c sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-017-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-017-16x9.png" data-src-16="../assets/de-sh-017-16x9.png" data-src-45="../assets/de-sh-017-4x5.png" data-src-916="../assets/de-sh-017-9x16.png" alt="AI-generated artistic interpretation of Lange Anna in Helgoland" loading="lazy" />
@@ -2865,7 +2889,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="helgoland/düne beach schleswig-holstein de-sh-018 from the sandy düne beach, the view sweeps across the water to helgoland&#x27;s famous red sandstone cliffs rising at the left. a colony of grey seals rests on the mid-distance sandbank while gulls wheel overhead in the mainly-clear midday sky. the red-and-white düne lighthouse stands at the right edge above dune grass swaying in the foreground." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-018" data-search="helgoland/düne beach schleswig-holstein de-sh-018 from the sandy düne beach, the view sweeps across the water to helgoland&#x27;s famous red sandstone cliffs rising at the left. a colony of grey seals rests on the mid-distance sandbank while gulls wheel overhead in the mainly-clear midday sky. the red-and-white düne lighthouse stands at the right edge above dune grass swaying in the foreground." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-018-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-018-16x9.png" data-src-16="../assets/de-sh-018-16x9.png" data-src-45="../assets/de-sh-018-4x5.png" data-src-916="../assets/de-sh-018-9x16.png" alt="AI-generated artistic interpretation of Beach in Helgoland/Düne" loading="lazy" />
@@ -2893,7 +2917,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="amrum lighthouse and kniepsand schleswig-holstein de-sh-019 the red-and-white banded amrum lighthouse rises from the dune ridge at center, its tower tall against the mainly-clear midday sky. the broad sandy kniepsand sweeps right toward the waterline while marram-grass dunes fill the foreground. a quiet, wide-open north sea beach scene from a natural tourist viewpoint on the sand." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-019" data-search="amrum lighthouse and kniepsand schleswig-holstein de-sh-019 the red-and-white banded amrum lighthouse rises from the dune ridge at center, its tower tall against the mainly-clear midday sky. the broad sandy kniepsand sweeps right toward the waterline while marram-grass dunes fill the foreground. a quiet, wide-open north sea beach scene from a natural tourist viewpoint on the sand." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-019-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-019-16x9.png" data-src-16="../assets/de-sh-019-16x9.png" data-src-45="../assets/de-sh-019-4x5.png" data-src-916="../assets/de-sh-019-9x16.png" alt="AI-generated artistic interpretation of Lighthouse and Kniepsand in Amrum" loading="lazy" />
@@ -2921,7 +2945,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="föhr/wyk promenade schleswig-holstein de-sh-020 the wyk promenade runs along the waterfront under a clear midday sky, with rows of classic strandkörbe set out on the beach at left and the sea glittering beyond. the paved walk stretches ahead past benches and lamp rows, while brick buildings with café terraces line the right. a bright, inviting island waterfront from a natural strolling viewpoint." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-020" data-search="föhr/wyk promenade schleswig-holstein de-sh-020 the wyk promenade runs along the waterfront under a clear midday sky, with rows of classic strandkörbe set out on the beach at left and the sea glittering beyond. the paved walk stretches ahead past benches and lamp rows, while brick buildings with café terraces line the right. a bright, inviting island waterfront from a natural strolling viewpoint." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-020-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-020-16x9.png" data-src-16="../assets/de-sh-020-16x9.png" data-src-45="../assets/de-sh-020-4x5.png" data-src-916="../assets/de-sh-020-9x16.png" alt="AI-generated artistic interpretation of Promenade in Föhr/Wyk" loading="lazy" />
@@ -2949,7 +2973,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="fehmarn flügge lighthouse schleswig-holstein de-sh-021 the flügge lighthouse rises from the dunes at center, its octagonal tower in the characteristic red-and-white bands with a red lantern room, against a mainly-clear midday sky. dune grass sways in the foreground while the fehmarn coast and open sea sweep away to the right. a classic baltic lighthouse view from a natural dune-top viewpoint." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-021" data-search="fehmarn flügge lighthouse schleswig-holstein de-sh-021 the flügge lighthouse rises from the dunes at center, its octagonal tower in the characteristic red-and-white bands with a red lantern room, against a mainly-clear midday sky. dune grass sways in the foreground while the fehmarn coast and open sea sweep away to the right. a classic baltic lighthouse view from a natural dune-top viewpoint." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-021-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-021-16x9.png" data-src-16="../assets/de-sh-021-16x9.png" data-src-45="../assets/de-sh-021-4x5.png" data-src-916="../assets/de-sh-021-9x16.png" alt="AI-generated artistic interpretation of Flügge lighthouse in Fehmarn" loading="lazy" />
@@ -2977,7 +3001,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="fehmarn fehmarnsund bridge schleswig-holstein de-sh-022 the fehmarnsund bridge crosses the strait at center, its single large steel arch span carrying the road and rail deck on concrete piers above the glittering water. shoreline reeds frame the foreground while the far shore stretches green behind. a clean, open view of the 1963 crossing from a natural waterfront viewpoint under a mainly-clear midday sky." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-022" data-search="fehmarn fehmarnsund bridge schleswig-holstein de-sh-022 the fehmarnsund bridge crosses the strait at center, its single large steel arch span carrying the road and rail deck on concrete piers above the glittering water. shoreline reeds frame the foreground while the far shore stretches green behind. a clean, open view of the 1963 crossing from a natural waterfront viewpoint under a mainly-clear midday sky." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-022-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-022-16x9.png" data-src-16="../assets/de-sh-022-16x9.png" data-src-45="../assets/de-sh-022-4x5.png" data-src-916="../assets/de-sh-022-9x16.png" alt="AI-generated artistic interpretation of Fehmarnsund Bridge in Fehmarn" loading="lazy" />
@@ -3005,7 +3029,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="plön plön castle schleswig-holstein de-sh-023 plön castle rises above the lake at center, its white-plastered renaissance wings ringed with gables and crowned by two lantern-like ridge turrets, set on the wooded hill under an overcast sky. a wooden jetty reaches into the foreground water while trees crowd the shoreline. a calm, stately view of the palace from across the großer plöner see." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-023" data-search="plön plön castle schleswig-holstein de-sh-023 plön castle rises above the lake at center, its white-plastered renaissance wings ringed with gables and crowned by two lantern-like ridge turrets, set on the wooded hill under an overcast sky. a wooden jetty reaches into the foreground water while trees crowd the shoreline. a calm, stately view of the palace from across the großer plöner see." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-023-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-023-16x9.png" data-src-16="../assets/de-sh-023-16x9.png" data-src-45="../assets/de-sh-023-4x5.png" data-src-916="../assets/de-sh-023-9x16.png" alt="AI-generated artistic interpretation of Plön Castle in Plön" loading="lazy" />
@@ -3033,7 +3057,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="eutin eutin castle schleswig-holstein de-sh-024 from the reedy shore of the großer eutiner see at night, the camera faces eutin castle across dark water — the red-brick baroque palace fills the center with its gate tower at left and cupola turret, a few warm windows lit, framed by dark park trees on both sides. the 01:00 overcast scenario shows the palace in near-darkness with minimal plausible illumination, the lake a black mirror. notable: the red-brick facade and waterfront siting match the real castle&#x27;s lakefront setting, honestly rendered without invented floodlighting." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-024" data-search="eutin eutin castle schleswig-holstein de-sh-024 from the reedy shore of the großer eutiner see at night, the camera faces eutin castle across dark water — the red-brick baroque palace fills the center with its gate tower at left and cupola turret, a few warm windows lit, framed by dark park trees on both sides. the 01:00 overcast scenario shows the palace in near-darkness with minimal plausible illumination, the lake a black mirror. notable: the red-brick facade and waterfront siting match the real castle&#x27;s lakefront setting, honestly rendered without invented floodlighting." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-024-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-024-16x9.png" data-src-16="../assets/de-sh-024-16x9.png" data-src-45="../assets/de-sh-024-4x5.png" data-src-916="../assets/de-sh-024-9x16.png" alt="AI-generated artistic interpretation of Eutin Castle in Eutin" loading="lazy" />
@@ -3061,7 +3085,7 @@
             </div>
           </div>
         </article>
-<article class="card" data-search="laboe naval memorial schleswig-holstein de-sh-025 from the wet stone terrace in driving rain at night, the camera looks up at the laboe naval memorial&#x27;s 72-metre curved brick tower — the flame-like monolith dominates the center against a rain-streaked dark sky, with the dark water of the kiel fjord and faint shore lights to the right and rain-pocked reflective paving in the foreground. the 01:00 rain-shower scenario keeps the tower nearly unlit, wet surfaces glistening. notable: the tower&#x27;s iconic curved silhouette, often likened to a ship&#x27;s stem or a submarine conning tower, is the unmistakable landmark of the coastal memorial." data-state="Schleswig-Holstein">
+<article class="card" id="DE-SH-025" data-search="laboe naval memorial schleswig-holstein de-sh-025 from the wet stone terrace in driving rain at night, the camera looks up at the laboe naval memorial&#x27;s 72-metre curved brick tower — the flame-like monolith dominates the center against a rain-streaked dark sky, with the dark water of the kiel fjord and faint shore lights to the right and rain-pocked reflective paving in the foreground. the 01:00 rain-shower scenario keeps the tower nearly unlit, wet surfaces glistening. notable: the tower&#x27;s iconic curved silhouette, often likened to a ship&#x27;s stem or a submarine conning tower, is the unmistakable landmark of the coastal memorial." data-state="Schleswig-Holstein">
           <div class="preview">
             <a class="thumb" href="../assets/de-sh-025-16x9.png" target="_blank" rel="noopener">
               <img src="../assets/de-sh-025-16x9.png" data-src-16="../assets/de-sh-025-16x9.png" data-src-45="../assets/de-sh-025-4x5.png" data-src-916="../assets/de-sh-025-9x16.png" alt="AI-generated artistic interpretation of Naval memorial in Laboe" loading="lazy" />
@@ -3100,30 +3124,55 @@
   <p>AI-generated artistic interpretations &middot; <a href="https://jdvision.org/transparency.html">How our images are made</a></p>
   <p class="sig">Jason D&rsquo;s Vision</p>
 </footer>
-<script>
+<script>const GERMANY_META={"DE-SH-001": ["Schleswig-Holstein", "night", "urban,historic", "../assets/de-sh-001-16x9.png", "Holstentor, Lübeck"], "DE-SH-002": ["Schleswig-Holstein", "night", "coastal,urban,historic", "../assets/de-sh-002-16x9.png", "Old town, Lübeck"], "DE-SH-003": ["Schleswig-Holstein", "night", "urban,historic", "../assets/de-sh-003-16x9.png", "Town Hall, Lübeck"], "DE-SH-004": ["Schleswig-Holstein", "night", "coastal,historic", "../assets/de-sh-004-16x9.png", "Waterfront, Lübeck-Travemünde"], "DE-SH-005": ["Schleswig-Holstein", "night", "urban", "../assets/de-sh-005-16x9.png", "Kiellinie, Kiel"], "DE-SH-006": ["Schleswig-Holstein", "night", "coastal,urban,historic", "../assets/de-sh-006-16x9.png", "Historic harbor, Flensburg"], "DE-SH-007": ["Schleswig-Holstein", "night", "coastal,historic", "../assets/de-sh-007-16x9.png", "Gottorf Castle, Schleswig"], "DE-SH-008": ["Schleswig-Holstein", "night", "coastal,historic", "../assets/de-sh-008-16x9.png", "Holm, Schleswig"], "DE-SH-009": ["Schleswig-Holstein", "night", "coastal,historic", "../assets/de-sh-009-16x9.png", "Glücksburg Castle, Glücksburg"], "DE-SH-010": ["Schleswig-Holstein", "night", "coastal,urban", "../assets/de-sh-010-16x9.png", "Inner harbor, Husum"], "DE-SH-011": ["Schleswig-Holstein", "night", "coastal,urban,historic", "../assets/de-sh-011-16x9.png", "Canals, Friedrichstadt"], "DE-SH-012": ["Schleswig-Holstein", "night", "coastal", "../assets/de-sh-012-16x9.png", "Westerheversand lighthouse, Westerhever"], "DE-SH-013": ["Schleswig-Holstein", "night", "coastal", "../assets/de-sh-013-16x9.png", "Beach stilt houses, St. Peter-Ording"], "DE-SH-014": ["Schleswig-Holstein", "night", "coastal", "../assets/de-sh-014-16x9.png", "Red Cliff, Sylt/Kampen"], "DE-SH-015": ["Schleswig-Holstein", "night", "coastal", "../assets/de-sh-015-16x9.png", "Ellenbogen, Sylt/List"], "DE-SH-016": ["Schleswig-Holstein", "night", "", "../assets/de-sh-016-16x9.png", "Village, Sylt/Keitum"], "DE-SH-017": ["Schleswig-Holstein", "night", "coastal", "../assets/de-sh-017-16x9.png", "Lange Anna, Helgoland"], "DE-SH-018": ["Schleswig-Holstein", "day", "coastal", "../assets/de-sh-018-16x9.png", "Beach, Helgoland/Düne"], "DE-SH-019": ["Schleswig-Holstein", "day", "coastal", "../assets/de-sh-019-16x9.png", "Lighthouse and Kniepsand, Amrum"], "DE-SH-020": ["Schleswig-Holstein", "day", "coastal", "../assets/de-sh-020-16x9.png", "Promenade, Föhr/Wyk"], "DE-SH-021": ["Schleswig-Holstein", "day", "coastal", "../assets/de-sh-021-16x9.png", "Flügge lighthouse, Fehmarn"], "DE-SH-022": ["Schleswig-Holstein", "day", "coastal", "../assets/de-sh-022-16x9.png", "Fehmarnsund Bridge, Fehmarn"], "DE-SH-023": ["Schleswig-Holstein", "day", "historic", "../assets/de-sh-023-16x9.png", "Plön Castle, Plön"], "DE-SH-024": ["Schleswig-Holstein", "night", "coastal,historic", "../assets/de-sh-024-16x9.png", "Eutin Castle, Eutin"], "DE-SH-025": ["Schleswig-Holstein", "night", "coastal", "../assets/de-sh-025-16x9.png", "Naval memorial, Laboe"]};
     const q = document.getElementById('q');
     const region = document.getElementById('region');
+    const fdn = document.getElementById('f-daynight');
+    const fmood = document.getElementById('f-mood');
     const clearBtn = document.getElementById('clear');
     const countEl = document.getElementById('result-count');
     const noResults = document.getElementById('no-results');
     const cards = Array.from(document.querySelectorAll('.card'));
+    /* Phase 1: GERMANY_META is emitted before this block (meta_js). Scenes
+       missing from it pass the day/night + mood filters untouched. */
+    function metaFor(c) {
+      if (typeof GERMANY_META === 'undefined') return null;
+      return GERMANY_META[c.id] || null;
+    }
     function render() {
       const query = q.value.trim().toLowerCase();
       const st = region ? region.value : '';
+      const dn = fdn ? fdn.value : '';
+      const mo = fmood ? fmood.value : '';
       let n = 0;
       for (const c of cards) {
         const hitQ = !query || (c.dataset.search || '').includes(query);
         const hitS = !st || (c.dataset.state || '') === st;
-        const hit = hitQ && hitS;
+        let hitM = true;
+        const m = metaFor(c);
+        if (m) {
+          if (dn && m[1] !== dn) hitM = false;
+          if (mo && (m[2] + ',').indexOf(mo + ',') < 0) hitM = false;
+        }
+        const hit = hitQ && hitS && hitM;
         c.style.display = hit ? '' : 'none';
         if (hit) n++;
       }
       countEl.textContent = n + ' scene' + (n === 1 ? '' : 's');
       noResults.style.display = n ? 'none' : 'block';
     }
+    function clearAll() {
+      q.value = '';
+      if (region) region.value = '';
+      if (fdn) fdn.value = '';
+      if (fmood) fmood.value = '';
+      render();
+    }
     q.addEventListener('input', render);
     if (region) region.addEventListener('change', render);
-    clearBtn.addEventListener('click', () => { q.value = ''; if (region) region.value = ''; render(); });
+    if (fdn) fdn.addEventListener('change', render);
+    if (fmood) fmood.addEventListener('change', render);
+    clearBtn.addEventListener('click', clearAll);
     render();
 
     document.querySelectorAll('.card').forEach(card => {
@@ -3290,6 +3339,76 @@
       e.preventDefault();
       togglePlay();
     }
+  });
+})();
+
+/* Phase 1 competitive features (ported from the Spain pilot, 2026-09-26):
+   four related-scene thumbnail links per card + per-card copy-link button. */
+(function(){
+  function relatedFor(id){
+    if (typeof GERMANY_META === 'undefined') return [];
+    var me = GERMANY_META[id];
+    if (!me) return [];
+    var mm = (me[2] || '').split(',').filter(Boolean);
+    var out = [];
+    for (var oid in GERMANY_META){
+      if (oid === id) continue;
+      var o = GERMANY_META[oid];
+      var om = ',' + (o[2] || '') + ',', shared = 0;
+      for (var i = 0; i < mm.length; i++){ if (om.indexOf(',' + mm[i] + ',') >= 0) shared++; }
+      if (o[0] === me[0] || shared > 0) out.push([(o[0] === me[0] ? 0 : 1), -shared, oid]);
+    }
+    out.sort(function(a,b){ return a[0]-b[0] || a[1]-b[1] || (a[2]<b[2] ? -1 : 1); });
+    return out.slice(0,4).map(function(x){ return x[2]; });
+  }
+  document.querySelectorAll('.card').forEach(function(card){
+    var id = card.id;
+    if (!id || typeof GERMANY_META === 'undefined' || !GERMANY_META[id]) return;
+    var acts = card.querySelector('.actions');
+    if (acts && !acts.querySelector('.copy-link')){
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'copy-link'; b.textContent = 'Copy link';
+      b.setAttribute('aria-label', 'Copy link to this scene');
+      b.addEventListener('click', function(){
+        var url = location.origin + location.pathname + '#' + id;
+        var done = function(){ b.textContent = 'Copied \u2713'; setTimeout(function(){ b.textContent = 'Copy link'; }, 1600); };
+        function fb(){
+          var ta = document.createElement('textarea'); ta.value = url;
+          ta.style.position = 'fixed'; ta.style.opacity = '0';
+          document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); done(); } catch(e){}
+          ta.remove();
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, fb); }
+        else { fb(); }
+      });
+      acts.appendChild(b);
+    }
+    if (!card.querySelector('.related')){
+      var rel = relatedFor(id);
+      if (rel.length){
+        var box = document.createElement('div'); box.className = 'related';
+        var h = document.createElement('p'); h.className = 'related-h'; h.textContent = 'Related scenes';
+        box.appendChild(h);
+        var grid = document.createElement('div'); grid.className = 'related-row';
+        rel.forEach(function(rid){
+          var m = GERMANY_META[rid];
+          var a = document.createElement('a'); a.className = 'related-link'; a.href = '#' + rid;
+          var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = m[4];
+          var sp = document.createElement('span'); sp.textContent = m[4];
+          a.appendChild(im); a.appendChild(sp); grid.appendChild(a);
+        });
+        box.appendChild(grid);
+        card.appendChild(box);
+      }
+    }
+  });
+  /* A related-scene jump clears the filters first so the target card is visible. */
+  document.querySelectorAll('.related-link').forEach(function(a){
+    a.addEventListener('click', function(){
+      var c = document.getElementById('clear');
+      if (c) c.click();
+    });
   });
 })();
 </script>
