@@ -91,11 +91,11 @@
   .fmt-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
-  .day-row { display: flex; padding: 8px 14px 0; }
-  .day-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+  .day-row { display: flex; gap: 8px; padding: 8px 14px 0; flex-wrap: wrap; }
+  .day-tab, .gday-tab, .motion-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
-  .day-tab:hover { border-color: #FFCE00; }
-  .day-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .day-tab:hover, .gday-tab:hover, .motion-tab:hover { border-color: #FFCE00; }
+  .day-tab.is-active, .gday-tab.is-active, .motion-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -3292,17 +3292,46 @@
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
       const dtab = card.querySelector('.day-tab');
+      const gtab = card.querySelector('.gday-tab');
+      const mtab = card.querySelector('.motion-tab');
+      function srcKey(fmt, mode) {
+        if (mode === 'gday')
+          return fmt === '9x16' ? 'data-src-916-gday' : fmt === '4x5' ? 'data-src-45-gday' : 'data-src-16-gday';
+        if (mode === 'day')
+          return fmt === '9x16' ? 'data-src-916-day' : fmt === '4x5' ? 'data-src-45-day' : 'data-src-16-day';
+        return fmt === '9x16' ? 'data-src-916' : fmt === '4x5' ? 'data-src-45' : 'data-src-16';
+      }
+      function dayMode() {
+        if (gtab && gtab.classList.contains('is-active')) return 'gday';
+        if (dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day') return 'day';
+        return 'night';
+      }
+      function applyMode() {
+        const mode = dayMode();
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (img && link) {
+          const dnext = img.getAttribute(srcKey(dfmt, mode));
+          if (dnext) { img.src = dnext; link.href = dnext; }
+        }
+        const sc = card.querySelector('p.scenario');
+        if (sc) sc.textContent = mode === 'gday' ? '\u2600 Genuine daylight capture'
+          : mode === 'day' ? '\u2600 Daylight variant \u00b7 derived from the night interpretation'
+          : 'Scenario: ' + sc.getAttribute('data-scenario');
+      }
+      function stopMotion() {
+        const v = card.querySelector('video.motion-clip');
+        if (v) v.remove();
+        if (img) img.style.display = '';
+        if (mtab) { mtab.classList.remove('is-active'); mtab.innerHTML = '\u25B6 360\u00B0'; }
+      }
       tabs.forEach(tab => tab.addEventListener('click', e => {
         e.preventDefault();
+        stopMotion();
         const fmt = tab.dataset.format;
         tabs.forEach(t => t.classList.toggle('is-active', t === tab));
         if (!img || !link) return;
-        const dayOn = dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day';
-        const next = fmt === '4x5'
-          ? (dayOn && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
-          : fmt === '9x16'
-          ? (dayOn && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
-          : (dayOn && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
+        const next = img.getAttribute(srcKey(fmt, dayMode()));
         if (next) { img.src = next; link.href = next; }
         link.classList.toggle('tall', fmt === '4x5');
         link.classList.toggle('tall916', fmt === '9x16');
@@ -3310,21 +3339,38 @@
       /* Single daylight toggle: rendered only where day-variant masters exist. */
       if (dtab) dtab.addEventListener('click', e => {
         e.preventDefault();
+        stopMotion();
         const isDay = !dtab.classList.contains('is-active');
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
-        const ftab = card.querySelector('.fmt-tab.is-active');
-        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
-        if (img && link) {
-          const dkey = dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916')
-            : dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45')
-            : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const dnext = img.getAttribute(dkey);
-          if (dnext) { img.src = dnext; link.href = dnext; }
-        }
-        const sc = card.querySelector('p.scenario');
-        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        if (isDay && gtab) { gtab.classList.remove('is-active'); gtab.setAttribute('aria-pressed', 'false'); }
+        applyMode();
+      });
+      /* Genuine daylight toggle (Round 2): rendered only where genuine-daylight masters exist. */
+      if (gtab) gtab.addEventListener('click', e => {
+        e.preventDefault();
+        stopMotion();
+        const isDay = !gtab.classList.contains('is-active');
+        gtab.classList.toggle('is-active', isDay);
+        gtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        if (isDay && dtab) { dtab.classList.remove('is-active'); dtab.setAttribute('aria-pressed', 'false'); dtab.setAttribute('data-daynight', 'night'); }
+        applyMode();
+      });
+      /* 360° motion clip (4:5 only): rendered only where the mp4 exists. */
+      if (mtab) mtab.addEventListener('click', e => {
+        e.preventDefault();
+        if (card.querySelector('video.motion-clip')) { stopMotion(); return; }
+        stopMotion();
+        const vid = document.createElement('video');
+        vid.className = 'motion-clip';
+        vid.src = mtab.getAttribute('data-motion');
+        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = true;
+        vid.style.width = '100%'; vid.style.display = 'block';
+        if (img) img.style.display = 'none';
+        link.appendChild(vid);
+        mtab.classList.add('is-active');
+        mtab.innerHTML = '\u2715 Close';
       });
     });
 
