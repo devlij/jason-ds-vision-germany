@@ -1940,7 +1940,7 @@
     "caption": "Rhine vineyards, Lorch",
     "scenario": "24 September 2026 · 13:45 Europe/Berlin",
     "composition": "River valley landscape · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-he-014-16x9.png",
     "file_4x5": "assets/de-he-014-4x5.png",
     "file_9x16": "assets/de-he-014-9x16.png"
@@ -1954,7 +1954,7 @@
     "caption": "Kurhaus, Wiesbaden",
     "scenario": "24 September 2026 · 13:45 Europe/Berlin",
     "composition": "Building and park · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-he-015-16x9.png",
     "file_4x5": "assets/de-he-015-4x5.png",
     "file_9x16": "assets/de-he-015-9x16.png"
@@ -1968,7 +1968,7 @@
     "caption": "Mathildenhöhe, Darmstadt",
     "scenario": "24 September 2026 · 14:00 Europe/Berlin",
     "composition": "Wedding Tower and artists’ colony · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-he-016-16x9.png",
     "file_4x5": "assets/de-he-016-4x5.png",
     "file_9x16": "assets/de-he-016-9x16.png"
@@ -2108,7 +2108,7 @@
     "caption": "Town Hall, Altstadt",
     "scenario": "24 September 2026 · 09:15 Europe/Berlin",
     "composition": "Rathausmarkt facade · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-hh-004-16x9.png",
     "file_4x5": "assets/de-hh-004-4x5.png",
     "file_9x16": "assets/de-hh-004-9x16.png"
@@ -2766,7 +2766,7 @@
     "caption": "Stintmarkt, Lüneburg",
     "scenario": "24 September 2026 · 21:15 Europe/Berlin",
     "composition": "Ilmenau waterfront · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-ni-010-16x9.png",
     "file_4x5": "assets/de-ni-010-4x5.png",
     "file_9x16": "assets/de-ni-010-9x16.png"
@@ -2780,7 +2780,7 @@
     "caption": "Old town, Hameln",
     "scenario": "24 September 2026 · 21:15 Europe/Berlin",
     "composition": "Weser Renaissance streets · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-ni-011-16x9.png",
     "file_4x5": "assets/de-ni-011-4x5.png",
     "file_9x16": "assets/de-ni-011-9x16.png"
@@ -2794,7 +2794,7 @@
     "caption": "Historic market square, Hildesheim",
     "scenario": "24 September 2026 · 21:30 Europe/Berlin",
     "composition": "Knochenhaueramtshaus ensemble · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-ni-012-16x9.png",
     "file_4x5": "assets/de-ni-012-4x5.png",
     "file_9x16": "assets/de-ni-012-9x16.png"
@@ -3102,7 +3102,7 @@
     "caption": "Königsallee, Düsseldorf",
     "scenario": "25 September 2026 · 18:45 Europe/Berlin",
     "composition": "Canal and avenue · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-nw-006-16x9.png",
     "file_4x5": "assets/de-nw-006-4x5.png",
     "file_9x16": "assets/de-nw-006-9x16.png"
@@ -3116,7 +3116,7 @@
     "caption": "Cathedral and Katschhof, Aachen",
     "scenario": "25 September 2026 · 18:45 Europe/Berlin",
     "composition": "Cathedral and Town Hall ensemble · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-nw-007-16x9.png",
     "file_4x5": "assets/de-nw-007-4x5.png",
     "file_9x16": "assets/de-nw-007-9x16.png"
@@ -4992,7 +4992,7 @@
     "caption": "Market square, Halle (Saale)",
     "scenario": "26 September 2026 · 16:45 Europe/Berlin",
     "composition": "Market Church and Red Tower · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-st-018-16x9.png",
     "file_4x5": "assets/de-st-018-4x5.png",
     "file_9x16": "assets/de-st-018-9x16.png"
@@ -5006,7 +5006,7 @@
     "caption": "Cathedral and palace, Merseburg",
     "scenario": "26 September 2026 · 17:00 Europe/Berlin",
     "composition": "Saale-side ensemble · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-st-019-16x9.png",
     "file_4x5": "assets/de-st-019-4x5.png",
     "file_9x16": "assets/de-st-019-9x16.png"
@@ -5020,7 +5020,7 @@
     "caption": "Europa-Rosarium, Sangerhausen",
     "scenario": "26 September 2026 · 17:00 Europe/Berlin",
     "composition": "Rose gardens · AI-generated artistic interpretation",
-    "approved": false,
+    "approved": true,
     "file_16x9": "assets/de-st-020-16x9.png",
     "file_4x5": "assets/de-st-020-4x5.png",
     "file_9x16": "assets/de-st-020-9x16.png"
