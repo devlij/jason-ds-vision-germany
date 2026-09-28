@@ -11,7 +11,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-001-16x9.png",
     "file_4x5": "assets/de-bb-001-4x5.png",
-    "file_9x16": "assets/de-bb-001-9x16.png"
+    "file_9x16": "assets/de-bb-001-9x16.png",
+    "file_genuine_daylight_16x9": "assets/de-bb-001-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-bb-001-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-bb-001-genuine-daylight-9x16.png",
+    "file_motion_8s_4x5": "assets/de-bb-001-motion-8s-4x5.mp4"
   },
   {
     "entry_id": "DE-BB-002",
@@ -25,7 +29,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-002-16x9.png",
     "file_4x5": "assets/de-bb-002-4x5.png",
-    "file_9x16": "assets/de-bb-002-9x16.png"
+    "file_9x16": "assets/de-bb-002-9x16.png",
+    "file_genuine_daylight_16x9": "assets/de-bb-002-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-bb-002-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-bb-002-genuine-daylight-9x16.png",
+    "file_motion_8s_4x5": "assets/de-bb-002-motion-8s-4x5.mp4"
   },
   {
     "entry_id": "DE-BB-003",
@@ -39,7 +47,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-003-16x9.png",
     "file_4x5": "assets/de-bb-003-4x5.png",
-    "file_9x16": "assets/de-bb-003-9x16.png"
+    "file_9x16": "assets/de-bb-003-9x16.png",
+    "file_genuine_daylight_16x9": "assets/de-bb-003-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-bb-003-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-bb-003-genuine-daylight-9x16.png",
+    "file_motion_8s_4x5": "assets/de-bb-003-motion-8s-4x5.mp4"
   },
   {
     "entry_id": "DE-BB-004",
@@ -53,7 +65,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-004-16x9.png",
     "file_4x5": "assets/de-bb-004-4x5.png",
-    "file_9x16": "assets/de-bb-004-9x16.png"
+    "file_9x16": "assets/de-bb-004-9x16.png",
+    "file_genuine_daylight_16x9": "assets/de-bb-004-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-bb-004-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-bb-004-genuine-daylight-9x16.png",
+    "file_motion_8s_4x5": "assets/de-bb-004-motion-8s-4x5.mp4"
   },
   {
     "entry_id": "DE-BB-005",
@@ -67,7 +83,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-005-16x9.png",
     "file_4x5": "assets/de-bb-005-4x5.png",
-    "file_9x16": "assets/de-bb-005-9x16.png"
+    "file_9x16": "assets/de-bb-005-9x16.png",
+    "file_genuine_daylight_16x9": "assets/de-bb-005-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-bb-005-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-bb-005-genuine-daylight-9x16.png",
+    "file_motion_8s_4x5": "assets/de-bb-005-motion-8s-4x5.mp4"
   },
   {
     "entry_id": "DE-BB-006",
@@ -81,7 +101,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-006-16x9.png",
     "file_4x5": "assets/de-bb-006-4x5.png",
-    "file_9x16": "assets/de-bb-006-9x16.png"
+    "file_9x16": "assets/de-bb-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-007",
@@ -95,7 +119,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-007-16x9.png",
     "file_4x5": "assets/de-bb-007-4x5.png",
-    "file_9x16": "assets/de-bb-007-9x16.png"
+    "file_9x16": "assets/de-bb-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-008",
@@ -109,7 +137,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-008-16x9.png",
     "file_4x5": "assets/de-bb-008-4x5.png",
-    "file_9x16": "assets/de-bb-008-9x16.png"
+    "file_9x16": "assets/de-bb-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-009",
@@ -123,7 +155,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-009-16x9.png",
     "file_4x5": "assets/de-bb-009-4x5.png",
-    "file_9x16": "assets/de-bb-009-9x16.png"
+    "file_9x16": "assets/de-bb-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-010",
@@ -137,7 +173,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-010-16x9.png",
     "file_4x5": "assets/de-bb-010-4x5.png",
-    "file_9x16": "assets/de-bb-010-9x16.png"
+    "file_9x16": "assets/de-bb-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-011",
@@ -151,7 +191,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-011-16x9.png",
     "file_4x5": "assets/de-bb-011-4x5.png",
-    "file_9x16": "assets/de-bb-011-9x16.png"
+    "file_9x16": "assets/de-bb-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-012",
@@ -165,7 +209,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-012-16x9.png",
     "file_4x5": "assets/de-bb-012-4x5.png",
-    "file_9x16": "assets/de-bb-012-9x16.png"
+    "file_9x16": "assets/de-bb-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-013",
@@ -179,7 +227,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-013-16x9.png",
     "file_4x5": "assets/de-bb-013-4x5.png",
-    "file_9x16": "assets/de-bb-013-9x16.png"
+    "file_9x16": "assets/de-bb-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-014",
@@ -193,7 +245,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-014-16x9.png",
     "file_4x5": "assets/de-bb-014-4x5.png",
-    "file_9x16": "assets/de-bb-014-9x16.png"
+    "file_9x16": "assets/de-bb-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-015",
@@ -207,7 +263,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-015-16x9.png",
     "file_4x5": "assets/de-bb-015-4x5.png",
-    "file_9x16": "assets/de-bb-015-9x16.png"
+    "file_9x16": "assets/de-bb-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-016",
@@ -221,7 +281,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-016-16x9.png",
     "file_4x5": "assets/de-bb-016-4x5.png",
-    "file_9x16": "assets/de-bb-016-9x16.png"
+    "file_9x16": "assets/de-bb-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-017",
@@ -235,7 +299,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-017-16x9.png",
     "file_4x5": "assets/de-bb-017-4x5.png",
-    "file_9x16": "assets/de-bb-017-9x16.png"
+    "file_9x16": "assets/de-bb-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BB-018",
@@ -249,7 +317,11 @@
     "approved": true,
     "file_16x9": "assets/de-bb-018-16x9.png",
     "file_4x5": "assets/de-bb-018-4x5.png",
-    "file_9x16": "assets/de-bb-018-9x16.png"
+    "file_9x16": "assets/de-bb-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-001",
@@ -263,7 +335,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-001-16x9.png",
     "file_4x5": "assets/de-be-001-4x5.png",
-    "file_9x16": "assets/de-be-001-9x16.png"
+    "file_9x16": "assets/de-be-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-002",
@@ -277,7 +353,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-002-16x9.png",
     "file_4x5": "assets/de-be-002-4x5.png",
-    "file_9x16": "assets/de-be-002-9x16.png"
+    "file_9x16": "assets/de-be-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-003",
@@ -291,7 +371,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-003-16x9.png",
     "file_4x5": "assets/de-be-003-4x5.png",
-    "file_9x16": "assets/de-be-003-9x16.png"
+    "file_9x16": "assets/de-be-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-004",
@@ -305,7 +389,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-004-16x9.png",
     "file_4x5": "assets/de-be-004-4x5.png",
-    "file_9x16": "assets/de-be-004-9x16.png"
+    "file_9x16": "assets/de-be-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-005",
@@ -319,7 +407,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-005-16x9.png",
     "file_4x5": "assets/de-be-005-4x5.png",
-    "file_9x16": "assets/de-be-005-9x16.png"
+    "file_9x16": "assets/de-be-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-006",
@@ -333,7 +425,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-006-16x9.png",
     "file_4x5": "assets/de-be-006-4x5.png",
-    "file_9x16": "assets/de-be-006-9x16.png"
+    "file_9x16": "assets/de-be-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-007",
@@ -347,7 +443,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-007-16x9.png",
     "file_4x5": "assets/de-be-007-4x5.png",
-    "file_9x16": "assets/de-be-007-9x16.png"
+    "file_9x16": "assets/de-be-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-008",
@@ -361,7 +461,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-008-16x9.png",
     "file_4x5": "assets/de-be-008-4x5.png",
-    "file_9x16": "assets/de-be-008-9x16.png"
+    "file_9x16": "assets/de-be-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-009",
@@ -375,7 +479,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-009-16x9.png",
     "file_4x5": "assets/de-be-009-4x5.png",
-    "file_9x16": "assets/de-be-009-9x16.png"
+    "file_9x16": "assets/de-be-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-010",
@@ -389,7 +497,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-010-16x9.png",
     "file_4x5": "assets/de-be-010-4x5.png",
-    "file_9x16": "assets/de-be-010-9x16.png"
+    "file_9x16": "assets/de-be-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-011",
@@ -403,7 +515,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-011-16x9.png",
     "file_4x5": "assets/de-be-011-4x5.png",
-    "file_9x16": "assets/de-be-011-9x16.png"
+    "file_9x16": "assets/de-be-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-012",
@@ -417,7 +533,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-012-16x9.png",
     "file_4x5": "assets/de-be-012-4x5.png",
-    "file_9x16": "assets/de-be-012-9x16.png"
+    "file_9x16": "assets/de-be-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-013",
@@ -431,7 +551,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-013-16x9.png",
     "file_4x5": "assets/de-be-013-4x5.png",
-    "file_9x16": "assets/de-be-013-9x16.png"
+    "file_9x16": "assets/de-be-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-014",
@@ -445,7 +569,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-014-16x9.png",
     "file_4x5": "assets/de-be-014-4x5.png",
-    "file_9x16": "assets/de-be-014-9x16.png"
+    "file_9x16": "assets/de-be-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-015",
@@ -459,7 +587,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-015-16x9.png",
     "file_4x5": "assets/de-be-015-4x5.png",
-    "file_9x16": "assets/de-be-015-9x16.png"
+    "file_9x16": "assets/de-be-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-016",
@@ -473,7 +605,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-016-16x9.png",
     "file_4x5": "assets/de-be-016-4x5.png",
-    "file_9x16": "assets/de-be-016-9x16.png"
+    "file_9x16": "assets/de-be-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-017",
@@ -487,7 +623,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-017-16x9.png",
     "file_4x5": "assets/de-be-017-4x5.png",
-    "file_9x16": "assets/de-be-017-9x16.png"
+    "file_9x16": "assets/de-be-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-018",
@@ -501,7 +641,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-018-16x9.png",
     "file_4x5": "assets/de-be-018-4x5.png",
-    "file_9x16": "assets/de-be-018-9x16.png"
+    "file_9x16": "assets/de-be-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-019",
@@ -515,7 +659,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-019-16x9.png",
     "file_4x5": "assets/de-be-019-4x5.png",
-    "file_9x16": "assets/de-be-019-9x16.png"
+    "file_9x16": "assets/de-be-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BE-020",
@@ -529,7 +677,11 @@
     "approved": true,
     "file_16x9": "assets/de-be-020-16x9.png",
     "file_4x5": "assets/de-be-020-4x5.png",
-    "file_9x16": "assets/de-be-020-9x16.png"
+    "file_9x16": "assets/de-be-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-001",
@@ -543,7 +695,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-001-16x9.png",
     "file_4x5": "assets/de-bw-001-4x5.png",
-    "file_9x16": "assets/de-bw-001-9x16.png"
+    "file_9x16": "assets/de-bw-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": "assets/de-bw-001-motion-8s-4x5.mp4"
   },
   {
     "entry_id": "DE-BW-002",
@@ -557,7 +713,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-002-16x9.png",
     "file_4x5": "assets/de-bw-002-4x5.png",
-    "file_9x16": "assets/de-bw-002-9x16.png"
+    "file_9x16": "assets/de-bw-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-003",
@@ -571,7 +731,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-003-16x9.png",
     "file_4x5": "assets/de-bw-003-4x5.png",
-    "file_9x16": "assets/de-bw-003-9x16.png"
+    "file_9x16": "assets/de-bw-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-004",
@@ -585,7 +749,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-004-16x9.png",
     "file_4x5": "assets/de-bw-004-4x5.png",
-    "file_9x16": "assets/de-bw-004-9x16.png"
+    "file_9x16": "assets/de-bw-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-005",
@@ -599,7 +767,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-005-16x9.png",
     "file_4x5": "assets/de-bw-005-4x5.png",
-    "file_9x16": "assets/de-bw-005-9x16.png"
+    "file_9x16": "assets/de-bw-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-006",
@@ -613,7 +785,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-006-16x9.png",
     "file_4x5": "assets/de-bw-006-4x5.png",
-    "file_9x16": "assets/de-bw-006-9x16.png"
+    "file_9x16": "assets/de-bw-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-007",
@@ -627,7 +803,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-007-16x9.png",
     "file_4x5": "assets/de-bw-007-4x5.png",
-    "file_9x16": "assets/de-bw-007-9x16.png"
+    "file_9x16": "assets/de-bw-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-008",
@@ -641,7 +821,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-008-16x9.png",
     "file_4x5": "assets/de-bw-008-4x5.png",
-    "file_9x16": "assets/de-bw-008-9x16.png"
+    "file_9x16": "assets/de-bw-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-009",
@@ -655,7 +839,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-009-16x9.png",
     "file_4x5": "assets/de-bw-009-4x5.png",
-    "file_9x16": "assets/de-bw-009-9x16.png"
+    "file_9x16": "assets/de-bw-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-010",
@@ -669,7 +857,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-010-16x9.png",
     "file_4x5": "assets/de-bw-010-4x5.png",
-    "file_9x16": "assets/de-bw-010-9x16.png"
+    "file_9x16": "assets/de-bw-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-011",
@@ -683,7 +875,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-011-16x9.png",
     "file_4x5": "assets/de-bw-011-4x5.png",
-    "file_9x16": "assets/de-bw-011-9x16.png"
+    "file_9x16": "assets/de-bw-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-012",
@@ -697,7 +893,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-012-16x9.png",
     "file_4x5": "assets/de-bw-012-4x5.png",
-    "file_9x16": "assets/de-bw-012-9x16.png"
+    "file_9x16": "assets/de-bw-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-013",
@@ -711,7 +911,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-013-16x9.png",
     "file_4x5": "assets/de-bw-013-4x5.png",
-    "file_9x16": "assets/de-bw-013-9x16.png"
+    "file_9x16": "assets/de-bw-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-014",
@@ -725,7 +929,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-014-16x9.png",
     "file_4x5": "assets/de-bw-014-4x5.png",
-    "file_9x16": "assets/de-bw-014-9x16.png"
+    "file_9x16": "assets/de-bw-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-015",
@@ -739,7 +947,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-015-16x9.png",
     "file_4x5": "assets/de-bw-015-4x5.png",
-    "file_9x16": "assets/de-bw-015-9x16.png"
+    "file_9x16": "assets/de-bw-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-016",
@@ -753,7 +965,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-016-16x9.png",
     "file_4x5": "assets/de-bw-016-4x5.png",
-    "file_9x16": "assets/de-bw-016-9x16.png"
+    "file_9x16": "assets/de-bw-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-017",
@@ -767,7 +983,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-017-16x9.png",
     "file_4x5": "assets/de-bw-017-4x5.png",
-    "file_9x16": "assets/de-bw-017-9x16.png"
+    "file_9x16": "assets/de-bw-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-018",
@@ -781,7 +1001,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-018-16x9.png",
     "file_4x5": "assets/de-bw-018-4x5.png",
-    "file_9x16": "assets/de-bw-018-9x16.png"
+    "file_9x16": "assets/de-bw-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-019",
@@ -795,7 +1019,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-019-16x9.png",
     "file_4x5": "assets/de-bw-019-4x5.png",
-    "file_9x16": "assets/de-bw-019-9x16.png"
+    "file_9x16": "assets/de-bw-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-020",
@@ -809,7 +1037,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-020-16x9.png",
     "file_4x5": "assets/de-bw-020-4x5.png",
-    "file_9x16": "assets/de-bw-020-9x16.png"
+    "file_9x16": "assets/de-bw-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-021",
@@ -823,7 +1055,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-021-16x9.png",
     "file_4x5": "assets/de-bw-021-4x5.png",
-    "file_9x16": "assets/de-bw-021-9x16.png"
+    "file_9x16": "assets/de-bw-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-022",
@@ -837,7 +1073,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-022-16x9.png",
     "file_4x5": "assets/de-bw-022-4x5.png",
-    "file_9x16": "assets/de-bw-022-9x16.png"
+    "file_9x16": "assets/de-bw-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-023",
@@ -851,7 +1091,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-023-16x9.png",
     "file_4x5": "assets/de-bw-023-4x5.png",
-    "file_9x16": "assets/de-bw-023-9x16.png"
+    "file_9x16": "assets/de-bw-023-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-024",
@@ -865,7 +1109,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-024-16x9.png",
     "file_4x5": "assets/de-bw-024-4x5.png",
-    "file_9x16": "assets/de-bw-024-9x16.png"
+    "file_9x16": "assets/de-bw-024-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-025",
@@ -879,7 +1127,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-025-16x9.png",
     "file_4x5": "assets/de-bw-025-4x5.png",
-    "file_9x16": "assets/de-bw-025-9x16.png"
+    "file_9x16": "assets/de-bw-025-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-026",
@@ -893,7 +1145,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-026-16x9.png",
     "file_4x5": "assets/de-bw-026-4x5.png",
-    "file_9x16": "assets/de-bw-026-9x16.png"
+    "file_9x16": "assets/de-bw-026-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-027",
@@ -907,7 +1163,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-027-16x9.png",
     "file_4x5": "assets/de-bw-027-4x5.png",
-    "file_9x16": "assets/de-bw-027-9x16.png"
+    "file_9x16": "assets/de-bw-027-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-028",
@@ -921,7 +1181,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-028-16x9.png",
     "file_4x5": "assets/de-bw-028-4x5.png",
-    "file_9x16": "assets/de-bw-028-9x16.png"
+    "file_9x16": "assets/de-bw-028-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-029",
@@ -935,7 +1199,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-029-16x9.png",
     "file_4x5": "assets/de-bw-029-4x5.png",
-    "file_9x16": "assets/de-bw-029-9x16.png"
+    "file_9x16": "assets/de-bw-029-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BW-030",
@@ -949,7 +1217,11 @@
     "approved": true,
     "file_16x9": "assets/de-bw-030-16x9.png",
     "file_4x5": "assets/de-bw-030-4x5.png",
-    "file_9x16": "assets/de-bw-030-9x16.png"
+    "file_9x16": "assets/de-bw-030-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-001",
@@ -963,7 +1235,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-001-16x9.png",
     "file_4x5": "assets/de-by-001-4x5.png",
-    "file_9x16": "assets/de-by-001-9x16.png"
+    "file_9x16": "assets/de-by-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-002",
@@ -977,7 +1253,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-002-16x9.png",
     "file_4x5": "assets/de-by-002-4x5.png",
-    "file_9x16": "assets/de-by-002-9x16.png"
+    "file_9x16": "assets/de-by-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-003",
@@ -991,7 +1271,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-003-16x9.png",
     "file_4x5": "assets/de-by-003-4x5.png",
-    "file_9x16": "assets/de-by-003-9x16.png"
+    "file_9x16": "assets/de-by-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-004",
@@ -1005,7 +1289,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-004-16x9.png",
     "file_4x5": "assets/de-by-004-4x5.png",
-    "file_9x16": "assets/de-by-004-9x16.png"
+    "file_9x16": "assets/de-by-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-005",
@@ -1019,7 +1307,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-005-16x9.png",
     "file_4x5": "assets/de-by-005-4x5.png",
-    "file_9x16": "assets/de-by-005-9x16.png"
+    "file_9x16": "assets/de-by-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-006",
@@ -1033,7 +1325,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-006-16x9.png",
     "file_4x5": "assets/de-by-006-4x5.png",
-    "file_9x16": "assets/de-by-006-9x16.png"
+    "file_9x16": "assets/de-by-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-007",
@@ -1047,7 +1343,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-007-16x9.png",
     "file_4x5": "assets/de-by-007-4x5.png",
-    "file_9x16": "assets/de-by-007-9x16.png"
+    "file_9x16": "assets/de-by-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-008",
@@ -1061,7 +1361,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-008-16x9.png",
     "file_4x5": "assets/de-by-008-4x5.png",
-    "file_9x16": "assets/de-by-008-9x16.png"
+    "file_9x16": "assets/de-by-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-009",
@@ -1075,7 +1379,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-009-16x9.png",
     "file_4x5": "assets/de-by-009-4x5.png",
-    "file_9x16": "assets/de-by-009-9x16.png"
+    "file_9x16": "assets/de-by-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-010",
@@ -1089,7 +1397,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-010-16x9.png",
     "file_4x5": "assets/de-by-010-4x5.png",
-    "file_9x16": "assets/de-by-010-9x16.png"
+    "file_9x16": "assets/de-by-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-011",
@@ -1103,7 +1415,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-011-16x9.png",
     "file_4x5": "assets/de-by-011-4x5.png",
-    "file_9x16": "assets/de-by-011-9x16.png"
+    "file_9x16": "assets/de-by-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-012",
@@ -1117,7 +1433,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-012-16x9.png",
     "file_4x5": "assets/de-by-012-4x5.png",
-    "file_9x16": "assets/de-by-012-9x16.png"
+    "file_9x16": "assets/de-by-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-013",
@@ -1131,7 +1451,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-013-16x9.png",
     "file_4x5": "assets/de-by-013-4x5.png",
-    "file_9x16": "assets/de-by-013-9x16.png"
+    "file_9x16": "assets/de-by-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-014",
@@ -1145,7 +1469,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-014-16x9.png",
     "file_4x5": "assets/de-by-014-4x5.png",
-    "file_9x16": "assets/de-by-014-9x16.png"
+    "file_9x16": "assets/de-by-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-015",
@@ -1159,7 +1487,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-015-16x9.png",
     "file_4x5": "assets/de-by-015-4x5.png",
-    "file_9x16": "assets/de-by-015-9x16.png"
+    "file_9x16": "assets/de-by-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-016",
@@ -1173,7 +1505,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-016-16x9.png",
     "file_4x5": "assets/de-by-016-4x5.png",
-    "file_9x16": "assets/de-by-016-9x16.png"
+    "file_9x16": "assets/de-by-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-017",
@@ -1187,7 +1523,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-017-16x9.png",
     "file_4x5": "assets/de-by-017-4x5.png",
-    "file_9x16": "assets/de-by-017-9x16.png"
+    "file_9x16": "assets/de-by-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-018",
@@ -1201,7 +1541,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-018-16x9.png",
     "file_4x5": "assets/de-by-018-4x5.png",
-    "file_9x16": "assets/de-by-018-9x16.png"
+    "file_9x16": "assets/de-by-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-019",
@@ -1215,7 +1559,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-019-16x9.png",
     "file_4x5": "assets/de-by-019-4x5.png",
-    "file_9x16": "assets/de-by-019-9x16.png"
+    "file_9x16": "assets/de-by-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-020",
@@ -1229,7 +1577,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-020-16x9.png",
     "file_4x5": "assets/de-by-020-4x5.png",
-    "file_9x16": "assets/de-by-020-9x16.png"
+    "file_9x16": "assets/de-by-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-021",
@@ -1243,7 +1595,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-021-16x9.png",
     "file_4x5": "assets/de-by-021-4x5.png",
-    "file_9x16": "assets/de-by-021-9x16.png"
+    "file_9x16": "assets/de-by-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-022",
@@ -1257,7 +1613,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-022-16x9.png",
     "file_4x5": "assets/de-by-022-4x5.png",
-    "file_9x16": "assets/de-by-022-9x16.png"
+    "file_9x16": "assets/de-by-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-023",
@@ -1271,7 +1631,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-023-16x9.png",
     "file_4x5": "assets/de-by-023-4x5.png",
-    "file_9x16": "assets/de-by-023-9x16.png"
+    "file_9x16": "assets/de-by-023-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-024",
@@ -1285,7 +1649,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-024-16x9.png",
     "file_4x5": "assets/de-by-024-4x5.png",
-    "file_9x16": "assets/de-by-024-9x16.png"
+    "file_9x16": "assets/de-by-024-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-025",
@@ -1299,7 +1667,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-025-16x9.png",
     "file_4x5": "assets/de-by-025-4x5.png",
-    "file_9x16": "assets/de-by-025-9x16.png"
+    "file_9x16": "assets/de-by-025-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-026",
@@ -1313,7 +1685,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-026-16x9.png",
     "file_4x5": "assets/de-by-026-4x5.png",
-    "file_9x16": "assets/de-by-026-9x16.png"
+    "file_9x16": "assets/de-by-026-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-027",
@@ -1327,7 +1703,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-027-16x9.png",
     "file_4x5": "assets/de-by-027-4x5.png",
-    "file_9x16": "assets/de-by-027-9x16.png"
+    "file_9x16": "assets/de-by-027-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-028",
@@ -1341,7 +1721,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-028-16x9.png",
     "file_4x5": "assets/de-by-028-4x5.png",
-    "file_9x16": "assets/de-by-028-9x16.png"
+    "file_9x16": "assets/de-by-028-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-029",
@@ -1355,7 +1739,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-029-16x9.png",
     "file_4x5": "assets/de-by-029-4x5.png",
-    "file_9x16": "assets/de-by-029-9x16.png"
+    "file_9x16": "assets/de-by-029-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-030",
@@ -1369,7 +1757,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-030-16x9.png",
     "file_4x5": "assets/de-by-030-4x5.png",
-    "file_9x16": "assets/de-by-030-9x16.png"
+    "file_9x16": "assets/de-by-030-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-031",
@@ -1383,7 +1775,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-031-16x9.png",
     "file_4x5": "assets/de-by-031-4x5.png",
-    "file_9x16": "assets/de-by-031-9x16.png"
+    "file_9x16": "assets/de-by-031-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-032",
@@ -1397,7 +1793,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-032-16x9.png",
     "file_4x5": "assets/de-by-032-4x5.png",
-    "file_9x16": "assets/de-by-032-9x16.png"
+    "file_9x16": "assets/de-by-032-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-033",
@@ -1411,7 +1811,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-033-16x9.png",
     "file_4x5": "assets/de-by-033-4x5.png",
-    "file_9x16": "assets/de-by-033-9x16.png"
+    "file_9x16": "assets/de-by-033-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-034",
@@ -1425,7 +1829,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-034-16x9.png",
     "file_4x5": "assets/de-by-034-4x5.png",
-    "file_9x16": "assets/de-by-034-9x16.png"
+    "file_9x16": "assets/de-by-034-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-035",
@@ -1439,7 +1847,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-035-16x9.png",
     "file_4x5": "assets/de-by-035-4x5.png",
-    "file_9x16": "assets/de-by-035-9x16.png"
+    "file_9x16": "assets/de-by-035-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-036",
@@ -1453,7 +1865,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-036-16x9.png",
     "file_4x5": "assets/de-by-036-4x5.png",
-    "file_9x16": "assets/de-by-036-9x16.png"
+    "file_9x16": "assets/de-by-036-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-037",
@@ -1467,7 +1883,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-037-16x9.png",
     "file_4x5": "assets/de-by-037-4x5.png",
-    "file_9x16": "assets/de-by-037-9x16.png"
+    "file_9x16": "assets/de-by-037-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-038",
@@ -1481,7 +1901,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-038-16x9.png",
     "file_4x5": "assets/de-by-038-4x5.png",
-    "file_9x16": "assets/de-by-038-9x16.png"
+    "file_9x16": "assets/de-by-038-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-039",
@@ -1495,7 +1919,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-039-16x9.png",
     "file_4x5": "assets/de-by-039-4x5.png",
-    "file_9x16": "assets/de-by-039-9x16.png"
+    "file_9x16": "assets/de-by-039-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-040",
@@ -1509,7 +1937,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-040-16x9.png",
     "file_4x5": "assets/de-by-040-4x5.png",
-    "file_9x16": "assets/de-by-040-9x16.png"
+    "file_9x16": "assets/de-by-040-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-041",
@@ -1523,7 +1955,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-041-16x9.png",
     "file_4x5": "assets/de-by-041-4x5.png",
-    "file_9x16": "assets/de-by-041-9x16.png"
+    "file_9x16": "assets/de-by-041-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-042",
@@ -1537,7 +1973,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-042-16x9.png",
     "file_4x5": "assets/de-by-042-4x5.png",
-    "file_9x16": "assets/de-by-042-9x16.png"
+    "file_9x16": "assets/de-by-042-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-043",
@@ -1551,7 +1991,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-043-16x9.png",
     "file_4x5": "assets/de-by-043-4x5.png",
-    "file_9x16": "assets/de-by-043-9x16.png"
+    "file_9x16": "assets/de-by-043-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-044",
@@ -1565,7 +2009,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-044-16x9.png",
     "file_4x5": "assets/de-by-044-4x5.png",
-    "file_9x16": "assets/de-by-044-9x16.png"
+    "file_9x16": "assets/de-by-044-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-045",
@@ -1579,7 +2027,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-045-16x9.png",
     "file_4x5": "assets/de-by-045-4x5.png",
-    "file_9x16": "assets/de-by-045-9x16.png"
+    "file_9x16": "assets/de-by-045-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-046",
@@ -1593,7 +2045,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-046-16x9.png",
     "file_4x5": "assets/de-by-046-4x5.png",
-    "file_9x16": "assets/de-by-046-9x16.png"
+    "file_9x16": "assets/de-by-046-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-047",
@@ -1607,7 +2063,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-047-16x9.png",
     "file_4x5": "assets/de-by-047-4x5.png",
-    "file_9x16": "assets/de-by-047-9x16.png"
+    "file_9x16": "assets/de-by-047-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-BY-048",
@@ -1621,7 +2081,11 @@
     "approved": true,
     "file_16x9": "assets/de-by-048-16x9.png",
     "file_4x5": "assets/de-by-048-4x5.png",
-    "file_9x16": "assets/de-by-048-9x16.png"
+    "file_9x16": "assets/de-by-048-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-001",
@@ -1635,7 +2099,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-001-16x9.png",
     "file_4x5": "assets/de-hb-001-4x5.png",
-    "file_9x16": "assets/de-hb-001-9x16.png"
+    "file_9x16": "assets/de-hb-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-002",
@@ -1649,7 +2117,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-002-16x9.png",
     "file_4x5": "assets/de-hb-002-4x5.png",
-    "file_9x16": "assets/de-hb-002-9x16.png"
+    "file_9x16": "assets/de-hb-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-003",
@@ -1663,7 +2135,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-003-16x9.png",
     "file_4x5": "assets/de-hb-003-4x5.png",
-    "file_9x16": "assets/de-hb-003-9x16.png"
+    "file_9x16": "assets/de-hb-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-004",
@@ -1677,7 +2153,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-004-16x9.png",
     "file_4x5": "assets/de-hb-004-4x5.png",
-    "file_9x16": "assets/de-hb-004-9x16.png"
+    "file_9x16": "assets/de-hb-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-005",
@@ -1691,7 +2171,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-005-16x9.png",
     "file_4x5": "assets/de-hb-005-4x5.png",
-    "file_9x16": "assets/de-hb-005-9x16.png"
+    "file_9x16": "assets/de-hb-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-006",
@@ -1705,7 +2189,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-006-16x9.png",
     "file_4x5": "assets/de-hb-006-4x5.png",
-    "file_9x16": "assets/de-hb-006-9x16.png"
+    "file_9x16": "assets/de-hb-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-007",
@@ -1719,7 +2207,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-007-16x9.png",
     "file_4x5": "assets/de-hb-007-4x5.png",
-    "file_9x16": "assets/de-hb-007-9x16.png"
+    "file_9x16": "assets/de-hb-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-008",
@@ -1733,7 +2225,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-008-16x9.png",
     "file_4x5": "assets/de-hb-008-4x5.png",
-    "file_9x16": "assets/de-hb-008-9x16.png"
+    "file_9x16": "assets/de-hb-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HB-009",
@@ -1747,7 +2243,11 @@
     "approved": true,
     "file_16x9": "assets/de-hb-009-16x9.png",
     "file_4x5": "assets/de-hb-009-4x5.png",
-    "file_9x16": "assets/de-hb-009-9x16.png"
+    "file_9x16": "assets/de-hb-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-001",
@@ -1761,7 +2261,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-001-16x9.png",
     "file_4x5": "assets/de-he-001-4x5.png",
-    "file_9x16": "assets/de-he-001-9x16.png"
+    "file_9x16": "assets/de-he-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-002",
@@ -1775,7 +2279,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-002-16x9.png",
     "file_4x5": "assets/de-he-002-4x5.png",
-    "file_9x16": "assets/de-he-002-9x16.png"
+    "file_9x16": "assets/de-he-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-003",
@@ -1789,7 +2297,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-003-16x9.png",
     "file_4x5": "assets/de-he-003-4x5.png",
-    "file_9x16": "assets/de-he-003-9x16.png"
+    "file_9x16": "assets/de-he-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-004",
@@ -1803,7 +2315,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-004-16x9.png",
     "file_4x5": "assets/de-he-004-4x5.png",
-    "file_9x16": "assets/de-he-004-9x16.png"
+    "file_9x16": "assets/de-he-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-005",
@@ -1817,7 +2333,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-005-16x9.png",
     "file_4x5": "assets/de-he-005-4x5.png",
-    "file_9x16": "assets/de-he-005-9x16.png"
+    "file_9x16": "assets/de-he-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-006",
@@ -1831,7 +2351,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-006-16x9.png",
     "file_4x5": "assets/de-he-006-4x5.png",
-    "file_9x16": "assets/de-he-006-9x16.png"
+    "file_9x16": "assets/de-he-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-007",
@@ -1845,7 +2369,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-007-16x9.png",
     "file_4x5": "assets/de-he-007-4x5.png",
-    "file_9x16": "assets/de-he-007-9x16.png"
+    "file_9x16": "assets/de-he-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-008",
@@ -1859,7 +2387,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-008-16x9.png",
     "file_4x5": "assets/de-he-008-4x5.png",
-    "file_9x16": "assets/de-he-008-9x16.png"
+    "file_9x16": "assets/de-he-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-009",
@@ -1873,7 +2405,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-009-16x9.png",
     "file_4x5": "assets/de-he-009-4x5.png",
-    "file_9x16": "assets/de-he-009-9x16.png"
+    "file_9x16": "assets/de-he-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-010",
@@ -1887,7 +2423,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-010-16x9.png",
     "file_4x5": "assets/de-he-010-4x5.png",
-    "file_9x16": "assets/de-he-010-9x16.png"
+    "file_9x16": "assets/de-he-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-011",
@@ -1901,7 +2441,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-011-16x9.png",
     "file_4x5": "assets/de-he-011-4x5.png",
-    "file_9x16": "assets/de-he-011-9x16.png"
+    "file_9x16": "assets/de-he-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-012",
@@ -1915,7 +2459,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-012-16x9.png",
     "file_4x5": "assets/de-he-012-4x5.png",
-    "file_9x16": "assets/de-he-012-9x16.png"
+    "file_9x16": "assets/de-he-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-013",
@@ -1929,7 +2477,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-013-16x9.png",
     "file_4x5": "assets/de-he-013-4x5.png",
-    "file_9x16": "assets/de-he-013-9x16.png"
+    "file_9x16": "assets/de-he-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-014",
@@ -1943,7 +2495,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-014-16x9.png",
     "file_4x5": "assets/de-he-014-4x5.png",
-    "file_9x16": "assets/de-he-014-9x16.png"
+    "file_9x16": "assets/de-he-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-015",
@@ -1957,7 +2513,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-015-16x9.png",
     "file_4x5": "assets/de-he-015-4x5.png",
-    "file_9x16": "assets/de-he-015-9x16.png"
+    "file_9x16": "assets/de-he-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-016",
@@ -1971,7 +2531,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-016-16x9.png",
     "file_4x5": "assets/de-he-016-4x5.png",
-    "file_9x16": "assets/de-he-016-9x16.png"
+    "file_9x16": "assets/de-he-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-017",
@@ -1985,7 +2549,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-017-16x9.png",
     "file_4x5": "assets/de-he-017-4x5.png",
-    "file_9x16": "assets/de-he-017-9x16.png"
+    "file_9x16": "assets/de-he-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-018",
@@ -1999,7 +2567,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-018-16x9.png",
     "file_4x5": "assets/de-he-018-4x5.png",
-    "file_9x16": "assets/de-he-018-9x16.png"
+    "file_9x16": "assets/de-he-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-019",
@@ -2013,7 +2585,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-019-16x9.png",
     "file_4x5": "assets/de-he-019-4x5.png",
-    "file_9x16": "assets/de-he-019-9x16.png"
+    "file_9x16": "assets/de-he-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-020",
@@ -2027,7 +2603,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-020-16x9.png",
     "file_4x5": "assets/de-he-020-4x5.png",
-    "file_9x16": "assets/de-he-020-9x16.png"
+    "file_9x16": "assets/de-he-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-021",
@@ -2041,7 +2621,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-021-16x9.png",
     "file_4x5": "assets/de-he-021-4x5.png",
-    "file_9x16": "assets/de-he-021-9x16.png"
+    "file_9x16": "assets/de-he-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HE-022",
@@ -2055,7 +2639,11 @@
     "approved": true,
     "file_16x9": "assets/de-he-022-16x9.png",
     "file_4x5": "assets/de-he-022-4x5.png",
-    "file_9x16": "assets/de-he-022-9x16.png"
+    "file_9x16": "assets/de-he-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-001",
@@ -2069,7 +2657,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-001-16x9.png",
     "file_4x5": "assets/de-hh-001-4x5.png",
-    "file_9x16": "assets/de-hh-001-9x16.png"
+    "file_9x16": "assets/de-hh-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-002",
@@ -2083,7 +2675,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-002-16x9.png",
     "file_4x5": "assets/de-hh-002-4x5.png",
-    "file_9x16": "assets/de-hh-002-9x16.png"
+    "file_9x16": "assets/de-hh-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-003",
@@ -2097,7 +2693,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-003-16x9.png",
     "file_4x5": "assets/de-hh-003-4x5.png",
-    "file_9x16": "assets/de-hh-003-9x16.png"
+    "file_9x16": "assets/de-hh-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-004",
@@ -2111,7 +2711,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-004-16x9.png",
     "file_4x5": "assets/de-hh-004-4x5.png",
-    "file_9x16": "assets/de-hh-004-9x16.png"
+    "file_9x16": "assets/de-hh-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-005",
@@ -2125,7 +2729,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-005-16x9.png",
     "file_4x5": "assets/de-hh-005-4x5.png",
-    "file_9x16": "assets/de-hh-005-9x16.png"
+    "file_9x16": "assets/de-hh-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-006",
@@ -2139,7 +2747,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-006-16x9.png",
     "file_4x5": "assets/de-hh-006-4x5.png",
-    "file_9x16": "assets/de-hh-006-9x16.png"
+    "file_9x16": "assets/de-hh-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-007",
@@ -2153,7 +2765,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-007-16x9.png",
     "file_4x5": "assets/de-hh-007-4x5.png",
-    "file_9x16": "assets/de-hh-007-9x16.png"
+    "file_9x16": "assets/de-hh-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-008",
@@ -2167,7 +2783,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-008-16x9.png",
     "file_4x5": "assets/de-hh-008-4x5.png",
-    "file_9x16": "assets/de-hh-008-9x16.png"
+    "file_9x16": "assets/de-hh-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-009",
@@ -2181,7 +2801,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-009-16x9.png",
     "file_4x5": "assets/de-hh-009-4x5.png",
-    "file_9x16": "assets/de-hh-009-9x16.png"
+    "file_9x16": "assets/de-hh-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-010",
@@ -2195,7 +2819,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-010-16x9.png",
     "file_4x5": "assets/de-hh-010-4x5.png",
-    "file_9x16": "assets/de-hh-010-9x16.png"
+    "file_9x16": "assets/de-hh-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-011",
@@ -2209,7 +2837,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-011-16x9.png",
     "file_4x5": "assets/de-hh-011-4x5.png",
-    "file_9x16": "assets/de-hh-011-9x16.png"
+    "file_9x16": "assets/de-hh-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-012",
@@ -2223,7 +2855,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-012-16x9.png",
     "file_4x5": "assets/de-hh-012-4x5.png",
-    "file_9x16": "assets/de-hh-012-9x16.png"
+    "file_9x16": "assets/de-hh-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-013",
@@ -2237,7 +2873,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-013-16x9.png",
     "file_4x5": "assets/de-hh-013-4x5.png",
-    "file_9x16": "assets/de-hh-013-9x16.png"
+    "file_9x16": "assets/de-hh-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-014",
@@ -2251,7 +2891,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-014-16x9.png",
     "file_4x5": "assets/de-hh-014-4x5.png",
-    "file_9x16": "assets/de-hh-014-9x16.png"
+    "file_9x16": "assets/de-hh-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-015",
@@ -2265,7 +2909,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-015-16x9.png",
     "file_4x5": "assets/de-hh-015-4x5.png",
-    "file_9x16": "assets/de-hh-015-9x16.png"
+    "file_9x16": "assets/de-hh-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-016",
@@ -2279,7 +2927,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-016-16x9.png",
     "file_4x5": "assets/de-hh-016-4x5.png",
-    "file_9x16": "assets/de-hh-016-9x16.png"
+    "file_9x16": "assets/de-hh-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-HH-017",
@@ -2293,7 +2945,11 @@
     "approved": true,
     "file_16x9": "assets/de-hh-017-16x9.png",
     "file_4x5": "assets/de-hh-017-4x5.png",
-    "file_9x16": "assets/de-hh-017-9x16.png"
+    "file_9x16": "assets/de-hh-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-001",
@@ -2307,7 +2963,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-001-16x9.png",
     "file_4x5": "assets/de-mv-001-4x5.png",
-    "file_9x16": "assets/de-mv-001-9x16.png"
+    "file_9x16": "assets/de-mv-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-002",
@@ -2321,7 +2981,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-002-16x9.png",
     "file_4x5": "assets/de-mv-002-4x5.png",
-    "file_9x16": "assets/de-mv-002-9x16.png"
+    "file_9x16": "assets/de-mv-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-003",
@@ -2335,7 +2999,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-003-16x9.png",
     "file_4x5": "assets/de-mv-003-4x5.png",
-    "file_9x16": "assets/de-mv-003-9x16.png"
+    "file_9x16": "assets/de-mv-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-004",
@@ -2349,7 +3017,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-004-16x9.png",
     "file_4x5": "assets/de-mv-004-4x5.png",
-    "file_9x16": "assets/de-mv-004-9x16.png"
+    "file_9x16": "assets/de-mv-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-005",
@@ -2363,7 +3035,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-005-16x9.png",
     "file_4x5": "assets/de-mv-005-4x5.png",
-    "file_9x16": "assets/de-mv-005-9x16.png"
+    "file_9x16": "assets/de-mv-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-006",
@@ -2377,7 +3053,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-006-16x9.png",
     "file_4x5": "assets/de-mv-006-4x5.png",
-    "file_9x16": "assets/de-mv-006-9x16.png"
+    "file_9x16": "assets/de-mv-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-007",
@@ -2391,7 +3071,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-007-16x9.png",
     "file_4x5": "assets/de-mv-007-4x5.png",
-    "file_9x16": "assets/de-mv-007-9x16.png"
+    "file_9x16": "assets/de-mv-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-008",
@@ -2405,7 +3089,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-008-16x9.png",
     "file_4x5": "assets/de-mv-008-4x5.png",
-    "file_9x16": "assets/de-mv-008-9x16.png"
+    "file_9x16": "assets/de-mv-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-009",
@@ -2419,7 +3107,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-009-16x9.png",
     "file_4x5": "assets/de-mv-009-4x5.png",
-    "file_9x16": "assets/de-mv-009-9x16.png"
+    "file_9x16": "assets/de-mv-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-010",
@@ -2433,7 +3125,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-010-16x9.png",
     "file_4x5": "assets/de-mv-010-4x5.png",
-    "file_9x16": "assets/de-mv-010-9x16.png"
+    "file_9x16": "assets/de-mv-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-011",
@@ -2447,7 +3143,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-011-16x9.png",
     "file_4x5": "assets/de-mv-011-4x5.png",
-    "file_9x16": "assets/de-mv-011-9x16.png"
+    "file_9x16": "assets/de-mv-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-012",
@@ -2461,7 +3161,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-012-16x9.png",
     "file_4x5": "assets/de-mv-012-4x5.png",
-    "file_9x16": "assets/de-mv-012-9x16.png"
+    "file_9x16": "assets/de-mv-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-013",
@@ -2475,7 +3179,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-013-16x9.png",
     "file_4x5": "assets/de-mv-013-4x5.png",
-    "file_9x16": "assets/de-mv-013-9x16.png"
+    "file_9x16": "assets/de-mv-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-014",
@@ -2489,7 +3197,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-014-16x9.png",
     "file_4x5": "assets/de-mv-014-4x5.png",
-    "file_9x16": "assets/de-mv-014-9x16.png"
+    "file_9x16": "assets/de-mv-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-015",
@@ -2503,7 +3215,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-015-16x9.png",
     "file_4x5": "assets/de-mv-015-4x5.png",
-    "file_9x16": "assets/de-mv-015-9x16.png"
+    "file_9x16": "assets/de-mv-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-016",
@@ -2517,7 +3233,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-016-16x9.png",
     "file_4x5": "assets/de-mv-016-4x5.png",
-    "file_9x16": "assets/de-mv-016-9x16.png"
+    "file_9x16": "assets/de-mv-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-017",
@@ -2531,7 +3251,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-017-16x9.png",
     "file_4x5": "assets/de-mv-017-4x5.png",
-    "file_9x16": "assets/de-mv-017-9x16.png"
+    "file_9x16": "assets/de-mv-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-018",
@@ -2545,7 +3269,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-018-16x9.png",
     "file_4x5": "assets/de-mv-018-4x5.png",
-    "file_9x16": "assets/de-mv-018-9x16.png"
+    "file_9x16": "assets/de-mv-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-019",
@@ -2559,7 +3287,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-019-16x9.png",
     "file_4x5": "assets/de-mv-019-4x5.png",
-    "file_9x16": "assets/de-mv-019-9x16.png"
+    "file_9x16": "assets/de-mv-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-020",
@@ -2573,7 +3305,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-020-16x9.png",
     "file_4x5": "assets/de-mv-020-4x5.png",
-    "file_9x16": "assets/de-mv-020-9x16.png"
+    "file_9x16": "assets/de-mv-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-021",
@@ -2587,7 +3323,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-021-16x9.png",
     "file_4x5": "assets/de-mv-021-4x5.png",
-    "file_9x16": "assets/de-mv-021-9x16.png"
+    "file_9x16": "assets/de-mv-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-022",
@@ -2601,7 +3341,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-022-16x9.png",
     "file_4x5": "assets/de-mv-022-4x5.png",
-    "file_9x16": "assets/de-mv-022-9x16.png"
+    "file_9x16": "assets/de-mv-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-023",
@@ -2615,7 +3359,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-023-16x9.png",
     "file_4x5": "assets/de-mv-023-4x5.png",
-    "file_9x16": "assets/de-mv-023-9x16.png"
+    "file_9x16": "assets/de-mv-023-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-MV-024",
@@ -2629,7 +3377,11 @@
     "approved": true,
     "file_16x9": "assets/de-mv-024-16x9.png",
     "file_4x5": "assets/de-mv-024-4x5.png",
-    "file_9x16": "assets/de-mv-024-9x16.png"
+    "file_9x16": "assets/de-mv-024-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-001",
@@ -2643,7 +3395,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-001-16x9.png",
     "file_4x5": "assets/de-ni-001-4x5.png",
-    "file_9x16": "assets/de-ni-001-9x16.png"
+    "file_9x16": "assets/de-ni-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-002",
@@ -2657,7 +3413,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-002-16x9.png",
     "file_4x5": "assets/de-ni-002-4x5.png",
-    "file_9x16": "assets/de-ni-002-9x16.png"
+    "file_9x16": "assets/de-ni-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-003",
@@ -2671,7 +3431,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-003-16x9.png",
     "file_4x5": "assets/de-ni-003-4x5.png",
-    "file_9x16": "assets/de-ni-003-9x16.png"
+    "file_9x16": "assets/de-ni-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-004",
@@ -2685,7 +3449,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-004-16x9.png",
     "file_4x5": "assets/de-ni-004-4x5.png",
-    "file_9x16": "assets/de-ni-004-9x16.png"
+    "file_9x16": "assets/de-ni-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-005",
@@ -2699,7 +3467,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-005-16x9.png",
     "file_4x5": "assets/de-ni-005-4x5.png",
-    "file_9x16": "assets/de-ni-005-9x16.png"
+    "file_9x16": "assets/de-ni-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-006",
@@ -2713,7 +3485,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-006-16x9.png",
     "file_4x5": "assets/de-ni-006-4x5.png",
-    "file_9x16": "assets/de-ni-006-9x16.png"
+    "file_9x16": "assets/de-ni-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-007",
@@ -2727,7 +3503,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-007-16x9.png",
     "file_4x5": "assets/de-ni-007-4x5.png",
-    "file_9x16": "assets/de-ni-007-9x16.png"
+    "file_9x16": "assets/de-ni-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-008",
@@ -2741,7 +3521,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-008-16x9.png",
     "file_4x5": "assets/de-ni-008-4x5.png",
-    "file_9x16": "assets/de-ni-008-9x16.png"
+    "file_9x16": "assets/de-ni-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-009",
@@ -2755,7 +3539,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-009-16x9.png",
     "file_4x5": "assets/de-ni-009-4x5.png",
-    "file_9x16": "assets/de-ni-009-9x16.png"
+    "file_9x16": "assets/de-ni-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-010",
@@ -2769,7 +3557,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-010-16x9.png",
     "file_4x5": "assets/de-ni-010-4x5.png",
-    "file_9x16": "assets/de-ni-010-9x16.png"
+    "file_9x16": "assets/de-ni-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-011",
@@ -2783,7 +3575,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-011-16x9.png",
     "file_4x5": "assets/de-ni-011-4x5.png",
-    "file_9x16": "assets/de-ni-011-9x16.png"
+    "file_9x16": "assets/de-ni-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-012",
@@ -2797,7 +3593,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-012-16x9.png",
     "file_4x5": "assets/de-ni-012-4x5.png",
-    "file_9x16": "assets/de-ni-012-9x16.png"
+    "file_9x16": "assets/de-ni-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-013",
@@ -2811,7 +3611,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-013-16x9.png",
     "file_4x5": "assets/de-ni-013-4x5.png",
-    "file_9x16": "assets/de-ni-013-9x16.png"
+    "file_9x16": "assets/de-ni-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-014",
@@ -2825,7 +3629,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-014-16x9.png",
     "file_4x5": "assets/de-ni-014-4x5.png",
-    "file_9x16": "assets/de-ni-014-9x16.png"
+    "file_9x16": "assets/de-ni-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-015",
@@ -2839,7 +3647,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-015-16x9.png",
     "file_4x5": "assets/de-ni-015-4x5.png",
-    "file_9x16": "assets/de-ni-015-9x16.png"
+    "file_9x16": "assets/de-ni-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-016",
@@ -2853,7 +3665,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-016-16x9.png",
     "file_4x5": "assets/de-ni-016-4x5.png",
-    "file_9x16": "assets/de-ni-016-9x16.png"
+    "file_9x16": "assets/de-ni-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-017",
@@ -2867,7 +3683,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-017-16x9.png",
     "file_4x5": "assets/de-ni-017-4x5.png",
-    "file_9x16": "assets/de-ni-017-9x16.png"
+    "file_9x16": "assets/de-ni-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-018",
@@ -2881,7 +3701,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-018-16x9.png",
     "file_4x5": "assets/de-ni-018-4x5.png",
-    "file_9x16": "assets/de-ni-018-9x16.png"
+    "file_9x16": "assets/de-ni-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-019",
@@ -2895,7 +3719,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-019-16x9.png",
     "file_4x5": "assets/de-ni-019-4x5.png",
-    "file_9x16": "assets/de-ni-019-9x16.png"
+    "file_9x16": "assets/de-ni-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-020",
@@ -2909,7 +3737,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-020-16x9.png",
     "file_4x5": "assets/de-ni-020-4x5.png",
-    "file_9x16": "assets/de-ni-020-9x16.png"
+    "file_9x16": "assets/de-ni-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-021",
@@ -2923,7 +3755,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-021-16x9.png",
     "file_4x5": "assets/de-ni-021-4x5.png",
-    "file_9x16": "assets/de-ni-021-9x16.png"
+    "file_9x16": "assets/de-ni-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-022",
@@ -2937,7 +3773,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-022-16x9.png",
     "file_4x5": "assets/de-ni-022-4x5.png",
-    "file_9x16": "assets/de-ni-022-9x16.png"
+    "file_9x16": "assets/de-ni-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-023",
@@ -2951,7 +3791,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-023-16x9.png",
     "file_4x5": "assets/de-ni-023-4x5.png",
-    "file_9x16": "assets/de-ni-023-9x16.png"
+    "file_9x16": "assets/de-ni-023-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-024",
@@ -2965,7 +3809,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-024-16x9.png",
     "file_4x5": "assets/de-ni-024-4x5.png",
-    "file_9x16": "assets/de-ni-024-9x16.png"
+    "file_9x16": "assets/de-ni-024-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-025",
@@ -2979,7 +3827,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-025-16x9.png",
     "file_4x5": "assets/de-ni-025-4x5.png",
-    "file_9x16": "assets/de-ni-025-9x16.png"
+    "file_9x16": "assets/de-ni-025-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-026",
@@ -2993,7 +3845,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-026-16x9.png",
     "file_4x5": "assets/de-ni-026-4x5.png",
-    "file_9x16": "assets/de-ni-026-9x16.png"
+    "file_9x16": "assets/de-ni-026-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-027",
@@ -3007,7 +3863,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-027-16x9.png",
     "file_4x5": "assets/de-ni-027-4x5.png",
-    "file_9x16": "assets/de-ni-027-9x16.png"
+    "file_9x16": "assets/de-ni-027-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NI-028",
@@ -3021,7 +3881,11 @@
     "approved": true,
     "file_16x9": "assets/de-ni-028-16x9.png",
     "file_4x5": "assets/de-ni-028-4x5.png",
-    "file_9x16": "assets/de-ni-028-9x16.png"
+    "file_9x16": "assets/de-ni-028-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-001",
@@ -3035,7 +3899,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-001-16x9.png",
     "file_4x5": "assets/de-nw-001-4x5.png",
-    "file_9x16": "assets/de-nw-001-9x16.png"
+    "file_9x16": "assets/de-nw-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-002",
@@ -3049,7 +3917,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-002-16x9.png",
     "file_4x5": "assets/de-nw-002-4x5.png",
-    "file_9x16": "assets/de-nw-002-9x16.png"
+    "file_9x16": "assets/de-nw-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-003",
@@ -3063,7 +3935,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-003-16x9.png",
     "file_4x5": "assets/de-nw-003-4x5.png",
-    "file_9x16": "assets/de-nw-003-9x16.png"
+    "file_9x16": "assets/de-nw-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-004",
@@ -3077,7 +3953,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-004-16x9.png",
     "file_4x5": "assets/de-nw-004-4x5.png",
-    "file_9x16": "assets/de-nw-004-9x16.png"
+    "file_9x16": "assets/de-nw-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-005",
@@ -3091,7 +3971,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-005-16x9.png",
     "file_4x5": "assets/de-nw-005-4x5.png",
-    "file_9x16": "assets/de-nw-005-9x16.png"
+    "file_9x16": "assets/de-nw-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-006",
@@ -3105,7 +3989,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-006-16x9.png",
     "file_4x5": "assets/de-nw-006-4x5.png",
-    "file_9x16": "assets/de-nw-006-9x16.png"
+    "file_9x16": "assets/de-nw-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-007",
@@ -3119,7 +4007,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-007-16x9.png",
     "file_4x5": "assets/de-nw-007-4x5.png",
-    "file_9x16": "assets/de-nw-007-9x16.png"
+    "file_9x16": "assets/de-nw-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-008",
@@ -3133,7 +4025,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-008-16x9.png",
     "file_4x5": "assets/de-nw-008-4x5.png",
-    "file_9x16": "assets/de-nw-008-9x16.png"
+    "file_9x16": "assets/de-nw-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-009",
@@ -3147,7 +4043,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-009-16x9.png",
     "file_4x5": "assets/de-nw-009-4x5.png",
-    "file_9x16": "assets/de-nw-009-9x16.png"
+    "file_9x16": "assets/de-nw-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-010",
@@ -3161,7 +4061,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-010-16x9.png",
     "file_4x5": "assets/de-nw-010-4x5.png",
-    "file_9x16": "assets/de-nw-010-9x16.png"
+    "file_9x16": "assets/de-nw-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-011",
@@ -3175,7 +4079,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-011-16x9.png",
     "file_4x5": "assets/de-nw-011-4x5.png",
-    "file_9x16": "assets/de-nw-011-9x16.png"
+    "file_9x16": "assets/de-nw-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-012",
@@ -3189,7 +4097,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-012-16x9.png",
     "file_4x5": "assets/de-nw-012-4x5.png",
-    "file_9x16": "assets/de-nw-012-9x16.png"
+    "file_9x16": "assets/de-nw-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-013",
@@ -3203,7 +4115,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-013-16x9.png",
     "file_4x5": "assets/de-nw-013-4x5.png",
-    "file_9x16": "assets/de-nw-013-9x16.png"
+    "file_9x16": "assets/de-nw-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-014",
@@ -3217,7 +4133,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-014-16x9.png",
     "file_4x5": "assets/de-nw-014-4x5.png",
-    "file_9x16": "assets/de-nw-014-9x16.png"
+    "file_9x16": "assets/de-nw-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-015",
@@ -3231,7 +4151,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-015-16x9.png",
     "file_4x5": "assets/de-nw-015-4x5.png",
-    "file_9x16": "assets/de-nw-015-9x16.png"
+    "file_9x16": "assets/de-nw-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-016",
@@ -3245,7 +4169,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-016-16x9.png",
     "file_4x5": "assets/de-nw-016-4x5.png",
-    "file_9x16": "assets/de-nw-016-9x16.png"
+    "file_9x16": "assets/de-nw-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-017",
@@ -3259,7 +4187,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-017-16x9.png",
     "file_4x5": "assets/de-nw-017-4x5.png",
-    "file_9x16": "assets/de-nw-017-9x16.png"
+    "file_9x16": "assets/de-nw-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-018",
@@ -3273,7 +4205,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-018-16x9.png",
     "file_4x5": "assets/de-nw-018-4x5.png",
-    "file_9x16": "assets/de-nw-018-9x16.png"
+    "file_9x16": "assets/de-nw-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-019",
@@ -3287,7 +4223,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-019-16x9.png",
     "file_4x5": "assets/de-nw-019-4x5.png",
-    "file_9x16": "assets/de-nw-019-9x16.png"
+    "file_9x16": "assets/de-nw-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-020",
@@ -3301,7 +4241,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-020-16x9.png",
     "file_4x5": "assets/de-nw-020-4x5.png",
-    "file_9x16": "assets/de-nw-020-9x16.png"
+    "file_9x16": "assets/de-nw-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-021",
@@ -3315,7 +4259,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-021-16x9.png",
     "file_4x5": "assets/de-nw-021-4x5.png",
-    "file_9x16": "assets/de-nw-021-9x16.png"
+    "file_9x16": "assets/de-nw-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-022",
@@ -3329,7 +4277,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-022-16x9.png",
     "file_4x5": "assets/de-nw-022-4x5.png",
-    "file_9x16": "assets/de-nw-022-9x16.png"
+    "file_9x16": "assets/de-nw-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-023",
@@ -3343,7 +4295,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-023-16x9.png",
     "file_4x5": "assets/de-nw-023-4x5.png",
-    "file_9x16": "assets/de-nw-023-9x16.png"
+    "file_9x16": "assets/de-nw-023-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-024",
@@ -3357,7 +4313,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-024-16x9.png",
     "file_4x5": "assets/de-nw-024-4x5.png",
-    "file_9x16": "assets/de-nw-024-9x16.png"
+    "file_9x16": "assets/de-nw-024-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-025",
@@ -3371,7 +4331,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-025-16x9.png",
     "file_4x5": "assets/de-nw-025-4x5.png",
-    "file_9x16": "assets/de-nw-025-9x16.png"
+    "file_9x16": "assets/de-nw-025-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-026",
@@ -3385,7 +4349,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-026-16x9.png",
     "file_4x5": "assets/de-nw-026-4x5.png",
-    "file_9x16": "assets/de-nw-026-9x16.png"
+    "file_9x16": "assets/de-nw-026-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-027",
@@ -3399,7 +4367,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-027-16x9.png",
     "file_4x5": "assets/de-nw-027-4x5.png",
-    "file_9x16": "assets/de-nw-027-9x16.png"
+    "file_9x16": "assets/de-nw-027-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-028",
@@ -3413,7 +4385,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-028-16x9.png",
     "file_4x5": "assets/de-nw-028-4x5.png",
-    "file_9x16": "assets/de-nw-028-9x16.png"
+    "file_9x16": "assets/de-nw-028-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-NW-029",
@@ -3427,7 +4403,11 @@
     "approved": true,
     "file_16x9": "assets/de-nw-029-16x9.png",
     "file_4x5": "assets/de-nw-029-4x5.png",
-    "file_9x16": "assets/de-nw-029-9x16.png"
+    "file_9x16": "assets/de-nw-029-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-001",
@@ -3441,7 +4421,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-001-16x9.png",
     "file_4x5": "assets/de-rp-001-4x5.png",
-    "file_9x16": "assets/de-rp-001-9x16.png"
+    "file_9x16": "assets/de-rp-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-002",
@@ -3455,7 +4439,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-002-16x9.png",
     "file_4x5": "assets/de-rp-002-4x5.png",
-    "file_9x16": "assets/de-rp-002-9x16.png"
+    "file_9x16": "assets/de-rp-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-003",
@@ -3469,7 +4457,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-003-16x9.png",
     "file_4x5": "assets/de-rp-003-4x5.png",
-    "file_9x16": "assets/de-rp-003-9x16.png"
+    "file_9x16": "assets/de-rp-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-004",
@@ -3483,7 +4475,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-004-16x9.png",
     "file_4x5": "assets/de-rp-004-4x5.png",
-    "file_9x16": "assets/de-rp-004-9x16.png"
+    "file_9x16": "assets/de-rp-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-005",
@@ -3497,7 +4493,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-005-16x9.png",
     "file_4x5": "assets/de-rp-005-4x5.png",
-    "file_9x16": "assets/de-rp-005-9x16.png"
+    "file_9x16": "assets/de-rp-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-006",
@@ -3511,7 +4511,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-006-16x9.png",
     "file_4x5": "assets/de-rp-006-4x5.png",
-    "file_9x16": "assets/de-rp-006-9x16.png"
+    "file_9x16": "assets/de-rp-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-007",
@@ -3525,7 +4529,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-007-16x9.png",
     "file_4x5": "assets/de-rp-007-4x5.png",
-    "file_9x16": "assets/de-rp-007-9x16.png"
+    "file_9x16": "assets/de-rp-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-008",
@@ -3539,7 +4547,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-008-16x9.png",
     "file_4x5": "assets/de-rp-008-4x5.png",
-    "file_9x16": "assets/de-rp-008-9x16.png"
+    "file_9x16": "assets/de-rp-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-009",
@@ -3553,7 +4565,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-009-16x9.png",
     "file_4x5": "assets/de-rp-009-4x5.png",
-    "file_9x16": "assets/de-rp-009-9x16.png"
+    "file_9x16": "assets/de-rp-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-010",
@@ -3567,7 +4583,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-010-16x9.png",
     "file_4x5": "assets/de-rp-010-4x5.png",
-    "file_9x16": "assets/de-rp-010-9x16.png"
+    "file_9x16": "assets/de-rp-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-011",
@@ -3581,7 +4601,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-011-16x9.png",
     "file_4x5": "assets/de-rp-011-4x5.png",
-    "file_9x16": "assets/de-rp-011-9x16.png"
+    "file_9x16": "assets/de-rp-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-012",
@@ -3595,7 +4619,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-012-16x9.png",
     "file_4x5": "assets/de-rp-012-4x5.png",
-    "file_9x16": "assets/de-rp-012-9x16.png"
+    "file_9x16": "assets/de-rp-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-013",
@@ -3609,7 +4637,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-013-16x9.png",
     "file_4x5": "assets/de-rp-013-4x5.png",
-    "file_9x16": "assets/de-rp-013-9x16.png"
+    "file_9x16": "assets/de-rp-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-014",
@@ -3623,7 +4655,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-014-16x9.png",
     "file_4x5": "assets/de-rp-014-4x5.png",
-    "file_9x16": "assets/de-rp-014-9x16.png"
+    "file_9x16": "assets/de-rp-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-015",
@@ -3637,7 +4673,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-015-16x9.png",
     "file_4x5": "assets/de-rp-015-4x5.png",
-    "file_9x16": "assets/de-rp-015-9x16.png"
+    "file_9x16": "assets/de-rp-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-016",
@@ -3651,7 +4691,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-016-16x9.png",
     "file_4x5": "assets/de-rp-016-4x5.png",
-    "file_9x16": "assets/de-rp-016-9x16.png"
+    "file_9x16": "assets/de-rp-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-017",
@@ -3665,7 +4709,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-017-16x9.png",
     "file_4x5": "assets/de-rp-017-4x5.png",
-    "file_9x16": "assets/de-rp-017-9x16.png"
+    "file_9x16": "assets/de-rp-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-018",
@@ -3679,7 +4727,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-018-16x9.png",
     "file_4x5": "assets/de-rp-018-4x5.png",
-    "file_9x16": "assets/de-rp-018-9x16.png"
+    "file_9x16": "assets/de-rp-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-019",
@@ -3693,7 +4745,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-019-16x9.png",
     "file_4x5": "assets/de-rp-019-4x5.png",
-    "file_9x16": "assets/de-rp-019-9x16.png"
+    "file_9x16": "assets/de-rp-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-020",
@@ -3707,7 +4763,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-020-16x9.png",
     "file_4x5": "assets/de-rp-020-4x5.png",
-    "file_9x16": "assets/de-rp-020-9x16.png"
+    "file_9x16": "assets/de-rp-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-021",
@@ -3721,7 +4781,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-021-16x9.png",
     "file_4x5": "assets/de-rp-021-4x5.png",
-    "file_9x16": "assets/de-rp-021-9x16.png"
+    "file_9x16": "assets/de-rp-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-022",
@@ -3735,7 +4799,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-022-16x9.png",
     "file_4x5": "assets/de-rp-022-4x5.png",
-    "file_9x16": "assets/de-rp-022-9x16.png"
+    "file_9x16": "assets/de-rp-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-023",
@@ -3749,7 +4817,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-023-16x9.png",
     "file_4x5": "assets/de-rp-023-4x5.png",
-    "file_9x16": "assets/de-rp-023-9x16.png"
+    "file_9x16": "assets/de-rp-023-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-024",
@@ -3763,7 +4835,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-024-16x9.png",
     "file_4x5": "assets/de-rp-024-4x5.png",
-    "file_9x16": "assets/de-rp-024-9x16.png"
+    "file_9x16": "assets/de-rp-024-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-025",
@@ -3777,7 +4853,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-025-16x9.png",
     "file_4x5": "assets/de-rp-025-4x5.png",
-    "file_9x16": "assets/de-rp-025-9x16.png"
+    "file_9x16": "assets/de-rp-025-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-026",
@@ -3791,7 +4871,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-026-16x9.png",
     "file_4x5": "assets/de-rp-026-4x5.png",
-    "file_9x16": "assets/de-rp-026-9x16.png"
+    "file_9x16": "assets/de-rp-026-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-027",
@@ -3805,7 +4889,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-027-16x9.png",
     "file_4x5": "assets/de-rp-027-4x5.png",
-    "file_9x16": "assets/de-rp-027-9x16.png"
+    "file_9x16": "assets/de-rp-027-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-RP-028",
@@ -3819,7 +4907,11 @@
     "approved": true,
     "file_16x9": "assets/de-rp-028-16x9.png",
     "file_4x5": "assets/de-rp-028-4x5.png",
-    "file_9x16": "assets/de-rp-028-9x16.png"
+    "file_9x16": "assets/de-rp-028-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-001",
@@ -3833,7 +4925,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-001-16x9.png",
     "file_4x5": "assets/de-sh-001-4x5.png",
-    "file_9x16": "assets/de-sh-001-9x16.png"
+    "file_9x16": "assets/de-sh-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-002",
@@ -3847,7 +4943,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-002-16x9.png",
     "file_4x5": "assets/de-sh-002-4x5.png",
-    "file_9x16": "assets/de-sh-002-9x16.png"
+    "file_9x16": "assets/de-sh-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-003",
@@ -3861,7 +4961,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-003-16x9.png",
     "file_4x5": "assets/de-sh-003-4x5.png",
-    "file_9x16": "assets/de-sh-003-9x16.png"
+    "file_9x16": "assets/de-sh-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-004",
@@ -3875,7 +4979,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-004-16x9.png",
     "file_4x5": "assets/de-sh-004-4x5.png",
-    "file_9x16": "assets/de-sh-004-9x16.png"
+    "file_9x16": "assets/de-sh-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-005",
@@ -3889,7 +4997,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-005-16x9.png",
     "file_4x5": "assets/de-sh-005-4x5.png",
-    "file_9x16": "assets/de-sh-005-9x16.png"
+    "file_9x16": "assets/de-sh-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-006",
@@ -3903,7 +5015,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-006-16x9.png",
     "file_4x5": "assets/de-sh-006-4x5.png",
-    "file_9x16": "assets/de-sh-006-9x16.png"
+    "file_9x16": "assets/de-sh-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-007",
@@ -3917,7 +5033,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-007-16x9.png",
     "file_4x5": "assets/de-sh-007-4x5.png",
-    "file_9x16": "assets/de-sh-007-9x16.png"
+    "file_9x16": "assets/de-sh-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-008",
@@ -3931,7 +5051,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-008-16x9.png",
     "file_4x5": "assets/de-sh-008-4x5.png",
-    "file_9x16": "assets/de-sh-008-9x16.png"
+    "file_9x16": "assets/de-sh-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-009",
@@ -3945,7 +5069,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-009-16x9.png",
     "file_4x5": "assets/de-sh-009-4x5.png",
-    "file_9x16": "assets/de-sh-009-9x16.png"
+    "file_9x16": "assets/de-sh-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-010",
@@ -3959,7 +5087,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-010-16x9.png",
     "file_4x5": "assets/de-sh-010-4x5.png",
-    "file_9x16": "assets/de-sh-010-9x16.png"
+    "file_9x16": "assets/de-sh-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-011",
@@ -3973,7 +5105,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-011-16x9.png",
     "file_4x5": "assets/de-sh-011-4x5.png",
-    "file_9x16": "assets/de-sh-011-9x16.png"
+    "file_9x16": "assets/de-sh-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-012",
@@ -3987,7 +5123,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-012-16x9.png",
     "file_4x5": "assets/de-sh-012-4x5.png",
-    "file_9x16": "assets/de-sh-012-9x16.png"
+    "file_9x16": "assets/de-sh-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-013",
@@ -4001,7 +5141,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-013-16x9.png",
     "file_4x5": "assets/de-sh-013-4x5.png",
-    "file_9x16": "assets/de-sh-013-9x16.png"
+    "file_9x16": "assets/de-sh-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-014",
@@ -4015,7 +5159,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-014-16x9.png",
     "file_4x5": "assets/de-sh-014-4x5.png",
-    "file_9x16": "assets/de-sh-014-9x16.png"
+    "file_9x16": "assets/de-sh-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-015",
@@ -4029,7 +5177,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-015-16x9.png",
     "file_4x5": "assets/de-sh-015-4x5.png",
-    "file_9x16": "assets/de-sh-015-9x16.png"
+    "file_9x16": "assets/de-sh-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-016",
@@ -4043,7 +5195,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-016-16x9.png",
     "file_4x5": "assets/de-sh-016-4x5.png",
-    "file_9x16": "assets/de-sh-016-9x16.png"
+    "file_9x16": "assets/de-sh-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-017",
@@ -4057,7 +5213,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-017-16x9.png",
     "file_4x5": "assets/de-sh-017-4x5.png",
-    "file_9x16": "assets/de-sh-017-9x16.png"
+    "file_9x16": "assets/de-sh-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-018",
@@ -4071,7 +5231,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-018-16x9.png",
     "file_4x5": "assets/de-sh-018-4x5.png",
-    "file_9x16": "assets/de-sh-018-9x16.png"
+    "file_9x16": "assets/de-sh-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-019",
@@ -4085,7 +5249,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-019-16x9.png",
     "file_4x5": "assets/de-sh-019-4x5.png",
-    "file_9x16": "assets/de-sh-019-9x16.png"
+    "file_9x16": "assets/de-sh-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-020",
@@ -4099,7 +5267,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-020-16x9.png",
     "file_4x5": "assets/de-sh-020-4x5.png",
-    "file_9x16": "assets/de-sh-020-9x16.png"
+    "file_9x16": "assets/de-sh-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-021",
@@ -4113,7 +5285,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-021-16x9.png",
     "file_4x5": "assets/de-sh-021-4x5.png",
-    "file_9x16": "assets/de-sh-021-9x16.png"
+    "file_9x16": "assets/de-sh-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-022",
@@ -4127,7 +5303,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-022-16x9.png",
     "file_4x5": "assets/de-sh-022-4x5.png",
-    "file_9x16": "assets/de-sh-022-9x16.png"
+    "file_9x16": "assets/de-sh-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-023",
@@ -4141,7 +5321,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-023-16x9.png",
     "file_4x5": "assets/de-sh-023-4x5.png",
-    "file_9x16": "assets/de-sh-023-9x16.png"
+    "file_9x16": "assets/de-sh-023-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-024",
@@ -4155,7 +5339,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-024-16x9.png",
     "file_4x5": "assets/de-sh-024-4x5.png",
-    "file_9x16": "assets/de-sh-024-9x16.png"
+    "file_9x16": "assets/de-sh-024-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SH-025",
@@ -4169,7 +5357,11 @@
     "approved": true,
     "file_16x9": "assets/de-sh-025-16x9.png",
     "file_4x5": "assets/de-sh-025-4x5.png",
-    "file_9x16": "assets/de-sh-025-9x16.png"
+    "file_9x16": "assets/de-sh-025-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-001",
@@ -4183,7 +5375,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-001-16x9.png",
     "file_4x5": "assets/de-sl-001-4x5.png",
-    "file_9x16": "assets/de-sl-001-9x16.png"
+    "file_9x16": "assets/de-sl-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-002",
@@ -4197,7 +5393,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-002-16x9.png",
     "file_4x5": "assets/de-sl-002-4x5.png",
-    "file_9x16": "assets/de-sl-002-9x16.png"
+    "file_9x16": "assets/de-sl-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-003",
@@ -4211,7 +5411,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-003-16x9.png",
     "file_4x5": "assets/de-sl-003-4x5.png",
-    "file_9x16": "assets/de-sl-003-9x16.png"
+    "file_9x16": "assets/de-sl-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-004",
@@ -4225,7 +5429,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-004-16x9.png",
     "file_4x5": "assets/de-sl-004-4x5.png",
-    "file_9x16": "assets/de-sl-004-9x16.png"
+    "file_9x16": "assets/de-sl-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-005",
@@ -4239,7 +5447,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-005-16x9.png",
     "file_4x5": "assets/de-sl-005-4x5.png",
-    "file_9x16": "assets/de-sl-005-9x16.png"
+    "file_9x16": "assets/de-sl-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-006",
@@ -4253,7 +5465,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-006-16x9.png",
     "file_4x5": "assets/de-sl-006-4x5.png",
-    "file_9x16": "assets/de-sl-006-9x16.png"
+    "file_9x16": "assets/de-sl-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-007",
@@ -4267,7 +5483,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-007-16x9.png",
     "file_4x5": "assets/de-sl-007-4x5.png",
-    "file_9x16": "assets/de-sl-007-9x16.png"
+    "file_9x16": "assets/de-sl-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-008",
@@ -4281,7 +5501,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-008-16x9.png",
     "file_4x5": "assets/de-sl-008-4x5.png",
-    "file_9x16": "assets/de-sl-008-9x16.png"
+    "file_9x16": "assets/de-sl-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-009",
@@ -4295,7 +5519,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-009-16x9.png",
     "file_4x5": "assets/de-sl-009-4x5.png",
-    "file_9x16": "assets/de-sl-009-9x16.png"
+    "file_9x16": "assets/de-sl-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-010",
@@ -4309,7 +5537,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-010-16x9.png",
     "file_4x5": "assets/de-sl-010-4x5.png",
-    "file_9x16": "assets/de-sl-010-9x16.png"
+    "file_9x16": "assets/de-sl-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-011",
@@ -4323,7 +5555,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-011-16x9.png",
     "file_4x5": "assets/de-sl-011-4x5.png",
-    "file_9x16": "assets/de-sl-011-9x16.png"
+    "file_9x16": "assets/de-sl-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SL-012",
@@ -4337,7 +5573,11 @@
     "approved": true,
     "file_16x9": "assets/de-sl-012-16x9.png",
     "file_4x5": "assets/de-sl-012-4x5.png",
-    "file_9x16": "assets/de-sl-012-9x16.png"
+    "file_9x16": "assets/de-sl-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-002",
@@ -4351,7 +5591,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-002-16x9.png",
     "file_4x5": "assets/de-sn-002-4x5.png",
-    "file_9x16": "assets/de-sn-002-9x16.png"
+    "file_9x16": "assets/de-sn-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-003",
@@ -4365,7 +5609,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-003-16x9.png",
     "file_4x5": "assets/de-sn-003-4x5.png",
-    "file_9x16": "assets/de-sn-003-9x16.png"
+    "file_9x16": "assets/de-sn-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-004",
@@ -4379,7 +5627,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-004-16x9.png",
     "file_4x5": "assets/de-sn-004-4x5.png",
-    "file_9x16": "assets/de-sn-004-9x16.png"
+    "file_9x16": "assets/de-sn-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-005",
@@ -4393,7 +5645,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-005-16x9.png",
     "file_4x5": "assets/de-sn-005-4x5.png",
-    "file_9x16": "assets/de-sn-005-9x16.png"
+    "file_9x16": "assets/de-sn-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-006",
@@ -4407,7 +5663,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-006-16x9.png",
     "file_4x5": "assets/de-sn-006-4x5.png",
-    "file_9x16": "assets/de-sn-006-9x16.png"
+    "file_9x16": "assets/de-sn-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-007",
@@ -4421,7 +5681,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-007-16x9.png",
     "file_4x5": "assets/de-sn-007-4x5.png",
-    "file_9x16": "assets/de-sn-007-9x16.png"
+    "file_9x16": "assets/de-sn-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-008",
@@ -4435,7 +5699,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-008-16x9.png",
     "file_4x5": "assets/de-sn-008-4x5.png",
-    "file_9x16": "assets/de-sn-008-9x16.png"
+    "file_9x16": "assets/de-sn-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-009",
@@ -4449,7 +5717,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-009-16x9.png",
     "file_4x5": "assets/de-sn-009-4x5.png",
-    "file_9x16": "assets/de-sn-009-9x16.png"
+    "file_9x16": "assets/de-sn-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-010",
@@ -4463,7 +5735,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-010-16x9.png",
     "file_4x5": "assets/de-sn-010-4x5.png",
-    "file_9x16": "assets/de-sn-010-9x16.png"
+    "file_9x16": "assets/de-sn-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-011",
@@ -4477,7 +5753,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-011-16x9.png",
     "file_4x5": "assets/de-sn-011-4x5.png",
-    "file_9x16": "assets/de-sn-011-9x16.png"
+    "file_9x16": "assets/de-sn-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-012",
@@ -4491,7 +5771,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-012-16x9.png",
     "file_4x5": "assets/de-sn-012-4x5.png",
-    "file_9x16": "assets/de-sn-012-9x16.png"
+    "file_9x16": "assets/de-sn-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-013",
@@ -4505,7 +5789,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-013-16x9.png",
     "file_4x5": "assets/de-sn-013-4x5.png",
-    "file_9x16": "assets/de-sn-013-9x16.png"
+    "file_9x16": "assets/de-sn-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-014",
@@ -4519,7 +5807,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-014-16x9.png",
     "file_4x5": "assets/de-sn-014-4x5.png",
-    "file_9x16": "assets/de-sn-014-9x16.png"
+    "file_9x16": "assets/de-sn-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-015",
@@ -4533,7 +5825,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-015-16x9.png",
     "file_4x5": "assets/de-sn-015-4x5.png",
-    "file_9x16": "assets/de-sn-015-9x16.png"
+    "file_9x16": "assets/de-sn-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-016",
@@ -4547,7 +5843,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-016-16x9.png",
     "file_4x5": "assets/de-sn-016-4x5.png",
-    "file_9x16": "assets/de-sn-016-9x16.png"
+    "file_9x16": "assets/de-sn-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-017",
@@ -4561,7 +5861,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-017-16x9.png",
     "file_4x5": "assets/de-sn-017-4x5.png",
-    "file_9x16": "assets/de-sn-017-9x16.png"
+    "file_9x16": "assets/de-sn-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-018",
@@ -4575,7 +5879,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-018-16x9.png",
     "file_4x5": "assets/de-sn-018-4x5.png",
-    "file_9x16": "assets/de-sn-018-9x16.png"
+    "file_9x16": "assets/de-sn-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-019",
@@ -4589,7 +5897,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-019-16x9.png",
     "file_4x5": "assets/de-sn-019-4x5.png",
-    "file_9x16": "assets/de-sn-019-9x16.png"
+    "file_9x16": "assets/de-sn-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-020",
@@ -4603,7 +5915,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-020-16x9.png",
     "file_4x5": "assets/de-sn-020-4x5.png",
-    "file_9x16": "assets/de-sn-020-9x16.png"
+    "file_9x16": "assets/de-sn-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-021",
@@ -4617,7 +5933,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-021-16x9.png",
     "file_4x5": "assets/de-sn-021-4x5.png",
-    "file_9x16": "assets/de-sn-021-9x16.png"
+    "file_9x16": "assets/de-sn-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-022",
@@ -4631,7 +5951,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-022-16x9.png",
     "file_4x5": "assets/de-sn-022-4x5.png",
-    "file_9x16": "assets/de-sn-022-9x16.png"
+    "file_9x16": "assets/de-sn-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-023",
@@ -4645,7 +5969,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-023-16x9.png",
     "file_4x5": "assets/de-sn-023-4x5.png",
-    "file_9x16": "assets/de-sn-023-9x16.png"
+    "file_9x16": "assets/de-sn-023-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-024",
@@ -4659,7 +5987,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-024-16x9.png",
     "file_4x5": "assets/de-sn-024-4x5.png",
-    "file_9x16": "assets/de-sn-024-9x16.png"
+    "file_9x16": "assets/de-sn-024-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-025",
@@ -4673,7 +6005,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-025-16x9.png",
     "file_4x5": "assets/de-sn-025-4x5.png",
-    "file_9x16": "assets/de-sn-025-9x16.png"
+    "file_9x16": "assets/de-sn-025-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-026",
@@ -4687,7 +6023,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-026-16x9.png",
     "file_4x5": "assets/de-sn-026-4x5.png",
-    "file_9x16": "assets/de-sn-026-9x16.png"
+    "file_9x16": "assets/de-sn-026-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-027",
@@ -4701,7 +6041,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-027-16x9.png",
     "file_4x5": "assets/de-sn-027-4x5.png",
-    "file_9x16": "assets/de-sn-027-9x16.png"
+    "file_9x16": "assets/de-sn-027-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-028",
@@ -4715,7 +6059,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-028-16x9.png",
     "file_4x5": "assets/de-sn-028-4x5.png",
-    "file_9x16": "assets/de-sn-028-9x16.png"
+    "file_9x16": "assets/de-sn-028-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-029",
@@ -4729,7 +6077,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-029-16x9.png",
     "file_4x5": "assets/de-sn-029-4x5.png",
-    "file_9x16": "assets/de-sn-029-9x16.png"
+    "file_9x16": "assets/de-sn-029-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-SN-030",
@@ -4743,7 +6095,11 @@
     "approved": true,
     "file_16x9": "assets/de-sn-030-16x9.png",
     "file_4x5": "assets/de-sn-030-4x5.png",
-    "file_9x16": "assets/de-sn-030-9x16.png"
+    "file_9x16": "assets/de-sn-030-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-001",
@@ -4757,7 +6113,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-001-16x9.png",
     "file_4x5": "assets/de-st-001-4x5.png",
-    "file_9x16": "assets/de-st-001-9x16.png"
+    "file_9x16": "assets/de-st-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-002",
@@ -4771,7 +6131,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-002-16x9.png",
     "file_4x5": "assets/de-st-002-4x5.png",
-    "file_9x16": "assets/de-st-002-9x16.png"
+    "file_9x16": "assets/de-st-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-003",
@@ -4785,7 +6149,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-003-16x9.png",
     "file_4x5": "assets/de-st-003-4x5.png",
-    "file_9x16": "assets/de-st-003-9x16.png"
+    "file_9x16": "assets/de-st-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-004",
@@ -4799,7 +6167,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-004-16x9.png",
     "file_4x5": "assets/de-st-004-4x5.png",
-    "file_9x16": "assets/de-st-004-9x16.png"
+    "file_9x16": "assets/de-st-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-005",
@@ -4813,7 +6185,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-005-16x9.png",
     "file_4x5": "assets/de-st-005-4x5.png",
-    "file_9x16": "assets/de-st-005-9x16.png"
+    "file_9x16": "assets/de-st-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-006",
@@ -4827,7 +6203,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-006-16x9.png",
     "file_4x5": "assets/de-st-006-4x5.png",
-    "file_9x16": "assets/de-st-006-9x16.png"
+    "file_9x16": "assets/de-st-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-007",
@@ -4841,7 +6221,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-007-16x9.png",
     "file_4x5": "assets/de-st-007-4x5.png",
-    "file_9x16": "assets/de-st-007-9x16.png"
+    "file_9x16": "assets/de-st-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-008",
@@ -4855,7 +6239,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-008-16x9.png",
     "file_4x5": "assets/de-st-008-4x5.png",
-    "file_9x16": "assets/de-st-008-9x16.png"
+    "file_9x16": "assets/de-st-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-009",
@@ -4869,7 +6257,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-009-16x9.png",
     "file_4x5": "assets/de-st-009-4x5.png",
-    "file_9x16": "assets/de-st-009-9x16.png"
+    "file_9x16": "assets/de-st-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-010",
@@ -4883,7 +6275,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-010-16x9.png",
     "file_4x5": "assets/de-st-010-4x5.png",
-    "file_9x16": "assets/de-st-010-9x16.png"
+    "file_9x16": "assets/de-st-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-011",
@@ -4897,7 +6293,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-011-16x9.png",
     "file_4x5": "assets/de-st-011-4x5.png",
-    "file_9x16": "assets/de-st-011-9x16.png"
+    "file_9x16": "assets/de-st-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-012",
@@ -4911,7 +6311,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-012-16x9.png",
     "file_4x5": "assets/de-st-012-4x5.png",
-    "file_9x16": "assets/de-st-012-9x16.png"
+    "file_9x16": "assets/de-st-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-013",
@@ -4925,7 +6329,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-013-16x9.png",
     "file_4x5": "assets/de-st-013-4x5.png",
-    "file_9x16": "assets/de-st-013-9x16.png"
+    "file_9x16": "assets/de-st-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-014",
@@ -4939,7 +6347,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-014-16x9.png",
     "file_4x5": "assets/de-st-014-4x5.png",
-    "file_9x16": "assets/de-st-014-9x16.png"
+    "file_9x16": "assets/de-st-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-015",
@@ -4953,7 +6365,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-015-16x9.png",
     "file_4x5": "assets/de-st-015-4x5.png",
-    "file_9x16": "assets/de-st-015-9x16.png"
+    "file_9x16": "assets/de-st-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-016",
@@ -4967,7 +6383,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-016-16x9.png",
     "file_4x5": "assets/de-st-016-4x5.png",
-    "file_9x16": "assets/de-st-016-9x16.png"
+    "file_9x16": "assets/de-st-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-017",
@@ -4981,7 +6401,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-017-16x9.png",
     "file_4x5": "assets/de-st-017-4x5.png",
-    "file_9x16": "assets/de-st-017-9x16.png"
+    "file_9x16": "assets/de-st-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-018",
@@ -4995,7 +6419,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-018-16x9.png",
     "file_4x5": "assets/de-st-018-4x5.png",
-    "file_9x16": "assets/de-st-018-9x16.png"
+    "file_9x16": "assets/de-st-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-019",
@@ -5009,7 +6437,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-019-16x9.png",
     "file_4x5": "assets/de-st-019-4x5.png",
-    "file_9x16": "assets/de-st-019-9x16.png"
+    "file_9x16": "assets/de-st-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-020",
@@ -5023,7 +6455,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-020-16x9.png",
     "file_4x5": "assets/de-st-020-4x5.png",
-    "file_9x16": "assets/de-st-020-9x16.png"
+    "file_9x16": "assets/de-st-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-021",
@@ -5037,7 +6473,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-021-16x9.png",
     "file_4x5": "assets/de-st-021-4x5.png",
-    "file_9x16": "assets/de-st-021-9x16.png"
+    "file_9x16": "assets/de-st-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-ST-022",
@@ -5051,7 +6491,11 @@
     "approved": true,
     "file_16x9": "assets/de-st-022-16x9.png",
     "file_4x5": "assets/de-st-022-4x5.png",
-    "file_9x16": "assets/de-st-022-9x16.png"
+    "file_9x16": "assets/de-st-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-001",
@@ -5065,7 +6509,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-001-16x9.png",
     "file_4x5": "assets/de-th-001-4x5.png",
-    "file_9x16": "assets/de-th-001-9x16.png"
+    "file_9x16": "assets/de-th-001-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-002",
@@ -5079,7 +6527,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-002-16x9.png",
     "file_4x5": "assets/de-th-002-4x5.png",
-    "file_9x16": "assets/de-th-002-9x16.png"
+    "file_9x16": "assets/de-th-002-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-003",
@@ -5093,7 +6545,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-003-16x9.png",
     "file_4x5": "assets/de-th-003-4x5.png",
-    "file_9x16": "assets/de-th-003-9x16.png"
+    "file_9x16": "assets/de-th-003-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-004",
@@ -5107,7 +6563,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-004-16x9.png",
     "file_4x5": "assets/de-th-004-4x5.png",
-    "file_9x16": "assets/de-th-004-9x16.png"
+    "file_9x16": "assets/de-th-004-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-005",
@@ -5121,7 +6581,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-005-16x9.png",
     "file_4x5": "assets/de-th-005-4x5.png",
-    "file_9x16": "assets/de-th-005-9x16.png"
+    "file_9x16": "assets/de-th-005-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-006",
@@ -5135,7 +6599,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-006-16x9.png",
     "file_4x5": "assets/de-th-006-4x5.png",
-    "file_9x16": "assets/de-th-006-9x16.png"
+    "file_9x16": "assets/de-th-006-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-007",
@@ -5149,7 +6617,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-007-16x9.png",
     "file_4x5": "assets/de-th-007-4x5.png",
-    "file_9x16": "assets/de-th-007-9x16.png"
+    "file_9x16": "assets/de-th-007-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-008",
@@ -5163,7 +6635,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-008-16x9.png",
     "file_4x5": "assets/de-th-008-4x5.png",
-    "file_9x16": "assets/de-th-008-9x16.png"
+    "file_9x16": "assets/de-th-008-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-009",
@@ -5177,7 +6653,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-009-16x9.png",
     "file_4x5": "assets/de-th-009-4x5.png",
-    "file_9x16": "assets/de-th-009-9x16.png"
+    "file_9x16": "assets/de-th-009-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-010",
@@ -5191,7 +6671,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-010-16x9.png",
     "file_4x5": "assets/de-th-010-4x5.png",
-    "file_9x16": "assets/de-th-010-9x16.png"
+    "file_9x16": "assets/de-th-010-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-011",
@@ -5205,7 +6689,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-011-16x9.png",
     "file_4x5": "assets/de-th-011-4x5.png",
-    "file_9x16": "assets/de-th-011-9x16.png"
+    "file_9x16": "assets/de-th-011-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-012",
@@ -5219,7 +6707,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-012-16x9.png",
     "file_4x5": "assets/de-th-012-4x5.png",
-    "file_9x16": "assets/de-th-012-9x16.png"
+    "file_9x16": "assets/de-th-012-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-013",
@@ -5233,7 +6725,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-013-16x9.png",
     "file_4x5": "assets/de-th-013-4x5.png",
-    "file_9x16": "assets/de-th-013-9x16.png"
+    "file_9x16": "assets/de-th-013-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-014",
@@ -5247,7 +6743,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-014-16x9.png",
     "file_4x5": "assets/de-th-014-4x5.png",
-    "file_9x16": "assets/de-th-014-9x16.png"
+    "file_9x16": "assets/de-th-014-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-015",
@@ -5261,7 +6761,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-015-16x9.png",
     "file_4x5": "assets/de-th-015-4x5.png",
-    "file_9x16": "assets/de-th-015-9x16.png"
+    "file_9x16": "assets/de-th-015-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-016",
@@ -5275,7 +6779,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-016-16x9.png",
     "file_4x5": "assets/de-th-016-4x5.png",
-    "file_9x16": "assets/de-th-016-9x16.png"
+    "file_9x16": "assets/de-th-016-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-017",
@@ -5289,7 +6797,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-017-16x9.png",
     "file_4x5": "assets/de-th-017-4x5.png",
-    "file_9x16": "assets/de-th-017-9x16.png"
+    "file_9x16": "assets/de-th-017-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-018",
@@ -5303,7 +6815,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-018-16x9.png",
     "file_4x5": "assets/de-th-018-4x5.png",
-    "file_9x16": "assets/de-th-018-9x16.png"
+    "file_9x16": "assets/de-th-018-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-019",
@@ -5317,7 +6833,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-019-16x9.png",
     "file_4x5": "assets/de-th-019-4x5.png",
-    "file_9x16": "assets/de-th-019-9x16.png"
+    "file_9x16": "assets/de-th-019-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-020",
@@ -5331,7 +6851,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-020-16x9.png",
     "file_4x5": "assets/de-th-020-4x5.png",
-    "file_9x16": "assets/de-th-020-9x16.png"
+    "file_9x16": "assets/de-th-020-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-021",
@@ -5345,7 +6869,11 @@
     "approved": true,
     "file_16x9": "assets/de-th-021-16x9.png",
     "file_4x5": "assets/de-th-021-4x5.png",
-    "file_9x16": "assets/de-th-021-9x16.png"
+    "file_9x16": "assets/de-th-021-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   },
   {
     "entry_id": "DE-TH-022",
@@ -5359,6 +6887,10 @@
     "approved": true,
     "file_16x9": "assets/de-th-022-16x9.png",
     "file_4x5": "assets/de-th-022-4x5.png",
-    "file_9x16": "assets/de-th-022-9x16.png"
+    "file_9x16": "assets/de-th-022-9x16.png",
+    "file_genuine_daylight_16x9": null,
+    "file_genuine_daylight_4x5": null,
+    "file_genuine_daylight_9x16": null,
+    "file_motion_8s_4x5": null
   }
 ]
