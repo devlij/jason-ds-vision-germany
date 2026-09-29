@@ -534,9 +534,9 @@
     "file_16x9": "assets/de-be-012-16x9.png",
     "file_4x5": "assets/de-be-012-4x5.png",
     "file_9x16": "assets/de-be-012-9x16.png",
-    "file_genuine_daylight_16x9": null,
-    "file_genuine_daylight_4x5": null,
-    "file_genuine_daylight_9x16": null,
+    "file_genuine_daylight_16x9": "assets/de-be-012-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-be-012-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-be-012-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null
   },
   {
@@ -552,9 +552,9 @@
     "file_16x9": "assets/de-be-013-16x9.png",
     "file_4x5": "assets/de-be-013-4x5.png",
     "file_9x16": "assets/de-be-013-9x16.png",
-    "file_genuine_daylight_16x9": null,
-    "file_genuine_daylight_4x5": null,
-    "file_genuine_daylight_9x16": null,
+    "file_genuine_daylight_16x9": "assets/de-be-013-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-be-013-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-be-013-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null
   },
   {
@@ -570,9 +570,9 @@
     "file_16x9": "assets/de-be-014-16x9.png",
     "file_4x5": "assets/de-be-014-4x5.png",
     "file_9x16": "assets/de-be-014-9x16.png",
-    "file_genuine_daylight_16x9": null,
-    "file_genuine_daylight_4x5": null,
-    "file_genuine_daylight_9x16": null,
+    "file_genuine_daylight_16x9": "assets/de-be-014-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-be-014-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-be-014-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null
   },
   {
@@ -588,9 +588,9 @@
     "file_16x9": "assets/de-be-015-16x9.png",
     "file_4x5": "assets/de-be-015-4x5.png",
     "file_9x16": "assets/de-be-015-9x16.png",
-    "file_genuine_daylight_16x9": null,
-    "file_genuine_daylight_4x5": null,
-    "file_genuine_daylight_9x16": null,
+    "file_genuine_daylight_16x9": "assets/de-be-015-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-be-015-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-be-015-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null
   },
   {
@@ -606,9 +606,9 @@
     "file_16x9": "assets/de-be-016-16x9.png",
     "file_4x5": "assets/de-be-016-4x5.png",
     "file_9x16": "assets/de-be-016-9x16.png",
-    "file_genuine_daylight_16x9": null,
-    "file_genuine_daylight_4x5": null,
-    "file_genuine_daylight_9x16": null,
+    "file_genuine_daylight_16x9": "assets/de-be-016-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-be-016-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-be-016-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null
   },
   {
@@ -624,9 +624,9 @@
     "file_16x9": "assets/de-be-017-16x9.png",
     "file_4x5": "assets/de-be-017-4x5.png",
     "file_9x16": "assets/de-be-017-9x16.png",
-    "file_genuine_daylight_16x9": null,
-    "file_genuine_daylight_4x5": null,
-    "file_genuine_daylight_9x16": null,
+    "file_genuine_daylight_16x9": "assets/de-be-017-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-be-017-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-be-017-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null
   },
   {
@@ -642,10 +642,10 @@
     "file_16x9": "assets/de-be-018-16x9.png",
     "file_4x5": "assets/de-be-018-4x5.png",
     "file_9x16": "assets/de-be-018-9x16.png",
-    "file_genuine_daylight_16x9": null,
-    "file_genuine_daylight_4x5": null,
-    "file_genuine_daylight_9x16": null,
-    "file_motion_8s_4x5": null
+    "file_genuine_daylight_16x9": "assets/de-be-018-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-be-018-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-be-018-genuine-daylight-9x16.png",
+    "file_motion_8s_4x5": "assets/de-be-018-motion-8s-4x5.mp4"
   },
   {
     "entry_id": "DE-BE-019",
