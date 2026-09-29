@@ -462,9 +462,9 @@
     "file_16x9": "assets/de-be-008-16x9.png",
     "file_4x5": "assets/de-be-008-4x5.png",
     "file_9x16": "assets/de-be-008-9x16.png",
-    "file_genuine_daylight_16x9": null,
-    "file_genuine_daylight_4x5": null,
-    "file_genuine_daylight_9x16": null,
+    "file_genuine_daylight_16x9": "assets/de-be-008-genuine-daylight-16x9.png",
+    "file_genuine_daylight_4x5": "assets/de-be-008-genuine-daylight-4x5.png",
+    "file_genuine_daylight_9x16": "assets/de-be-008-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null
   },
   {
