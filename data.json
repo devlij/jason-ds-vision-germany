@@ -376,7 +376,7 @@
     "file_genuine_daylight_4x5": "assets/de-be-001-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-be-001-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-be-001-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -396,7 +396,7 @@
     "file_genuine_daylight_4x5": "assets/de-be-002-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-be-002-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-be-002-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
