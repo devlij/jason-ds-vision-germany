@@ -2773,6 +2773,9 @@
         const v = card.querySelector('video.motion-clip');
         if (v) v.remove();
         if (img) img.style.display = '';
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (link) { link.classList.toggle('tall', dfmt === '4:5'); link.classList.toggle('tall916', dfmt === '9:16'); }
         if (mtab) { mtab.classList.remove('is-active'); mtab.innerHTML = '\u25B6 360\u00B0'; }
       }
       tabs.forEach(tab => tab.addEventListener('click', e => {
@@ -2815,9 +2818,11 @@
         const vid = document.createElement('video');
         vid.className = 'motion-clip';
         vid.src = mtab.getAttribute('data-motion');
-        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = true;
+        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = false;
+        vid.disablePictureInPicture = true;
         vid.style.width = '100%'; vid.style.display = 'block';
         if (img) img.style.display = 'none';
+        if (link) { link.classList.add('tall'); link.classList.remove('tall916'); }
         link.appendChild(vid);
         mtab.classList.add('is-active');
         mtab.innerHTML = '\u2715 Close';

@@ -2425,7 +2425,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-001-motion-8s-4x5.mp4" title="Play the 8-second 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-001-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BW-001</div>
@@ -2454,7 +2454,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-002-motion-8s-4x5.mp4" title="Play the 8-second 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-002-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BW-002</div>
@@ -3034,7 +3034,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-022-motion-8s-4x5.mp4" title="Play the 8-second 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-022-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BW-022</div>
@@ -3063,7 +3063,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-023-motion-8s-4x5.mp4" title="Play the 8-second 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-023-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BW-023</div>
@@ -3179,7 +3179,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-027-motion-8s-4x5.mp4" title="Play the 8-second 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-027-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BW-027</div>
@@ -3382,6 +3382,9 @@
         const v = card.querySelector('video.motion-clip');
         if (v) v.remove();
         if (img) img.style.display = '';
+        const ftab = card.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (link) { link.classList.toggle('tall', dfmt === '4:5'); link.classList.toggle('tall916', dfmt === '9:16'); }
         if (mtab) { mtab.classList.remove('is-active'); mtab.innerHTML = '\u25B6 360\u00B0'; }
       }
       tabs.forEach(tab => tab.addEventListener('click', e => {
@@ -3424,9 +3427,11 @@
         const vid = document.createElement('video');
         vid.className = 'motion-clip';
         vid.src = mtab.getAttribute('data-motion');
-        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = true;
+        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = false;
+        vid.disablePictureInPicture = true;
         vid.style.width = '100%'; vid.style.display = 'block';
         if (img) img.style.display = 'none';
+        if (link) { link.classList.add('tall'); link.classList.remove('tall916'); }
         link.appendChild(vid);
         mtab.classList.add('is-active');
         mtab.innerHTML = '\u2715 Close';
