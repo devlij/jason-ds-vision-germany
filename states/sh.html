@@ -82,6 +82,17 @@
   #result-count { color: #a79c86; font-size: 13px; }
   #no-results { display: none; color: #a79c86; margin: 24px 0; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; margin-top: 16px; }
+  #christmas { margin: 8px 0 4px; padding: 20px 22px; background: linear-gradient(180deg, #14231a, #1e1811);
+               border: 1px solid #2f4a35; border-radius: 12px; }
+  #christmas h2 { margin: 0 0 6px; font-size: 24px; }
+  #christmas .xmas-sub { margin: 0 0 14px; color: #b9c8b2; font-size: 14px; }
+  .xmas-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+  .xmas-card { display: block; border-radius: 10px; overflow: hidden; border: 1px solid #3d523f;
+               text-decoration: none; background: #101a12; transition: transform .15s ease; }
+  .xmas-card:hover { transform: translateY(-2px); }
+  .xmas-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+  .xmas-card .xmas-cap { display: block; padding: 8px 10px; color: #f2ede3; font-size: 13px; font-weight: 600; }
+  .xmas-card .xmas-cap small { display: block; font-weight: 400; color: #9db198; font-size: 11px; margin-top: 2px; }
   .card { background: #1e1811; border: 1px solid #3d3324; border-radius: 10px; overflow: hidden; }
   .card .preview { position: relative; }
   .card a.thumb { display: block; aspect-ratio: 16/9; overflow: hidden; background: #000; }
