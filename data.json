@@ -4763,7 +4763,7 @@
     "file_genuine_daylight_4x5": "assets/de-nw-008-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-nw-008-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-nw-008-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -4805,7 +4805,7 @@
     "file_genuine_daylight_4x5": "assets/de-nw-010-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-nw-010-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-nw-010-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -4826,7 +4826,7 @@
     "file_genuine_daylight_4x5": "assets/de-nw-011-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-nw-011-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-nw-011-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -4847,7 +4847,7 @@
     "file_genuine_daylight_4x5": "assets/de-nw-012-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-nw-012-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-nw-012-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -5792,7 +5792,7 @@
     "file_genuine_daylight_4x5": "assets/de-rp-028-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-rp-028-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-rp-028-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -5813,7 +5813,7 @@
     "file_genuine_daylight_4x5": "assets/de-sh-001-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-sh-001-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sh-001-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -5876,7 +5876,7 @@
     "file_genuine_daylight_4x5": "assets/de-sh-004-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-sh-004-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sh-004-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -5897,7 +5897,7 @@
     "file_genuine_daylight_4x5": "assets/de-sh-005-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-sh-005-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sh-005-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -7073,7 +7073,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sn-025-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -7094,7 +7094,7 @@
     "file_genuine_daylight_4x5": "assets/de-sn-026-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-sn-026-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sn-026-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -7115,7 +7115,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sn-027-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -7136,7 +7136,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sn-028-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -7220,7 +7220,7 @@
     "file_genuine_daylight_4x5": "assets/de-st-002-genuine-daylight-4x5.png",
     "file_genuine_daylight_9x16": "assets/de-st-002-genuine-daylight-9x16.png",
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-st-002-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
