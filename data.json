@@ -2442,7 +2442,7 @@
     "city": "Aschaffenburg",
     "site": "Christmas market",
     "caption": "Christmas market, Aschaffenburg",
-    "scenario": "13 December 2026 · 18:30 Europe/Berlin",
+    "scenario": "Christmas Markets collection",
     "composition": "Schlossplatz market stalls before floodlit Johannisburg Palace · AI-generated artistic interpretation",
     "approved": true,
     "category": "christmas",
@@ -2463,7 +2463,7 @@
     "city": "Rothenburg ob der Tauber",
     "site": "Christmas market",
     "caption": "Christmas market, Rothenburg ob der Tauber",
-    "scenario": "13 December 2026 · 19:00 Europe/Berlin",
+    "scenario": "Christmas Markets collection",
     "composition": "Reiterlesmarkt stalls on the medieval market square beneath the town hall tower · AI-generated artistic interpretation",
     "approved": true,
     "category": "christmas",
@@ -2484,7 +2484,7 @@
     "city": "Nuremberg",
     "site": "Christkindlesmarkt",
     "caption": "Christkindlesmarkt, Nuremberg",
-    "scenario": "13 December 2026 · 19:30 Europe/Berlin",
+    "scenario": "Christmas Markets collection",
     "composition": "Striped market stalls on Hauptmarkt before the floodlit Frauenkirche · AI-generated artistic interpretation",
     "approved": true,
     "category": "christmas",
@@ -3188,7 +3188,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-hh-002-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -3209,7 +3209,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-hh-003-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
