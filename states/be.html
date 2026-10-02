@@ -91,17 +91,17 @@
   #christmas[hidden] { display: none; }
   #christmas h2 { margin: 0 0 6px; font-size: 24px; }
   #christmas .xmas-sub { margin: 0 0 14px; color: #b9c8b2; font-size: 14px; }
-  .xmas-medallion-wrap { display: flex; justify-content: center; padding: 18px 0 8px; }
-  .xmas-medallion { display: flex; flex-direction: column; align-items: center; gap: 6px;
-                    background: none; border: none; cursor: pointer; padding: 0; }
-  .xmas-medallion .medal { width: 76px; height: 76px; border-radius: 50%;
+  .xmas-medallion-wrap { display: flex; justify-content: center; padding: 10px 0 6px; }
+  .xmas-medallion { display: inline-flex; align-items: center; gap: 8px;
+                    background: none; border: 1px solid #3a4a3f; border-radius: 999px;
+                    cursor: pointer; padding: 5px 14px 5px 6px; }
+  .xmas-medallion .medal { width: 26px; height: 26px; border-radius: 50%;
                     background: radial-gradient(circle at 35% 30%, #2f5d3a, #14231a 70%);
-                    border: 2px solid #c9a227; box-shadow: 0 0 18px rgba(201,162,39,.35);
-                    display: flex; align-items: center; justify-content: center; font-size: 34px;
-                    transition: transform .15s ease, box-shadow .15s ease; }
-  .xmas-medallion:hover .medal, .xmas-medallion:focus-visible .medal { transform: scale(1.06);
-                    box-shadow: 0 0 26px rgba(201,162,39,.55); }
-  .xmas-medallion .medal-label { font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+                    border: 1px solid #c9a227;
+                    display: inline-flex; align-items: center; justify-content: center; font-size: 14px;
+                    transition: transform .15s ease; }
+  .xmas-medallion:hover .medal, .xmas-medallion:focus-visible .medal { transform: scale(1.1); }
+  .xmas-medallion .medal-label { font-size: 12px; letter-spacing: .08em;
                     color: #c9a227; font-weight: 600; }
   .xmas-medallion[aria-expanded="true"] .medal-label::after { content: " — tap to hide"; text-transform: none;
                     letter-spacing: 0; font-weight: 400; color: #b9c8b2; }
