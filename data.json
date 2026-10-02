@@ -4469,7 +4469,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-ni-022-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -6212,7 +6212,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sh-020-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -6611,7 +6611,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sn-003-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
@@ -6632,7 +6632,7 @@
     "file_genuine_daylight_4x5": null,
     "file_genuine_daylight_9x16": null,
     "file_motion_8s_4x5": null,
-    "file_motion_10s_4x5": null,
+    "file_motion_10s_4x5": "assets/de-sn-004-motion-10s-4x5.mp4",
     "file_motion_15s_4x5": null
   },
   {
