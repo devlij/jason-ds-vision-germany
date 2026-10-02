@@ -6938,6 +6938,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="motion-tab" data-motion="assets/de-hh-006-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-HH-006</div>
@@ -6966,6 +6967,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="motion-tab" data-motion="assets/de-hh-007-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-HH-007</div>
@@ -7022,6 +7024,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="motion-tab" data-motion="assets/de-hh-009-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-HH-009</div>
@@ -7050,6 +7053,7 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="motion-tab" data-motion="assets/de-hh-010-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-HH-010</div>
@@ -13630,6 +13634,24 @@
         mtab.setAttribute('title', 'Close the 360° motion clip');
       });
     });
+
+/* Christmas medallion: the holiday collection stays hidden until the medallion is tapped. */
+(function(){
+  var toggle = document.querySelector('[data-xmas-toggle]');
+  var section = document.getElementById('christmas');
+  if (!toggle || !section) return;
+  function setOpen(open){
+    section.hidden = !open;
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) section.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+  toggle.addEventListener('click', function(){ setOpen(section.hidden); });
+  var closer = section.querySelector('[data-xmas-close]');
+  if (closer) closer.addEventListener('click', function(){
+    setOpen(false);
+    toggle.scrollIntoView({behavior: 'smooth', block: 'center'});
+  });
+})();
 
 (function(){
   var overlay = document.createElement('div');
