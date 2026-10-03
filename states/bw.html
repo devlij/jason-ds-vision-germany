@@ -126,10 +126,11 @@
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .day-row { display: flex; gap: 8px; padding: 8px 14px 0; flex-wrap: wrap; }
-  .day-tab, .gday-tab, .motion-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+  .day-tab, .gday-tab, .motion-tab, .pc-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
-  .day-tab:hover, .gday-tab:hover, .motion-tab:hover { border-color: #FFCE00; }
+  .day-tab:hover, .gday-tab:hover, .motion-tab:hover, .pc-tab:hover { border-color: #FFCE00; }
   .day-tab.is-active, .gday-tab.is-active, .motion-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .pc-tab.is-active { background: #1f6b4a; border-color: #1f6b4a; color: #f4fff8; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -2449,8 +2450,8 @@
   <div class="grid">
 <article class="card" id="DE-BW-001" data-search="heidelberg old bridge and castle baden-württemberg de-bw-001 the stone arches of the old bridge cross the neckar in the foreground, its parapet lamps and the castle&#x27;s floodlit walls doubled in the dark water below. heidelberg castle stands on the wooded hill behind, its terraces and round towers glowing warm against the night. a thin crescent moon hangs in the upper right, and the old town&#x27;s gabled houses are lit along the right bank in the 03:00 night scenario." data-state="Baden-Württemberg">
           <div class="preview">
-            <a class="thumb" href="../assets/de-bw-001-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bw-001-16x9.png" data-src-16="../assets/de-bw-001-16x9.png" data-src-45="../assets/de-bw-001-4x5.png" data-src-916="../assets/de-bw-001-9x16.png" data-src-16-gday="../assets/de-bw-001-genuine-daylight-16x9.png" data-src-45-gday="../assets/de-bw-001-genuine-daylight-4x5.png" data-src-916-gday="../assets/de-bw-001-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Old Bridge and castle in Heidelberg" loading="lazy" />
+            <a class="thumb" href="../assets/de-bw-001-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="../assets/de-bw-001-postcard-16x9.png" data-src-16="../assets/de-bw-001-16x9.png" data-src-45="../assets/de-bw-001-4x5.png" data-src-916="../assets/de-bw-001-9x16.png" data-src-16-gday="../assets/de-bw-001-genuine-daylight-16x9.png" data-src-45-gday="../assets/de-bw-001-genuine-daylight-4x5.png" data-src-916-gday="../assets/de-bw-001-genuine-daylight-9x16.png" data-src-16-pc="../assets/de-bw-001-postcard-16x9.png" data-src-45-pc="../assets/de-bw-001-postcard-4x5.png" data-src-916-pc="../assets/de-bw-001-postcard-9x16.png" alt="AI-generated artistic interpretation of Old Bridge and castle in Heidelberg" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2458,28 +2459,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-001-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-001-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BW-001</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old Bridge and castle, Heidelberg</h3>
-            <p class="scenario" data-scenario="22 September 2026 · 03:00 CEST">Scenario: 22 September 2026 · 03:00 CEST</p>
+            <p class="scenario" data-scenario="22 September 2026 · 03:00 CEST">Postcard collection</p>
             <p class="composition">Neckar riverfront ensemble · AI-generated artistic interpretation</p>
             <p class="description">The stone arches of the Old Bridge cross the Neckar in the foreground, its parapet lamps and the castle&#x27;s floodlit walls doubled in the dark water below. Heidelberg Castle stands on the wooded hill behind, its terraces and round towers glowing warm against the night. A thin crescent moon hangs in the upper right, and the old town&#x27;s gabled houses are lit along the right bank in the 03:00 night scenario.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="../assets/de-bw-001-16x9.png" data-dl-gday="../assets/de-bw-001-genuine-daylight-16x9.png" href="../assets/de-bw-001-16x9.png" download="de-bw-001-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="../assets/de-bw-001-4x5.png" data-dl-gday="../assets/de-bw-001-genuine-daylight-4x5.png" href="../assets/de-bw-001-4x5.png" download="de-bw-001-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="../assets/de-bw-001-9x16.png" data-dl-day="../assets/de-bw-001-daylight-9x16.png" data-dl-gday="../assets/de-bw-001-genuine-daylight-9x16.png" href="../assets/de-bw-001-9x16.png" download="de-bw-001-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="../assets/de-bw-001-postcard-16x9.png" data-dl-night="../assets/de-bw-001-16x9.png" data-dl-gday="../assets/de-bw-001-genuine-daylight-16x9.png" href="../assets/de-bw-001-postcard-16x9.png" download="de-bw-001-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="../assets/de-bw-001-postcard-4x5.png" data-dl-night="../assets/de-bw-001-4x5.png" data-dl-gday="../assets/de-bw-001-genuine-daylight-4x5.png" href="../assets/de-bw-001-postcard-4x5.png" download="de-bw-001-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="../assets/de-bw-001-postcard-9x16.png" data-dl-night="../assets/de-bw-001-9x16.png" data-dl-day="../assets/de-bw-001-daylight-9x16.png" data-dl-gday="../assets/de-bw-001-genuine-daylight-9x16.png" href="../assets/de-bw-001-postcard-9x16.png" download="de-bw-001-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-BW-002" data-search="heidelberg philosophenweg baden-württemberg de-bw-002 the viewpoint is the philosophenweg itself, with pines and a metal railing at the left edge, looking down and across the whole old town. the illuminated castle glows on its hill at center-right, the lit old bridge arcs over the dark neckar, and rooftops, church towers and streetlights fill the valley. the 04:15 night scenario reads as a full city-lights panorama under a deep blue pre-dawn sky." data-state="Baden-Württemberg">
           <div class="preview">
-            <a class="thumb" href="../assets/de-bw-002-16x9.png" target="_blank" rel="noopener">
-              <img src="../assets/de-bw-002-16x9.png" data-src-16="../assets/de-bw-002-16x9.png" data-src-45="../assets/de-bw-002-4x5.png" data-src-916="../assets/de-bw-002-9x16.png" data-src-16-gday="../assets/de-bw-002-genuine-daylight-16x9.png" data-src-45-gday="../assets/de-bw-002-genuine-daylight-4x5.png" data-src-916-gday="../assets/de-bw-002-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Philosophenweg in Heidelberg" loading="lazy" />
+            <a class="thumb" href="../assets/de-bw-002-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="../assets/de-bw-002-postcard-16x9.png" data-src-16="../assets/de-bw-002-16x9.png" data-src-45="../assets/de-bw-002-4x5.png" data-src-916="../assets/de-bw-002-9x16.png" data-src-16-gday="../assets/de-bw-002-genuine-daylight-16x9.png" data-src-45-gday="../assets/de-bw-002-genuine-daylight-4x5.png" data-src-916-gday="../assets/de-bw-002-genuine-daylight-9x16.png" data-src-16-pc="../assets/de-bw-002-postcard-16x9.png" data-src-45-pc="../assets/de-bw-002-postcard-4x5.png" data-src-916-pc="../assets/de-bw-002-postcard-9x16.png" alt="AI-generated artistic interpretation of Philosophenweg in Heidelberg" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -2487,20 +2488,20 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-002-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="motion-tab" data-motion="../assets/de-bw-002-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-BW-002</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Philosophenweg, Heidelberg</h3>
-            <p class="scenario" data-scenario="22 September 2026 · 04:15 Europe/Berlin">Scenario: 22 September 2026 · 04:15 Europe/Berlin</p>
+            <p class="scenario" data-scenario="22 September 2026 · 04:15 Europe/Berlin">Postcard collection</p>
             <p class="composition">Elevated old-town panorama · AI-generated artistic interpretation</p>
             <p class="description">The viewpoint is the Philosophenweg itself, with pines and a metal railing at the left edge, looking down and across the whole old town. The illuminated castle glows on its hill at center-right, the lit Old Bridge arcs over the dark Neckar, and rooftops, church towers and streetlights fill the valley. The 04:15 night scenario reads as a full city-lights panorama under a deep blue pre-dawn sky.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="../assets/de-bw-002-16x9.png" data-dl-gday="../assets/de-bw-002-genuine-daylight-16x9.png" href="../assets/de-bw-002-16x9.png" download="de-bw-002-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="../assets/de-bw-002-4x5.png" data-dl-gday="../assets/de-bw-002-genuine-daylight-4x5.png" href="../assets/de-bw-002-4x5.png" download="de-bw-002-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="../assets/de-bw-002-9x16.png" data-dl-day="../assets/de-bw-002-daylight-9x16.png" data-dl-gday="../assets/de-bw-002-genuine-daylight-9x16.png" href="../assets/de-bw-002-9x16.png" download="de-bw-002-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="../assets/de-bw-002-postcard-16x9.png" data-dl-night="../assets/de-bw-002-16x9.png" data-dl-gday="../assets/de-bw-002-genuine-daylight-16x9.png" href="../assets/de-bw-002-postcard-16x9.png" download="de-bw-002-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="../assets/de-bw-002-postcard-4x5.png" data-dl-night="../assets/de-bw-002-4x5.png" data-dl-gday="../assets/de-bw-002-genuine-daylight-4x5.png" href="../assets/de-bw-002-postcard-4x5.png" download="de-bw-002-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="../assets/de-bw-002-postcard-9x16.png" data-dl-night="../assets/de-bw-002-9x16.png" data-dl-day="../assets/de-bw-002-daylight-9x16.png" data-dl-gday="../assets/de-bw-002-genuine-daylight-9x16.png" href="../assets/de-bw-002-postcard-9x16.png" download="de-bw-002-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
@@ -3385,8 +3386,11 @@
       const img = link && link.querySelector('img');
       const dtab = card.querySelector('.day-tab');
       const gtab = card.querySelector('.gday-tab');
+      const ptab = card.querySelector('.pc-tab');
       const mtab = card.querySelector('.motion-tab');
       function srcKey(fmt, mode) {
+        if (mode === 'pc')
+          return fmt === '9x16' ? 'data-src-916-pc' : fmt === '4x5' ? 'data-src-45-pc' : 'data-src-16-pc';
         if (mode === 'gday')
           return fmt === '9x16' ? 'data-src-916-gday' : fmt === '4x5' ? 'data-src-45-gday' : 'data-src-16-gday';
         if (mode === 'day')
@@ -3394,6 +3398,7 @@
         return fmt === '9x16' ? 'data-src-916' : fmt === '4x5' ? 'data-src-45' : 'data-src-16';
       }
       function dayMode() {
+        if (ptab && ptab.classList.contains('is-active')) return 'pc';
         if (gtab && gtab.classList.contains('is-active')) return 'gday';
         if (dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day') return 'day';
         return 'night';
@@ -3406,13 +3411,14 @@
           const dnext = img.getAttribute(srcKey(dfmt, mode));
           if (dnext) { img.src = dnext; link.href = dnext; }
         }
-        const dkey = mode === 'gday' ? 'data-dl-gday' : mode === 'day' ? 'data-dl-day' : 'data-dl-night';
+        const dkey = mode === 'pc' ? 'data-dl-pc' : mode === 'gday' ? 'data-dl-gday' : mode === 'day' ? 'data-dl-day' : 'data-dl-night';
         card.querySelectorAll('a.download').forEach(a => {
           const target = a.getAttribute(dkey) || a.getAttribute('data-dl-night');
           if (target) { a.setAttribute('href', target); a.setAttribute('download', target.split('/').pop()); }
         });
         const sc = card.querySelector('p.scenario');
-        if (sc) sc.textContent = mode === 'gday' ? '\u2600 Genuine daylight capture'
+        if (sc) sc.textContent = mode === 'pc' ? 'Postcard collection'
+          : mode === 'gday' ? '\u2600 Genuine daylight capture'
           : mode === 'day' ? '\u2600 Daylight variant \u00b7 derived from the night interpretation'
           : 'Scenario: ' + sc.getAttribute('data-scenario');
       }
@@ -3445,6 +3451,7 @@
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
         if (isDay && gtab) { gtab.classList.remove('is-active'); gtab.setAttribute('aria-pressed', 'false'); }
+        if (isDay && ptab) { ptab.classList.remove('is-active'); ptab.setAttribute('aria-pressed', 'false'); ptab.setAttribute('data-postcard', 'off'); }
         applyMode();
       });
       /* Genuine daylight toggle (Round 2): rendered only where genuine-daylight masters exist. */
@@ -3455,6 +3462,18 @@
         gtab.classList.toggle('is-active', isDay);
         gtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         if (isDay && dtab) { dtab.classList.remove('is-active'); dtab.setAttribute('aria-pressed', 'false'); dtab.setAttribute('data-daynight', 'night'); }
+        if (isDay && ptab) { ptab.classList.remove('is-active'); ptab.setAttribute('aria-pressed', 'false'); ptab.setAttribute('data-postcard', 'off'); }
+        applyMode();
+      });
+      if (ptab) ptab.addEventListener('click', e => {
+        e.preventDefault();
+        stopMotion();
+        const on = !ptab.classList.contains('is-active');
+        ptab.classList.toggle('is-active', on);
+        ptab.setAttribute('aria-pressed', on ? 'true' : 'false');
+        ptab.setAttribute('data-postcard', on ? 'on' : 'off');
+        if (on && gtab) { gtab.classList.remove('is-active'); gtab.setAttribute('aria-pressed', 'false'); }
+        if (on && dtab) { dtab.classList.remove('is-active'); dtab.setAttribute('aria-pressed', 'false'); dtab.setAttribute('data-daynight', 'night'); }
         applyMode();
       });
       /* 360° motion clip (4:5 only): rendered only where the mp4 exists. */
@@ -3521,14 +3540,28 @@
     var f = t ? t.getAttribute('data-format') : null;
     return f === '9x16' ? '9x16' : (f === '4x5' ? '4x5' : '16x9');
   }
+  function cardMode(card){
+    var p = card.querySelector('.pc-tab');
+    if (p && p.classList.contains('is-active')) return 'pc';
+    var g = card.querySelector('.gday-tab');
+    if (g && g.classList.contains('is-active')) return 'gday';
+    var d = card.querySelector('.day-tab');
+    if (d && d.classList.contains('is-active') && d.getAttribute('data-daynight') === 'day') return 'day';
+    return 'night';
+  }
   function cardSrc(card, fmt){
     var a = card.querySelector('a.thumb');
     if (!a) return '';
     var im = a.querySelector('img');
-    if (fmt === '9x16' && im) { var s916 = im.getAttribute('data-src-916'); if (s916) return s916; }
-    if (fmt === '4x5' && im) { var s45 = im.getAttribute('data-src-45'); if (s45) return s45; }
-    if (im) { var s16 = im.getAttribute('data-src-16'); if (s16) return s16; }
-    return a.href;
+    var mode = cardMode(card);
+    function pick(base){
+      if (mode && mode !== 'night' && im) { var m = im.getAttribute(base + '-' + mode); if (m) return m; }
+      if (im) { var b = im.getAttribute(base); if (b) return b; }
+      return a.href;
+    }
+    if (fmt === '9x16') return pick('data-src-916');
+    if (fmt === '4x5') return pick('data-src-45');
+    return pick('data-src-16');
   }
   function visibleCards(){
     return Array.prototype.filter.call(document.querySelectorAll('.card'),
