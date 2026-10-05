@@ -126,10 +126,11 @@
              border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; line-height: 1.2; }
   .fmt-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
   .day-row { display: flex; gap: 8px; padding: 8px 14px 0; flex-wrap: wrap; }
-  .day-tab, .gday-tab, .motion-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
+  .day-tab, .gday-tab, .motion-tab, .pc-tab { background: rgba(20,17,9,.82); color: #f2ede3; border: 1px solid #4a3f2c;
              border-radius: 8px; padding: 6px 10px; font-size: 12px; cursor: pointer; }
-  .day-tab:hover, .gday-tab:hover, .motion-tab:hover { border-color: #FFCE00; }
+  .day-tab:hover, .gday-tab:hover, .motion-tab:hover, .pc-tab:hover { border-color: #FFCE00; }
   .day-tab.is-active, .gday-tab.is-active, .motion-tab.is-active { background: #FFCE00; border-color: #FFCE00; color: #141109; font-weight: 700; }
+  .pc-tab.is-active { background: #1f6b4a; border-color: #1f6b4a; color: #f4fff8; font-weight: 700; }
   .card-body { padding: 12px 14px 14px; }
   .status-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .entry-id { font-size: 12px; color: #a79c86; letter-spacing: .06em; }
@@ -13068,8 +13069,8 @@
         </article>
 <article class="card" id="DE-TH-001" data-search="eisenach wartburg thuringia de-th-001 from a forest path on the hill at night, the camera frames the wartburg fortress — the tall stone keep rises center-right, the long romanesque palas stretches left with lit windows, and a half-timbered wing sits at right, all above dark forest slopes with distant town lights glimmering to the left. the 01:00 overcast night holds the castle in soft moonless gloom. notable: the castle&#x27;s hilltop silhouette over the thuringian forest reads unmistakably as the wartburg, with the keep-and-palas configuration of the medieval fortress." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Wartburg in Eisenach" loading="lazy" />
+            <a class="thumb" href="assets/de-th-001-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-001-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-001-postcard-16x9.png" data-src-45-pc="assets/de-th-001-postcard-4x5.png" data-src-916-pc="assets/de-th-001-postcard-9x16.png" alt="AI-generated artistic interpretation of Wartburg in Eisenach" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13077,28 +13078,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-001</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Wartburg, Eisenach</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Castle on wooded hill · AI-generated artistic interpretation</p>
             <p class="description">From a forest path on the hill at night, the camera frames the Wartburg fortress — the tall stone keep rises center-right, the long Romanesque palas stretches left with lit windows, and a half-timbered wing sits at right, all above dark forest slopes with distant town lights glimmering to the left. The 01:00 overcast night holds the castle in soft moonless gloom. Notable: the castle&#x27;s hilltop silhouette over the Thuringian forest reads unmistakably as the Wartburg, with the keep-and-palas configuration of the medieval fortress.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-16x9.png" download="de-th-001-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-4x5.png" download="de-th-001-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-9x16.png" download="de-th-001-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-001-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-16x9.png" href="assets/de-th-001-postcard-16x9.png" download="de-th-001-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-001-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-4x5.png" href="assets/de-th-001-postcard-4x5.png" download="de-th-001-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-001-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-001-genuine-daylight-9x16.png" href="assets/de-th-001-postcard-9x16.png" download="de-th-001-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-002" data-search="erfurt krämerbrücke thuringia de-th-002 from the dark riverbank below, the camera looks along the krämerbrücke at night — warm-lit half-timbered houses line both sides of the bridge street across the frame, stone arches below them, and window reflections trembling on the river in the foreground. the 01:00 overcast scenario shows glowing windows against a dark sky, with no invented illumination. notable: the inhabited bridge reads as a street of houses first and a bridge second — the defining krämerbrücke characteristic." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Krämerbrücke in Erfurt" loading="lazy" />
+            <a class="thumb" href="assets/de-th-002-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-002-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-002-postcard-16x9.png" data-src-45-pc="assets/de-th-002-postcard-4x5.png" data-src-916-pc="assets/de-th-002-postcard-9x16.png" alt="AI-generated artistic interpretation of Krämerbrücke in Erfurt" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13106,28 +13107,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-002</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Krämerbrücke, Erfurt</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Inhabited bridge from riverbank · AI-generated artistic interpretation</p>
             <p class="description">From the dark riverbank below, the camera looks along the Krämerbrücke at night — warm-lit half-timbered houses line both sides of the bridge street across the frame, stone arches below them, and window reflections trembling on the river in the foreground. The 01:00 overcast scenario shows glowing windows against a dark sky, with no invented illumination. Notable: the inhabited bridge reads as a street of houses first and a bridge second — the defining Krämerbrücke characteristic.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-16x9.png" download="de-th-002-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-4x5.png" download="de-th-002-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-9x16.png" download="de-th-002-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-002-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-16x9.png" href="assets/de-th-002-postcard-16x9.png" download="de-th-002-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-002-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-4x5.png" href="assets/de-th-002-postcard-4x5.png" download="de-th-002-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-002-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-002-genuine-daylight-9x16.png" href="assets/de-th-002-postcard-9x16.png" download="de-th-002-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-003" data-search="erfurt cathedral square thuringia de-th-003 standing on domplatz at night, the camera faces the twin gothic churches on the hill — erfurt cathedral&#x27;s tall spires and green copper roofs on the left, the three-spired st. severus church on the right, with the broad staircase rising between them under dark overcast clouds. the 01:00 scenario leaves the stone facades softly visible against the night sky, lit only plausibly. notable: the famous twin-church ensemble stands side by side above the square, one of germany&#x27;s finest gothic pairings." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Cathedral Square in Erfurt" loading="lazy" />
+            <a class="thumb" href="assets/de-th-003-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-003-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-003-postcard-16x9.png" data-src-45-pc="assets/de-th-003-postcard-4x5.png" data-src-916-pc="assets/de-th-003-postcard-9x16.png" alt="AI-generated artistic interpretation of Cathedral Square in Erfurt" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13135,28 +13136,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-003</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Cathedral Square, Erfurt</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Cathedral and St. Severus · AI-generated artistic interpretation</p>
             <p class="description">Standing on Domplatz at night, the camera faces the twin Gothic churches on the hill — Erfurt Cathedral&#x27;s tall spires and green copper roofs on the left, the three-spired St. Severus Church on the right, with the broad staircase rising between them under dark overcast clouds. The 01:00 scenario leaves the stone facades softly visible against the night sky, lit only plausibly. Notable: the famous twin-church ensemble stands side by side above the square, one of Germany&#x27;s finest Gothic pairings.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-16x9.png" download="de-th-003-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-4x5.png" download="de-th-003-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-9x16.png" download="de-th-003-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-003-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-16x9.png" href="assets/de-th-003-postcard-16x9.png" download="de-th-003-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-003-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-4x5.png" href="assets/de-th-003-postcard-4x5.png" download="de-th-003-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-003-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-003-genuine-daylight-9x16.png" href="assets/de-th-003-postcard-9x16.png" download="de-th-003-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-004" data-search="erfurt petersberg thuringia de-th-004 from the grass-topped stone ramparts of the petersberg fortress at night, the camera looks out over erfurt&#x27;s old town under a heavy overcast sky — wet bastion walls and parapets fill the left foreground, the glowing city with its twin church spires stretches through the center distance, and rooftops press along the right. the 01:00 night scene is lit only by the city lights below and a low sky glow; the citadel itself stays dark, illumination honestly artistic. notable: the angled bastion walls frame the classic citadel outlook over the cathedral quarter." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Petersberg in Erfurt" loading="lazy" />
+            <a class="thumb" href="assets/de-th-004-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-004-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-004-postcard-16x9.png" data-src-45-pc="assets/de-th-004-postcard-4x5.png" data-src-916-pc="assets/de-th-004-postcard-9x16.png" alt="AI-generated artistic interpretation of Petersberg in Erfurt" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13164,28 +13165,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-004</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Petersberg, Erfurt</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Citadel and city outlook · AI-generated artistic interpretation</p>
             <p class="description">From the grass-topped stone ramparts of the Petersberg fortress at night, the camera looks out over Erfurt&#x27;s old town under a heavy overcast sky — wet bastion walls and parapets fill the left foreground, the glowing city with its twin church spires stretches through the center distance, and rooftops press along the right. The 01:00 night scene is lit only by the city lights below and a low sky glow; the citadel itself stays dark, illumination honestly artistic. Notable: the angled bastion walls frame the classic citadel outlook over the cathedral quarter.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-16x9.png" download="de-th-004-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-4x5.png" download="de-th-004-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-9x16.png" download="de-th-004-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-004-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-16x9.png" href="assets/de-th-004-postcard-16x9.png" download="de-th-004-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-004-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-4x5.png" href="assets/de-th-004-postcard-4x5.png" download="de-th-004-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-004-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-004-genuine-daylight-9x16.png" href="assets/de-th-004-postcard-9x16.png" download="de-th-004-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-005" data-search="weimar market square thuringia de-th-005 a tourist standing in the empty markt at 1 a.m. faces the neo-gothic town hall, its stone facade and tall bell tower centered with the clock glowing under thin moonlight. left of frame stand the painted coats of arms of cranach house beside the lit sign of the hofapotheke, while the neptune fountain fills the right foreground, its figure dark against the cloudy sky. covered market stalls and lit shop windows speckle the square with warmth, and the wet cobbles mirror the natural nighttime scene." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Market square in Weimar" loading="lazy" />
+            <a class="thumb" href="assets/de-th-005-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-005-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-005-postcard-16x9.png" data-src-45-pc="assets/de-th-005-postcard-4x5.png" data-src-916-pc="assets/de-th-005-postcard-9x16.png" alt="AI-generated artistic interpretation of Market square in Weimar" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13193,28 +13194,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-005</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Market square, Weimar</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Town Hall and historic houses · AI-generated artistic interpretation</p>
             <p class="description">A tourist standing in the empty Markt at 1 a.m. faces the neo-Gothic Town Hall, its stone facade and tall bell tower centered with the clock glowing under thin moonlight. Left of frame stand the painted coats of arms of Cranach House beside the lit sign of the Hofapotheke, while the Neptune fountain fills the right foreground, its figure dark against the cloudy sky. Covered market stalls and lit shop windows speckle the square with warmth, and the wet cobbles mirror the natural nighttime scene.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-16x9.png" download="de-th-005-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-4x5.png" download="de-th-005-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-9x16.png" download="de-th-005-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-005-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-16x9.png" href="assets/de-th-005-postcard-16x9.png" download="de-th-005-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-005-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-4x5.png" href="assets/de-th-005-postcard-4x5.png" download="de-th-005-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-005-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-005-genuine-daylight-9x16.png" href="assets/de-th-005-postcard-9x16.png" download="de-th-005-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-006" data-search="weimar goethe and schiller monument thuringia de-th-006 a tourist on the empty theaterplatz at 1 a.m. faces the bronze double statue of goethe and schiller centered on its tall stone pedestal, the two figures standing side by side with one offering the laurel wreath. behind them rises the columned classical portico of the german national theatre, a few warmly lit doors the only sign of life, with side buildings framing the square left and right. a partly cloudy night sky and thin moonlight play across the cobbles, and the monument stands unlit by any floodlights in the quiet square." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Goethe and Schiller monument in Weimar" loading="lazy" />
+            <a class="thumb" href="assets/de-th-006-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-006-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-006-postcard-16x9.png" data-src-45-pc="assets/de-th-006-postcard-4x5.png" data-src-916-pc="assets/de-th-006-postcard-9x16.png" alt="AI-generated artistic interpretation of Goethe and Schiller monument in Weimar" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13222,28 +13223,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-006</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Goethe and Schiller monument, Weimar</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Theaterplatz ensemble · AI-generated artistic interpretation</p>
             <p class="description">A tourist on the empty Theaterplatz at 1 a.m. faces the bronze double statue of Goethe and Schiller centered on its tall stone pedestal, the two figures standing side by side with one offering the laurel wreath. Behind them rises the columned classical portico of the German National Theatre, a few warmly lit doors the only sign of life, with side buildings framing the square left and right. A partly cloudy night sky and thin moonlight play across the cobbles, and the monument stands unlit by any floodlights in the quiet square.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-16x9.png" download="de-th-006-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-4x5.png" download="de-th-006-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-9x16.png" download="de-th-006-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-006-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-16x9.png" href="assets/de-th-006-postcard-16x9.png" download="de-th-006-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-006-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-4x5.png" href="assets/de-th-006-postcard-4x5.png" download="de-th-006-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-006-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-006-genuine-daylight-9x16.png" href="assets/de-th-006-postcard-9x16.png" download="de-th-006-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-007" data-search="weimar park an der ilm thuringia de-th-007 a tourist on the riverbank at 1 a.m. looks along the ilm as it winds left through dark meadows, a wooden footbridge crossing the water in the middle distance. right of frame, goethe’s garden house — a modest white two-story house — stands among tall trees and hedged beds on the far bank, while mature parkland fills the left. a partly cloudy night sky and moonlight breaking through the clouds light the water’s surface, and the whole park lies empty and still in natural nighttime shadow." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Park an der Ilm in Weimar" loading="lazy" />
+            <a class="thumb" href="assets/de-th-007-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-007-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-007-postcard-16x9.png" data-src-45-pc="assets/de-th-007-postcard-4x5.png" data-src-916-pc="assets/de-th-007-postcard-9x16.png" alt="AI-generated artistic interpretation of Park an der Ilm in Weimar" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13251,28 +13252,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-007</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Park an der Ilm, Weimar</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">River landscape and Goethe garden house · AI-generated artistic interpretation</p>
             <p class="description">A tourist on the riverbank at 1 a.m. looks along the Ilm as it winds left through dark meadows, a wooden footbridge crossing the water in the middle distance. Right of frame, Goethe’s Garden House — a modest white two-story house — stands among tall trees and hedged beds on the far bank, while mature parkland fills the left. A partly cloudy night sky and moonlight breaking through the clouds light the water’s surface, and the whole park lies empty and still in natural nighttime shadow.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-16x9.png" download="de-th-007-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-4x5.png" download="de-th-007-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-9x16.png" download="de-th-007-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-007-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-16x9.png" href="assets/de-th-007-postcard-16x9.png" download="de-th-007-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-007-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-4x5.png" href="assets/de-th-007-postcard-4x5.png" download="de-th-007-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-007-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-007-genuine-daylight-9x16.png" href="assets/de-th-007-postcard-9x16.png" download="de-th-007-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-008" data-search="weimar belvedere palace thuringia de-th-008 a tourist crossing the formal gardens at 1 a.m. sees the yellow baroque corps de logis of belvedere centered between its two domed pavilions, the central tower rising against a partly cloudy night sky. a lit fountain plays in the parterre hedges in the foreground while the glass-fronted orangery wing stretches off to the right, unlit in the dark. a few warm windows glow in the palace while drifting clouds soften the moonlight, leaving the gardens in natural nighttime shadow." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Belvedere Palace in Weimar" loading="lazy" />
+            <a class="thumb" href="assets/de-th-008-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-008-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-008-postcard-16x9.png" data-src-45-pc="assets/de-th-008-postcard-4x5.png" data-src-916-pc="assets/de-th-008-postcard-9x16.png" alt="AI-generated artistic interpretation of Belvedere Palace in Weimar" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13280,28 +13281,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-008</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Belvedere Palace, Weimar</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Palace and gardens · AI-generated artistic interpretation</p>
             <p class="description">A tourist crossing the formal gardens at 1 a.m. sees the yellow Baroque corps de logis of Belvedere centered between its two domed pavilions, the central tower rising against a partly cloudy night sky. A lit fountain plays in the parterre hedges in the foreground while the glass-fronted orangery wing stretches off to the right, unlit in the dark. A few warm windows glow in the palace while drifting clouds soften the moonlight, leaving the gardens in natural nighttime shadow.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-16x9.png" download="de-th-008-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-4x5.png" download="de-th-008-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-9x16.png" download="de-th-008-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-008-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-16x9.png" href="assets/de-th-008-postcard-16x9.png" download="de-th-008-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-008-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-4x5.png" href="assets/de-th-008-postcard-4x5.png" download="de-th-008-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-008-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-008-genuine-daylight-9x16.png" href="assets/de-th-008-postcard-9x16.png" download="de-th-008-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-009" data-search="gotha friedenstein palace thuringia de-th-009 a tourist standing on the formal cobbled approach at 1 a.m. faces the full monumental width of friedenstein palace, its unadorned early-baroque wings stretching left and right with only symmetrical rows of windows breaking the facades. a few lit windows glow faintly in the center block while the town of gotha spreads below in scattered lamplight, dissolving into the dark. the overcast night sky and empty wet cobbles hold the palace in its famously austere, unlit stillness." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Friedenstein Palace in Gotha" loading="lazy" />
+            <a class="thumb" href="assets/de-th-009-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-009-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-009-postcard-16x9.png" data-src-45-pc="assets/de-th-009-postcard-4x5.png" data-src-916-pc="assets/de-th-009-postcard-9x16.png" alt="AI-generated artistic interpretation of Friedenstein Palace in Gotha" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13309,28 +13310,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-009</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Friedenstein Palace, Gotha</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Palace and formal approach · AI-generated artistic interpretation</p>
             <p class="description">A tourist standing on the formal cobbled approach at 1 a.m. faces the full monumental width of Friedenstein Palace, its unadorned early-Baroque wings stretching left and right with only symmetrical rows of windows breaking the facades. A few lit windows glow faintly in the center block while the town of Gotha spreads below in scattered lamplight, dissolving into the dark. The overcast night sky and empty wet cobbles hold the palace in its famously austere, unlit stillness.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-16x9.png" download="de-th-009-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-4x5.png" download="de-th-009-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-9x16.png" download="de-th-009-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-009-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-16x9.png" href="assets/de-th-009-postcard-16x9.png" download="de-th-009-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-009-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-4x5.png" href="assets/de-th-009-postcard-4x5.png" download="de-th-009-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-009-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-009-genuine-daylight-9x16.png" href="assets/de-th-009-postcard-9x16.png" download="de-th-009-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-010" data-search="altenburg residential palace thuringia de-th-010 a tourist standing by the road below the schlossberg at 1 a.m. sees the residential palace&#x27;s long baroque wings and cupola-crowned towers rising left and center against an overcast night sky, a few lit windows the only warm notes. the dark gothic choir of the castle church cuts a sharp silhouette beside them, while right of frame the half-timbered roofs and church spires of altenburg&#x27;s old town drop away into scattered lamplight. the overcast clouds hold the whole scene in a deep blue-grey stillness, with no floodlighting to break the natural nighttime mood." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Residential Palace in Altenburg" loading="lazy" />
+            <a class="thumb" href="assets/de-th-010-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-010-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-010-postcard-16x9.png" data-src-45-pc="assets/de-th-010-postcard-4x5.png" data-src-916-pc="assets/de-th-010-postcard-9x16.png" alt="AI-generated artistic interpretation of Residential Palace in Altenburg" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13338,28 +13339,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-010</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Residential Palace, Altenburg</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Castle and town skyline · AI-generated artistic interpretation</p>
             <p class="description">A tourist standing by the road below the Schlossberg at 1 a.m. sees the Residential Palace&#x27;s long Baroque wings and cupola-crowned towers rising left and center against an overcast night sky, a few lit windows the only warm notes. The dark Gothic choir of the castle church cuts a sharp silhouette beside them, while right of frame the half-timbered roofs and church spires of Altenburg&#x27;s old town drop away into scattered lamplight. The overcast clouds hold the whole scene in a deep blue-grey stillness, with no floodlighting to break the natural nighttime mood.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-16x9.png" download="de-th-010-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-4x5.png" download="de-th-010-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-9x16.png" download="de-th-010-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-010-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-16x9.png" href="assets/de-th-010-postcard-16x9.png" download="de-th-010-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-010-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-4x5.png" href="assets/de-th-010-postcard-4x5.png" download="de-th-010-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-010-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-010-genuine-daylight-9x16.png" href="assets/de-th-010-postcard-9x16.png" download="de-th-010-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-011" data-search="jena saale valley thuringia de-th-011 from a limestone-slope viewpoint above the city, jena&#x27;s lights spread warmly through the saale valley below while dark rocky cliffs frame the scene on both sides. the tall jentower rises among the glowing rooftops in the center, a winding river glints to one side, and a field of stars fills the mostly clear night sky overhead. the muschelkalk slopes fade into darkness at the edges, making the illuminated valley feel like a bowl of light under the open sky." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Saale valley in Jena" loading="lazy" />
+            <a class="thumb" href="assets/de-th-011-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-011-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-011-postcard-16x9.png" data-src-45-pc="assets/de-th-011-postcard-4x5.png" data-src-916-pc="assets/de-th-011-postcard-9x16.png" alt="AI-generated artistic interpretation of Saale valley in Jena" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13367,28 +13368,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-011</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Saale valley, Jena</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">City and limestone slopes · AI-generated artistic interpretation</p>
             <p class="description">From a limestone-slope viewpoint above the city, Jena&#x27;s lights spread warmly through the Saale valley below while dark rocky cliffs frame the scene on both sides. The tall JenTower rises among the glowing rooftops in the center, a winding river glints to one side, and a field of stars fills the mostly clear night sky overhead. The Muschelkalk slopes fade into darkness at the edges, making the illuminated valley feel like a bowl of light under the open sky.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-16x9.png" download="de-th-011-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-4x5.png" download="de-th-011-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-9x16.png" download="de-th-011-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-011-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-16x9.png" href="assets/de-th-011-postcard-16x9.png" download="de-th-011-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-011-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-4x5.png" href="assets/de-th-011-postcard-4x5.png" download="de-th-011-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-011-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-011-genuine-daylight-9x16.png" href="assets/de-th-011-postcard-9x16.png" download="de-th-011-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-012" data-search="bad frankenhausen kyffhäuser monument thuringia de-th-012 the kyffhäuser monument looms dark and unlit on its summit under a heavy overcast night sky, the 57-metre stone tower crowned by the imperial-crown lantern silhouetted against the clouds. the equestrian statue of kaiser wilhelm i stands in its niche above the tower shaft, the arcaded terrace base spreading wide, and mist drifting through the forested ridge and valley behind. the composition holds the monument on one side with the layered night landscape falling away beside it — monumental, silent, and honestly dark at 01:00." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Kyffhäuser Monument in Bad Frankenhausen" loading="lazy" />
+            <a class="thumb" href="assets/de-th-012-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-012-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-012-postcard-16x9.png" data-src-45-pc="assets/de-th-012-postcard-4x5.png" data-src-916-pc="assets/de-th-012-postcard-9x16.png" alt="AI-generated artistic interpretation of Kyffhäuser Monument in Bad Frankenhausen" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13396,28 +13397,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-012</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Kyffhäuser Monument, Bad Frankenhausen</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Monument and outlook · AI-generated artistic interpretation</p>
             <p class="description">The Kyffhäuser Monument looms dark and unlit on its summit under a heavy overcast night sky, the 57-metre stone tower crowned by the imperial-crown lantern silhouetted against the clouds. The equestrian statue of Kaiser Wilhelm I stands in its niche above the tower shaft, the arcaded terrace base spreading wide, and mist drifting through the forested ridge and valley behind. The composition holds the monument on one side with the layered night landscape falling away beside it — monumental, silent, and honestly dark at 01:00.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-16x9.png" download="de-th-012-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-4x5.png" download="de-th-012-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-9x16.png" download="de-th-012-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-012-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-16x9.png" href="assets/de-th-012-postcard-16x9.png" download="de-th-012-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-012-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-4x5.png" href="assets/de-th-012-postcard-4x5.png" download="de-th-012-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-012-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-012-genuine-daylight-9x16.png" href="assets/de-th-012-postcard-9x16.png" download="de-th-012-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-013" data-search="bad langensalza hainich treetop walk thuringia de-th-013 standing on the hainich treetop walk itself, the wooden boardwalk with its cable railings curves ahead through the dark beech canopy toward the tall observation tower rising above the treetops. beech crowns press in on both sides of the frame, leaves catching faint ambient light under the overcast night sky, while the unlit walkway stretches on, quiet and empty. the path pulls the eye upward along the tower — the only vertical accent in a horizontal world of treetops." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Hainich treetop walk in Bad Langensalza" loading="lazy" />
+            <a class="thumb" href="assets/de-th-013-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-013-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-013-postcard-16x9.png" data-src-45-pc="assets/de-th-013-postcard-4x5.png" data-src-916-pc="assets/de-th-013-postcard-9x16.png" alt="AI-generated artistic interpretation of Hainich treetop walk in Bad Langensalza" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13425,28 +13426,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-013</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Hainich treetop walk, Bad Langensalza</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Forest canopy · AI-generated artistic interpretation</p>
             <p class="description">Standing on the Hainich treetop walk itself, the wooden boardwalk with its cable railings curves ahead through the dark beech canopy toward the tall observation tower rising above the treetops. Beech crowns press in on both sides of the frame, leaves catching faint ambient light under the overcast night sky, while the unlit walkway stretches on, quiet and empty. The path pulls the eye upward along the tower — the only vertical accent in a horizontal world of treetops.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-16x9.png" download="de-th-013-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-4x5.png" download="de-th-013-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-9x16.png" download="de-th-013-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-013-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-16x9.png" href="assets/de-th-013-postcard-16x9.png" download="de-th-013-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-013-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-4x5.png" href="assets/de-th-013-postcard-4x5.png" download="de-th-013-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-013-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-013-genuine-daylight-9x16.png" href="assets/de-th-013-postcard-9x16.png" download="de-th-013-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-014" data-search="bad langensalza japanese garden thuringia de-th-014 in bad langensalza&#x27;s japanese garden of bliss after hours, a stone bridge arches over the dark pond in the foreground while the tea house with its traditional tiled roof sits among maples and bamboo behind. moss-covered rocks and clipped shrubs ring the water&#x27;s edge, fallen leaves drifting on its surface, the whole garden resting in deep overcast night stillness. only faint ambient light shapes the scene — the garden is quiet, closed for the night, exactly as a 01:00 visit would find it." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Japanese Garden in Bad Langensalza" loading="lazy" />
+            <a class="thumb" href="assets/de-th-014-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-014-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-014-postcard-16x9.png" data-src-45-pc="assets/de-th-014-postcard-4x5.png" data-src-916-pc="assets/de-th-014-postcard-9x16.png" alt="AI-generated artistic interpretation of Japanese Garden in Bad Langensalza" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13454,28 +13455,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-014</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Japanese Garden, Bad Langensalza</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Garden compositions · AI-generated artistic interpretation</p>
             <p class="description">In Bad Langensalza&#x27;s Japanese Garden of Bliss after hours, a stone bridge arches over the dark pond in the foreground while the tea house with its traditional tiled roof sits among maples and bamboo behind. Moss-covered rocks and clipped shrubs ring the water&#x27;s edge, fallen leaves drifting on its surface, the whole garden resting in deep overcast night stillness. Only faint ambient light shapes the scene — the garden is quiet, closed for the night, exactly as a 01:00 visit would find it.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-16x9.png" download="de-th-014-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-4x5.png" download="de-th-014-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-9x16.png" download="de-th-014-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-014-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-16x9.png" href="assets/de-th-014-postcard-16x9.png" download="de-th-014-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-014-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-4x5.png" href="assets/de-th-014-postcard-4x5.png" download="de-th-014-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-014-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-014-genuine-daylight-9x16.png" href="assets/de-th-014-postcard-9x16.png" download="de-th-014-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-015" data-search="saalfeld fairy grottoes thuringia de-th-015 inside the saalfeld fairy grottoes, the märchendom chamber glows with theatrical light: tall columns of stalactites and stalagmites in ochre, red, green and blue rise on every side, mirrored perfectly in the still pool of water below. a tour walkway with railings runs along the left edge, and the deposits reflected in the water suggest miniature castles and spires. the controlled show-cave lighting is the real illumination of the site — this is what the grottoes genuinely look like, color for color." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Fairy Grottoes in Saalfeld" loading="lazy" />
+            <a class="thumb" href="assets/de-th-015-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-015-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-015-postcard-16x9.png" data-src-45-pc="assets/de-th-015-postcard-4x5.png" data-src-916-pc="assets/de-th-015-postcard-9x16.png" alt="AI-generated artistic interpretation of Fairy Grottoes in Saalfeld" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13483,28 +13484,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-015</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Fairy Grottoes, Saalfeld</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Cave formations; controlled interior · AI-generated artistic interpretation</p>
             <p class="description">Inside the Saalfeld Fairy Grottoes, the Märchendom chamber glows with theatrical light: tall columns of stalactites and stalagmites in ochre, red, green and blue rise on every side, mirrored perfectly in the still pool of water below. A tour walkway with railings runs along the left edge, and the deposits reflected in the water suggest miniature castles and spires. The controlled show-cave lighting is the real illumination of the site — this is what the grottoes genuinely look like, color for color.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-16x9.png" download="de-th-015-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-4x5.png" download="de-th-015-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-9x16.png" download="de-th-015-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-015-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-16x9.png" href="assets/de-th-015-postcard-16x9.png" download="de-th-015-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-015-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-4x5.png" href="assets/de-th-015-postcard-4x5.png" download="de-th-015-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-015-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-015-genuine-daylight-9x16.png" href="assets/de-th-015-postcard-9x16.png" download="de-th-015-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-016" data-search="schmalkalden old town thuringia de-th-016 a cobbled old-town street in schmalkalden curves between rows of half-timbered houses, their dark beams and pale infill glowing warm where windows and street lamps spill light onto the wet stones. the church spire rises at the street&#x27;s end under a dark overcast sky, shutters and flower boxes dotting the facades on both sides. the scene is quiet and empty at 01:00 — a candid night view of one of thuringia&#x27;s best-preserved medieval timber-frame streets." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-9x16.png" alt="AI-generated artistic interpretation of Old town in Schmalkalden" loading="lazy" />
+            <a class="thumb" href="assets/de-th-016-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-016-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-9x16.png" data-src-16-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-16x9.png" data-src-45-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-4x5.png" data-src-916-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-9x16.png" data-src-16-pc="assets/de-th-016-postcard-16x9.png" data-src-45-pc="assets/de-th-016-postcard-4x5.png" data-src-916-pc="assets/de-th-016-postcard-9x16.png" alt="AI-generated artistic interpretation of Old town in Schmalkalden" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13512,28 +13513,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="night-tab" aria-pressed="false" title="Show the night image">🌙 Night</button><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="gday-tab" aria-pressed="false" title="Toggle the genuine daylight capture">☀ Genuine daylight</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-016</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Old town, Schmalkalden</h3>
-            <p class="scenario" data-scenario="">Scenario: </p>
+            <p class="scenario" data-scenario="">Postcard collection</p>
             <p class="composition">Timber-framed streets · AI-generated artistic interpretation</p>
             <p class="description">A cobbled old-town street in Schmalkalden curves between rows of half-timbered houses, their dark beams and pale infill glowing warm where windows and street lamps spill light onto the wet stones. The church spire rises at the street&#x27;s end under a dark overcast sky, shutters and flower boxes dotting the facades on both sides. The scene is quiet and empty at 01:00 — a candid night view of one of Thuringia&#x27;s best-preserved medieval timber-frame streets.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-16x9.png" download="de-th-016-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-4x5.png" download="de-th-016-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-9x16.png" download="de-th-016-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-016-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-16x9.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-16x9.png" href="assets/de-th-016-postcard-16x9.png" download="de-th-016-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-016-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-4x5.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-4x5.png" href="assets/de-th-016-postcard-4x5.png" download="de-th-016-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-016-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-016-genuine-daylight-9x16.png" href="assets/de-th-016-postcard-9x16.png" download="de-th-016-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-017" data-search="meiningen elisabethenburg palace thuringia de-th-017 from the courtyard viewpoint, the palace&#x27;s white three-storey facade fills the right of the frame, its rows of windows trimmed in red-brown above a stone ground floor, while the tower block rises at the left. manicured garden beds of lavender and roses curve through the courtyard foreground, and a stone fountain draped in climbing pink roses stands at the right. bright afternoon sunshine and a mainly clear sky light the scene, with garden paths curving between trimmed hedges." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-9x16.png" alt="AI-generated artistic interpretation of Elisabethenburg Palace in Meiningen" loading="lazy" />
+            <a class="thumb" href="assets/de-th-017-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-017-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-9x16.png" data-src-16-pc="assets/de-th-017-postcard-16x9.png" data-src-45-pc="assets/de-th-017-postcard-4x5.png" data-src-916-pc="assets/de-th-017-postcard-9x16.png" alt="AI-generated artistic interpretation of Elisabethenburg Palace in Meiningen" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13541,28 +13542,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-017</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Elisabethenburg Palace, Meiningen</h3>
-            <p class="scenario" data-scenario="25 September 2026 · 16:45 Europe/Berlin">Scenario: 25 September 2026 · 16:45 Europe/Berlin</p>
+            <p class="scenario" data-scenario="25 September 2026 · 16:45 Europe/Berlin">Postcard collection</p>
             <p class="composition">Palace courtyard · AI-generated artistic interpretation</p>
             <p class="description">From the courtyard viewpoint, the palace&#x27;s white three-storey facade fills the right of the frame, its rows of windows trimmed in red-brown above a stone ground floor, while the tower block rises at the left. Manicured garden beds of lavender and roses curve through the courtyard foreground, and a stone fountain draped in climbing pink roses stands at the right. Bright afternoon sunshine and a mainly clear sky light the scene, with garden paths curving between trimmed hedges.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-16x9.png" download="de-th-017-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-4x5.png" download="de-th-017-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-9x16.png" download="de-th-017-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-017-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-16x9.png" href="assets/de-th-017-postcard-16x9.png" download="de-th-017-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-017-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-4x5.png" href="assets/de-th-017-postcard-4x5.png" download="de-th-017-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-017-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-017-genuine-daylight-9x16.png" href="assets/de-th-017-postcard-9x16.png" download="de-th-017-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-018" data-search="schwarzburg schwarzatal thuringia de-th-018 the schwarza river winds through the deeply forested schwarzatal below, mossy stones and ferns lining its banks under a grey overcast sky. above the valley, the partly-ruined walls of schloss schwarzburg crown the rocky, wooded ridge, mist clinging to the slopes. a quiet, atmospheric forest-valley view from a natural riverside viewpoint." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-9x16.png" alt="AI-generated artistic interpretation of Schwarzatal in Schwarzburg" loading="lazy" />
+            <a class="thumb" href="assets/de-th-018-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-018-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-9x16.png" data-src-16-pc="assets/de-th-018-postcard-16x9.png" data-src-45-pc="assets/de-th-018-postcard-4x5.png" data-src-916-pc="assets/de-th-018-postcard-9x16.png" alt="AI-generated artistic interpretation of Schwarzatal in Schwarzburg" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13570,28 +13571,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-motion-10s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-018</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Schwarzatal, Schwarzburg</h3>
-            <p class="scenario" data-scenario="26 September 2026 · 14:00 Europe/Berlin">Scenario: 26 September 2026 · 14:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 14:00 Europe/Berlin">Postcard collection</p>
             <p class="composition">Forested valley and castle setting · AI-generated artistic interpretation</p>
             <p class="description">The Schwarza river winds through the deeply forested Schwarzatal below, mossy stones and ferns lining its banks under a grey overcast sky. Above the valley, the partly-ruined walls of Schloss Schwarzburg crown the rocky, wooded ridge, mist clinging to the slopes. A quiet, atmospheric forest-valley view from a natural riverside viewpoint.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-16x9.png" download="de-th-018-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-4x5.png" download="de-th-018-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-9x16.png" download="de-th-018-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-018-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-16x9.png" href="assets/de-th-018-postcard-16x9.png" download="de-th-018-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-018-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-4x5.png" href="assets/de-th-018-postcard-4x5.png" download="de-th-018-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-018-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-018-genuine-daylight-9x16.png" href="assets/de-th-018-postcard-9x16.png" download="de-th-018-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-019" data-search="rudolstadt heidecksburg thuringia de-th-019 the heidecksburg rises above rudolstadt&#x27;s old town at center, its broad three-winged baroque form with pale façades, mansard roofs and central clock tower set against the overcast sky. half-timbered town rooftops crowd the foreground slopes below it. a quiet street with a small bakery sign leads the eye toward the palace — a classic residence-above-town view." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-9x16.png" alt="AI-generated artistic interpretation of Heidecksburg in Rudolstadt" loading="lazy" />
+            <a class="thumb" href="assets/de-th-019-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-019-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-9x16.png" data-src-16-pc="assets/de-th-019-postcard-16x9.png" data-src-45-pc="assets/de-th-019-postcard-4x5.png" data-src-916-pc="assets/de-th-019-postcard-9x16.png" alt="AI-generated artistic interpretation of Heidecksburg in Rudolstadt" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13599,27 +13600,28 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
+          <div class="day-row"><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-019</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Heidecksburg, Rudolstadt</h3>
-            <p class="scenario" data-scenario="26 September 2026 · 14:00 Europe/Berlin">Scenario: 26 September 2026 · 14:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 14:00 Europe/Berlin">Postcard collection</p>
             <p class="composition">Palace above town · AI-generated artistic interpretation</p>
             <p class="description">The Heidecksburg rises above Rudolstadt&#x27;s old town at center, its broad three-winged Baroque form with pale façades, mansard roofs and central clock tower set against the overcast sky. Half-timbered town rooftops crowd the foreground slopes below it. A quiet street with a small bakery sign leads the eye toward the palace — a classic residence-above-town view.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-16x9.png" download="de-th-019-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-4x5.png" download="de-th-019-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-9x16.png" download="de-th-019-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-019-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-16x9.png" href="assets/de-th-019-postcard-16x9.png" download="de-th-019-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-019-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-4x5.png" href="assets/de-th-019-postcard-4x5.png" download="de-th-019-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-019-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-019-genuine-daylight-9x16.png" href="assets/de-th-019-postcard-9x16.png" download="de-th-019-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
         </article>
 <article class="card" id="DE-TH-020" data-search="lauscha glassmaking town thuringia de-th-020 a cobbled hillside street climbs through lauscha&#x27;s glassmaking quarter, dark slate-clad houses rising on both sides toward the forested slope. workshop storefronts display colorful glass baubles in their windows, with signs for the town&#x27;s glassblowers over the doors. a working crafts town&#x27;s everyday character from a natural street-level viewpoint under the overcast afternoon sky." data-state="Thuringia">
           <div class="preview">
-            <a class="thumb" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-16x9.png" target="_blank" rel="noopener">
-              <img src="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-9x16.png" alt="AI-generated artistic interpretation of Glassmaking town in Lauscha" loading="lazy" />
+            <a class="thumb" href="assets/de-th-020-postcard-16x9.png" target="_blank" rel="noopener">
+              <img src="assets/de-th-020-postcard-16x9.png" data-src-16="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-16x9.png" data-src-45="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-4x5.png" data-src-916="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-9x16.png" data-src-16-pc="assets/de-th-020-postcard-16x9.png" data-src-45-pc="assets/de-th-020-postcard-4x5.png" data-src-916-pc="assets/de-th-020-postcard-9x16.png" alt="AI-generated artistic interpretation of Glassmaking town in Lauscha" loading="lazy" />
             </a>
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -13627,20 +13629,20 @@
             <button type="button" class="fmt-tab" data-format="4x5">4:5</button>
               <button type="button" class="fmt-tab" data-format="9x16">9:16</button>
           </div>
-          <div class="day-row"><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
+          <div class="day-row"><button type="button" class="pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">📩 Postcard</button><button type="button" class="motion-tab" data-motion="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-motion-8s-4x5.mp4" title="Play the 360° daylight motion clip">▶ 360°</button></div>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">DE-TH-020</div>
               <span class="status">Approved</span>
             </div>
             <h3 class="caption">Glassmaking town, Lauscha</h3>
-            <p class="scenario" data-scenario="26 September 2026 · 14:00 Europe/Berlin">Scenario: 26 September 2026 · 14:00 Europe/Berlin</p>
+            <p class="scenario" data-scenario="26 September 2026 · 14:00 Europe/Berlin">Postcard collection</p>
             <p class="composition">Hillside streets and workshops · AI-generated artistic interpretation</p>
             <p class="description">A cobbled hillside street climbs through Lauscha&#x27;s glassmaking quarter, dark slate-clad houses rising on both sides toward the forested slope. Workshop storefronts display colorful glass baubles in their windows, with signs for the town&#x27;s glassblowers over the doors. A working crafts town&#x27;s everyday character from a natural street-level viewpoint under the overcast afternoon sky.</p>
             <div class="actions">
-              <a class="download" data-dl="16x9" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-16x9.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-16x9.png" download="de-th-020-16x9.png">Download 16:9</a>
-              <a class="download" data-dl="4x5" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-4x5.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-4x5.png" download="de-th-020-4x5.png">Download 4:5</a>
-              <a class="download" data-dl="9x16" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-genuine-daylight-9x16.png" href="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-9x16.png" download="de-th-020-9x16.png">Download 9:16</a>
+              <a class="download" data-dl="16x9" data-dl-pc="assets/de-th-020-postcard-16x9.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-16x9.png" href="assets/de-th-020-postcard-16x9.png" download="de-th-020-postcard-16x9.png">Download 16:9</a>
+              <a class="download" data-dl="4x5" data-dl-pc="assets/de-th-020-postcard-4x5.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-4x5.png" href="assets/de-th-020-postcard-4x5.png" download="de-th-020-postcard-4x5.png">Download 4:5</a>
+              <a class="download" data-dl="9x16" data-dl-pc="assets/de-th-020-postcard-9x16.png" data-dl-night="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-9x16.png" data-dl-gday="https://devlij.github.io/jason-ds-vision-germany-assets/assets/de-th-020-genuine-daylight-9x16.png" href="assets/de-th-020-postcard-9x16.png" download="de-th-020-postcard-9x16.png">Download 9:16</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>
@@ -13771,8 +13773,12 @@
       const img = link && link.querySelector('img');
       const dtab = card.querySelector('.day-tab');
       const gtab = card.querySelector('.gday-tab');
+      const ptab = card.querySelector('.pc-tab');
+      const ntab = card.querySelector('.night-tab');
       const mtab = card.querySelector('.motion-tab');
       function srcKey(fmt, mode) {
+        if (mode === 'pc')
+          return fmt === '9x16' ? 'data-src-916-pc' : fmt === '4x5' ? 'data-src-45-pc' : 'data-src-16-pc';
         if (mode === 'gday')
           return fmt === '9x16' ? 'data-src-916-gday' : fmt === '4x5' ? 'data-src-45-gday' : 'data-src-16-gday';
         if (mode === 'day')
@@ -13780,6 +13786,7 @@
         return fmt === '9x16' ? 'data-src-916' : fmt === '4x5' ? 'data-src-45' : 'data-src-16';
       }
       function dayMode() {
+        if (ptab && ptab.classList.contains('is-active')) return 'pc';
         if (gtab && gtab.classList.contains('is-active')) return 'gday';
         if (dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day') return 'day';
         return 'night';
@@ -13792,13 +13799,14 @@
           const dnext = img.getAttribute(srcKey(dfmt, mode));
           if (dnext) { img.src = dnext; link.href = dnext; }
         }
-        const dkey = mode === 'gday' ? 'data-dl-gday' : mode === 'day' ? 'data-dl-day' : 'data-dl-night';
+        const dkey = mode === 'pc' ? 'data-dl-pc' : mode === 'gday' ? 'data-dl-gday' : mode === 'day' ? 'data-dl-day' : 'data-dl-night';
         card.querySelectorAll('a.download').forEach(a => {
           const target = a.getAttribute(dkey) || a.getAttribute('data-dl-night');
           if (target) { a.setAttribute('href', target); a.setAttribute('download', target.split('/').pop()); }
         });
         const sc = card.querySelector('p.scenario');
-        if (sc) sc.textContent = mode === 'gday' ? '\u2600 Genuine daylight capture'
+        if (sc) sc.textContent = mode === 'pc' ? 'Postcard collection'
+          : mode === 'gday' ? '\u2600 Genuine daylight capture'
           : mode === 'day' ? '\u2600 Daylight variant \u00b7 derived from the night interpretation'
           : 'Scenario: ' + sc.getAttribute('data-scenario');
       }
@@ -13831,6 +13839,7 @@
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
         if (isDay && gtab) { gtab.classList.remove('is-active'); gtab.setAttribute('aria-pressed', 'false'); }
+        if (isDay && ptab) { ptab.classList.remove('is-active'); ptab.setAttribute('aria-pressed', 'false'); ptab.setAttribute('data-postcard', 'off'); }
         applyMode();
       });
       /* Genuine daylight toggle (Round 2): rendered only where genuine-daylight masters exist. */
@@ -13841,6 +13850,19 @@
         gtab.classList.toggle('is-active', isDay);
         gtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         if (isDay && dtab) { dtab.classList.remove('is-active'); dtab.setAttribute('aria-pressed', 'false'); dtab.setAttribute('data-daynight', 'night'); }
+        if (isDay && ptab) { ptab.classList.remove('is-active'); ptab.setAttribute('aria-pressed', 'false'); ptab.setAttribute('data-postcard', 'off'); }
+        applyMode();
+      });
+      if (ptab) ptab.addEventListener('click', e => {
+        e.preventDefault();
+        stopMotion();
+        const on = !ptab.classList.contains('is-active');
+        ptab.classList.toggle('is-active', on);
+        ptab.setAttribute('aria-pressed', on ? 'true' : 'false');
+        ptab.setAttribute('data-postcard', on ? 'on' : 'off');
+        if (on && gtab) { gtab.classList.remove('is-active'); gtab.setAttribute('aria-pressed', 'false'); }
+        if (on && dtab) { dtab.classList.remove('is-active'); dtab.setAttribute('aria-pressed', 'false'); dtab.setAttribute('data-daynight', 'night'); }
+        if (on && ntab) { ntab.classList.remove('is-active'); ntab.setAttribute('aria-pressed', 'false'); }
         applyMode();
       });
       /* 360° motion clip (4:5 only): rendered only where the mp4 exists. */
@@ -13908,6 +13930,8 @@
      then the thumb link href (already retargeted to that card's own state). */
   var lbMode = 'night';
   function cardMode(card){
+    var p = card.querySelector('.pc-tab');
+    if (p && p.classList.contains('is-active')) return 'pc';
     var g = card.querySelector('.gday-tab');
     if (g && g.classList.contains('is-active')) return 'gday';
     var d = card.querySelector('.day-tab');
