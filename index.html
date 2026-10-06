@@ -13775,14 +13775,18 @@
       const dtab = card.querySelector('.day-tab');
       const gtab = card.querySelector('.gday-tab');
       const mtab = card.querySelector('.motion-tab');
+      const pctab = card.querySelector('.pc-tab');
       function srcKey(fmt, mode) {
         if (mode === 'gday')
           return fmt === '9x16' ? 'data-src-916-gday' : fmt === '4x5' ? 'data-src-45-gday' : 'data-src-16-gday';
         if (mode === 'day')
           return fmt === '9x16' ? 'data-src-916-day' : fmt === '4x5' ? 'data-src-45-day' : 'data-src-16-day';
+        if (mode === 'postcard')
+          return fmt === '9x16' ? 'data-src-916-pc' : fmt === '4x5' ? 'data-src-45-pc' : 'data-src-16-pc';
         return fmt === '9x16' ? 'data-src-916' : fmt === '4x5' ? 'data-src-45' : 'data-src-16';
       }
       function dayMode() {
+        if (pctab && pctab.classList.contains('is-active')) return 'postcard';
         if (gtab && gtab.classList.contains('is-active')) return 'gday';
         if (dtab && dtab.classList.contains('is-active') && dtab.getAttribute('data-daynight') === 'day') return 'day';
         return 'night';
@@ -13803,6 +13807,7 @@
         const sc = card.querySelector('p.scenario');
         if (sc) sc.textContent = mode === 'gday' ? '\u2600 Genuine daylight capture'
           : mode === 'day' ? '\u2600 Daylight variant \u00b7 derived from the night interpretation'
+          : mode === 'postcard' ? '\U0001F4E9 Postcard collection'
           : 'Scenario: ' + sc.getAttribute('data-scenario');
       }
       function stopMotion() {
@@ -13844,6 +13849,19 @@
         gtab.classList.toggle('is-active', isDay);
         gtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         if (isDay && dtab) { dtab.classList.remove('is-active'); dtab.setAttribute('aria-pressed', 'false'); dtab.setAttribute('data-daynight', 'night'); }
+        applyMode();
+      });
+      /* Postcard toggle: rendered where postcard masters exist. */
+      if (pctab) pctab.addEventListener('click', e => {
+        e.preventDefault();
+        stopMotion();
+        const isPc = !pctab.classList.contains('is-active');
+        pctab.classList.toggle('is-active', isPc);
+        pctab.setAttribute('aria-pressed', isPc ? 'true' : 'false');
+        if (isPc) {
+          if (gtab) { gtab.classList.remove('is-active'); gtab.setAttribute('aria-pressed', 'false'); }
+          if (dtab) { dtab.classList.remove('is-active'); dtab.setAttribute('aria-pressed', 'false'); dtab.setAttribute('data-daynight', 'night'); }
+        }
         applyMode();
       });
       /* 360° motion clip (4:5 only): rendered only where the mp4 exists. */
